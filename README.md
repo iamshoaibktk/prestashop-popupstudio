@@ -1,14 +1,18 @@
-# Popup Studio
+# Popup Studio: free popup builder module for PrestaShop 8 and 9
 
-Popups, bars, slide-ins and games for PrestaShop, with targeting, A/B tests, coupons and stats. 50 templates, each with its own desktop and mobile design.
+**Popup Studio** is a free, open-source **PrestaShop popup module**. Build newsletter popups, exit-intent popups, spin-to-win wheels, coupon popups, announcement bars and slide-ins with a drag-and-drop editor, then show them to the right visitors with targeting, scheduling and A/B tests.
 
-Free and open-source.
+- 50 ready-made popup templates, each with its own desktop and mobile design
+- Grow your email list, recover abandoning visitors and lift conversions
+- GDPR consent, 10 languages, no external services
+
+**[Download the latest release](https://github.com/iamshoaibktk/prestashop-popupstudio/releases/latest)**
 
 ## Compatibility
 - PrestaShop 8.0 to 9.x
 - PHP 7.2.5 or newer
 
-## What it does
+## Features
 - **Formats**: modal, full screen, slide-in, bar (top or bottom), side drawer, bottom sheet on phones, inline block (hook `displayPopupStudio` or `{widget name="popupstudio" id=ID}`), and a teaser tab that reopens a closed popup.
 - **Drag-and-drop editor** with a live preview, multi-step popups, per-block mobile settings, undo and redo, a contrast check and per-language texts.
 - **Triggers**: timer, exit intent (desktop and mobile), inactivity, scroll % or px, click on any CSS selector, Nth page of a visit, add to cart. Any or all.
