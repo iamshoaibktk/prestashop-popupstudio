@@ -138,7 +138,6 @@ class Stats
             'series' => $series,
             'devices' => array_map([__CLASS__, 'ints'], $dev),
             'popups' => array_map([__CLASS__, 'ints'], $popups),
-            'funnel_started' => (int) $db->getValue('SELECT COUNT(*) FROM `' . $p . 'lead` WHERE date_add >= "' . pSQL($from) . '"' . ($idPopup ? ' AND id_popup = ' . (int) $idPopup : '')),
             'answers' => array_map(function ($r) {
                 $r['n'] = (int) $r['n'];
 

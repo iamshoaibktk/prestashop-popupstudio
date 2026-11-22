@@ -36,7 +36,8 @@ def t01():
 .psx-t-ledger .psx-btn{border-radius:0;font-weight:600;font-size:13.5px;white-space:nowrap}
 .psx-t-ledger .psx-box-ck{border-radius:0;border-color:var(--psx-ink)}
 .psx-t-ledger .psx-check{font-size:11.5px}
-.psx-t-ledger .lg-stamp{width:86px;height:86px;border-radius:50%;border:2px solid #C8102E;color:#C8102E;display:flex;align-items:center;justify-content:center;text-align:center;font:900 20px/.95 var(--psx-fh);background:rgba(244,241,234,.6)}
+.psx-t-ledger:has(.psx-step[data-step="s2"]:not([hidden])) .lg-stamp{opacity:0;transform:scale(.6)}
+.psx-t-ledger .lg-stamp{transition:opacity .3s,transform .3s;width:86px;height:86px;border-radius:50%;border:2px solid #C8102E;color:#C8102E;display:flex;align-items:center;justify-content:center;text-align:center;font:900 20px/.95 var(--psx-fh);background:rgba(244,241,234,.6)}
 .psx-t-ledger .psx-coupon{border-radius:0;border-color:var(--psx-ink)}
 .psx-t-ledger .psx-code{font-family:"IBM Plex Mono",monospace;font-weight:500}
 .psx-t-ledger .psx-copy{border-color:var(--psx-ink)}
