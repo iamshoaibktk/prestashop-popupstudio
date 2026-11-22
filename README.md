@@ -4,7 +4,7 @@
 
 - 50 ready-made popup templates, each with its own desktop and mobile design
 - Grow your email list, recover abandoning visitors and lift conversions
-- GDPR consent, 10 languages, no external services
+- GDPR consent, 10 languages, works without any third-party service
 
 **[Download the latest release](https://github.com/iamshoaibktk/prestashop-popupstudio/releases/latest)**
 
