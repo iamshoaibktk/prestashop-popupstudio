@@ -1,0 +1,74 @@
+Fonts bundled with Popup Studio
+
+These font files come from Google Fonts (https://fonts.google.com) and are redistributed under their own licences, not under the module's AFL-3.0 licence:
+- SIL Open Font License 1.1 (https://openfontlicense.org) for almost all families
+- Apache License 2.0 for the few families Google Fonts publishes under it
+
+Each family keeps its original name and copyright. Families included:
+- Albert Sans
+- Anton
+- Archivo
+- Archivo Black
+- Barlow
+- Bebas Neue
+- Big Shoulders Display
+- Bitter
+- Bricolage Grotesque
+- Caveat
+- Chivo
+- Chivo Mono
+- Cinzel
+- Cormorant
+- Cormorant Garamond
+- Courier Prime
+- DM Mono
+- DM Serif Display
+- Della Respira
+- Epilogue
+- Figtree
+- Fraunces
+- Fredoka
+- Geist
+- Geist Mono
+- Gloock
+- Gochi Hand
+- Hanken Grotesk
+- IBM Plex Mono
+- IBM Plex Sans
+- Instrument Sans
+- Instrument Serif
+- Inter
+- Inter Tight
+- JetBrains Mono
+- Jost
+- Karla
+- Lato
+- Lexend
+- Libre Baskerville
+- Libre Franklin
+- Lilita One
+- Manrope
+- Marcellus
+- Mulish
+- Nunito
+- Nunito Sans
+- Oswald
+- Outfit
+- Playfair Display
+- Plus Jakarta Sans
+- Poppins
+- Public Sans
+- Quicksand
+- Red Hat Display
+- Red Hat Mono
+- Righteous
+- Rubik
+- Shrikhand
+- Sora
+- Space Grotesk
+- Space Mono
+- Special Elite
+- Unbounded
+- Work Sans
+- Young Serif
+- Zilla Slab
