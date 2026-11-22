@@ -6,7 +6,7 @@
 - Grow your email list, recover abandoning visitors and lift conversions
 - GDPR consent, 10 languages, works without any third-party service
 
-**[Download the latest release](https://github.com/iamshoaibktk/prestashop-popupstudio/releases/latest)**
+**[See all 50 templates live](https://iamshoaibktk.github.io/prestashop-popupstudio/)** (any of the 10 languages, desktop and phone) · **[Download the latest release](https://github.com/iamshoaibktk/prestashop-popupstudio/releases/latest)**
 
 ## Compatibility
 - PrestaShop 8.0 to 9.x

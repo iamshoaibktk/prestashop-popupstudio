@@ -1,0 +1,335 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Popup Studio: 50 popup templates for PrestaShop (live demo)</title>
+<meta name="description" content="Live demo of the 50 popup templates in Popup Studio, the free PrestaShop 8 and 9 popup module: newsletter popups, exit-intent offers, spin-to-win wheels, announcement bars and slide-ins, in 10 languages, on desktop and phone.">
+<link rel="canonical" href="https://iamshoaibktk.github.io/prestashop-popupstudio/">
+<meta property="og:title" content="Popup Studio: 50 popup templates for PrestaShop">
+<meta property="og:description" content="Newsletter popups, exit-intent offers, spin-to-win wheels, bars and slide-ins. Free and open source, for PrestaShop 8 and 9.">
+<meta property="og:type" content="website">
+<style>
+/*__UIFONTS__*/
+:root{--g:#EEF0F3;--card:#fff;--ink:#16181D;--ink2:#3A3F4B;--mut:#5B6170;--line:#DADDE3;--line2:#E6E8EC;--acc:#D93A1F;--acc2:#B92F17;--accbg:#FDECE8}
+*{box-sizing:border-box}
+html{scroll-padding-top:84px}
+body{margin:0;background:var(--g);color:var(--ink);font:15px/1.5 "Geist",system-ui,-apple-system,"Segoe UI",Roboto,sans-serif;-webkit-font-smoothing:antialiased}
+a{color:inherit}
+.mono{font-family:"Geist Mono",ui-monospace,Menlo,monospace}
+.wrap{max-width:1320px;margin:0 auto;padding:0 24px}
+.top{display:flex;align-items:center;gap:12px;padding:18px 0}
+.mark{width:30px;height:30px;border-radius:8px;background:var(--ink);position:relative;flex:none}
+.mark::before{content:"";position:absolute;left:7px;top:8px;width:16px;height:12px;border-radius:3px;background:#fff}
+.mark::after{content:"";position:absolute;right:5px;top:5px;width:8px;height:8px;border-radius:50%;background:var(--acc);box-shadow:0 0 0 2px var(--ink)}
+.brand{font-weight:700;font-size:16px;letter-spacing:-.01em}
+.top nav{margin-left:auto;display:flex;gap:6px}
+.btn{display:inline-flex;align-items:center;gap:8px;height:40px;padding:0 16px;border-radius:9px;border:1px solid var(--line);background:#fff;color:var(--ink);font:600 14px/1 inherit;font-family:inherit;text-decoration:none;cursor:pointer;white-space:nowrap}
+.btn:hover{background:#F6F7F9}
+.btn.pri{background:var(--acc);border-color:var(--acc);color:#fff}
+.btn.pri:hover{background:var(--acc2)}
+.btn:focus-visible,.chip:focus-visible,.seg button:focus-visible,select:focus-visible,.card:focus-visible,.x:focus-visible,.steps button:focus-visible{outline:3px solid rgba(217,58,31,.45);outline-offset:2px}
+.hero{display:grid;grid-template-columns:minmax(0,1.25fr) minmax(0,1fr);gap:40px;align-items:end;padding:36px 0 28px}
+.hero h1{font-size:clamp(34px,4.6vw,58px);line-height:1.02;letter-spacing:-.035em;margin:0;font-weight:700}
+.hero h1 em{font-style:normal;color:var(--acc)}
+.hero p{margin:18px 0 0;font-size:17px;color:var(--ink2);max-width:46ch}
+.hero .acts{display:flex;gap:10px;flex-wrap:wrap;margin-top:22px}
+.facts{background:#fff;border:1px solid var(--line2);border-radius:14px;display:grid;grid-template-columns:repeat(2,minmax(0,1fr))}
+.facts div{padding:16px 18px}
+.facts div:nth-child(odd){border-right:1px solid var(--line2)}
+.facts div:nth-child(-n+2){border-bottom:1px solid var(--line2)}
+.facts b{display:block;font:600 26px/1.1 "Geist Mono",ui-monospace,monospace;letter-spacing:-.02em}
+.facts span{font-size:13px;color:var(--mut)}
+.bar{position:sticky;top:0;z-index:5;background:rgba(238,240,243,.92);backdrop-filter:saturate(1.4) blur(8px);-webkit-backdrop-filter:saturate(1.4) blur(8px);border-bottom:1px solid transparent}
+.bar.stuck{border-bottom-color:var(--line)}
+.bar .wrap{display:flex;gap:12px;align-items:center;padding-top:12px;padding-bottom:12px}
+.chips{display:flex;gap:6px;overflow-x:auto;scrollbar-width:none;flex:1;min-width:0;padding:2px}
+.chips::-webkit-scrollbar{display:none}
+.chip{flex:none;height:34px;padding:0 12px;border-radius:999px;border:1px solid var(--line);background:#fff;font:500 13.5px/1 inherit;font-family:inherit;color:var(--ink2);cursor:pointer;display:inline-flex;align-items:center;gap:7px}
+.chip .n{font:500 12px "Geist Mono",monospace;color:var(--mut)}
+.chip[aria-pressed=true]{background:var(--ink);border-color:var(--ink);color:#fff}
+.chip[aria-pressed=true] .n{color:#B9BEC8}
+.seg{display:inline-flex;background:#fff;border:1px solid var(--line);border-radius:9px;padding:3px;flex:none}
+.seg button{height:28px;padding:0 12px;border:0;border-radius:6px;background:none;font:600 13px inherit;font-family:inherit;color:var(--mut);cursor:pointer;display:inline-flex;align-items:center;gap:6px}
+.seg button[aria-pressed=true]{background:var(--ink);color:#fff}
+.lang{position:relative;flex:none}
+.lang select{appearance:none;-webkit-appearance:none;height:36px;padding:0 34px 0 12px;border-radius:9px;border:1px solid var(--line);background:#fff;font:600 13px inherit;font-family:inherit;color:var(--ink);cursor:pointer}
+.lang::after{content:"";position:absolute;right:13px;top:14px;width:7px;height:7px;border-right:2px solid var(--mut);border-bottom:2px solid var(--mut);transform:rotate(45deg);pointer-events:none}
+.sr{position:absolute;width:1px;height:1px;overflow:hidden;clip:rect(0 0 0 0);white-space:nowrap}
+.grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(300px,1fr));gap:18px;padding:22px 0 60px}
+.grid.phone{grid-template-columns:repeat(auto-fill,minmax(210px,1fr))}
+.card{background:#fff;border:1px solid var(--line2);border-radius:14px;overflow:hidden;cursor:pointer;text-align:left;padding:0;font:inherit;color:inherit;display:flex;flex-direction:column;transition:box-shadow .15s,transform .15s}
+.card:hover{box-shadow:0 10px 30px rgba(22,24,29,.1);transform:translateY(-2px)}
+.pv{display:block;position:relative;aspect-ratio:16/10;background:#F3F4F6;overflow:hidden;border-bottom:1px solid var(--line2)}
+.grid.phone .pv{aspect-ratio:9/15}
+.pv iframe{position:absolute;left:0;top:0;border:0;transform-origin:0 0;pointer-events:none;background:#fff}
+.pv .ld{position:absolute;inset:0;display:flex;align-items:center;justify-content:center;color:var(--mut);font:500 12px "Geist Mono",monospace}
+.meta{display:flex;width:100%;gap:12px;align-items:baseline;padding:12px 14px 14px}
+.meta .num{font:500 12px "Geist Mono",monospace;color:var(--mut);flex:none}
+.meta .nm{font-weight:650;font-size:15px;letter-spacing:-.01em}
+.meta .nm{display:block}
+.meta .fm{display:block;font-size:13px;color:var(--mut);margin-top:1px}
+.meta .st{margin-left:auto;flex:none;font:500 12px "Geist Mono",monospace;color:var(--mut)}
+dialog{border:0;padding:0;border-radius:16px;width:min(1240px,calc(100vw - 32px));height:min(920px,calc(100vh - 32px));max-height:calc(100vh - 32px);background:#fff;color:var(--ink);box-shadow:0 30px 80px rgba(0,0,0,.35);overflow:hidden}
+dialog[open]{display:flex;flex-direction:column}
+dialog::backdrop{background:rgba(22,24,29,.6)}
+.dh,.dt,.df{flex:none}
+.dh{display:flex;gap:14px;align-items:center;padding:14px 16px 14px 20px;border-bottom:1px solid var(--line2)}
+.dh h2{margin:0;font-size:18px;letter-spacing:-.01em}
+.dh .fm{color:var(--mut);font-size:13.5px}
+.dh .num{font:500 13px "Geist Mono",monospace;color:var(--mut)}
+.dh .sp{flex:1}
+.x{width:38px;height:38px;border-radius:9px;border:1px solid var(--line);background:#fff;font-size:20px;line-height:1;cursor:pointer;color:var(--ink)}
+.dt{display:flex;gap:10px;align-items:center;flex-wrap:wrap;padding:12px 20px;border-bottom:1px solid var(--line2);background:#FAFAFB}
+.steps{display:flex;gap:6px;flex-wrap:wrap}
+.steps button{height:32px;padding:0 12px;border-radius:8px;border:1px solid var(--line);background:#fff;font:500 13px inherit;font-family:inherit;color:var(--ink2);cursor:pointer}
+.steps button[aria-pressed=true]{border-color:var(--ink);background:var(--ink);color:#fff}
+.dt .lbl{font-size:13px;color:var(--mut);margin-right:2px}
+.dt .sp{flex:1}
+.db{flex:1;min-height:0;display:flex;gap:22px;justify-content:center;align-items:flex-start;padding:22px;background:var(--g);overflow:auto}
+.fr{position:relative;flex:none;overflow:hidden;border-radius:10px;background:#fff;box-shadow:0 1px 3px rgba(0,0,0,.12)}
+.fr iframe{position:absolute;left:0;top:0;border:0;transform-origin:0 0;background:#fff}
+.fr.ph{border-radius:30px;box-shadow:0 0 0 9px var(--ink),0 18px 40px rgba(0,0,0,.25);margin:9px}
+.df{padding:12px 20px;border-top:1px solid var(--line2);font-size:13.5px;color:var(--mut);display:flex;gap:12px;align-items:center;flex-wrap:wrap}
+.df .sp{flex:1}
+footer{border-top:1px solid var(--line);padding:26px 0 40px;color:var(--mut);font-size:13.5px}
+footer .wrap{display:flex;gap:18px;flex-wrap:wrap;align-items:center}
+footer a{color:var(--ink2)}
+footer .sp{flex:1}
+@media (max-width:900px){.hero{grid-template-columns:1fr;gap:24px;padding-top:20px}}
+@media (max-width:640px){
+  .wrap{padding:0 16px}
+  .top nav .btn.gh{display:none}
+  .bar .wrap{flex-wrap:wrap}
+  .chips{flex-basis:100%;order:3}
+  .grid{grid-template-columns:1fr}
+  .grid.phone{grid-template-columns:repeat(2,minmax(0,1fr));gap:12px}
+  .grid.phone .meta{flex-direction:column;gap:2px;padding:10px 12px 12px}
+  .grid.phone .meta .st{margin-left:0}
+  dialog{width:100vw;max-width:100vw;max-height:100vh;height:100vh;border-radius:0}
+  .db{padding:14px}
+  .fr.dk{display:none}
+}
+@media (prefers-reduced-motion:reduce){.card{transition:none}.card:hover{transform:none}}
+</style>
+</head>
+<body>
+<header class="wrap top">
+  <span class="mark" aria-hidden="true"></span><span class="brand">Popup Studio</span>
+  <nav>
+    <a class="btn gh" href="__REPO__">Source on GitHub</a>
+    <a class="btn pri" href="__RELEASE__">Download</a>
+  </nav>
+</header>
+<main>
+<section class="wrap hero">
+  <div>
+    <h1>50 popup templates for <em>PrestaShop</em>, ready to use.</h1>
+    <p>Every preview on this page is drawn by the module's own code, in the language and on the device you choose. Pick one in your back office, then change anything in the drag-and-drop editor.</p>
+    <div class="acts"><a class="btn pri" href="__RELEASE__">Download Popup Studio __VERSION__, free</a><a class="btn" href="__REPO__">Source on GitHub</a></div>
+  </div>
+  <div class="facts" aria-label="At a glance">
+    <div><b>50</b><span>templates, each with a phone layout</span></div>
+    <div><b>10</b><span>languages, copy included</span></div>
+    <div><b>8 &amp; 9</b><span>PrestaShop versions</span></div>
+    <div><b>€0</b><span>open source, AFL-3.0</span></div>
+  </div>
+</section>
+<div class="bar" id="bar">
+  <div class="wrap">
+    <div class="chips" id="chips" role="group" aria-label="Filter templates by goal"></div>
+    <div class="seg" role="group" aria-label="Preview device"><button type="button" data-dev="desktop" aria-pressed="true">Desktop</button><button type="button" data-dev="phone" aria-pressed="false">Phone</button></div>
+    <label class="lang"><span class="sr">Template language</span><select id="lang"></select></label>
+  </div>
+</div>
+<section class="wrap" aria-label="Templates"><div class="grid" id="grid"></div></section>
+</main>
+<footer><div class="wrap">
+  <span>Popup Studio __VERSION__ · free PrestaShop 8 and 9 module by Muhammad Shoaib</span><span class="sp"></span>
+  <a href="__REPO__">GitHub</a><a href="mailto:iamshoaibktk@gmail.com">iamshoaibktk@gmail.com</a><a href="https://wa.me/923459016286">WhatsApp</a><a href="https://www.fiverr.com/shoaibktk">Fiverr</a>
+</div></footer>
+
+<dialog id="dlg" aria-labelledby="dlg-t">
+  <div class="dh"><span class="num" id="dlg-n"></span><div><h2 id="dlg-t"></h2><span class="fm" id="dlg-f"></span></div><span class="sp"></span><button type="button" class="x" id="dlg-x" aria-label="Close preview">×</button></div>
+  <div class="dt"><span class="lbl">Steps</span><div class="steps" id="dlg-s" role="group" aria-label="Popup steps"></div><span class="sp"></span><label class="lang"><span class="sr">Template language</span><select id="dlg-l"></select></label></div>
+  <div class="db" id="dlg-b"></div>
+  <div class="df"><span>To use it: install the module, then open <b>Marketing › Popup Studio › Templates</b>.</span><span class="sp"></span><a class="btn pri" href="__RELEASE__">Download, free</a></div>
+</dialog>
+
+<script>
+var DATA = __DATA__;
+(function () {
+  var d = document;
+  var KEY = 'psxdemo';
+  var saved = {};
+  try { saved = JSON.parse(localStorage.getItem(KEY) || '{}'); } catch (e) { saved = {}; }
+  var nav = (navigator.language || 'en').slice(0, 2);
+  var S = {
+    group: 'all',
+    dev: saved.dev === 'phone' ? 'phone' : (window.innerWidth < 640 ? 'phone' : 'desktop'),
+    lang: saved.lang || (DATA.langs.some(function (l) { return l[0] === nav; }) ? nav : 'en')
+  };
+  function save() { try { localStorage.setItem(KEY, JSON.stringify({ dev: S.dev, lang: S.lang })); } catch (e) { /* ignore */ } }
+  function esc(s) { return String(s).replace(/[&<>"]/g, function (c) { return { '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;' }[c]; }); }
+
+  var SKEL = '<!doctype html><html><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><link rel="stylesheet" href="assets/front.css?v=' + DATA.v + '"><style>html,body{margin:0;min-height:100%;background:#fff;font-family:system-ui,sans-serif}.pg{padding:16px;display:flex;flex-direction:column;gap:14px}.pg .hd{height:30px;border-radius:5px;background:#ECEEF1}.pg .hero{height:190px;border-radius:6px;background:#E3E6EA}.pg .gr{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:12px}.pg .gr i{height:150px;border-radius:6px;background:#ECEEF1}@media (max-width:767px){.pg .gr{grid-template-columns:repeat(2,minmax(0,1fr))}}</style></head><body><div class="pg" aria-hidden="true"><div class="hd"></div><div class="hero"></div><div class="gr"><i></i><i></i><i></i><i></i></div><div class="gr"><i></i><i></i><i></i><i></i></div></div><script src="assets/render.js?v=' + DATA.v + '"><\/script></body></html>';
+  var SIZE = { desktop: [1000, 640], phone: [390, 760] };
+
+  function prizeOf(t, lang) {
+    var p = t.game && t.game.prizes && t.game.prizes[1];
+    if (!p) return '';
+    var l = p.label || '';
+    return typeof l === 'object' ? (l[lang] || l.en || '') : l;
+  }
+  function mount(frame, t, mobile, step, lang, cb) {
+    var go = function () {
+      var W = frame.contentWindow;
+      if (!W || !W.PSX || !W.document.body) { setTimeout(go, 40); return; }
+      W.PSX.fontBase = 'assets/fonts/';
+      W.PSX.fontFiles = DATA.fonts;
+      Array.prototype.forEach.call(W.document.querySelectorAll('.psx'), function (n) { n.remove(); });
+      var node = W.PSX.render(t.doc, { mobile: mobile, lang: lang, game: t.game, i18n: DATA.i18n[lang] || DATA.i18n.en, coupon: t.game ? 'WIN-7KQ2M9XA' : 'WELCOME-7KQ2M9XA', expires: '06/12/2026', email: 'c.martin@example.com', data: DATA.sample });
+      W.document.body.appendChild(node);
+      node.classList.add('psx-in');
+      var prize = prizeOf(t, lang);
+      var walk = W.document.createTreeWalker(node, 4);
+      var tn;
+      while ((tn = walk.nextNode())) { if (tn.nodeValue.indexOf('{prize}') !== -1) tn.nodeValue = tn.nodeValue.split('{prize}').join(prize); }
+      var steps = node.querySelectorAll('.psx-step');
+      Array.prototype.forEach.call(steps, function (s, i) { s.hidden = i !== (step || 0); });
+      if (cb) cb();
+    };
+    if (frame.getAttribute('data-ready')) go();
+    else { frame.addEventListener('load', function () { frame.setAttribute('data-ready', '1'); go(); }, { once: true }); frame.srcdoc = SKEL; }
+  }
+  function fit(box, frame, w, h) {
+    var s = Math.min(box.clientWidth / w, box.clientHeight / h);
+    frame.style.width = w + 'px'; frame.style.height = h + 'px';
+    frame.style.transform = 'scale(' + s + ')';
+    frame.style.left = Math.max(0, (box.clientWidth - w * s) / 2) + 'px';
+  }
+
+  /* ---------- filters ---------- */
+  var counts = {};
+  DATA.templates.forEach(function (t) { counts[t.group] = (counts[t.group] || 0) + 1; });
+  var chips = d.getElementById('chips');
+  chips.innerHTML = DATA.groups.filter(function (g) { return g[0] === 'all' || counts[g[0]]; }).map(function (g) {
+    return '<button type="button" class="chip" data-g="' + g[0] + '" aria-pressed="' + (g[0] === S.group) + '">' + esc(g[1]) + ' <span class="n">' + (g[0] === 'all' ? DATA.templates.length : counts[g[0]]) + '</span></button>';
+  }).join('');
+  var langOpts = DATA.langs.map(function (l) { return '<option value="' + l[0] + '">' + esc(l[1]) + '</option>'; }).join('');
+  var langSel = d.getElementById('lang');
+  var dlgLang = d.getElementById('dlg-l');
+  langSel.innerHTML = langOpts; dlgLang.innerHTML = langOpts;
+  langSel.value = S.lang; dlgLang.value = S.lang;
+
+  /* ---------- grid ---------- */
+  var grid = d.getElementById('grid');
+  grid.innerHTML = DATA.templates.map(function (t, i) {
+    var n = t.doc.steps.length;
+    return '<button type="button" class="card" data-i="' + i + '" data-g="' + t.group + '" aria-label="Preview ' + esc(t.name) + '"><span class="pv"><span class="ld">' + t.num + '</span></span><span class="meta"><span class="num">' + t.num + '</span><span><span class="nm">' + esc(t.name) + '</span><span class="fm">' + esc(t.formatLabel) + '</span></span><span class="st">' + n + (n === 1 ? ' step' : ' steps') + '</span></span></button>';
+  }).join('');
+  var cards = Array.prototype.slice.call(grid.querySelectorAll('.card'));
+
+  function paint(card) {
+    var t = DATA.templates[+card.getAttribute('data-i')];
+    var pv = card.querySelector('.pv');
+    var f = pv.querySelector('iframe');
+    if (!f) { f = d.createElement('iframe'); f.setAttribute('aria-hidden', 'true'); f.tabIndex = -1; f.title = t.name; pv.appendChild(f); }
+    var sz = SIZE[S.dev];
+    fit(pv, f, sz[0], sz[1]);
+    var want = S.dev + '|' + S.lang;
+    if (card.getAttribute('data-p') === want) return;
+    card.setAttribute('data-p', want);
+    mount(f, t, S.dev === 'phone', 0, S.lang, function () { var ld = pv.querySelector('.ld'); if (ld) ld.remove(); });
+  }
+  var io = 'IntersectionObserver' in window ? new IntersectionObserver(function (es) {
+    es.forEach(function (e) { if (e.isIntersecting) paint(e.target); });
+  }, { rootMargin: '300px 0px' }) : null;
+  function refresh() {
+    grid.classList.toggle('phone', S.dev === 'phone');
+    cards.forEach(function (c) {
+      var show = S.group === 'all' || c.getAttribute('data-g') === S.group;
+      c.hidden = !show;
+      if (!show) return;
+      if (io) { io.unobserve(c); io.observe(c); } else paint(c);
+      var f = c.querySelector('iframe');
+      if (f) { var sz = SIZE[S.dev]; fit(c.querySelector('.pv'), f, sz[0], sz[1]); }
+    });
+  }
+  chips.addEventListener('click', function (e) {
+    var b = e.target.closest('.chip'); if (!b) return;
+    S.group = b.getAttribute('data-g');
+    Array.prototype.forEach.call(chips.children, function (c) { c.setAttribute('aria-pressed', c === b ? 'true' : 'false'); });
+    refresh();
+  });
+  d.querySelector('.seg').addEventListener('click', function (e) {
+    var b = e.target.closest('button'); if (!b) return;
+    S.dev = b.getAttribute('data-dev'); save();
+    Array.prototype.forEach.call(this.children, function (c) { c.setAttribute('aria-pressed', c === b ? 'true' : 'false'); });
+    refresh();
+  });
+  d.querySelector('.seg [data-dev="' + S.dev + '"]').click();
+  function setLang(v) {
+    S.lang = v; save(); langSel.value = v; dlgLang.value = v;
+    refresh();
+    if (dlg.open) drawDialog();
+  }
+  langSel.addEventListener('change', function () { setLang(langSel.value); });
+  dlgLang.addEventListener('change', function () { setLang(dlgLang.value); });
+  window.addEventListener('resize', function () { refresh(); if (dlg.open) layoutDialog(); });
+  var bar = d.getElementById('bar');
+  window.addEventListener('scroll', function () { bar.classList.toggle('stuck', bar.getBoundingClientRect().top <= 0 && window.scrollY > 10); }, { passive: true });
+
+  /* ---------- preview dialog ---------- */
+  var dlg = d.getElementById('dlg');
+  var D = { t: null, step: 0 };
+  var body = d.getElementById('dlg-b');
+  body.innerHTML = '<div class="fr dk"><iframe title="Desktop preview"></iframe></div><div class="fr ph"><iframe title="Phone preview"></iframe></div>';
+  var fd = body.querySelector('.dk iframe');
+  var fp = body.querySelector('.ph iframe');
+  function layoutDialog() {
+    var avail = body.clientWidth - 44;
+    var phoneW = 390, phoneH = 760;
+    var hMax = Math.max(300, body.clientHeight - 44 - 18);
+    var ps = Math.min(1, hMax / phoneH, window.innerWidth < 640 ? (avail - 18) / phoneW : 1);
+    var ph = body.querySelector('.ph');
+    ph.style.width = Math.round(phoneW * ps) + 'px'; ph.style.height = Math.round(phoneH * ps) + 'px';
+    fp.style.width = phoneW + 'px'; fp.style.height = phoneH + 'px'; fp.style.transform = 'scale(' + ps + ')';
+    var dk = body.querySelector('.dk');
+    var dw = Math.max(320, avail - phoneW * ps - 22 - 18);
+    var ds = Math.min(1, dw / 1000, hMax / 640);
+    dk.style.width = Math.round(1000 * ds) + 'px'; dk.style.height = Math.round(640 * ds) + 'px';
+    fd.style.width = '1000px'; fd.style.height = '640px'; fd.style.transform = 'scale(' + ds + ')';
+  }
+  function drawDialog() {
+    var t = D.t;
+    d.getElementById('dlg-n').textContent = t.num;
+    d.getElementById('dlg-t').textContent = t.name;
+    d.getElementById('dlg-f').textContent = t.formatLabel;
+    d.getElementById('dlg-s').innerHTML = t.doc.steps.map(function (s, i) {
+      return '<button type="button" data-s="' + i + '" aria-pressed="' + (i === D.step) + '">' + (i + 1) + ' · ' + esc(s.name || 'Step') + '</button>';
+    }).join('');
+    layoutDialog();
+    mount(fd, t, false, D.step, S.lang);
+    mount(fp, t, true, D.step, S.lang);
+  }
+  d.getElementById('dlg-s').addEventListener('click', function (e) {
+    var b = e.target.closest('button'); if (!b) return;
+    D.step = +b.getAttribute('data-s'); drawDialog();
+  });
+  grid.addEventListener('click', function (e) {
+    var c = e.target.closest('.card'); if (!c) return;
+    D.t = DATA.templates[+c.getAttribute('data-i')]; D.step = 0;
+    dlg.showModal(); drawDialog();
+    history.replaceState(null, '', '#' + D.t.slug);
+  });
+  d.getElementById('dlg-x').addEventListener('click', function () { dlg.close(); });
+  dlg.addEventListener('click', function (e) { if (e.target === dlg) dlg.close(); });
+  dlg.addEventListener('close', function () { history.replaceState(null, '', location.pathname); });
+  var deep = location.hash.slice(1);
+  if (deep) { var hit = DATA.templates.filter(function (t) { return t.slug === deep; })[0]; if (hit) { D.t = hit; D.step = 0; dlg.showModal(); drawDialog(); } }
+  refresh();
+})();
+</script>
+</body>
+</html>
