@@ -1,0 +1,653 @@
+{
+ "num": "22",
+ "slug": "what-stopped-you",
+ "name": "What Stopped You",
+ "group": "exit",
+ "formatLabel": "Modal, exit survey",
+ "tags": [
+  "exit intent",
+  "survey",
+  "feedback"
+ ],
+ "doc": {
+  "format": "modal",
+  "width": 480,
+  "mobile": {
+   "format": "sheet"
+  },
+  "fonts": [
+   "IBM Plex Sans"
+  ],
+  "theme": {
+   "bg": "#EEF3FF",
+   "ink": "#101828",
+   "accent": "#3056D3",
+   "accentInk": "#FFFFFF",
+   "field": "#FFFFFF",
+   "line": "#C7D3F5",
+   "radius": 14,
+   "fh": "IBM Plex Sans",
+   "fb": "IBM Plex Sans",
+   "overlay": "rgba(16,24,40,.5)"
+  },
+  "steps": [
+   {
+    "id": "s1",
+    "name": "Question",
+    "cols": [
+     {
+      "blocks": [
+       {
+        "id": "what-194",
+        "type": "small",
+        "t": {
+         "en": "One question, 5 seconds",
+         "fr": "Une question, 5 secondes",
+         "es": "Una pregunta, 5 segundos",
+         "it": "Una domanda, 5 secondi",
+         "de": "Eine Frage, 5 Sekunden",
+         "nl": "Eén vraag, 5 seconden",
+         "pl": "Jedno pytanie, 5 sekund",
+         "cs": "Jedna otázka, 5 sekund",
+         "pt": "Uma pergunta, 5 segundos",
+         "ru": "Один вопрос, 5 секунд"
+        },
+        "cls": "ws-k"
+       },
+       {
+        "id": "what-195",
+        "type": "heading",
+        "t": {
+         "en": "What stopped you from buying today?",
+         "fr": "Qu'est-ce qui vous a retenu d'acheter aujourd'hui ?",
+         "es": "¿Qué te ha frenado hoy a comprar?",
+         "it": "Cosa ti ha fermato dall'acquistare oggi?",
+         "de": "Was hat dich heute vom Kauf abgehalten?",
+         "nl": "Wat hield je vandaag tegen om te kopen?",
+         "pl": "Co powstrzymało cię dziś od zakupu?",
+         "cs": "Co vám dnes zabránilo v nákupu?",
+         "pt": "O que o impediu de comprar hoje?",
+         "ru": "Что помешало вам купить сегодня?"
+        }
+       },
+       {
+        "id": "what-196",
+        "type": "choices",
+        "q": "reason",
+        "options": [
+         {
+          "key": "price",
+          "t": {
+           "en": "The price is a bit high",
+           "fr": "Le prix est un peu élevé",
+           "es": "El precio es algo alto",
+           "it": "Il prezzo è un po' alto",
+           "de": "Der Preis ist etwas hoch",
+           "nl": "De prijs is wat hoog",
+           "pl": "Cena jest trochę wysoka",
+           "cs": "Cena je trochu vysoká",
+           "pt": "O preço é um pouco alto",
+           "ru": "Цена высоковата"
+          },
+          "step": "price"
+         },
+         {
+          "key": "shipping",
+          "t": {
+           "en": "Shipping cost or delivery time",
+           "fr": "Les frais ou le délai de livraison",
+           "es": "Coste o plazo de envío",
+           "it": "Costi o tempi di spedizione",
+           "de": "Versandkosten oder Lieferzeit",
+           "nl": "Verzendkosten of levertijd",
+           "pl": "Koszt lub czas dostawy",
+           "cs": "Cena nebo doba dopravy",
+           "pt": "Custo ou prazo de envio",
+           "ru": "Стоимость или сроки доставки"
+          },
+          "step": "shipping"
+         },
+         {
+          "key": "size",
+          "t": {
+           "en": "I couldn't find my size or option",
+           "fr": "Je n'ai pas trouvé ma taille ou mon option",
+           "es": "No encontré mi talla u opción",
+           "it": "Non ho trovato la mia taglia o variante",
+           "de": "Ich habe meine Größe oder Variante nicht gefunden",
+           "nl": "Ik vond mijn maat of optie niet",
+           "pl": "Nie znalazłem mojego rozmiaru lub wariantu",
+           "cs": "Nenašel jsem svou velikost nebo variantu",
+           "pt": "Não encontrei o meu tamanho ou opção",
+           "ru": "Не нашёл свой размер или вариант"
+          },
+          "step": "size"
+         },
+         {
+          "key": "looking",
+          "t": {
+           "en": "Just looking for now",
+           "fr": "Je regarde seulement pour l'instant",
+           "es": "Solo estoy mirando",
+           "it": "Sto solo guardando",
+           "de": "Ich schaue mich nur um",
+           "nl": "Ik kijk nu alleen even rond",
+           "pl": "Na razie tylko się rozglądam",
+           "cs": "Zatím se jen dívám",
+           "pt": "Por agora estou só a ver",
+           "ru": "Пока просто смотрю"
+          },
+          "step": "thanks"
+         },
+         {
+          "key": "other",
+          "t": {
+           "en": "Something else…",
+           "fr": "Autre chose…",
+           "es": "Otra cosa…",
+           "it": "Altro…",
+           "de": "Etwas anderes…",
+           "nl": "Iets anders…",
+           "pl": "Coś innego…",
+           "cs": "Něco jiného…",
+           "pt": "Outra coisa…",
+           "ru": "Другое…"
+          },
+          "step": "other"
+         }
+        ],
+        "submit": {
+         "en": "Send answer",
+         "fr": "Envoyer la réponse",
+         "es": "Enviar respuesta",
+         "it": "Invia la risposta",
+         "de": "Antwort senden",
+         "nl": "Antwoord versturen",
+         "pl": "Wyślij odpowiedź",
+         "cs": "Odeslat odpověď",
+         "pt": "Enviar resposta",
+         "ru": "Отправить ответ"
+        },
+        "letters": true
+       },
+       {
+        "id": "what-197",
+        "type": "small",
+        "t": {
+         "en": "Anonymous. No email needed.",
+         "fr": "Anonyme. Aucun e-mail demandé.",
+         "es": "Anónimo. Sin email.",
+         "it": "Anonimo. Nessuna email richiesta.",
+         "de": "Anonym. Keine E-Mail nötig.",
+         "nl": "Anoniem. Geen e-mail nodig.",
+         "pl": "Anonimowo. Bez e-maila.",
+         "cs": "Anonymně. E-mail není potřeba.",
+         "pt": "Anónimo. Sem email.",
+         "ru": "Анонимно. Email не нужен."
+        },
+        "cls": "ws-n"
+       }
+      ]
+     }
+    ]
+   },
+   {
+    "id": "price",
+    "name": "Reply: price",
+    "cols": [
+     {
+      "blocks": [
+       {
+        "id": "what-198",
+        "type": "small",
+        "t": {
+         "en": "Thanks for telling us",
+         "fr": "Merci de nous l'avoir dit",
+         "es": "Gracias por contárnoslo",
+         "it": "Grazie di avercelo detto",
+         "de": "Danke für deine Antwort",
+         "nl": "Bedankt dat je het ons vertelt",
+         "pl": "Dziękujemy za odpowiedź",
+         "cs": "Díky, že jste nám to řekli",
+         "pt": "Obrigado por nos dizer",
+         "ru": "Спасибо, что рассказали"
+        },
+        "cls": "ws-k"
+       },
+       {
+        "id": "what-199",
+        "type": "heading",
+        "t": {
+         "en": "Here is 10% to soften it.",
+         "fr": "Voici -10 % pour adoucir la note.",
+         "es": "Aquí tienes un 10 % para suavizarlo.",
+         "it": "Ecco il 10% per addolcire la pillola.",
+         "de": "Hier sind 10 %, um es leichter zu machen.",
+         "nl": "Hier is 10% om het wat te verzachten.",
+         "pl": "Oto 10% na osłodę.",
+         "cs": "Tady je 10 %, ať to tolik nebolí.",
+         "pt": "Aqui tem 10% para suavizar.",
+         "ru": "Вот 10%, чтобы смягчить."
+        }
+       },
+       {
+        "id": "what-200",
+        "type": "coupon",
+        "copy": {
+         "en": "Copy",
+         "fr": "Copier",
+         "es": "Copiar",
+         "it": "Copia",
+         "de": "Kopieren",
+         "nl": "Kopiëren",
+         "pl": "Kopiuj",
+         "cs": "Kopírovat",
+         "pt": "Copiar",
+         "ru": "Копировать"
+        },
+        "code": "TRY10"
+       },
+       {
+        "id": "what-201",
+        "type": "button",
+        "t": {
+         "en": "Back to my cart",
+         "fr": "Retour à mon panier",
+         "es": "Volver a mi carrito",
+         "it": "Torna al mio carrello",
+         "de": "Zurück zum Warenkorb",
+         "nl": "Terug naar mijn winkelwagen",
+         "pl": "Wróć do koszyka",
+         "cs": "Zpět do košíku",
+         "pt": "Voltar ao meu carrinho",
+         "ru": "Вернуться в корзину"
+        },
+        "act": "url",
+        "href": "{cart_url}"
+       }
+      ]
+     }
+    ]
+   },
+   {
+    "id": "shipping",
+    "name": "Reply: shipping",
+    "cols": [
+     {
+      "blocks": [
+       {
+        "id": "what-202",
+        "type": "small",
+        "t": {
+         "en": "Thanks for telling us",
+         "fr": "Merci de nous l'avoir dit",
+         "es": "Gracias por contárnoslo",
+         "it": "Grazie di avercelo detto",
+         "de": "Danke für deine Antwort",
+         "nl": "Bedankt dat je het ons vertelt",
+         "pl": "Dziękujemy za odpowiedź",
+         "cs": "Díky, že jste nám to řekli",
+         "pt": "Obrigado por nos dizer",
+         "ru": "Спасибо, что рассказали"
+        },
+        "cls": "ws-k"
+       },
+       {
+        "id": "what-203",
+        "type": "heading",
+        "t": {
+         "en": "Shipping on us, then.",
+         "fr": "La livraison est pour nous, alors.",
+         "es": "El envío corre de nuestra cuenta, entonces.",
+         "it": "La spedizione la offriamo noi, allora.",
+         "de": "Dann geht der Versand auf uns.",
+         "nl": "De verzending is dan voor ons.",
+         "pl": "W takim razie dostawa na nasz koszt.",
+         "cs": "Dopravu tedy platíme my.",
+         "pt": "Então os portes ficam por nossa conta.",
+         "ru": "Тогда доставка за наш счёт."
+        }
+       },
+       {
+        "id": "what-204",
+        "type": "text",
+        "t": {
+         "en": "Use this code for free delivery on any order today. Most orders arrive in 2–3 days.",
+         "fr": "Utilisez ce code pour la livraison gratuite sur toute commande aujourd'hui. La plupart des commandes arrivent en 2 à 3 jours.",
+         "es": "Usa este código para envío gratis en cualquier pedido hoy. La mayoría de pedidos llegan en 2–3 días.",
+         "it": "Usa questo codice per la spedizione gratuita su qualsiasi ordine oggi. La maggior parte degli ordini arriva in 2–3 giorni.",
+         "de": "Mit diesem Code ist der Versand heute für jede Bestellung gratis. Die meisten Bestellungen kommen in 2–3 Tagen an.",
+         "nl": "Gebruik deze code voor gratis verzending op elke bestelling vandaag. De meeste bestellingen komen binnen 2–3 dagen aan.",
+         "pl": "Użyj tego kodu, aby dziś mieć darmową dostawę na każde zamówienie. Większość zamówień dociera w 2–3 dni.",
+         "cs": "S tímto kódem máte dnes dopravu zdarma na jakoukoli objednávku. Většina objednávek dorazí za 2–3 dny.",
+         "pt": "Use este código para portes grátis em qualquer encomenda hoje. A maioria das encomendas chega em 2–3 dias.",
+         "ru": "С этим кодом доставка любого заказа сегодня бесплатна. Большинство заказов приходит за 2–3 дня."
+        }
+       },
+       {
+        "id": "what-205",
+        "type": "coupon",
+        "copy": {
+         "en": "Copy",
+         "fr": "Copier",
+         "es": "Copiar",
+         "it": "Copia",
+         "de": "Kopieren",
+         "nl": "Kopiëren",
+         "pl": "Kopiuj",
+         "cs": "Kopírovat",
+         "pt": "Copiar",
+         "ru": "Копировать"
+        },
+        "code": "SHIPFREE"
+       },
+       {
+        "id": "what-206",
+        "type": "button",
+        "t": {
+         "en": "Back to my cart",
+         "fr": "Retour à mon panier",
+         "es": "Volver a mi carrito",
+         "it": "Torna al mio carrello",
+         "de": "Zurück zum Warenkorb",
+         "nl": "Terug naar mijn winkelwagen",
+         "pl": "Wróć do koszyka",
+         "cs": "Zpět do košíku",
+         "pt": "Voltar ao meu carrinho",
+         "ru": "Вернуться в корзину"
+        },
+        "act": "url",
+        "href": "{cart_url}"
+       }
+      ]
+     }
+    ]
+   },
+   {
+    "id": "size",
+    "name": "Reply: size",
+    "cols": [
+     {
+      "blocks": [
+       {
+        "id": "what-207",
+        "type": "small",
+        "t": {
+         "en": "Thanks for telling us",
+         "fr": "Merci de nous l'avoir dit",
+         "es": "Gracias por contárnoslo",
+         "it": "Grazie di avercelo detto",
+         "de": "Danke für deine Antwort",
+         "nl": "Bedankt dat je het ons vertelt",
+         "pl": "Dziękujemy za odpowiedź",
+         "cs": "Díky, že jste nám to řekli",
+         "pt": "Obrigado por nos dizer",
+         "ru": "Спасибо, что рассказали"
+        },
+        "cls": "ws-k"
+       },
+       {
+        "id": "what-208",
+        "type": "heading",
+        "t": {
+         "en": "Tell us what you were after.",
+         "fr": "Dites-nous ce que vous cherchiez.",
+         "es": "Cuéntanos qué buscabas.",
+         "it": "Dicci cosa cercavi.",
+         "de": "Sag uns, wonach du gesucht hast.",
+         "nl": "Vertel ons wat je zocht.",
+         "pl": "Powiedz nam, czego szukałeś.",
+         "cs": "Řekněte nám, co jste hledali.",
+         "pt": "Diga-nos o que procurava.",
+         "ru": "Расскажите, что вы искали."
+        }
+       },
+       {
+        "id": "what-209",
+        "type": "textarea",
+        "label": {
+         "en": "What were you looking for?",
+         "fr": "Que cherchiez-vous ?",
+         "es": "¿Qué estabas buscando?",
+         "it": "Cosa stavi cercando?",
+         "de": "Wonach hast du gesucht?",
+         "nl": "Wat zocht je?",
+         "pl": "Czego szukałeś?",
+         "cs": "Co jste hledali?",
+         "pt": "O que procurava?",
+         "ru": "Что вы искали?"
+        },
+        "ph": {
+         "en": "Size, colour, product…",
+         "fr": "Taille, couleur, produit…",
+         "es": "Talla, color, producto…",
+         "it": "Taglia, colore, prodotto…",
+         "de": "Größe, Farbe, Produkt…",
+         "nl": "Maat, kleur, product…",
+         "pl": "Rozmiar, kolor, produkt…",
+         "cs": "Velikost, barva, produkt…",
+         "pt": "Tamanho, cor, produto…",
+         "ru": "Размер, цвет, товар…"
+        },
+        "name": "wanted"
+       },
+       {
+        "id": "what-210",
+        "type": "button",
+        "t": {
+         "en": "Send",
+         "fr": "Envoyer",
+         "es": "Enviar",
+         "it": "Invia",
+         "de": "Senden",
+         "nl": "Versturen",
+         "pl": "Wyślij",
+         "cs": "Odeslat",
+         "pt": "Enviar",
+         "ru": "Отправить"
+        },
+        "act": "next",
+        "step": "thanks"
+       }
+      ]
+     }
+    ]
+   },
+   {
+    "id": "other",
+    "name": "Reply: other",
+    "cols": [
+     {
+      "blocks": [
+       {
+        "id": "what-211",
+        "type": "small",
+        "t": {
+         "en": "Thanks for telling us",
+         "fr": "Merci de nous l'avoir dit",
+         "es": "Gracias por contárnoslo",
+         "it": "Grazie di avercelo detto",
+         "de": "Danke für deine Antwort",
+         "nl": "Bedankt dat je het ons vertelt",
+         "pl": "Dziękujemy za odpowiedź",
+         "cs": "Díky, že jste nám to řekli",
+         "pt": "Obrigado por nos dizer",
+         "ru": "Спасибо, что рассказали"
+        },
+        "cls": "ws-k"
+       },
+       {
+        "id": "what-212",
+        "type": "heading",
+        "t": {
+         "en": "What could we do better?",
+         "fr": "Que pourrions-nous améliorer ?",
+         "es": "¿Qué podríamos hacer mejor?",
+         "it": "Cosa potremmo fare meglio?",
+         "de": "Was könnten wir besser machen?",
+         "nl": "Wat kunnen we beter doen?",
+         "pl": "Co moglibyśmy zrobić lepiej?",
+         "cs": "Co bychom mohli zlepšit?",
+         "pt": "O que podíamos fazer melhor?",
+         "ru": "Что мы могли бы улучшить?"
+        }
+       },
+       {
+        "id": "what-213",
+        "type": "textarea",
+        "label": {
+         "en": "Your answer",
+         "fr": "Votre réponse",
+         "es": "Tu respuesta",
+         "it": "La tua risposta",
+         "de": "Deine Antwort",
+         "nl": "Je antwoord",
+         "pl": "Twoja odpowiedź",
+         "cs": "Vaše odpověď",
+         "pt": "A sua resposta",
+         "ru": "Ваш ответ"
+        },
+        "name": "other"
+       },
+       {
+        "id": "what-214",
+        "type": "button",
+        "t": {
+         "en": "Send",
+         "fr": "Envoyer",
+         "es": "Enviar",
+         "it": "Invia",
+         "de": "Senden",
+         "nl": "Versturen",
+         "pl": "Wyślij",
+         "cs": "Odeslat",
+         "pt": "Enviar",
+         "ru": "Отправить"
+        },
+        "act": "next",
+        "step": "thanks"
+       }
+      ]
+     }
+    ]
+   },
+   {
+    "id": "thanks",
+    "name": "Thanks",
+    "cols": [
+     {
+      "blocks": [
+       {
+        "id": "what-215",
+        "type": "heading",
+        "t": {
+         "en": "Thank you!",
+         "fr": "Merci !",
+         "es": "¡Gracias!",
+         "it": "Grazie!",
+         "de": "Danke!",
+         "nl": "Dank je!",
+         "pl": "Dziękujemy!",
+         "cs": "Děkujeme!",
+         "pt": "Obrigado!",
+         "ru": "Спасибо!"
+        }
+       },
+       {
+        "id": "what-216",
+        "type": "text",
+        "t": {
+         "en": "We read every answer.",
+         "fr": "Nous lisons chaque réponse.",
+         "es": "Leemos todas las respuestas.",
+         "it": "Leggiamo ogni risposta.",
+         "de": "Wir lesen jede Antwort.",
+         "nl": "We lezen elk antwoord.",
+         "pl": "Czytamy każdą odpowiedź.",
+         "cs": "Čteme každou odpověď.",
+         "pt": "Lemos todas as respostas.",
+         "ru": "Мы читаем каждый ответ."
+        }
+       },
+       {
+        "id": "what-217",
+        "type": "button",
+        "t": {
+         "en": "Close",
+         "fr": "Fermer",
+         "es": "Cerrar",
+         "it": "Chiudi",
+         "de": "Schließen",
+         "nl": "Sluiten",
+         "pl": "Zamknij",
+         "cs": "Zavřít",
+         "pt": "Fechar",
+         "ru": "Закрыть"
+        },
+        "act": "close"
+       }
+      ]
+     }
+    ]
+   }
+  ],
+  "template": "what-stopped-you"
+ },
+ "settings": {
+  "triggers": {
+   "mode": "any",
+   "timerOn": false,
+   "timerSec": 8,
+   "exitOn": true,
+   "exitSens": "normal",
+   "idleOn": false,
+   "idleSec": 30,
+   "scrollOn": false,
+   "scrollVal": 40,
+   "scrollUnit": "pct",
+   "clickOn": false,
+   "clickSel": "",
+   "pagesOn": false,
+   "pagesN": 2,
+   "pagesSec": 0,
+   "addcartOn": false
+  },
+  "close": {
+   "x": true,
+   "xDelay": 0,
+   "overlay": true,
+   "esc": true,
+   "timeOn": false,
+   "timeSec": 20,
+   "scrollOn": false,
+   "scrollPct": 80,
+   "videoOn": false,
+   "lastOn": false,
+   "lastSec": 6
+  },
+  "frequency": {
+   "mode": "days",
+   "days": 30,
+   "maxOn": false,
+   "max": 3,
+   "stopConvert": true,
+   "afterCloseOn": true,
+   "afterCloseDays": 2
+  },
+  "form": {
+   "list": "leads",
+   "consent": false,
+   "consentRequired": false
+  },
+  "coupon": {
+   "mode": "none",
+   "code": "",
+   "type": "percent",
+   "value": 10,
+   "days": 14,
+   "min": 0,
+   "prefix": "WELCOME-",
+   "autoApply": false
+  }
+ }
+}

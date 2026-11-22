@@ -1,0 +1,228 @@
+{
+ "num": "37",
+ "slug": "inline-signup-bar",
+ "name": "Inline Signup Bar",
+ "group": "bars",
+ "formatLabel": "Bar, top, with email field",
+ "tags": [
+  "bar",
+  "newsletter",
+  "signup"
+ ],
+ "doc": {
+  "format": "bar",
+  "position": "top",
+  "bar": "push",
+  "mobile": {
+   "format": "same"
+  },
+  "fonts": [
+   "Public Sans",
+   "Inter"
+  ],
+  "theme": {
+   "bg": "#E8F1EE",
+   "ink": "#0B3D2E",
+   "accent": "#0B3D2E",
+   "accentInk": "#E8F1EE",
+   "field": "#FFFFFF",
+   "line": "#9DBFB3",
+   "radius": 6,
+   "fh": "Public Sans",
+   "fb": "Public Sans",
+   "ffb": {
+    "Public Sans": "\"Inter\", system-ui, sans-serif"
+   }
+  },
+  "overlay": false,
+  "steps": [
+   {
+    "id": "s1",
+    "name": "Bar",
+    "cols": [
+     {
+      "blocks": [
+       {
+        "id": "inli-305",
+        "type": "row",
+        "blocks": [
+         {
+          "id": "inli-303",
+          "type": "text",
+          "t": {
+           "en": "**Get 10% off your first order** and a monthly letter.",
+           "fr": "**-10 % sur votre première commande** et une lettre mensuelle.",
+           "es": "**10 % de descuento en tu primer pedido** y una carta mensual.",
+           "it": "**Il 10% di sconto sul primo ordine** e una lettera al mese.",
+           "de": "**10 % Rabatt auf deine erste Bestellung** und ein Brief im Monat.",
+           "nl": "**10% korting op je eerste bestelling** en een maandelijkse brief.",
+           "pl": "**10% rabatu na pierwsze zamówienie** i comiesięczny list.",
+           "cs": "**Sleva 10 % na první objednávku** a měsíční dopis.",
+           "pt": "**10% de desconto na primeira encomenda** e uma carta mensal.",
+           "ru": "**−10% на первый заказ** и ежемесячное письмо."
+          },
+          "cls": "ib-t"
+         },
+         {
+          "id": "inli-304",
+          "type": "form",
+          "btn": {
+           "en": "Sign up",
+           "fr": "S'inscrire",
+           "es": "Suscribirme",
+           "it": "Iscriviti",
+           "de": "Anmelden",
+           "nl": "Inschrijven",
+           "pl": "Zapisz się",
+           "cs": "Přihlásit",
+           "pt": "Subscrever",
+           "ru": "Подписаться"
+          },
+          "label": {
+           "en": "Email",
+           "fr": "E-mail",
+           "es": "Email",
+           "it": "Email",
+           "de": "E-Mail",
+           "nl": "E-mail",
+           "pl": "E-mail",
+           "cs": "E-mail",
+           "pt": "Email",
+           "ru": "Email"
+          },
+          "ph": {
+           "en": "Email address",
+           "fr": "Adresse e-mail",
+           "es": "Correo electrónico",
+           "it": "Indirizzo email",
+           "de": "E-Mail-Adresse",
+           "nl": "E-mailadres",
+           "pl": "Adres e-mail",
+           "cs": "E-mailová adresa",
+           "pt": "Endereço de email",
+           "ru": "Email"
+          },
+          "layout": "inline",
+          "consent": false,
+          "next": "s2",
+          "hideLabel": true
+         }
+        ],
+        "cls": "ib-row"
+       }
+      ]
+     }
+    ]
+   },
+   {
+    "id": "s2",
+    "name": "Done",
+    "cols": [
+     {
+      "blocks": [
+       {
+        "id": "inli-308",
+        "type": "row",
+        "blocks": [
+         {
+          "id": "inli-306",
+          "type": "text",
+          "t": {
+           "en": "**Check your inbox.** Your code: ",
+           "fr": "**Regardez votre boîte mail.** Votre code : ",
+           "es": "**Mira tu bandeja de entrada.** Tu código: ",
+           "it": "**Controlla la tua casella.** Il tuo codice: ",
+           "de": "**Schau in dein Postfach.** Dein Code: ",
+           "nl": "**Kijk in je inbox.** Je code: ",
+           "pl": "**Sprawdź skrzynkę.** Twój kod: ",
+           "cs": "**Mrkněte do schránky.** Váš kód: ",
+           "pt": "**Veja a sua caixa de entrada.** O seu código: ",
+           "ru": "**Проверьте почту.** Ваш код: "
+          }
+         },
+         {
+          "id": "inli-307",
+          "type": "coupon",
+          "copy": {
+           "en": "Copy",
+           "fr": "Copier",
+           "es": "Copiar",
+           "it": "Copia",
+           "de": "Kopieren",
+           "nl": "Kopiëren",
+           "pl": "Kopiuj",
+           "cs": "Kopírovat",
+           "pt": "Copiar",
+           "ru": "Копировать"
+          },
+          "cls": "ib-code",
+          "code": "WELCOME-7KQ2M9XA"
+         }
+        ],
+        "cls": "ib-row"
+       }
+      ]
+     }
+    ]
+   }
+  ],
+  "template": "inline-signup-bar"
+ },
+ "settings": {
+  "triggers": {
+   "mode": "any",
+   "timerOn": true,
+   "timerSec": 0,
+   "exitOn": false,
+   "exitSens": "normal",
+   "idleOn": false,
+   "idleSec": 30,
+   "scrollOn": false,
+   "scrollVal": 40,
+   "scrollUnit": "pct",
+   "clickOn": false,
+   "clickSel": "",
+   "pagesOn": false,
+   "pagesN": 2,
+   "pagesSec": 0,
+   "addcartOn": false
+  },
+  "close": {
+   "x": true,
+   "xDelay": 0,
+   "overlay": false,
+   "esc": true,
+   "timeOn": false,
+   "timeSec": 20,
+   "scrollOn": false,
+   "scrollPct": 80,
+   "videoOn": false,
+   "lastOn": false,
+   "lastSec": 6
+  },
+  "frequency": {
+   "mode": "page",
+   "days": 7,
+   "maxOn": false,
+   "max": 3,
+   "stopConvert": true,
+   "afterCloseOn": true,
+   "afterCloseDays": 7
+  },
+  "form": {
+   "list": "newsletter",
+   "consent": false,
+   "consentRequired": false
+  },
+  "coupon": {
+   "mode": "generated",
+   "code": "",
+   "type": "percent",
+   "value": 10,
+   "days": 14,
+   "min": 0,
+   "prefix": "BAR10-",
+   "autoApply": false
+  }
+ }
+}

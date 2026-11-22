@@ -1,0 +1,263 @@
+{
+ "num": "42",
+ "slug": "teaser-tab",
+ "name": "Teaser Tab",
+ "group": "slidein",
+ "formatLabel": "Teaser tab that opens a panel",
+ "tags": [
+  "teaser",
+  "tab",
+  "slide-in",
+  "newsletter"
+ ],
+ "doc": {
+  "format": "drawer",
+  "position": "left",
+  "width": 300,
+  "overlay": false,
+  "mobile": {
+   "format": "sheet"
+  },
+  "fonts": [
+   "Space Grotesk",
+   "Inter"
+  ],
+  "theme": {
+   "bg": "#FF6B35",
+   "ink": "#FFFFFF",
+   "accent": "#1B1B1B",
+   "accentInk": "#FFFFFF",
+   "field": "#FFFFFF",
+   "fieldInk": "#1B1B1B",
+   "line": "#FFFFFF",
+   "radius": 16,
+   "fh": "Space Grotesk",
+   "fb": "Space Grotesk",
+   "ffb": {
+    "Space Grotesk": "\"Inter\", system-ui, sans-serif"
+   }
+  },
+  "closeBtn": {
+   "look": "circle",
+   "label": {
+    "en": "←",
+    "fr": "←",
+    "es": "←",
+    "it": "←",
+    "de": "←",
+    "nl": "←",
+    "pl": "←",
+    "cs": "←",
+    "pt": "←",
+    "ru": "←"
+   }
+  },
+  "steps": [
+   {
+    "id": "s1",
+    "name": "Panel",
+    "cols": [
+     {
+      "blocks": [
+       {
+        "id": "teas-336",
+        "type": "heading",
+        "t": {
+         "en": "10% off. Just say hi.",
+         "fr": "-10 %. Dites juste bonjour.",
+         "es": "10 % de descuento. Solo saluda.",
+         "it": "10% di sconto. Basta un saluto.",
+         "de": "10 % Rabatt. Sag einfach Hallo.",
+         "nl": "10% korting. Zeg gewoon hoi.",
+         "pl": "10% rabatu. Wystarczy się przywitać.",
+         "cs": "Sleva 10 %. Stačí pozdravit.",
+         "pt": "10% de desconto. Basta dizer olá.",
+         "ru": "Скидка 10%. Просто поздоровайтесь."
+        }
+       },
+       {
+        "id": "teas-337",
+        "type": "text",
+        "t": {
+         "en": "Leave your email and the code is on its way.",
+         "fr": "Laissez votre e-mail et le code est en route.",
+         "es": "Deja tu email y el código va de camino.",
+         "it": "Lascia la tua email e il codice è in arrivo.",
+         "de": "E-Mail eintragen und der Code ist unterwegs.",
+         "nl": "Laat je e-mail achter en de code is onderweg.",
+         "pl": "Zostaw e-mail, a kod jest w drodze.",
+         "cs": "Nechte e-mail a kód je na cestě.",
+         "pt": "Deixe o seu email e o código vai a caminho.",
+         "ru": "Оставьте email, и код уже в пути."
+        }
+       },
+       {
+        "id": "teas-338",
+        "type": "form",
+        "btn": {
+         "en": "Go",
+         "fr": "OK",
+         "es": "Ir",
+         "it": "Vai",
+         "de": "Los",
+         "nl": "Ga",
+         "pl": "OK",
+         "cs": "Jít",
+         "pt": "Ir",
+         "ru": "ОК"
+        },
+        "label": {
+         "en": "Email",
+         "fr": "E-mail",
+         "es": "Email",
+         "it": "Email",
+         "de": "E-Mail",
+         "nl": "E-mail",
+         "pl": "E-mail",
+         "cs": "E-mail",
+         "pt": "Email",
+         "ru": "Email"
+        },
+        "ph": {
+         "en": "you@mail.com",
+         "fr": "vous@mail.com",
+         "es": "tu@mail.com",
+         "it": "tu@mail.com",
+         "de": "du@mail.de",
+         "nl": "jij@mail.nl",
+         "pl": "ty@mail.pl",
+         "cs": "vy@mail.cz",
+         "pt": "voce@mail.pt",
+         "ru": "vy@mail.ru"
+        },
+        "layout": "inline",
+        "consent": false,
+        "next": "s2",
+        "hideLabel": true
+       }
+      ]
+     }
+    ]
+   },
+   {
+    "id": "s2",
+    "name": "Code",
+    "cols": [
+     {
+      "blocks": [
+       {
+        "id": "teas-339",
+        "type": "heading",
+        "t": {
+         "en": "Hi! Here it is.",
+         "fr": "Bonjour ! Le voici.",
+         "es": "¡Hola! Aquí lo tienes.",
+         "it": "Ciao! Eccolo.",
+         "de": "Hallo! Hier ist er.",
+         "nl": "Hoi! Hier is hij.",
+         "pl": "Cześć! Oto on.",
+         "cs": "Dobrý den! Tady je.",
+         "pt": "Olá! Aqui está.",
+         "ru": "Привет! Вот он."
+        }
+       },
+       {
+        "id": "teas-340",
+        "type": "coupon",
+        "copy": {
+         "en": "Copy",
+         "fr": "Copier",
+         "es": "Copiar",
+         "it": "Copia",
+         "de": "Kopieren",
+         "nl": "Kopiëren",
+         "pl": "Kopiuj",
+         "cs": "Kopírovat",
+         "pt": "Copiar",
+         "ru": "Копировать"
+        },
+        "code": "WELCOME-7KQ2M9XA"
+       }
+      ]
+     }
+    ]
+   }
+  ],
+  "template": "teaser-tab"
+ },
+ "settings": {
+  "triggers": {
+   "mode": "any",
+   "timerOn": false,
+   "timerSec": 8,
+   "exitOn": false,
+   "exitSens": "normal",
+   "idleOn": false,
+   "idleSec": 30,
+   "scrollOn": false,
+   "scrollVal": 40,
+   "scrollUnit": "pct",
+   "clickOn": true,
+   "clickSel": ".psx-open-teaser",
+   "pagesOn": false,
+   "pagesN": 2,
+   "pagesSec": 0,
+   "addcartOn": false
+  },
+  "close": {
+   "x": true,
+   "xDelay": 0,
+   "overlay": false,
+   "esc": true,
+   "timeOn": false,
+   "timeSec": 20,
+   "scrollOn": false,
+   "scrollPct": 80,
+   "videoOn": false,
+   "lastOn": false,
+   "lastSec": 6
+  },
+  "frequency": {
+   "mode": "page",
+   "days": 7,
+   "maxOn": false,
+   "max": 3,
+   "stopConvert": true,
+   "afterCloseOn": false,
+   "afterCloseDays": 2
+  },
+  "teaser": {
+   "on": true,
+   "text": {
+    "en": "Get 10% off ↑",
+    "fr": "Obtenir -10 % ↑",
+    "es": "Consigue un 10 % ↑",
+    "it": "Ottieni il 10% ↑",
+    "de": "10 % Rabatt sichern ↑",
+    "nl": "Krijg 10% korting ↑",
+    "pl": "Odbierz 10% ↑",
+    "cs": "Získat 10 % ↑",
+    "pt": "Obter 10% ↑",
+    "ru": "Получить 10% ↑"
+   },
+   "edge": "left",
+   "life": "always"
+  },
+  "form": {
+   "list": "newsletter",
+   "consent": false,
+   "consentRequired": false
+  },
+  "coupon": {
+   "mode": "generated",
+   "code": "",
+   "type": "percent",
+   "value": 10,
+   "days": 14,
+   "min": 0,
+   "prefix": "HI10-",
+   "autoApply": false
+  },
+  "startClosed": true
+ }
+}

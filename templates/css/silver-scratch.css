@@ -1,0 +1,17 @@
+.psx-t-silver-scratch .psx-box{box-shadow:0 22px 50px rgba(0,0,0,.45),inset 0 0 0 1px rgba(255,255,255,.08);overflow:visible;text-align:center}
+.psx-t-silver-scratch .psx-col{padding:28px 30px 24px;gap:12px;align-items:stretch}
+.psx-t-silver-scratch .psx-h{font:700 30px/1.05 var(--psx-fh);letter-spacing:-.02em}
+.psx-t-silver-scratch .psx-p{color:#B7BDCA}
+.psx-t-silver-scratch .psx-scratch{min-height:170px}
+.psx-t-silver-scratch .psx-prize{min-height:170px;background:#F6EFD9;color:#1E2433;font:900 56px/1 var(--psx-fb);border-radius:14px}
+.psx-t-silver-scratch .psx-foil{height:170px;border-radius:14px}
+.psx-t-silver-scratch .psx-reveal{border-radius:12px;background:#F1F3F7;color:#1E2433;box-shadow:none;font-weight:700}
+.psx-t-silver-scratch .psx-input{border-radius:12px;border:1px solid var(--psx-line)}
+.psx-t-silver-scratch .psx-btn{border-radius:12px;font-weight:700}
+.psx-t-silver-scratch .psx-check{color:#B7BDCA;justify-content:center}
+.psx-t-silver-scratch .psx-box-ck{background:transparent}
+.psx-t-silver-scratch .psx-coupon{border-color:#C0C6D0;border-radius:12px}
+.psx-t-silver-scratch .psx-x{background:rgba(255,255,255,.1)}
+.psx-t-silver-scratch.psx-mobile .psx-col{padding:24px 18px 18px}
+.psx-t-silver-scratch.psx-mobile .psx-h{font-size:24px}
+.psx-t-silver-scratch.psx-mobile .psx-prize{font-size:44px}

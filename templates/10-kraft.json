@@ -1,0 +1,325 @@
+{
+ "num": "10",
+ "slug": "kraft",
+ "name": "Kraft",
+ "group": "newsletter",
+ "formatLabel": "Modal, centre",
+ "tags": [
+  "newsletter",
+  "eco",
+  "handmade",
+  "paper"
+ ],
+ "doc": {
+  "format": "modal",
+  "width": 520,
+  "mobile": {
+   "format": "sheet"
+  },
+  "fonts": [
+   "Special Elite",
+   "Archivo",
+   "IBM Plex Mono",
+   "Inter"
+  ],
+  "theme": {
+   "bg": "#C8A97E",
+   "ink": "#2B2118",
+   "accent": "#2B2118",
+   "accentInk": "#F1E6D2",
+   "field": "#F1E6D2",
+   "line": "#2B2118",
+   "radius": 0,
+   "fh": "Special Elite",
+   "fb": "Archivo",
+   "overlay": "rgba(43,33,24,.55)",
+   "ffb": {
+    "Special Elite": "\"IBM Plex Mono\", ui-monospace, monospace",
+    "Archivo": "\"Inter\", system-ui, sans-serif"
+   }
+  },
+  "decor": [
+   {
+    "html": {
+     "en": "<div class=\"kr-seal\">MADE<br>BY HAND<br>· 10% ·</div>",
+     "fr": "<div class=\"kr-seal\">FAIT<br>MAIN<br>· 10% ·</div>",
+     "es": "<div class=\"kr-seal\">HECHO<br>A MANO<br>· 10% ·</div>",
+     "it": "<div class=\"kr-seal\">FATTO<br>A MANO<br>· 10% ·</div>",
+     "de": "<div class=\"kr-seal\">HANDGE-<br>MACHT<br>· 10% ·</div>",
+     "nl": "<div class=\"kr-seal\">HAND-<br>GEMAAKT<br>· 10% ·</div>",
+     "pl": "<div class=\"kr-seal\">RĘCZNIE<br>ROBIONE<br>· 10% ·</div>",
+     "cs": "<div class=\"kr-seal\">RUČNÍ<br>PRÁCE<br>· 10% ·</div>",
+     "pt": "<div class=\"kr-seal\">FEITO<br>À MÃO<br>· 10% ·</div>",
+     "ru": "<div class=\"kr-seal\">РУЧНАЯ<br>РАБОТА<br>· 10% ·</div>"
+    },
+    "name": "Ink stamp",
+    "m": {
+     "right": "18px",
+     "top": "-30px"
+    },
+    "right": "30px",
+    "top": "26px",
+    "rot": 12
+   }
+  ],
+  "closeBtn": {
+   "look": "x"
+  },
+  "steps": [
+   {
+    "id": "s1",
+    "name": "Offer",
+    "cols": [
+     {
+      "blocks": [
+       {
+        "id": "kraf-96",
+        "type": "heading",
+        "t": {
+         "en": "Plain paper. Good news.",
+         "fr": "Papier brut. Bonnes nouvelles.",
+         "es": "Papel sencillo. Buenas noticias.",
+         "it": "Carta semplice. Buone notizie.",
+         "de": "Schlichtes Papier. Gute Nachrichten.",
+         "nl": "Gewoon papier. Goed nieuws.",
+         "pl": "Zwykły papier. Dobre wieści.",
+         "cs": "Obyčejný papír. Dobré zprávy.",
+         "pt": "Papel simples. Boas notícias.",
+         "ru": "Простая бумага. Хорошие новости."
+        }
+       },
+       {
+        "id": "kraf-97",
+        "type": "text",
+        "t": {
+         "en": "We send one unbleached email a month: what we made, where it came from. Join and take 10% off.",
+         "fr": "Nous envoyons un e-mail non blanchi par mois : ce que nous avons fait, d'où ça vient. Inscrivez-vous et profitez de -10 %.",
+         "es": "Enviamos un email sin blanquear al mes: lo que hicimos y de dónde viene. Únete y llévate un 10 %.",
+         "it": "Mandiamo una email non sbiancata al mese: cosa abbiamo fatto e da dove viene. Iscriviti e prendi il 10% di sconto.",
+         "de": "Wir verschicken eine ungebleichte E-Mail im Monat: was wir gemacht haben und woher es kommt. Abonnieren und 10 % sparen.",
+         "nl": "We sturen één ongebleekte e-mail per maand: wat we maakten en waar het vandaan komt. Doe mee en krijg 10% korting.",
+         "pl": "Wysyłamy jeden niebielony e-mail w miesiącu: co zrobiliśmy i skąd to pochodzi. Dołącz i odbierz 10% rabatu.",
+         "cs": "Posíláme jeden nebělený e-mail měsíčně: co jsme vyrobili a odkud to pochází. Přidejte se a získejte 10 % slevu.",
+         "pt": "Enviamos um email não branqueado por mês: o que fizemos e de onde vem. Adira e leve 10% de desconto.",
+         "ru": "Мы отправляем одно небелёное письмо в месяц: что мы сделали и откуда это. Подпишитесь и получите 10% скидки."
+        }
+       },
+       {
+        "id": "kraf-98",
+        "type": "html",
+        "html": "<div class=\"kr-twine\"></div>"
+       },
+       {
+        "id": "kraf-99",
+        "type": "form",
+        "btn": {
+         "en": "Stamp it",
+         "fr": "Tamponner",
+         "es": "Sellarlo",
+         "it": "Timbralo",
+         "de": "Abstempeln",
+         "nl": "Afstempelen",
+         "pl": "Przybij pieczątkę",
+         "cs": "Orazítkovat",
+         "pt": "Carimbar",
+         "ru": "Поставить штамп"
+        },
+        "label": {
+         "en": "Your email",
+         "fr": "Votre e-mail",
+         "es": "Tu email",
+         "it": "La tua email",
+         "de": "Deine E-Mail",
+         "nl": "Je e-mail",
+         "pl": "Twój e-mail",
+         "cs": "Váš e-mail",
+         "pt": "O seu email",
+         "ru": "Ваш email"
+        },
+        "ph": {
+         "en": "you@example.com",
+         "fr": "vous@exemple.com",
+         "es": "tu@ejemplo.com",
+         "it": "tu@esempio.com",
+         "de": "du@beispiel.de",
+         "nl": "jij@voorbeeld.nl",
+         "pl": "ty@przyklad.pl",
+         "cs": "vy@priklad.cz",
+         "pt": "voce@exemplo.pt",
+         "ru": "vy@primer.ru"
+        },
+        "layout": "inline",
+        "consent": true,
+        "consentRequired": true,
+        "consentText": {
+         "en": "Yes to the monthly email. Unsubscribe any time.",
+         "fr": "Oui à l'e-mail mensuel. Désinscription à tout moment.",
+         "es": "Sí al email mensual. Baja cuando quiera.",
+         "it": "Sì all'email mensile. Disiscrizione quando voglio.",
+         "de": "Ja zur monatlichen E-Mail. Abmeldung jederzeit.",
+         "nl": "Ja tegen de maandelijkse e-mail. Uitschrijven kan altijd.",
+         "pl": "Tak dla comiesięcznego e-maila. Rezygnacja w każdej chwili.",
+         "cs": "Ano měsíčnímu e-mailu. Odhlášení kdykoli.",
+         "pt": "Sim ao email mensal. Cancelo quando quiser.",
+         "ru": "Да ежемесячному письму. Отписка в любой момент."
+        },
+        "next": "s2"
+       }
+      ]
+     }
+    ]
+   },
+   {
+    "id": "s2",
+    "name": "Thanks",
+    "cols": [
+     {
+      "blocks": [
+       {
+        "id": "kraf-100",
+        "type": "heading",
+        "t": {
+         "en": "Stamped and sent.",
+         "fr": "Tamponné et envoyé.",
+         "es": "Sellado y enviado.",
+         "it": "Timbrato e spedito.",
+         "de": "Gestempelt und verschickt.",
+         "nl": "Gestempeld en verstuurd.",
+         "pl": "Opieczętowane i wysłane.",
+         "cs": "Orazítkováno a odesláno.",
+         "pt": "Carimbado e enviado.",
+         "ru": "Проштамповано и отправлено."
+        }
+       },
+       {
+        "id": "kraf-101",
+        "type": "text",
+        "t": {
+         "en": "Your 10% code:",
+         "fr": "Votre code -10 % :",
+         "es": "Tu código del 10 %:",
+         "it": "Il tuo codice del 10%:",
+         "de": "Dein 10-%-Code:",
+         "nl": "Je 10%-code:",
+         "pl": "Twój kod -10%:",
+         "cs": "Váš kód na 10 %:",
+         "pt": "O seu código de 10%:",
+         "ru": "Ваш код на 10%:"
+        }
+       },
+       {
+        "id": "kraf-102",
+        "type": "coupon",
+        "note": {
+         "en": "Valid until {coupon_expiry}. One use.",
+         "fr": "Valable jusqu'au {coupon_expiry}. Un seul usage.",
+         "es": "Válido hasta el {coupon_expiry}. Un solo uso.",
+         "it": "Valido fino al {coupon_expiry}. Un solo utilizzo.",
+         "de": "Gültig bis {coupon_expiry}. Einmal einlösbar.",
+         "nl": "Geldig tot {coupon_expiry}. Eenmalig te gebruiken.",
+         "pl": "Ważny do {coupon_expiry}. Jednorazowy.",
+         "cs": "Platí do {coupon_expiry}. Jedno použití.",
+         "pt": "Válido até {coupon_expiry}. Uma utilização.",
+         "ru": "Действует до {coupon_expiry}. Одно использование."
+        },
+        "copy": {
+         "en": "Copy",
+         "fr": "Copier",
+         "es": "Copiar",
+         "it": "Copia",
+         "de": "Kopieren",
+         "nl": "Kopiëren",
+         "pl": "Kopiuj",
+         "cs": "Kopírovat",
+         "pt": "Copiar",
+         "ru": "Копировать"
+        },
+        "code": "WELCOME-7KQ2M9XA"
+       },
+       {
+        "id": "kraf-103",
+        "type": "html",
+        "html": "<div class=\"kr-twine\"></div>"
+       },
+       {
+        "id": "kraf-104",
+        "type": "link",
+        "t": {
+         "en": "Back to the shop",
+         "fr": "Retour à la boutique",
+         "es": "Volver a la tienda",
+         "it": "Torna al negozio",
+         "de": "Zurück zum Shop",
+         "nl": "Terug naar de winkel",
+         "pl": "Wróć do sklepu",
+         "cs": "Zpět do obchodu",
+         "pt": "Voltar à loja",
+         "ru": "Вернуться в магазин"
+        },
+        "act": "close"
+       }
+      ]
+     }
+    ]
+   }
+  ],
+  "template": "kraft"
+ },
+ "settings": {
+  "triggers": {
+   "mode": "any",
+   "timerOn": true,
+   "timerSec": 8,
+   "exitOn": false,
+   "exitSens": "normal",
+   "idleOn": false,
+   "idleSec": 30,
+   "scrollOn": false,
+   "scrollVal": 40,
+   "scrollUnit": "pct",
+   "clickOn": false,
+   "clickSel": "",
+   "pagesOn": false,
+   "pagesN": 2,
+   "pagesSec": 0,
+   "addcartOn": false
+  },
+  "close": {
+   "x": true,
+   "xDelay": 0,
+   "overlay": true,
+   "esc": true,
+   "timeOn": false,
+   "timeSec": 20,
+   "scrollOn": false,
+   "scrollPct": 80,
+   "videoOn": false,
+   "lastOn": false,
+   "lastSec": 6
+  },
+  "frequency": {
+   "mode": "days",
+   "days": 7,
+   "maxOn": false,
+   "max": 3,
+   "stopConvert": true,
+   "afterCloseOn": true,
+   "afterCloseDays": 2
+  },
+  "form": {
+   "list": "newsletter",
+   "consent": true,
+   "consentRequired": true
+  },
+  "coupon": {
+   "mode": "generated",
+   "code": "",
+   "type": "percent",
+   "value": 10,
+   "days": 14,
+   "min": 0,
+   "prefix": "KRAFT-",
+   "autoApply": false
+  }
+ }
+}

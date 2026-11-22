@@ -1,0 +1,43 @@
+{
+  "title": "Popup Studio",
+  "subtitle": "User guide",
+  "labels": {"version": "Version", "author": "Author", "contact": "Contact", "page": "Page", "contents": "Contents", "compat": "Compatibility"},
+  "sections": [
+    {"title": "Overview", "content": [
+      {"p": "Popup Studio shows popups, bars, slide-ins, drawers, full-screen pages and inline blocks on your shop. Each one can collect emails, give a coupon, run a game, ask a question or announce something."},
+      {"p": "You find it under **Marketing › Popup Studio**. It has five screens: Popups, Templates, Stats, Leads and Settings."}
+    ]},
+    {"title": "Create a popup", "content": [
+      {"ol": ["Open **Templates** and pick one of the 50 designs, or click **New popup › Start blank** and choose a format.", "Change the text, colours and blocks in the editor.", "Set when it shows and who sees it.", "Switch the status to **Live** and click **Save**."]},
+      {"note": "A new popup is always a draft. Nothing appears on the shop until you switch it to Live."}
+    ]},
+    {"title": "The editor", "content": [
+      {"p": "The **Design** tab shows the popup in a live preview. Click a block to edit it on the right, click a tile on the left to add a block, or drag blocks and layers to move them. Use **Desktop** and **Mobile** to check both layouts."},
+      {"ul": ["**Steps**: a popup can have several screens, for example offer, form and thank-you.", "**Mobile** tab of a block: hide it on phones or change its size.", "**Ctrl+S** saves, **Ctrl+Z** undoes, **Ctrl+Shift+Z** redoes.", "Text accepts **bold**, *italic* and tags such as {firstname}, {cart_total}, {free_shipping_remaining}, {coupon} and {shop_name}. Write {firstname|there} to give a fallback."]},
+      {"p": "Texts are saved per language. Pick the language in the top bar to translate a popup."}
+    ]},
+    {"title": "When it shows and how it closes", "content": [
+      {"p": "In **Triggers and closing**, switch on one or more triggers: a timer after landing, exit intent, inactivity, scroll depth, a click on any CSS selector, the Nth page of a visit, or right after add to cart. Choose whether any one trigger is enough or all must have happened."},
+      {"p": "Visitors can close it with the X, a click on the dimmed page or Esc. It can also close by itself after a time, at a scroll position, at the end of a video or after the last step. A small tab can stay on the edge so the visitor can reopen it."}
+    ]},
+    {"title": "Who sees it and how often", "content": [
+      {"p": "In **Targeting**, add rules: visitor type, first visit, customer group, past orders, newsletter status, cart value, cart contents, number of items, page types, URL, UTM, referrer, country, language, currency, device, days and hours. Rules in one group must all match; separate groups are alternatives (OR)."},
+      {"p": "In **Schedule and frequency**, set start and end dates, days and hours, the priority, and how often one visitor sees it: every page, once per visit, at most every N days or only once. It can stop after a signup and wait some days after being closed."},
+      {"note": "Country rules need PrestaShop geolocation (Preferences › Geolocation)."}
+    ]},
+    {"title": "Signups, coupons and games", "content": [
+      {"ul": ["The email form adds the address to the **Leads** list and, if you choose, to the newsletter of the ps_emailsubscription module. Double opt-in follows that module's setting.", "The consent box uses the text of the official GDPR module when it is installed, and a consent record is kept for each signup.", "A popup can give a fixed code or create a unique cart rule for each signup (percent, amount or free shipping, with validity days and a minimum order). Codes can be applied to the cart automatically.", "Wheel, scratch card, gift boxes and cards draw the prize on the server, using your odds and stock. A visitor can play once."]},
+      {"p": "A webhook in **Settings** can send each signup to Brevo, Mailchimp, Zapier or any other tool. Requests are signed with your secret."}
+    ]},
+    {"title": "A/B tests and stats", "content": [
+      {"p": "In the **A/B test** tab, add variants and set their weights. Each visitor always sees the same variant. Once each variant has 300 views, the module says which one wins and how sure it is; you can then keep only the winner."},
+      {"p": "**Stats** shows views, closes, clicks, signups, orders and revenue per day, per device and per popup, plus survey answers and written feedback. An order counts for a popup when its coupon was used or when the buyer signed up within the number of days set in Settings."}
+    ]},
+    {"title": "Good to know", "content": [
+      {"ul": ["**Test as a visitor** in the popup menu opens the shop with a preview link that ignores targeting and frequency and shows a test panel.", "Any link to #popup-ID opens that popup, for example a menu link.", "Inline popups go in the hook displayPopupStudio or with {widget name=\"popupstudio\" id=ID}.", "Settings limit how many popups one visitor sees per visit, hide popups from bots and exclude IP addresses.", "Fonts are bundled with the module; no request is made to Google. Videos load only when the visitor presses play."]}
+    ]},
+    {"title": "Support", "content": [
+      {"p": "Questions or a custom change: write to iamshoaibktk@gmail.com or WhatsApp +923459016286. More modules: https://www.fiverr.com/shoaibktk"}
+    ]}
+  ]
+}

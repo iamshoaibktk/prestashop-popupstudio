@@ -1,0 +1,211 @@
+{
+ "num": "38",
+ "slug": "shop-owner-note",
+ "name": "Shop Owner Note",
+ "group": "slidein",
+ "formatLabel": "Slide-in, chat bubble",
+ "tags": [
+  "slide-in",
+  "chat",
+  "personal"
+ ],
+ "doc": {
+  "format": "slidein",
+  "position": "bl",
+  "width": 400,
+  "mobile": {
+   "format": "same"
+  },
+  "fonts": [
+   "Nunito Sans"
+  ],
+  "theme": {
+   "bg": "transparent",
+   "ink": "#1C1C1E",
+   "accent": "#2F6FEB",
+   "accentInk": "#FFFFFF",
+   "line": "#D6DBE3",
+   "radius": 18,
+   "fh": "Nunito Sans",
+   "fb": "Nunito Sans"
+  },
+  "closeBtn": {
+   "look": "circle"
+  },
+  "steps": [
+   {
+    "id": "s1",
+    "name": "Note",
+    "cols": [
+     {
+      "blocks": [
+       {
+        "id": "shop-309",
+        "type": "html",
+        "html": "<div class=\"on-av\"><span>MK</span></div>"
+       }
+      ],
+      "cls": "on-a",
+      "w": "0 0 52px"
+     },
+     {
+      "blocks": [
+       {
+        "id": "shop-310",
+        "type": "html",
+        "html": "<div class=\"on-dots\"><i></i><i></i><i></i></div>"
+       },
+       {
+        "id": "shop-311",
+        "type": "small",
+        "t": {
+         "en": "Marie, who runs this shop",
+         "fr": "Marie, qui tient cette boutique",
+         "es": "Marie, que lleva esta tienda",
+         "it": "Marie, che gestisce questo negozio",
+         "de": "Marie, die diesen Laden führt",
+         "nl": "Marie, die deze winkel runt",
+         "pl": "Marie, która prowadzi ten sklep",
+         "cs": "Marie, která vede tento obchod",
+         "pt": "Marie, que gere esta loja",
+         "ru": "Мари, которая ведёт этот магазин"
+        },
+        "cls": "on-who"
+       },
+       {
+        "id": "shop-312",
+        "type": "text",
+        "t": {
+         "en": "Hi! First time here? If you're not sure about sizing, reply and I'll help. Here's 10% off to say hello: **HELLO10**",
+         "fr": "Bonjour ! Première visite ? Si vous hésitez sur la taille, répondez-moi et je vous aide. Voici -10 % pour faire connaissance : **HELLO10**",
+         "es": "¡Hola! ¿Primera vez por aquí? Si dudas con la talla, respóndeme y te ayudo. Aquí tienes un 10 % para saludarte: **HELLO10**",
+         "it": "Ciao! Prima volta qui? Se hai dubbi sulla taglia, rispondimi e ti aiuto. Ecco il 10% per salutarti: **HELLO10**",
+         "de": "Hallo! Zum ersten Mal hier? Wenn du bei der Größe unsicher bist, antworte mir und ich helfe dir. Hier sind 10 % zur Begrüßung: **HELLO10**",
+         "nl": "Hoi! Eerste keer hier? Twijfel je over de maat, antwoord dan en ik help je. Hier is 10% korting om hallo te zeggen: **HELLO10**",
+         "pl": "Cześć! Pierwszy raz tutaj? Jeśli nie wiesz, jaki rozmiar wybrać, odpisz, a pomogę. Oto 10% na przywitanie: **HELLO10**",
+         "cs": "Dobrý den! Jste tu poprvé? Pokud si nejste jistí velikostí, odpovězte a pomůžu. Tady je 10 % na přivítanou: **HELLO10**",
+         "pt": "Olá! Primeira vez por cá? Se tiver dúvidas sobre o tamanho, responda e eu ajudo. Aqui tem 10% para dizer olá: **HELLO10**",
+         "ru": "Привет! Вы здесь впервые? Если сомневаетесь с размером, ответьте, и я помогу. Вот 10% в знак знакомства: **HELLO10**"
+        }
+       },
+       {
+        "id": "shop-315",
+        "type": "row",
+        "blocks": [
+         {
+          "id": "shop-313",
+          "type": "button",
+          "t": {
+           "en": "Ask Marie",
+           "fr": "Demander à Marie",
+           "es": "Preguntar a Marie",
+           "it": "Chiedi a Marie",
+           "de": "Marie fragen",
+           "nl": "Vraag het Marie",
+           "pl": "Zapytaj Marie",
+           "cs": "Zeptat se Marie",
+           "pt": "Perguntar à Marie",
+           "ru": "Спросить Мари"
+          },
+          "act": "url",
+          "cls": "on-ask",
+          "href": "/contact-us"
+         },
+         {
+          "id": "shop-314",
+          "type": "button",
+          "t": {
+           "en": "Copy code",
+           "fr": "Copier le code",
+           "es": "Copiar código",
+           "it": "Copia il codice",
+           "de": "Code kopieren",
+           "nl": "Code kopiëren",
+           "pl": "Kopiuj kod",
+           "cs": "Kopírovat kód",
+           "pt": "Copiar código",
+           "ru": "Копировать код"
+          },
+          "act": "copy",
+          "variant": "secondary"
+         }
+        ]
+       }
+      ],
+      "cls": "on-bub"
+     }
+    ]
+   }
+  ],
+  "template": "shop-owner-note"
+ },
+ "settings": {
+  "triggers": {
+   "mode": "any",
+   "timerOn": true,
+   "timerSec": 15,
+   "exitOn": false,
+   "exitSens": "normal",
+   "idleOn": false,
+   "idleSec": 30,
+   "scrollOn": false,
+   "scrollVal": 40,
+   "scrollUnit": "pct",
+   "clickOn": false,
+   "clickSel": "",
+   "pagesOn": false,
+   "pagesN": 2,
+   "pagesSec": 0,
+   "addcartOn": false
+  },
+  "close": {
+   "x": true,
+   "xDelay": 0,
+   "overlay": false,
+   "esc": true,
+   "timeOn": false,
+   "timeSec": 20,
+   "scrollOn": false,
+   "scrollPct": 80,
+   "videoOn": false,
+   "lastOn": false,
+   "lastSec": 6
+  },
+  "frequency": {
+   "mode": "days",
+   "days": 7,
+   "maxOn": false,
+   "max": 3,
+   "stopConvert": true,
+   "afterCloseOn": true,
+   "afterCloseDays": 2
+  },
+  "form": {
+   "list": "leads",
+   "consent": false,
+   "consentRequired": false
+  },
+  "coupon": {
+   "mode": "fixed",
+   "code": "HELLO10",
+   "type": "percent",
+   "value": 10,
+   "days": 14,
+   "min": 0,
+   "prefix": "",
+   "autoApply": false
+  },
+  "targeting": {
+   "groups": [
+    {
+     "rules": [
+      {
+       "type": "visit",
+       "value": "first"
+      }
+     ]
+    }
+   ]
+  }
+ }
+}

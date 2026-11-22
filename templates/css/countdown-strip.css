@@ -1,0 +1,13 @@
+.psx-t-countdown-strip .psx-col{padding:0 56px 0 20px;min-height:60px;justify-content:center}
+.psx-t-countdown-strip .cs-row{justify-content:center;gap:22px;flex-wrap:nowrap}
+.psx-t-countdown-strip .cs-t{font:900 16px var(--psx-fh)}
+.psx-t-countdown-strip .psx-cd{gap:8px}
+.psx-t-countdown-strip .psx-cd-u b{min-width:0;width:44px;padding:4px 0;background:var(--psx-accent);color:var(--psx-accentInk);font:700 18px "Red Hat Mono",monospace;border-radius:4px}
+.psx-t-countdown-strip .psx-cd-u small{font-size:9.5px;color:#F3D3CB}
+.psx-t-countdown-strip .cs-btn{background:#fff;color:#4B1D3F;border-radius:999px;min-height:36px;padding:0 14px;font-weight:700;font-size:13px}
+.psx-t-countdown-strip .psx-x{top:12px;right:8px;width:36px;height:36px;color:#F3D3CB}
+.psx-t-countdown-strip.psx-mobile .psx-col{padding:12px 44px 10px 12px}
+.psx-t-countdown-strip.psx-mobile .cs-row{flex-wrap:wrap;gap:8px;justify-content:center}
+.psx-t-countdown-strip.psx-mobile .cs-t{width:100%;text-align:center;font-size:14px}
+.psx-t-countdown-strip.psx-mobile .psx-cd-u b{width:36px;font-size:16px}
+.psx-t-countdown-strip.psx-mobile .psx-x{top:6px;right:2px}

@@ -1,0 +1,14 @@
+.psx-t-last-call .psx-box{display:flex}
+.psx-t-last-call .psx-step{display:flex;flex:1;padding:34px 40px}
+.psx-t-last-call .psx-cols{flex:1}
+.psx-t-last-call .psx-col{justify-content:space-between;gap:20px}
+.psx-t-last-call .lc-k{font-weight:600;font-size:14px;opacity:1}
+.psx-t-last-call .psx-h{font:400 clamp(110px,17vw,260px)/.82 var(--psx-fh);letter-spacing:-.01em}
+.psx-t-last-call .lc-bot{justify-content:space-between;align-items:flex-end;flex-wrap:wrap}
+.psx-t-last-call .psx-p{max-width:340px;font-weight:500;font-size:17px;line-height:1.45}
+.psx-t-last-call .psx-btn{border-radius:0;min-height:64px;padding:0 34px;font:400 32px var(--psx-fh)}
+.psx-t-last-call .psx-x{width:auto;height:40px;padding:0 14px;border:2px solid #fff;border-radius:0;font:700 13px var(--psx-fb);top:34px;right:40px}
+.psx-t-last-call.psx-mobile .psx-step{padding:26px 22px}
+.psx-t-last-call.psx-mobile .psx-h{font-size:104px}
+.psx-t-last-call.psx-mobile .lc-bot{flex-direction:column;align-items:stretch}
+.psx-t-last-call.psx-mobile .psx-x{top:22px;right:22px}

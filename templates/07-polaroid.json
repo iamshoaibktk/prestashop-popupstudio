@@ -1,0 +1,336 @@
+{
+ "num": "07",
+ "slug": "polaroid",
+ "name": "Polaroid",
+ "group": "newsletter",
+ "formatLabel": "Modal with photo slot",
+ "tags": [
+  "newsletter",
+  "photo",
+  "handwritten"
+ ],
+ "doc": {
+  "format": "modal",
+  "width": 640,
+  "mobile": {
+   "format": "sheet"
+  },
+  "fonts": [
+   "Caveat",
+   "Karla",
+   "Inter"
+  ],
+  "theme": {
+   "bg": "#F2EDE6",
+   "ink": "#2A2622",
+   "accent": "#3B6EA8",
+   "accentInk": "#FFFFFF",
+   "field": "transparent",
+   "line": "#C9D6E6",
+   "radius": 4,
+   "fh": "Caveat",
+   "fb": "Karla",
+   "overlay": "rgba(42,38,34,.55)",
+   "ffb": {
+    "Karla": "\"Inter\", system-ui, sans-serif"
+   }
+  },
+  "closeBtn": {
+   "look": "x"
+  },
+  "steps": [
+   {
+    "id": "s1",
+    "name": "Offer",
+    "cols": [
+     {
+      "blocks": [
+       {
+        "id": "pola-67",
+        "type": "html",
+        "html": {
+         "en": "<div class=\"pl-photo\"><span class=\"pl-tape\"></span><div class=\"pl-shot\"><svg viewBox=\"0 0 210 200\" width=\"100%\" height=\"100%\" preserveAspectRatio=\"xMidYMid slice\"><circle cx=\"150\" cy=\"60\" r=\"22\" fill=\"#F4E3B5\"/><path d=\"M0 160 L60 110 L110 150 L150 120 L210 165 V200 H0z\" fill=\"#8FA07E\"/></svg></div><span class=\"pl-cap\">summer days</span></div>",
+         "fr": "<div class=\"pl-photo\"><span class=\"pl-tape\"></span><div class=\"pl-shot\"><svg viewBox=\"0 0 210 200\" width=\"100%\" height=\"100%\" preserveAspectRatio=\"xMidYMid slice\"><circle cx=\"150\" cy=\"60\" r=\"22\" fill=\"#F4E3B5\"/><path d=\"M0 160 L60 110 L110 150 L150 120 L210 165 V200 H0z\" fill=\"#8FA07E\"/></svg></div><span class=\"pl-cap\">jours d'été</span></div>",
+         "es": "<div class=\"pl-photo\"><span class=\"pl-tape\"></span><div class=\"pl-shot\"><svg viewBox=\"0 0 210 200\" width=\"100%\" height=\"100%\" preserveAspectRatio=\"xMidYMid slice\"><circle cx=\"150\" cy=\"60\" r=\"22\" fill=\"#F4E3B5\"/><path d=\"M0 160 L60 110 L110 150 L150 120 L210 165 V200 H0z\" fill=\"#8FA07E\"/></svg></div><span class=\"pl-cap\">días de verano</span></div>",
+         "it": "<div class=\"pl-photo\"><span class=\"pl-tape\"></span><div class=\"pl-shot\"><svg viewBox=\"0 0 210 200\" width=\"100%\" height=\"100%\" preserveAspectRatio=\"xMidYMid slice\"><circle cx=\"150\" cy=\"60\" r=\"22\" fill=\"#F4E3B5\"/><path d=\"M0 160 L60 110 L110 150 L150 120 L210 165 V200 H0z\" fill=\"#8FA07E\"/></svg></div><span class=\"pl-cap\">giorni d'estate</span></div>",
+         "de": "<div class=\"pl-photo\"><span class=\"pl-tape\"></span><div class=\"pl-shot\"><svg viewBox=\"0 0 210 200\" width=\"100%\" height=\"100%\" preserveAspectRatio=\"xMidYMid slice\"><circle cx=\"150\" cy=\"60\" r=\"22\" fill=\"#F4E3B5\"/><path d=\"M0 160 L60 110 L110 150 L150 120 L210 165 V200 H0z\" fill=\"#8FA07E\"/></svg></div><span class=\"pl-cap\">Sommertage</span></div>",
+         "nl": "<div class=\"pl-photo\"><span class=\"pl-tape\"></span><div class=\"pl-shot\"><svg viewBox=\"0 0 210 200\" width=\"100%\" height=\"100%\" preserveAspectRatio=\"xMidYMid slice\"><circle cx=\"150\" cy=\"60\" r=\"22\" fill=\"#F4E3B5\"/><path d=\"M0 160 L60 110 L110 150 L150 120 L210 165 V200 H0z\" fill=\"#8FA07E\"/></svg></div><span class=\"pl-cap\">zomerdagen</span></div>",
+         "pl": "<div class=\"pl-photo\"><span class=\"pl-tape\"></span><div class=\"pl-shot\"><svg viewBox=\"0 0 210 200\" width=\"100%\" height=\"100%\" preserveAspectRatio=\"xMidYMid slice\"><circle cx=\"150\" cy=\"60\" r=\"22\" fill=\"#F4E3B5\"/><path d=\"M0 160 L60 110 L110 150 L150 120 L210 165 V200 H0z\" fill=\"#8FA07E\"/></svg></div><span class=\"pl-cap\">letnie dni</span></div>",
+         "cs": "<div class=\"pl-photo\"><span class=\"pl-tape\"></span><div class=\"pl-shot\"><svg viewBox=\"0 0 210 200\" width=\"100%\" height=\"100%\" preserveAspectRatio=\"xMidYMid slice\"><circle cx=\"150\" cy=\"60\" r=\"22\" fill=\"#F4E3B5\"/><path d=\"M0 160 L60 110 L110 150 L150 120 L210 165 V200 H0z\" fill=\"#8FA07E\"/></svg></div><span class=\"pl-cap\">letní dny</span></div>",
+         "pt": "<div class=\"pl-photo\"><span class=\"pl-tape\"></span><div class=\"pl-shot\"><svg viewBox=\"0 0 210 200\" width=\"100%\" height=\"100%\" preserveAspectRatio=\"xMidYMid slice\"><circle cx=\"150\" cy=\"60\" r=\"22\" fill=\"#F4E3B5\"/><path d=\"M0 160 L60 110 L110 150 L150 120 L210 165 V200 H0z\" fill=\"#8FA07E\"/></svg></div><span class=\"pl-cap\">dias de verão</span></div>",
+         "ru": "<div class=\"pl-photo\"><span class=\"pl-tape\"></span><div class=\"pl-shot\"><svg viewBox=\"0 0 210 200\" width=\"100%\" height=\"100%\" preserveAspectRatio=\"xMidYMid slice\"><circle cx=\"150\" cy=\"60\" r=\"22\" fill=\"#F4E3B5\"/><path d=\"M0 160 L60 110 L110 150 L150 120 L210 165 V200 H0z\" fill=\"#8FA07E\"/></svg></div><span class=\"pl-cap\">летние дни</span></div>"
+        },
+        "cls": "pl-pw"
+       }
+      ],
+      "cls": "pl-left",
+      "w": "0 0 250px"
+     },
+     {
+      "blocks": [
+       {
+        "id": "pola-68",
+        "type": "heading",
+        "t": {
+         "en": "Let's keep\nin touch!",
+         "fr": "Restons\nen contact !",
+         "es": "¡Sigamos\nen contacto!",
+         "it": "Restiamo\nin contatto!",
+         "de": "Bleiben wir\nin Kontakt!",
+         "nl": "Laten we\ncontact houden!",
+         "pl": "Bądźmy\nw kontakcie!",
+         "cs": "Zůstaňme\nv kontaktu!",
+         "pt": "Vamos manter\no contacto!",
+         "ru": "Давайте\nдружить!"
+        }
+       },
+       {
+        "id": "pola-69",
+        "type": "text",
+        "t": {
+         "en": "Snapshots of new things, once a month. 10% off your first order for saying hi.",
+         "fr": "Des aperçus de nos nouveautés, une fois par mois. -10 % sur votre première commande pour un petit bonjour.",
+         "es": "Instantáneas de lo nuevo, una vez al mes. Un 10 % en tu primer pedido por saludarnos.",
+         "it": "Istantanee delle novità, una volta al mese. Il 10% sul primo ordine per un saluto.",
+         "de": "Schnappschüsse von Neuem, einmal im Monat. 10 % auf deine erste Bestellung, einfach fürs Hallo-Sagen.",
+         "nl": "Momentopnames van nieuwe dingen, één keer per maand. 10% korting op je eerste bestelling voor een hallo.",
+         "pl": "Migawki z nowości, raz w miesiącu. 10% rabatu na pierwsze zamówienie za przywitanie się.",
+         "cs": "Momentky novinek jednou měsíčně. 10 % na první objednávku za pozdrav.",
+         "pt": "Instantâneos das novidades, uma vez por mês. 10% na primeira encomenda por dizer olá.",
+         "ru": "Снимки новинок раз в месяц. 10% на первый заказ за то, что поздоровались."
+        }
+       },
+       {
+        "id": "pola-70",
+        "type": "form",
+        "btn": {
+         "en": "Say hi →",
+         "fr": "Dire bonjour →",
+         "es": "Saludar →",
+         "it": "Saluta →",
+         "de": "Hallo sagen →",
+         "nl": "Zeg hallo →",
+         "pl": "Przywitaj się →",
+         "cs": "Pozdravit →",
+         "pt": "Dizer olá →",
+         "ru": "Поздороваться →"
+        },
+        "label": {
+         "en": "my email is…",
+         "fr": "mon e-mail est…",
+         "es": "mi email es…",
+         "it": "la mia email è…",
+         "de": "meine E-Mail ist…",
+         "nl": "mijn e-mail is…",
+         "pl": "mój e-mail to…",
+         "cs": "můj e-mail je…",
+         "pt": "o meu email é…",
+         "ru": "мой email…"
+        },
+        "ph": {
+         "en": "you@example.com",
+         "fr": "vous@exemple.com",
+         "es": "tu@ejemplo.com",
+         "it": "tu@esempio.com",
+         "de": "du@beispiel.de",
+         "nl": "jij@voorbeeld.nl",
+         "pl": "ty@przyklad.pl",
+         "cs": "vy@priklad.cz",
+         "pt": "voce@exemplo.pt",
+         "ru": "vy@primer.ru"
+        },
+        "layout": "stack",
+        "consent": true,
+        "consentRequired": true,
+        "consentText": {
+         "en": "Yes, I'd like the monthly letter.",
+         "fr": "Oui, je veux bien la lettre mensuelle.",
+         "es": "Sí, quiero la carta mensual.",
+         "it": "Sì, vorrei la lettera mensile.",
+         "de": "Ja, ich möchte den Monatsbrief.",
+         "nl": "Ja, ik wil de maandelijkse brief.",
+         "pl": "Tak, chcę comiesięczny list.",
+         "cs": "Ano, chci měsíční dopis.",
+         "pt": "Sim, quero a carta mensal.",
+         "ru": "Да, хочу ежемесячное письмо."
+        },
+        "next": "s2"
+       }
+      ],
+      "cls": "pl-right"
+     }
+    ]
+   },
+   {
+    "id": "s2",
+    "name": "Thanks",
+    "cols": [
+     {
+      "blocks": [
+       {
+        "id": "pola-71",
+        "type": "html",
+        "html": {
+         "en": "<div class=\"pl-photo\"><span class=\"pl-tape\"></span><div class=\"pl-shot\"><svg viewBox=\"0 0 210 200\" width=\"100%\" height=\"100%\" preserveAspectRatio=\"xMidYMid slice\"><circle cx=\"150\" cy=\"60\" r=\"22\" fill=\"#F4E3B5\"/><path d=\"M0 160 L60 110 L110 150 L150 120 L210 165 V200 H0z\" fill=\"#8FA07E\"/></svg></div><span class=\"pl-cap\">summer days</span></div>",
+         "fr": "<div class=\"pl-photo\"><span class=\"pl-tape\"></span><div class=\"pl-shot\"><svg viewBox=\"0 0 210 200\" width=\"100%\" height=\"100%\" preserveAspectRatio=\"xMidYMid slice\"><circle cx=\"150\" cy=\"60\" r=\"22\" fill=\"#F4E3B5\"/><path d=\"M0 160 L60 110 L110 150 L150 120 L210 165 V200 H0z\" fill=\"#8FA07E\"/></svg></div><span class=\"pl-cap\">jours d'été</span></div>",
+         "es": "<div class=\"pl-photo\"><span class=\"pl-tape\"></span><div class=\"pl-shot\"><svg viewBox=\"0 0 210 200\" width=\"100%\" height=\"100%\" preserveAspectRatio=\"xMidYMid slice\"><circle cx=\"150\" cy=\"60\" r=\"22\" fill=\"#F4E3B5\"/><path d=\"M0 160 L60 110 L110 150 L150 120 L210 165 V200 H0z\" fill=\"#8FA07E\"/></svg></div><span class=\"pl-cap\">días de verano</span></div>",
+         "it": "<div class=\"pl-photo\"><span class=\"pl-tape\"></span><div class=\"pl-shot\"><svg viewBox=\"0 0 210 200\" width=\"100%\" height=\"100%\" preserveAspectRatio=\"xMidYMid slice\"><circle cx=\"150\" cy=\"60\" r=\"22\" fill=\"#F4E3B5\"/><path d=\"M0 160 L60 110 L110 150 L150 120 L210 165 V200 H0z\" fill=\"#8FA07E\"/></svg></div><span class=\"pl-cap\">giorni d'estate</span></div>",
+         "de": "<div class=\"pl-photo\"><span class=\"pl-tape\"></span><div class=\"pl-shot\"><svg viewBox=\"0 0 210 200\" width=\"100%\" height=\"100%\" preserveAspectRatio=\"xMidYMid slice\"><circle cx=\"150\" cy=\"60\" r=\"22\" fill=\"#F4E3B5\"/><path d=\"M0 160 L60 110 L110 150 L150 120 L210 165 V200 H0z\" fill=\"#8FA07E\"/></svg></div><span class=\"pl-cap\">Sommertage</span></div>",
+         "nl": "<div class=\"pl-photo\"><span class=\"pl-tape\"></span><div class=\"pl-shot\"><svg viewBox=\"0 0 210 200\" width=\"100%\" height=\"100%\" preserveAspectRatio=\"xMidYMid slice\"><circle cx=\"150\" cy=\"60\" r=\"22\" fill=\"#F4E3B5\"/><path d=\"M0 160 L60 110 L110 150 L150 120 L210 165 V200 H0z\" fill=\"#8FA07E\"/></svg></div><span class=\"pl-cap\">zomerdagen</span></div>",
+         "pl": "<div class=\"pl-photo\"><span class=\"pl-tape\"></span><div class=\"pl-shot\"><svg viewBox=\"0 0 210 200\" width=\"100%\" height=\"100%\" preserveAspectRatio=\"xMidYMid slice\"><circle cx=\"150\" cy=\"60\" r=\"22\" fill=\"#F4E3B5\"/><path d=\"M0 160 L60 110 L110 150 L150 120 L210 165 V200 H0z\" fill=\"#8FA07E\"/></svg></div><span class=\"pl-cap\">letnie dni</span></div>",
+         "cs": "<div class=\"pl-photo\"><span class=\"pl-tape\"></span><div class=\"pl-shot\"><svg viewBox=\"0 0 210 200\" width=\"100%\" height=\"100%\" preserveAspectRatio=\"xMidYMid slice\"><circle cx=\"150\" cy=\"60\" r=\"22\" fill=\"#F4E3B5\"/><path d=\"M0 160 L60 110 L110 150 L150 120 L210 165 V200 H0z\" fill=\"#8FA07E\"/></svg></div><span class=\"pl-cap\">letní dny</span></div>",
+         "pt": "<div class=\"pl-photo\"><span class=\"pl-tape\"></span><div class=\"pl-shot\"><svg viewBox=\"0 0 210 200\" width=\"100%\" height=\"100%\" preserveAspectRatio=\"xMidYMid slice\"><circle cx=\"150\" cy=\"60\" r=\"22\" fill=\"#F4E3B5\"/><path d=\"M0 160 L60 110 L110 150 L150 120 L210 165 V200 H0z\" fill=\"#8FA07E\"/></svg></div><span class=\"pl-cap\">dias de verão</span></div>",
+         "ru": "<div class=\"pl-photo\"><span class=\"pl-tape\"></span><div class=\"pl-shot\"><svg viewBox=\"0 0 210 200\" width=\"100%\" height=\"100%\" preserveAspectRatio=\"xMidYMid slice\"><circle cx=\"150\" cy=\"60\" r=\"22\" fill=\"#F4E3B5\"/><path d=\"M0 160 L60 110 L110 150 L150 120 L210 165 V200 H0z\" fill=\"#8FA07E\"/></svg></div><span class=\"pl-cap\">летние дни</span></div>"
+        },
+        "cls": "pl-pw"
+       }
+      ],
+      "cls": "pl-left",
+      "w": "0 0 250px"
+     },
+     {
+      "blocks": [
+       {
+        "id": "pola-72",
+        "type": "heading",
+        "t": {
+         "en": "Hi back!",
+         "fr": "Bonjour à vous !",
+         "es": "¡Hola a ti!",
+         "it": "Ciao a te!",
+         "de": "Hallo zurück!",
+         "nl": "Hallo terug!",
+         "pl": "Cześć!",
+         "cs": "Taky zdravíme!",
+         "pt": "Olá para si também!",
+         "ru": "И вам привет!"
+        }
+       },
+       {
+        "id": "pola-73",
+        "type": "text",
+        "t": {
+         "en": "Here is your 10%:",
+         "fr": "Voici vos -10 % :",
+         "es": "Aquí tienes tu 10 %:",
+         "it": "Ecco il tuo 10%:",
+         "de": "Hier sind deine 10 %:",
+         "nl": "Hier is je 10%:",
+         "pl": "Oto twoje 10%:",
+         "cs": "Tady je vašich 10 %:",
+         "pt": "Aqui estão os seus 10%:",
+         "ru": "Вот ваши 10%:"
+        }
+       },
+       {
+        "id": "pola-74",
+        "type": "coupon",
+        "note": {
+         "en": "Valid until {coupon_expiry}. One use.",
+         "fr": "Valable jusqu'au {coupon_expiry}. Un seul usage.",
+         "es": "Válido hasta el {coupon_expiry}. Un solo uso.",
+         "it": "Valido fino al {coupon_expiry}. Un solo utilizzo.",
+         "de": "Gültig bis {coupon_expiry}. Einmal einlösbar.",
+         "nl": "Geldig tot {coupon_expiry}. Eenmalig te gebruiken.",
+         "pl": "Ważny do {coupon_expiry}. Jednorazowy.",
+         "cs": "Platí do {coupon_expiry}. Jedno použití.",
+         "pt": "Válido até {coupon_expiry}. Uma utilização.",
+         "ru": "Действует до {coupon_expiry}. Одно использование."
+        },
+        "copy": {
+         "en": "Copy",
+         "fr": "Copier",
+         "es": "Copiar",
+         "it": "Copia",
+         "de": "Kopieren",
+         "nl": "Kopiëren",
+         "pl": "Kopiuj",
+         "cs": "Kopírovat",
+         "pt": "Copiar",
+         "ru": "Копировать"
+        },
+        "code": "WELCOME-7KQ2M9XA"
+       },
+       {
+        "id": "pola-75",
+        "type": "link",
+        "t": {
+         "en": "Keep browsing",
+         "fr": "Continuer la visite",
+         "es": "Seguir mirando",
+         "it": "Continua a guardare",
+         "de": "Weiterstöbern",
+         "nl": "Verder kijken",
+         "pl": "Przeglądaj dalej",
+         "cs": "Prohlížet dál",
+         "pt": "Continuar a ver",
+         "ru": "Смотреть дальше"
+        },
+        "act": "close"
+       }
+      ],
+      "cls": "pl-right"
+     }
+    ]
+   }
+  ],
+  "template": "polaroid"
+ },
+ "settings": {
+  "triggers": {
+   "mode": "any",
+   "timerOn": true,
+   "timerSec": 12,
+   "exitOn": false,
+   "exitSens": "normal",
+   "idleOn": false,
+   "idleSec": 30,
+   "scrollOn": false,
+   "scrollVal": 40,
+   "scrollUnit": "pct",
+   "clickOn": false,
+   "clickSel": "",
+   "pagesOn": false,
+   "pagesN": 2,
+   "pagesSec": 0,
+   "addcartOn": false
+  },
+  "close": {
+   "x": true,
+   "xDelay": 0,
+   "overlay": true,
+   "esc": true,
+   "timeOn": false,
+   "timeSec": 20,
+   "scrollOn": false,
+   "scrollPct": 80,
+   "videoOn": false,
+   "lastOn": false,
+   "lastSec": 6
+  },
+  "frequency": {
+   "mode": "days",
+   "days": 7,
+   "maxOn": false,
+   "max": 3,
+   "stopConvert": true,
+   "afterCloseOn": true,
+   "afterCloseDays": 2
+  },
+  "form": {
+   "list": "newsletter",
+   "consent": true,
+   "consentRequired": true
+  },
+  "coupon": {
+   "mode": "generated",
+   "code": "",
+   "type": "percent",
+   "value": 10,
+   "days": 14,
+   "min": 0,
+   "prefix": "HI-",
+   "autoApply": false
+  }
+ }
+}

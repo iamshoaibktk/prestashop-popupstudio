@@ -1,0 +1,12 @@
+.psx-t-cinema .psx-box{background:transparent;box-shadow:none;overflow:visible}
+.psx-t-cinema .psx-col{gap:12px}
+.psx-t-cinema .ci-top{padding-right:110px}
+.psx-t-cinema .psx-h{font:500 26px/1 var(--psx-fh);text-transform:uppercase;letter-spacing:.04em}
+.psx-t-cinema .psx-video{border-radius:0;background:linear-gradient(135deg,#2B2B2B,#121212);box-shadow:0 0 0 1px #333}
+.psx-t-cinema .ci-bot{justify-content:space-between}
+.psx-t-cinema .ci-n{font-family:system-ui,sans-serif;color:#BDBDBD;opacity:1}
+.psx-t-cinema .ci-link{background:none;color:#fff;padding:0;min-height:0;font:500 15px var(--psx-fh);letter-spacing:.04em;text-transform:uppercase;text-decoration:underline;text-underline-offset:4px}
+.psx-t-cinema .psx-x{top:-4px;right:0;width:auto;height:36px;padding:0 12px;border:1px solid #fff;border-radius:0;font:500 13px var(--psx-fh);letter-spacing:.06em}
+.psx-t-cinema.psx-mobile .psx-h{font-size:18px}
+.psx-t-cinema.psx-mobile .ci-top{padding-right:60px}
+.psx-t-cinema.psx-mobile .ci-n{display:none}

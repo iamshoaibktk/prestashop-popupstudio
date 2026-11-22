@@ -1,0 +1,13 @@
+.psx-t-winter-market .psx-box{box-shadow:0 22px 50px rgba(0,0,0,.45);text-align:center;background-image:radial-gradient(circle,rgba(247,243,234,.16) 1.2px,transparent 1.5px);background-size:22px 22px}
+.psx-t-winter-market .psx-box::before,.psx-t-winter-market .psx-box::after{content:"";display:block;height:16px;background:repeating-linear-gradient(90deg,#C8102E 0 10px,#F7F3EA 10px 20px);-webkit-mask:radial-gradient(circle 5px at 50% 50%,#000 96%,#0000) 0 0/10px 16px;mask:radial-gradient(circle 5px at 50% 50%,#000 96%,#0000) 0 0/10px 16px}
+.psx-t-winter-market .psx-col{padding:24px 40px 26px;align-items:center;gap:12px}
+.psx-t-winter-market .psx-h{font:700 40px/1.05 var(--psx-fh)}
+.psx-t-winter-market .psx-h em{font-weight:600}
+.psx-t-winter-market .psx-p{max-width:340px;color:#D9E6DD;line-height:1.55}
+.psx-t-winter-market .psx-p strong{color:#F7F3EA}
+.psx-t-winter-market .wm-seal{width:88px;height:88px;border-radius:50%;background:#C8102E;color:#F7F3EA;display:flex;flex-direction:column;align-items:center;justify-content:center;box-shadow:0 0 0 4px #0E3B2C,0 0 0 5px #C8102E;font:700 24px/1 var(--psx-fh)}
+.psx-t-winter-market .wm-seal small{font:600 10px var(--psx-fb);margin-top:4px}
+.psx-t-winter-market .psx-btn{border-radius:0;font-weight:700;padding:0 28px;min-height:50px}
+.psx-t-winter-market.psx-mobile .psx-col{padding:20px 22px 24px}
+.psx-t-winter-market.psx-mobile .psx-h{font-size:30px}
+.psx-t-winter-market.psx-mobile .psx-btn{align-self:stretch}

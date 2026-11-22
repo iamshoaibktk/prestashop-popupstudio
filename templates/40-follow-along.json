@@ -1,0 +1,165 @@
+{
+ "num": "40",
+ "slug": "follow-along",
+ "name": "Follow Along",
+ "group": "slidein",
+ "formatLabel": "Slide-in, social",
+ "tags": [
+  "slide-in",
+  "social",
+  "instagram"
+ ],
+ "doc": {
+  "format": "slidein",
+  "position": "br",
+  "width": 310,
+  "mobile": {
+   "format": "same"
+  },
+  "fonts": [
+   "Epilogue",
+   "Inter"
+  ],
+  "theme": {
+   "bg": "#FFF7F0",
+   "ink": "#2C1A12",
+   "accent": "#C2410C",
+   "accentInk": "#FFF7F0",
+   "line": "#E9C3A8",
+   "radius": 16,
+   "fh": "Epilogue",
+   "fb": "Epilogue",
+   "ffb": {
+    "Epilogue": "\"Inter\", system-ui, sans-serif"
+   }
+  },
+  "closeBtn": {
+   "look": "circle"
+  },
+  "steps": [
+   {
+    "id": "s1",
+    "name": "Follow",
+    "cols": [
+     {
+      "blocks": [
+       {
+        "id": "foll-318",
+        "type": "html",
+        "html": "<div class=\"fa-grid\"><i style=\"background:#E9C3A8\"></i><i style=\"background:#C2410C\"></i><i style=\"background:#F2DCCB\"></i><i style=\"background:#8C5A3C\"></i><i style=\"background:#F6E7D9\"></i><i style=\"background:#D88C5A\"></i></div>"
+       },
+       {
+        "id": "foll-321",
+        "type": "row",
+        "blocks": [
+         {
+          "id": "foll-319",
+          "type": "html",
+          "html": "<span class=\"fa-av\"><span>YS</span></span>"
+         },
+         {
+          "id": "foll-320",
+          "type": "heading",
+          "t": {
+           "en": "@yourshop\n<small>Behind the scenes and first looks</small>",
+           "fr": "@votreboutique\n<small>Coulisses et avant-premières</small>",
+           "es": "@tutienda\n<small>Entre bastidores y primicias</small>",
+           "it": "@iltuonegozio\n<small>Dietro le quinte e anteprime</small>",
+           "de": "@deinshop\n<small>Hinter den Kulissen und erste Einblicke</small>",
+           "nl": "@jouwwinkel\n<small>Achter de schermen en eerste blikken</small>",
+           "pl": "@twojsklep\n<small>Za kulisami i pierwsze zapowiedzi</small>",
+           "cs": "@vasobchod\n<small>Ze zákulisí a první pohledy</small>",
+           "pt": "@asualoja\n<small>Bastidores e primeiras imagens</small>",
+           "ru": "@вашмагазин\n<small>Закулисье и первые показы</small>"
+          }
+         }
+        ],
+        "cls": "fa-who"
+       },
+       {
+        "id": "foll-322",
+        "type": "social",
+        "links": [
+         {
+          "t": {
+           "en": "Follow us",
+           "fr": "Nous suivre",
+           "es": "Síguenos",
+           "it": "Seguici",
+           "de": "Folge uns",
+           "nl": "Volg ons",
+           "pl": "Obserwuj nas",
+           "cs": "Sledujte nás",
+           "pt": "Siga-nos",
+           "ru": "Подписаться"
+          },
+          "url": "https://instagram.com/"
+         }
+        ],
+        "cls": "fa-btn"
+       }
+      ]
+     }
+    ]
+   }
+  ],
+  "template": "follow-along"
+ },
+ "settings": {
+  "triggers": {
+   "mode": "any",
+   "timerOn": false,
+   "timerSec": 8,
+   "exitOn": false,
+   "exitSens": "normal",
+   "idleOn": false,
+   "idleSec": 30,
+   "scrollOn": true,
+   "scrollVal": 60,
+   "scrollUnit": "pct",
+   "clickOn": false,
+   "clickSel": "",
+   "pagesOn": false,
+   "pagesN": 2,
+   "pagesSec": 0,
+   "addcartOn": false
+  },
+  "close": {
+   "x": true,
+   "xDelay": 0,
+   "overlay": false,
+   "esc": true,
+   "timeOn": false,
+   "timeSec": 20,
+   "scrollOn": false,
+   "scrollPct": 80,
+   "videoOn": false,
+   "lastOn": false,
+   "lastSec": 6
+  },
+  "frequency": {
+   "mode": "days",
+   "days": 30,
+   "maxOn": false,
+   "max": 3,
+   "stopConvert": true,
+   "afterCloseOn": true,
+   "afterCloseDays": 2
+  },
+  "form": {
+   "list": "leads",
+   "consent": false,
+   "consentRequired": false
+  },
+  "coupon": {
+   "mode": "none",
+   "code": "",
+   "type": "percent",
+   "value": 10,
+   "days": 14,
+   "min": 0,
+   "prefix": "WELCOME-",
+   "autoApply": false
+  }
+ }
+}

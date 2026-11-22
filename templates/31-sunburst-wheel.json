@@ -1,0 +1,480 @@
+{
+ "num": "31",
+ "slug": "sunburst-wheel",
+ "name": "Sunburst Wheel",
+ "group": "games",
+ "formatLabel": "Modal, spin to win",
+ "tags": [
+  "game",
+  "wheel",
+  "retro",
+  "70s"
+ ],
+ "doc": {
+  "format": "modal",
+  "width": 680,
+  "mobile": {
+   "format": "same"
+  },
+  "fonts": [
+   "Shrikhand",
+   "Poppins",
+   "Nunito",
+   "Inter"
+  ],
+  "theme": {
+   "bg": "#F3E3C3",
+   "ink": "#4A2511",
+   "accent": "#E07A1F",
+   "accentInk": "#FFF6E3",
+   "field": "#FFF6E3",
+   "line": "#4A2511",
+   "radius": 28,
+   "fh": "Shrikhand",
+   "fb": "Poppins",
+   "overlay": "rgba(74,37,17,.6)",
+   "w1": "#E07A1F",
+   "w2": "#F2B33D",
+   "w3": "#B4471C",
+   "w4": "#F3E3C3",
+   "wi1": "#FFF6E3",
+   "wi2": "#4A2511",
+   "wi3": "#FFF6E3",
+   "wi4": "#4A2511",
+   "ffb": {
+    "Shrikhand": "\"Nunito\", system-ui, sans-serif",
+    "Poppins": "\"Inter\", system-ui, sans-serif"
+   }
+  },
+  "closeBtn": {
+   "look": "circle"
+  },
+  "steps": [
+   {
+    "id": "s1",
+    "name": "Spin",
+    "cols": [
+     {
+      "blocks": [
+       {
+        "id": "sunb-281",
+        "type": "wheel",
+        "look": "plain"
+       }
+      ],
+      "cls": "sb-w",
+      "w": "0 0 330px"
+     },
+     {
+      "blocks": [
+       {
+        "id": "sunb-282",
+        "type": "heading",
+        "t": {
+         "en": "Feelin' lucky?",
+         "fr": "Un coup de chance ?",
+         "es": "¿Te sientes con suerte?",
+         "it": "Ti senti fortunato?",
+         "de": "Glückstag heute?",
+         "nl": "Voel je je gelukkig?",
+         "pl": "Masz szczęście?",
+         "cs": "Máte štěstí?",
+         "pt": "Sente-se com sorte?",
+         "ru": "Чувствуете удачу?"
+        }
+       },
+       {
+        "id": "sunb-283",
+        "type": "text",
+        "t": {
+         "en": "Spin once, win something groovy. Your prize lands in your inbox.",
+         "fr": "Un tour, et un lot groovy à gagner. Il arrive dans votre boîte mail.",
+         "es": "Una tirada y un premio molón. Llega a tu bandeja de entrada.",
+         "it": "Un giro e vinci qualcosa di groovy. Il premio arriva nella tua casella.",
+         "de": "Einmal drehen, etwas Grooviges gewinnen. Dein Gewinn landet in deinem Postfach.",
+         "nl": "Eén keer draaien, iets groovy's winnen. Je prijs landt in je inbox.",
+         "pl": "Jeden obrót, coś odjazdowego do wygrania. Nagroda trafi do twojej skrzynki.",
+         "cs": "Jedno točení, něco bezva k výhře. Výhra dorazí do schránky.",
+         "pt": "Uma volta, um prémio fixe. Chega à sua caixa de entrada.",
+         "ru": "Одно вращение — и что-нибудь классное. Приз придёт во входящие."
+        }
+       },
+       {
+        "id": "sunb-284",
+        "type": "form",
+        "btn": {
+         "en": "Spin it!",
+         "fr": "On tourne !",
+         "es": "¡A girar!",
+         "it": "Giriamo!",
+         "de": "Dreh es!",
+         "nl": "Draaien!",
+         "pl": "Kręcimy!",
+         "cs": "Točíme!",
+         "pt": "Vamos girar!",
+         "ru": "Крутим!"
+        },
+        "label": {
+         "en": "Email",
+         "fr": "E-mail",
+         "es": "Email",
+         "it": "Email",
+         "de": "E-Mail",
+         "nl": "E-mail",
+         "pl": "E-mail",
+         "cs": "E-mail",
+         "pt": "Email",
+         "ru": "Email"
+        },
+        "ph": {
+         "en": "your email",
+         "fr": "votre e-mail",
+         "es": "tu email",
+         "it": "la tua email",
+         "de": "deine E-Mail",
+         "nl": "je e-mail",
+         "pl": "twój e-mail",
+         "cs": "váš e-mail",
+         "pt": "o seu email",
+         "ru": "ваш email"
+        },
+        "layout": "stack",
+        "consent": true,
+        "consentRequired": true,
+        "consentText": {
+         "en": "Send me offers. Unsubscribe any time.",
+         "fr": "Envoyez-moi des offres. Désinscription à tout moment.",
+         "es": "Enviadme ofertas. Baja cuando quiera.",
+         "it": "Mandatemi offerte. Disiscrizione quando voglio.",
+         "de": "Schickt mir Angebote. Abmeldung jederzeit.",
+         "nl": "Stuur me aanbiedingen. Uitschrijven kan altijd.",
+         "pl": "Wysyłajcie mi oferty. Rezygnacja w każdej chwili.",
+         "cs": "Posílejte mi nabídky. Odhlášení kdykoli.",
+         "pt": "Enviem-me ofertas. Cancelo quando quiser.",
+         "ru": "Присылайте предложения. Отписка в любой момент."
+        },
+        "next": "won",
+        "hideLabel": true,
+        "play": true
+       }
+      ],
+      "cls": "sb-f"
+     }
+    ]
+   },
+   {
+    "id": "won",
+    "name": "Prize",
+    "cols": [
+     {
+      "blocks": [
+       {
+        "id": "sunb-285",
+        "type": "heading",
+        "t": {
+         "en": "Far out! {prize}",
+         "fr": "Génial ! {prize}",
+         "es": "¡Genial! {prize}",
+         "it": "Grande! {prize}",
+         "de": "Stark! {prize}",
+         "nl": "Te gek! {prize}",
+         "pl": "Odlot! {prize}",
+         "cs": "Paráda! {prize}",
+         "pt": "Brutal! {prize}",
+         "ru": "Круто! {prize}"
+        }
+       },
+       {
+        "id": "sunb-286",
+        "type": "coupon",
+        "note": {
+         "en": "Saved to your email. Valid 14 days.",
+         "fr": "Envoyé à votre e-mail. Valable 14 jours.",
+         "es": "Guardado en tu email. Válido 14 días.",
+         "it": "Salvato sulla tua email. Valido 14 giorni.",
+         "de": "An deine E-Mail gesendet. 14 Tage gültig.",
+         "nl": "Naar je e-mail gestuurd. 14 dagen geldig.",
+         "pl": "Wysłane na twój e-mail. Ważne 14 dni.",
+         "cs": "Uloženo k vašemu e-mailu. Platí 14 dní.",
+         "pt": "Guardado no seu email. Válido 14 dias.",
+         "ru": "Сохранено на ваш email. Действует 14 дней."
+        },
+        "copy": {
+         "en": "Copy",
+         "fr": "Copier",
+         "es": "Copiar",
+         "it": "Copia",
+         "de": "Kopieren",
+         "nl": "Kopiëren",
+         "pl": "Kopiuj",
+         "cs": "Kopírovat",
+         "pt": "Copiar",
+         "ru": "Копировать"
+        },
+        "code": "WELCOME-7KQ2M9XA"
+       },
+       {
+        "id": "sunb-287",
+        "type": "button",
+        "t": {
+         "en": "Apply to my cart",
+         "fr": "Appliquer à mon panier",
+         "es": "Aplicar a mi carrito",
+         "it": "Applica al mio carrello",
+         "de": "Auf meinen Warenkorb anwenden",
+         "nl": "Toepassen op mijn winkelwagen",
+         "pl": "Zastosuj w koszyku",
+         "cs": "Uplatnit v košíku",
+         "pt": "Aplicar ao meu carrinho",
+         "ru": "Применить к корзине"
+        },
+        "act": "apply",
+        "full": true
+       }
+      ]
+     }
+    ]
+   }
+  ],
+  "template": "sunburst-wheel"
+ },
+ "settings": {
+  "triggers": {
+   "mode": "any",
+   "timerOn": false,
+   "timerSec": 8,
+   "exitOn": false,
+   "exitSens": "normal",
+   "idleOn": false,
+   "idleSec": 30,
+   "scrollOn": true,
+   "scrollVal": 40,
+   "scrollUnit": "pct",
+   "clickOn": false,
+   "clickSel": "",
+   "pagesOn": false,
+   "pagesN": 2,
+   "pagesSec": 0,
+   "addcartOn": false
+  },
+  "close": {
+   "x": true,
+   "xDelay": 0,
+   "overlay": true,
+   "esc": true,
+   "timeOn": false,
+   "timeSec": 20,
+   "scrollOn": false,
+   "scrollPct": 80,
+   "videoOn": false,
+   "lastOn": false,
+   "lastSec": 6
+  },
+  "frequency": {
+   "mode": "once",
+   "days": 7,
+   "maxOn": false,
+   "max": 3,
+   "stopConvert": true,
+   "afterCloseOn": true,
+   "afterCloseDays": 2
+  },
+  "form": {
+   "list": "newsletter",
+   "consent": true,
+   "consentRequired": true
+  },
+  "coupon": {
+   "mode": "none",
+   "code": "",
+   "type": "percent",
+   "value": 10,
+   "days": 14,
+   "min": 0,
+   "prefix": "WELCOME-",
+   "autoApply": false
+  },
+  "game": {
+   "type": "wheel",
+   "emailFirst": true,
+   "prizes": [
+    {
+     "key": "p5a",
+     "label": {
+      "en": "5%",
+      "fr": "5 %",
+      "es": "5 %",
+      "it": "5%",
+      "de": "5 %",
+      "nl": "5%",
+      "pl": "5%",
+      "cs": "5 %",
+      "pt": "5%",
+      "ru": "5%"
+     },
+     "weight": 25,
+     "stock": "",
+     "coupon": {
+      "type": "percent",
+      "value": 5,
+      "days": 14
+     }
+    },
+    {
+     "key": "ship",
+     "label": {
+      "en": "Ship free",
+      "fr": "Port offert",
+      "es": "Envío gratis",
+      "it": "Sped. gratis",
+      "de": "Gratis Versand",
+      "nl": "Gratis verz.",
+      "pl": "Darmowa dost.",
+      "cs": "Doprava zdarma",
+      "pt": "Portes grátis",
+      "ru": "Бесп. доставка"
+     },
+     "weight": 15,
+     "stock": "",
+     "coupon": {
+      "type": "shipping",
+      "value": 10,
+      "days": 14
+     }
+    },
+    {
+     "key": "p10a",
+     "label": {
+      "en": "10%",
+      "fr": "10 %",
+      "es": "10 %",
+      "it": "10%",
+      "de": "10 %",
+      "nl": "10%",
+      "pl": "10%",
+      "cs": "10 %",
+      "pt": "10%",
+      "ru": "10%"
+     },
+     "weight": 20,
+     "stock": "",
+     "coupon": {
+      "type": "percent",
+      "value": 10,
+      "days": 14
+     }
+    },
+    {
+     "key": "gift",
+     "label": {
+      "en": "Gift",
+      "fr": "Cadeau",
+      "es": "Regalo",
+      "it": "Regalo",
+      "de": "Geschenk",
+      "nl": "Cadeau",
+      "pl": "Prezent",
+      "cs": "Dárek",
+      "pt": "Presente",
+      "ru": "Подарок"
+     },
+     "weight": 5,
+     "stock": "",
+     "coupon": {
+      "type": "amount",
+      "value": 10,
+      "days": 14
+     }
+    },
+    {
+     "key": "p15",
+     "label": {
+      "en": "15%",
+      "fr": "15 %",
+      "es": "15 %",
+      "it": "15%",
+      "de": "15 %",
+      "nl": "15%",
+      "pl": "15%",
+      "cs": "15 %",
+      "pt": "15%",
+      "ru": "15%"
+     },
+     "weight": 8,
+     "stock": "",
+     "coupon": {
+      "type": "percent",
+      "value": 15,
+      "days": 14
+     }
+    },
+    {
+     "key": "p5b",
+     "label": {
+      "en": "5%",
+      "fr": "5 %",
+      "es": "5 %",
+      "it": "5%",
+      "de": "5 %",
+      "nl": "5%",
+      "pl": "5%",
+      "cs": "5 %",
+      "pt": "5%",
+      "ru": "5%"
+     },
+     "weight": 20,
+     "stock": "",
+     "coupon": {
+      "type": "percent",
+      "value": 5,
+      "days": 14
+     }
+    },
+    {
+     "key": "p10b",
+     "label": {
+      "en": "10%",
+      "fr": "10 %",
+      "es": "10 %",
+      "it": "10%",
+      "de": "10 %",
+      "nl": "10%",
+      "pl": "10%",
+      "cs": "10 %",
+      "pt": "10%",
+      "ru": "10%"
+     },
+     "weight": 6,
+     "stock": "",
+     "coupon": {
+      "type": "percent",
+      "value": 10,
+      "days": 14
+     }
+    },
+    {
+     "key": "p20",
+     "label": {
+      "en": "20%",
+      "fr": "20 %",
+      "es": "20 %",
+      "it": "20%",
+      "de": "20 %",
+      "nl": "20%",
+      "pl": "20%",
+      "cs": "20 %",
+      "pt": "20%",
+      "ru": "20%"
+     },
+     "weight": 1,
+     "stock": "",
+     "coupon": {
+      "type": "percent",
+      "value": 20,
+      "days": 14
+     }
+    }
+   ]
+  }
+ }
+}

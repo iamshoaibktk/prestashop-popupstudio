@@ -1,0 +1,212 @@
+{
+ "num": "24",
+ "slug": "sticky-note",
+ "name": "Sticky Note",
+ "group": "exit",
+ "formatLabel": "Small modal",
+ "tags": [
+  "exit intent",
+  "coupon",
+  "handwritten"
+ ],
+ "doc": {
+  "format": "modal",
+  "width": 340,
+  "mobile": {
+   "format": "same",
+   "width": "270px"
+  },
+  "fonts": [
+   "Gochi Hand",
+   "Karla",
+   "Caveat"
+  ],
+  "theme": {
+   "bg": "#FFE873",
+   "ink": "#2D2A1E",
+   "accent": "#2D2A1E",
+   "accentInk": "#FFE873",
+   "line": "#2D2A1E",
+   "radius": 0,
+   "fh": "Gochi Hand",
+   "fb": "Gochi Hand",
+   "overlay": "rgba(45,42,30,.35)",
+   "ffb": {
+    "Gochi Hand": "\"Caveat\", cursive"
+   }
+  },
+  "steps": [
+   {
+    "id": "s1",
+    "name": "Note",
+    "cols": [
+     {
+      "blocks": [
+       {
+        "id": "stic-226",
+        "type": "heading",
+        "t": {
+         "en": "Psst! Don't forget…",
+         "fr": "Psst ! N'oubliez pas…",
+         "es": "¡Psst! No lo olvides…",
+         "it": "Psst! Non dimenticare…",
+         "de": "Psst! Nicht vergessen…",
+         "nl": "Psst! Niet vergeten…",
+         "pl": "Psst! Nie zapomnij…",
+         "cs": "Psst! Nezapomeňte…",
+         "pt": "Psst! Não se esqueça…",
+         "ru": "Пс-с! Не забудьте…"
+        }
+       },
+       {
+        "id": "stic-227",
+        "type": "text",
+        "t": {
+         "en": "10% off today with code",
+         "fr": "-10 % aujourd'hui avec le code",
+         "es": "10 % de descuento hoy con el código",
+         "it": "10% di sconto oggi con il codice",
+         "de": "Heute 10 % Rabatt mit dem Code",
+         "nl": "Vandaag 10% korting met code",
+         "pl": "Dziś 10% rabatu z kodem",
+         "cs": "Dnes sleva 10 % s kódem",
+         "pt": "10% de desconto hoje com o código",
+         "ru": "Сегодня −10% с кодом"
+        }
+       },
+       {
+        "id": "stic-230",
+        "type": "row",
+        "blocks": [
+         {
+          "id": "stic-228",
+          "type": "coupon",
+          "copy": {
+           "en": "Copy code",
+           "fr": "Copier le code",
+           "es": "Copiar código",
+           "it": "Copia il codice",
+           "de": "Code kopieren",
+           "nl": "Code kopiëren",
+           "pl": "Kopiuj kod",
+           "cs": "Kopírovat kód",
+           "pt": "Copiar código",
+           "ru": "Копировать код"
+          },
+          "cls": "sn-code",
+          "code": "NOTE10"
+         },
+         {
+          "id": "stic-229",
+          "type": "html",
+          "html": "<svg width=\"70\" height=\"40\" viewBox=\"0 0 70 40\"><path d=\"M4 30 C 20 6, 40 6, 60 20\" fill=\"none\" stroke=\"#2D2A1E\" stroke-width=\"2.2\" stroke-linecap=\"round\"/><path d=\"M60 20 l-10 -2 M60 20 l-5 9\" stroke=\"#2D2A1E\" stroke-width=\"2.2\" stroke-linecap=\"round\"/></svg>",
+          "cls": "psx-hide-m"
+         }
+        ]
+       },
+       {
+        "id": "stic-233",
+        "type": "row",
+        "blocks": [
+         {
+          "id": "stic-231",
+          "type": "button",
+          "t": {
+           "en": "Copy code",
+           "fr": "Copier le code",
+           "es": "Copiar código",
+           "it": "Copia il codice",
+           "de": "Code kopieren",
+           "nl": "Code kopiëren",
+           "pl": "Kopiuj kod",
+           "cs": "Kopírovat kód",
+           "pt": "Copiar código",
+           "ru": "Копировать код"
+          },
+          "act": "copy"
+         },
+         {
+          "id": "stic-232",
+          "type": "button",
+          "t": {
+           "en": "Keep shopping",
+           "fr": "Continuer mes achats",
+           "es": "Seguir comprando",
+           "it": "Continua lo shopping",
+           "de": "Weiter einkaufen",
+           "nl": "Verder winkelen",
+           "pl": "Kontynuuj zakupy",
+           "cs": "Pokračovat v nákupu",
+           "pt": "Continuar a comprar",
+           "ru": "Продолжить покупки"
+          },
+          "act": "close",
+          "variant": "secondary"
+         }
+        ]
+       }
+      ]
+     }
+    ]
+   }
+  ],
+  "template": "sticky-note"
+ },
+ "settings": {
+  "triggers": {
+   "mode": "any",
+   "timerOn": false,
+   "timerSec": 8,
+   "exitOn": true,
+   "exitSens": "normal",
+   "idleOn": false,
+   "idleSec": 30,
+   "scrollOn": false,
+   "scrollVal": 40,
+   "scrollUnit": "pct",
+   "clickOn": false,
+   "clickSel": "",
+   "pagesOn": false,
+   "pagesN": 2,
+   "pagesSec": 0,
+   "addcartOn": false
+  },
+  "close": {
+   "x": true,
+   "xDelay": 0,
+   "overlay": true,
+   "esc": true,
+   "timeOn": false,
+   "timeSec": 20,
+   "scrollOn": false,
+   "scrollPct": 80,
+   "videoOn": false,
+   "lastOn": false,
+   "lastSec": 6
+  },
+  "frequency": {
+   "mode": "days",
+   "days": 7,
+   "maxOn": false,
+   "max": 3,
+   "stopConvert": true,
+   "afterCloseOn": true,
+   "afterCloseDays": 2
+  },
+  "form": {
+   "list": "leads",
+   "consent": false,
+   "consentRequired": false
+  },
+  "coupon": {
+   "mode": "fixed",
+   "code": "NOTE10",
+   "type": "percent",
+   "value": 10,
+   "days": 14,
+   "min": 0,
+   "prefix": "",
+   "autoApply": false
+  }
+ }
+}

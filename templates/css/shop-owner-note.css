@@ -1,0 +1,19 @@
+.psx-t-shop-owner-note .psx-box{background:transparent;box-shadow:none;overflow:visible}
+.psx-t-shop-owner-note .psx-cols{align-items:flex-end;gap:10px}
+.psx-t-shop-owner-note .on-av{width:44px;height:44px;border-radius:50%;background:#D9DEE6;box-shadow:0 0 0 3px #fff,0 4px 10px rgba(0,0,0,.15);display:flex;align-items:center;justify-content:center;font:800 16px var(--psx-fh);color:#5A6170;position:relative}
+.psx-t-shop-owner-note .on-av::after{content:"";position:absolute;right:0;bottom:1px;width:11px;height:11px;border-radius:50%;background:#2DBE6C;box-shadow:0 0 0 2px #fff}
+.psx-t-shop-owner-note .on-bub{background:#fff;border-radius:18px 18px 18px 4px;box-shadow:0 10px 30px rgba(0,0,0,.16),0 0 0 1px rgba(0,0,0,.05);padding:14px 16px;gap:6px;position:relative}
+.psx-t-shop-owner-note .on-dots{display:inline-flex;gap:4px;padding:8px 10px;border-radius:12px;background:#F0F2F5;align-self:flex-start;animation:psx-dots 1.4s ease-in 1 forwards}
+.psx-t-shop-owner-note .on-dots i{width:6px;height:6px;border-radius:50%;background:#9AA1AE}
+@keyframes psx-dots{0%,80%{opacity:1;max-height:30px}100%{opacity:0;max-height:0;padding:0}}
+.psx-t-shop-owner-note .on-who{font-weight:700;font-size:12.5px;color:#5A6170;opacity:1}
+.psx-t-shop-owner-note .psx-p{font-size:15px;line-height:1.5}
+.psx-t-shop-owner-note .psx-p strong{font-family:ui-monospace,Menlo,monospace;color:var(--psx-accent)}
+.psx-t-shop-owner-note .psx-rowb{gap:8px;margin-top:6px}
+.psx-t-shop-owner-note .psx-btn{border-radius:999px;min-height:40px;font-weight:700;font-size:14px}
+.psx-t-shop-owner-note .psx-btn-secondary{box-shadow:inset 0 0 0 1.5px #D6DBE3;color:var(--psx-ink)}
+.psx-t-shop-owner-note .psx-x{top:6px;right:6px;width:30px;height:30px;font-size:16px;color:#5A6170}
+.psx-t-shop-owner-note.psx-mobile .on-av{width:38px;height:38px;font-size:14px}
+.psx-t-shop-owner-note.psx-mobile .psx-cols{flex-direction:row}
+.psx-t-shop-owner-note.psx-mobile .on-a{flex:0 0 44px}
+.psx-t-shop-owner-note.psx-mobile .psx-p{font-size:14px}

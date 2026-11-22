@@ -1,0 +1,18 @@
+.psx-t-holiday-hours .psx-box{box-shadow:0 20px 44px rgba(0,0,0,.3)}
+.psx-t-holiday-hours .psx-cols{padding:30px 32px;gap:26px}
+.psx-t-holiday-hours .hh-cal{display:flex;flex-direction:column;align-items:center;text-align:center;box-shadow:0 0 0 1px #E5E7EB,0 6px 0 -2px #F3F4F6,0 6px 0 -1px #E5E7EB,0 12px 0 -4px #F3F4F6,0 12px 0 -3px #E5E7EB}
+.psx-t-holiday-hours .hh-cal b{display:block;align-self:stretch;background:#B91C1C;color:#fff;padding:14px 0 8px;font:700 17px var(--psx-fh)}
+.psx-t-holiday-hours .hh-r{display:flex;justify-content:space-around;align-self:stretch;margin-top:-8px}
+.psx-t-holiday-hours .hh-r i{width:8px;height:16px;border-radius:4px;background:#9CA3AF}
+.psx-t-holiday-hours .hh-cal strong{font:700 72px/1 var(--psx-fh);padding:6px 0 4px}
+.psx-t-holiday-hours .hh-cal small{font:600 13px var(--psx-fh);color:#6B7280;padding-bottom:12px}
+.psx-t-holiday-hours .psx-h{font:700 28px/1.1 var(--psx-fh)}
+.psx-t-holiday-hours .psx-p{font-size:15px;color:#374151}
+.psx-t-holiday-hours .psx-list li{font-size:14px}
+.psx-t-holiday-hours .psx-btn{align-self:flex-start;border-radius:0;min-height:44px;font-weight:600;margin-top:6px}
+.psx-t-holiday-hours.psx-mobile .psx-cols{padding:22px 20px;gap:14px}
+.psx-t-holiday-hours.psx-mobile .hh-l{flex-direction:row}
+.psx-t-holiday-hours.psx-mobile .hh-cal{width:100px}
+.psx-t-holiday-hours.psx-mobile .hh-cal strong{font-size:40px}
+.psx-t-holiday-hours.psx-mobile .psx-h{font-size:22px}
+.psx-t-holiday-hours.psx-mobile .psx-btn{align-self:stretch}

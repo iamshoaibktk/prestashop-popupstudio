@@ -1,0 +1,308 @@
+{
+ "num": "23",
+ "slug": "half-moon",
+ "name": "Half Moon",
+ "group": "exit",
+ "formatLabel": "Modal, exit intent",
+ "tags": [
+  "exit intent",
+  "night",
+  "reminder"
+ ],
+ "doc": {
+  "format": "modal",
+  "width": 560,
+  "mobile": {
+   "format": "sheet"
+  },
+  "fonts": [
+   "Young Serif",
+   "Figtree",
+   "Playfair Display",
+   "Inter"
+  ],
+  "theme": {
+   "bg": "#0F1B3D",
+   "ink": "#E8ECF7",
+   "accent": "#F4D58D",
+   "accentInk": "#0F1B3D",
+   "field": "rgba(232,236,247,.12)",
+   "fieldInk": "#FFFFFF",
+   "line": "transparent",
+   "radius": 22,
+   "fh": "Young Serif",
+   "fb": "Figtree",
+   "overlay": "rgba(6,10,26,.62)",
+   "ffb": {
+    "Young Serif": "\"Playfair Display\", Georgia, serif",
+    "Figtree": "\"Inter\", system-ui, sans-serif"
+   }
+  },
+  "decor": [
+   {
+    "html": "<div class=\"hm-moon\"></div>",
+    "name": "Moon",
+    "m": {
+     "right": "-40px",
+     "top": "-40px"
+    },
+    "right": "-60px",
+    "top": "-50px"
+   }
+  ],
+  "closeBtn": {
+   "look": "circle"
+  },
+  "steps": [
+   {
+    "id": "s1",
+    "name": "Offer",
+    "cols": [
+     {
+      "blocks": [
+       {
+        "id": "half-218",
+        "type": "heading",
+        "t": {
+         "en": "Leaving so soon?",
+         "fr": "Vous partez déjà ?",
+         "es": "¿Ya te vas?",
+         "it": "Te ne vai già?",
+         "de": "Schon weg?",
+         "nl": "Ga je nu al?",
+         "pl": "Już wychodzisz?",
+         "cs": "Už odcházíte?",
+         "pt": "Já de saída?",
+         "ru": "Уже уходите?"
+        }
+       },
+       {
+        "id": "half-219",
+        "type": "text",
+        "t": {
+         "en": "Sleep on it. We'll email you a link back to your cart, and 5% off if you come back this week.",
+         "fr": "La nuit porte conseil. Nous vous enverrons un lien vers votre panier, et -5 % si vous revenez cette semaine.",
+         "es": "Consúltalo con la almohada. Te enviaremos un enlace a tu carrito y un 5 % si vuelves esta semana.",
+         "it": "Dormici su. Ti mandiamo un link al tuo carrello e il 5% se torni questa settimana.",
+         "de": "Schlaf eine Nacht drüber. Wir mailen dir einen Link zu deinem Warenkorb und 5 % Rabatt, wenn du diese Woche zurückkommst.",
+         "nl": "Slaap er een nachtje over. We mailen je een link naar je winkelwagen, en 5% korting als je deze week terugkomt.",
+         "pl": "Prześpij się z tym. Wyślemy ci link do koszyka i 5% rabatu, jeśli wrócisz w tym tygodniu.",
+         "cs": "Vyspěte se na to. Pošleme vám odkaz na košík a 5 % slevu, pokud se vrátíte tento týden.",
+         "pt": "Pense nisso com calma. Enviamos-lhe um link para o seu carrinho, e 5% de desconto se voltar esta semana.",
+         "ru": "Утро вечера мудренее. Мы пришлём ссылку на вашу корзину и 5% скидки, если вернётесь на этой неделе."
+        }
+       },
+       {
+        "id": "half-220",
+        "type": "form",
+        "btn": {
+         "en": "Remind me",
+         "fr": "Me le rappeler",
+         "es": "Recordármelo",
+         "it": "Ricordamelo",
+         "de": "Erinnere mich",
+         "nl": "Herinner me eraan",
+         "pl": "Przypomnij mi",
+         "cs": "Připomenout",
+         "pt": "Lembrar-me",
+         "ru": "Напомнить"
+        },
+        "label": {
+         "en": "Email",
+         "fr": "E-mail",
+         "es": "Email",
+         "it": "Email",
+         "de": "E-Mail",
+         "nl": "E-mail",
+         "pl": "E-mail",
+         "cs": "E-mail",
+         "pt": "Email",
+         "ru": "Email"
+        },
+        "ph": {
+         "en": "your@email.com",
+         "fr": "votre@email.com",
+         "es": "tu@email.com",
+         "it": "tua@email.com",
+         "de": "deine@email.de",
+         "nl": "jouw@email.nl",
+         "pl": "twoj@email.pl",
+         "cs": "vas@email.cz",
+         "pt": "seu@email.pt",
+         "ru": "vash@email.ru"
+        },
+        "layout": "inline",
+        "consent": false,
+        "next": "s2",
+        "hideLabel": true
+       },
+       {
+        "id": "half-221",
+        "type": "link",
+        "t": {
+         "en": "No thanks, goodnight",
+         "fr": "Non merci, bonne nuit",
+         "es": "No, gracias, buenas noches",
+         "it": "No grazie, buonanotte",
+         "de": "Nein danke, gute Nacht",
+         "nl": "Nee dank je, welterusten",
+         "pl": "Nie, dziękuję, dobranoc",
+         "cs": "Ne, díky, dobrou noc",
+         "pt": "Não, obrigado, boa noite",
+         "ru": "Нет, спасибо, спокойной ночи"
+        },
+        "act": "close"
+       }
+      ]
+     }
+    ]
+   },
+   {
+    "id": "s2",
+    "name": "Done",
+    "cols": [
+     {
+      "blocks": [
+       {
+        "id": "half-222",
+        "type": "heading",
+        "t": {
+         "en": "Sweet dreams.",
+         "fr": "Faites de beaux rêves.",
+         "es": "Dulces sueños.",
+         "it": "Sogni d'oro.",
+         "de": "Süße Träume.",
+         "nl": "Slaap lekker.",
+         "pl": "Słodkich snów.",
+         "cs": "Sladké sny.",
+         "pt": "Bons sonhos.",
+         "ru": "Сладких снов."
+        }
+       },
+       {
+        "id": "half-223",
+        "type": "text",
+        "t": {
+         "en": "Your link and code are on their way. The code is here too:",
+         "fr": "Votre lien et votre code sont en route. Le code est aussi ici :",
+         "es": "Tu enlace y tu código van de camino. El código también está aquí:",
+         "it": "Link e codice sono in arrivo. Il codice è anche qui:",
+         "de": "Link und Code sind unterwegs. Der Code steht auch hier:",
+         "nl": "Je link en code zijn onderweg. De code staat ook hier:",
+         "pl": "Link i kod są w drodze. Kod jest też tutaj:",
+         "cs": "Odkaz a kód jsou na cestě. Kód je i tady:",
+         "pt": "O seu link e código estão a caminho. O código também está aqui:",
+         "ru": "Ссылка и код уже в пути. Код есть и здесь:"
+        }
+       },
+       {
+        "id": "half-224",
+        "type": "coupon",
+        "note": {
+         "en": "Valid until {coupon_expiry}. One use.",
+         "fr": "Valable jusqu'au {coupon_expiry}. Un seul usage.",
+         "es": "Válido hasta el {coupon_expiry}. Un solo uso.",
+         "it": "Valido fino al {coupon_expiry}. Un solo utilizzo.",
+         "de": "Gültig bis {coupon_expiry}. Einmal einlösbar.",
+         "nl": "Geldig tot {coupon_expiry}. Eenmalig te gebruiken.",
+         "pl": "Ważny do {coupon_expiry}. Jednorazowy.",
+         "cs": "Platí do {coupon_expiry}. Jedno použití.",
+         "pt": "Válido até {coupon_expiry}. Uma utilização.",
+         "ru": "Действует до {coupon_expiry}. Одно использование."
+        },
+        "copy": {
+         "en": "Copy",
+         "fr": "Copier",
+         "es": "Copiar",
+         "it": "Copia",
+         "de": "Kopieren",
+         "nl": "Kopiëren",
+         "pl": "Kopiuj",
+         "cs": "Kopírovat",
+         "pt": "Copiar",
+         "ru": "Копировать"
+        },
+        "code": "WELCOME-7KQ2M9XA"
+       },
+       {
+        "id": "half-225",
+        "type": "link",
+        "t": {
+         "en": "Close",
+         "fr": "Fermer",
+         "es": "Cerrar",
+         "it": "Chiudi",
+         "de": "Schließen",
+         "nl": "Sluiten",
+         "pl": "Zamknij",
+         "cs": "Zavřít",
+         "pt": "Fechar",
+         "ru": "Закрыть"
+        },
+        "act": "close"
+       }
+      ]
+     }
+    ]
+   }
+  ],
+  "template": "half-moon"
+ },
+ "settings": {
+  "triggers": {
+   "mode": "any",
+   "timerOn": false,
+   "timerSec": 8,
+   "exitOn": true,
+   "exitSens": "normal",
+   "idleOn": false,
+   "idleSec": 30,
+   "scrollOn": false,
+   "scrollVal": 40,
+   "scrollUnit": "pct",
+   "clickOn": false,
+   "clickSel": "",
+   "pagesOn": false,
+   "pagesN": 2,
+   "pagesSec": 0,
+   "addcartOn": false
+  },
+  "close": {
+   "x": true,
+   "xDelay": 0,
+   "overlay": true,
+   "esc": true,
+   "timeOn": false,
+   "timeSec": 20,
+   "scrollOn": false,
+   "scrollPct": 80,
+   "videoOn": false,
+   "lastOn": false,
+   "lastSec": 6
+  },
+  "frequency": {
+   "mode": "days",
+   "days": 7,
+   "maxOn": false,
+   "max": 3,
+   "stopConvert": true,
+   "afterCloseOn": true,
+   "afterCloseDays": 2
+  },
+  "form": {
+   "list": "newsletter",
+   "consent": false,
+   "consentRequired": false
+  },
+  "coupon": {
+   "mode": "generated",
+   "code": "",
+   "type": "percent",
+   "value": 5,
+   "days": 7,
+   "min": 0,
+   "prefix": "BACK5-",
+   "autoApply": false
+  }
+ }
+}

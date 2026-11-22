@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" version="1.2">
+  <file original="popupstudio" source-language="en-US" target-language="nl-NL" datatype="plaintext">
+    <body>
+      <trans-unit id="436a430607f8a3677cc4c428f51ebb96">
+        <source>Hello from Popup Studio!</source>
+        <target>Hallo vanuit Popup Studio!</target>
+      </trans-unit>
+      <trans-unit id="d3d2e617335f08df83599665eef8a418">
+        <source>Close</source>
+        <target>Sluiten</target>
+      </trans-unit>
+      <trans-unit id="5fb63579fc981698f97d55bfecb213ea">
+        <source>Copy</source>
+        <target>Kopiëren</target>
+      </trans-unit>
+      <trans-unit id="a588b1abc58b8b758c4b34b69b9e10bb">
+        <source>Copied</source>
+        <target>Gekopieerd</target>
+      </trans-unit>
+      <trans-unit id="4d01e82dfb57dcdc8e8c997db4a66219">
+        <source>Sending…</source>
+        <target>Versturen…</target>
+      </trans-unit>
+      <trans-unit id="b2e725c06b573a6f130a6d37d545a2a7">
+        <source>That address looks incomplete. Please check it.</source>
+        <target>Dat adres lijkt onvolledig. Controleer het even.</target>
+      </trans-unit>
+      <trans-unit id="64ac14afde775b51b79322ea4e6976cf">
+        <source>Please tick the box to agree first.</source>
+        <target>Vink eerst het vakje aan om akkoord te gaan.</target>
+      </trans-unit>
+      <trans-unit id="e9002db801b2b82ef95e5b5794b5b388">
+        <source>This address is already on our list.</source>
+        <target>Dit adres staat al op onze lijst.</target>
+      </trans-unit>
+      <trans-unit id="54aafe614b9e2c534557fa247aad33f1">
+        <source>Almost done: please confirm the email we just sent you.</source>
+        <target>Bijna klaar: bevestig de e-mail die we je net hebben gestuurd.</target>
+      </trans-unit>
+      <trans-unit id="e9f36d65b0491f99ef8f0ce2c11bf998">
+        <source>Something went wrong. Please try again.</source>
+        <target>Er ging iets mis. Probeer het opnieuw.</target>
+      </trans-unit>
+      <trans-unit id="c4e94da6dd37c33794587d66cebe98a9">
+        <source>You have already played this game.</source>
+        <target>Je hebt dit spel al gespeeld.</target>
+      </trans-unit>
+      <trans-unit id="ce1651e3231f37ddf4187d09399d39a4">
+        <source>Applied to your cart.</source>
+        <target>Toegepast op je winkelwagen.</target>
+      </trans-unit>
+      <trans-unit id="44fdec47036f482b68b748f9d786801b">
+        <source>days</source>
+        <target>dagen</target>
+      </trans-unit>
+      <trans-unit id="73cdddd7730abfc13a55efb9f5685a3b">
+        <source>hours</source>
+        <target>uur</target>
+      </trans-unit>
+      <trans-unit id="640fd0cc0ffa0316ae087652871f4486">
+        <source>minutes</source>
+        <target>minuten</target>
+      </trans-unit>
+      <trans-unit id="783e8e29e6a8c3e22baa58a19420eb4f">
+        <source>seconds</source>
+        <target>seconden</target>
+      </trans-unit>
+      <trans-unit id="105b296a83f9c105355403f3332af50f">
+        <source>Pause</source>
+        <target>Pauze</target>
+      </trans-unit>
+      <trans-unit id="de3c731be5633838089a07179d301d7b">
+        <source>Play</source>
+        <target>Afspelen</target>
+      </trans-unit>
+      <trans-unit id="29aa46cc3d2677c7e0f216910df600ff">
+        <source>Free shipping</source>
+        <target>Gratis verzending</target>
+      </trans-unit>
+      <trans-unit id="b4a3734b0f31eb5911b8416fc307af59">
+        <source>%amount% off</source>
+        <target>%amount% korting</target>
+      </trans-unit>
+      <trans-unit id="d10331e313a2cb2fc7436832c515001c">
+        <source>%percent%% off</source>
+        <target>%percent%% korting</target>
+      </trans-unit>
+    </body>
+  </file>
+</xliff>

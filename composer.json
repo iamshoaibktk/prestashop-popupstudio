@@ -1,0 +1,15 @@
+{
+  "name": "iamshoaibktk/popupstudio",
+  "description": "Popups, bars, slide-ins and games with targeting, A/B tests, coupons and stats. 50 templates.",
+  "type": "prestashop-module",
+  "license": "AFL-3.0",
+  "authors": [
+    { "name": "iamshoaibktk", "email": "iamshoaibktk@gmail.com", "role": "Developer" }
+  ],
+  "support": { "email": "iamshoaibktk@gmail.com" },
+  "require": { "php": ">=7.2.5" },
+  "autoload": {
+    "psr-4": { "Iamshoaibktk\\Popupstudio\\": "src/" }
+  },
+  "config": { "prepend-autoloader": false, "optimize-autoloader": true }
+}

@@ -1,0 +1,43 @@
+{
+  "title": "Popup Studio",
+  "subtitle": "Gebruikershandleiding",
+  "labels": {"version": "Versie", "author": "Auteur", "contact": "Contact", "page": "Pagina", "contents": "Inhoud", "compat": "Compatibiliteit"},
+  "sections": [
+    {"title": "Overzicht", "content": [
+      {"p": "Popup Studio toont in je winkel popups, balken, slide-ins, zijlades, schermvullende pagina's en ingebedde blokken. Elk ervan kan e-mailadressen verzamelen, een kortingscode geven, een spel starten, een vraag stellen of iets aankondigen."},
+      {"p": "Je vindt het onder **Marketing › Popup Studio**. Er zijn vijf schermen: Popups, Sjablonen, Statistieken, Leads en Instellingen."}
+    ]},
+    {"title": "Een popup maken", "content": [
+      {"ol": ["Open **Sjablonen** en kies een van de 50 ontwerpen, of klik op **Nieuwe popup › Leeg beginnen** en kies een formaat.", "Pas teksten, kleuren en blokken aan in de editor.", "Stel in wanneer hij verschijnt en wie hem ziet.", "Zet de status op **Live** en klik op **Opslaan**."]},
+      {"note": "Een nieuwe popup is altijd een concept. Er verschijnt niets in de winkel tot je hem op Live zet."}
+    ]},
+    {"title": "De editor", "content": [
+      {"p": "Het tabblad **Ontwerp** toont de popup in een live voorbeeld. Klik op een blok om het rechts te bewerken, klik op een tegel links om een blok toe te voegen, of sleep blokken en lagen om ze te verplaatsen. Gebruik **Desktop** en **Mobiel** om beide opmaken te controleren."},
+      {"ul": ["**Stappen**: een popup kan meerdere schermen hebben, bijvoorbeeld aanbod, formulier en bedankt.", "Tabblad **Mobiel** van een blok: verbergen op telefoons of de grootte wijzigen.", "**Ctrl+S** slaat op, **Ctrl+Z** maakt ongedaan, **Ctrl+Shift+Z** herhaalt.", "Tekst ondersteunt **vet**, *cursief* en tags zoals {firstname}, {cart_total}, {free_shipping_remaining}, {coupon} en {shop_name}. Schrijf {firstname|daar} voor een reservewaarde."]},
+      {"p": "Teksten worden per taal opgeslagen. Kies de taal in de bovenste balk om een popup te vertalen."}
+    ]},
+    {"title": "Wanneer hij verschijnt en hoe hij sluit", "content": [
+      {"p": "Zet onder **Triggers en sluiten** een of meer triggers aan: timer na binnenkomst, exit-intent, inactiviteit, scrolldiepte, klik op een willekeurige CSS-selector, de N-de pagina van een bezoek of direct na toevoegen aan winkelwagen. Kies of één trigger genoeg is of dat ze allemaal gebeurd moeten zijn."},
+      {"p": "Bezoekers sluiten hem met het kruisje, een klik op de gedimde pagina of Esc. Hij kan ook vanzelf sluiten na een tijd, bij een scrollpositie, aan het eind van een video of na de laatste stap. Een kleine tab kan aan de rand blijven om hem weer te openen."}
+    ]},
+    {"title": "Wie hem ziet en hoe vaak", "content": [
+      {"p": "Voeg onder **Targeting** regels toe: type bezoeker, eerste bezoek, klantgroep, eerdere bestellingen, nieuwsbriefstatus, winkelwagenwaarde en -inhoud, aantal artikelen, paginatypes, URL, UTM, verwijzer, land, taal, valuta, apparaat, dagen en uren. Regels in één groep moeten allemaal kloppen; aparte groepen zijn alternatieven (OF)."},
+      {"p": "Stel onder **Planning en frequentie** start- en einddatum, dagen en uren, prioriteit en frequentie per bezoeker in: elke pagina, één keer per bezoek, hooguit elke N dagen of maar één keer. Hij kan stoppen na een inschrijving en na sluiten een paar dagen wachten."},
+      {"note": "Landregels vereisen PrestaShop-geolocatie (Voorkeuren › Geolocatie)."}
+    ]},
+    {"title": "Inschrijvingen, codes en spellen", "content": [
+      {"ul": ["Het e-mailformulier zet het adres in de lijst **Leads** en, als je wilt, in de nieuwsbrief van de module ps_emailsubscription. Dubbele opt-in volgt de instelling van die module.", "Het toestemmingsvakje gebruikt de tekst van de officiële AVG-module als die geïnstalleerd is, en bij elke inschrijving wordt een toestemmingsbewijs bewaard.", "Een popup kan een vaste code geven of per inschrijving een unieke winkelwagenregel maken (percentage, bedrag of gratis verzending, met geldigheidsdagen en minimale bestelling). Codes kunnen automatisch op de winkelwagen worden toegepast.", "Rad, kraskaart, cadeaudozen en kaarten trekken de prijs op de server, volgens jouw kansen en voorraad. Elke bezoeker speelt één keer."]},
+      {"p": "Een webhook onder **Instellingen** kan elke inschrijving naar Brevo, Mailchimp, Zapier of een andere tool sturen. Verzoeken worden ondertekend met je geheim."}
+    ]},
+    {"title": "A/B-tests en statistieken", "content": [
+      {"p": "Voeg in het tabblad **A/B-test** varianten toe en stel hun gewicht in. Elke bezoeker ziet altijd dezelfde variant. Zodra elke variant 300 weergaven heeft, vertelt de module welke wint en hoe zeker dat is; daarna kun je alleen de winnaar houden."},
+      {"p": "**Statistieken** toont weergaven, sluitingen, klikken, inschrijvingen, bestellingen en omzet per dag, apparaat en popup, plus enquête-antwoorden en geschreven feedback. Een bestelling telt voor een popup als de code ervan gebruikt is of als de koper zich inschreef binnen het aantal dagen uit de Instellingen."}
+    ]},
+    {"title": "Goed om te weten", "content": [
+      {"ul": ["**Testen als bezoeker** in het popupmenu opent de winkel met een voorbeeldlink die targeting en frequentie negeert en een testpaneel toont.", "Elke link naar #popup-ID opent die popup, bijvoorbeeld een menulink.", "Ingebedde popups plaats je in de hook displayPopupStudio of met {widget name=\"popupstudio\" id=ID}.", "Instellingen beperken hoeveel popups een bezoeker per bezoek ziet, verbergen popups voor bots en sluiten IP-adressen uit.", "Lettertypen zitten in de module; er gaat geen verzoek naar Google. Video's laden pas als de bezoeker op afspelen drukt."]}
+    ]},
+    {"title": "Ondersteuning", "content": [
+      {"p": "Vragen of een aanpassing op maat: mail naar iamshoaibktk@gmail.com of WhatsApp +923459016286. Meer modules: https://www.fiverr.com/shoaibktk"}
+    ]}
+  ]
+}

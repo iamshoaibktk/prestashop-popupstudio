@@ -1,0 +1,13 @@
+.psx-t-pebble .psx-box{text-align:center;overflow:hidden;box-shadow:0 20px 44px rgba(31,58,46,.3)}
+.psx-t-pebble .psx-col{padding:46px 44px 34px;gap:12px;align-items:stretch}
+.psx-t-pebble .psx-h{font:900 34px/1.1 var(--psx-fh)}
+.psx-t-pebble .psx-p{font-weight:500;color:#3B5A4C}
+.psx-t-pebble .psx-input{border:0;border-radius:999px;text-align:center;font-weight:600;min-height:52px}
+.psx-t-pebble .psx-btn{min-height:54px;border-radius:58% 42% 55% 45%/60% 55% 45% 40%;font-weight:900;font-size:16px}
+.psx-t-pebble .psx-check{justify-content:center;font-weight:600;color:#3B5A4C}
+.psx-t-pebble .psx-box-ck{border-radius:50%;border:2px solid var(--psx-ink)}
+.psx-t-pebble .psx-x{background:#fff;top:16px;right:18px}
+.psx-t-pebble .psx-coupon{border-radius:999px;background:#fff;border-style:solid;border-color:#CFE0CF}
+.psx-t-pebble .psx-copy{border-left:0;background:var(--psx-accent);color:var(--psx-accentInk);border-radius:999px;margin:4px}
+.psx-t-pebble.psx-mobile .psx-col{padding:40px 22px 26px}
+.psx-t-pebble.psx-mobile .psx-h{font-size:28px}

@@ -1,0 +1,299 @@
+{
+ "num": "20",
+ "slug": "first-order-gold",
+ "name": "First Order Gold",
+ "group": "discount",
+ "formatLabel": "Modal, first-time visitors",
+ "tags": [
+  "discount",
+  "luxury",
+  "first order"
+ ],
+ "doc": {
+  "format": "modal",
+  "width": 480,
+  "mobile": {
+   "format": "sheet"
+  },
+  "fonts": [
+   "Marcellus",
+   "Manrope",
+   "Playfair Display"
+  ],
+  "theme": {
+   "bg": "#0E0E0E",
+   "ink": "#EDE6D6",
+   "accent": "#C9A54C",
+   "accentInk": "#0E0E0E",
+   "field": "transparent",
+   "fieldInk": "#EDE6D6",
+   "line": "#5A5245",
+   "radius": 0,
+   "fh": "Marcellus",
+   "fb": "Manrope",
+   "overlay": "rgba(0,0,0,.66)",
+   "ffb": {
+    "Marcellus": "\"Playfair Display\", Georgia, serif"
+   }
+  },
+  "steps": [
+   {
+    "id": "s1",
+    "name": "Offer",
+    "cols": [
+     {
+      "blocks": [
+       {
+        "id": "firs-178",
+        "type": "html",
+        "html": "<div class=\"fg-ring\"><span>✦</span></div>"
+       },
+       {
+        "id": "firs-179",
+        "type": "heading",
+        "t": {
+         "en": "An introduction,\nwith our compliments.",
+         "fr": "Une invitation,\navec nos compliments.",
+         "es": "Una invitación,\ncon nuestros saludos.",
+         "it": "Un invito,\ncon i nostri omaggi.",
+         "de": "Eine Einladung,\nmit unseren Empfehlungen.",
+         "nl": "Een introductie,\nmet onze complimenten.",
+         "pl": "Zaproszenie,\nz wyrazami uznania.",
+         "cs": "Pozvánka,\ns naším doporučením.",
+         "pt": "Um convite,\ncom os nossos cumprimentos.",
+         "ru": "Приглашение\nс нашими комплиментами."
+        }
+       },
+       {
+        "id": "firs-180",
+        "type": "text",
+        "t": {
+         "en": "Your first order carries <span class=\"fg-off\">15% OFF</span>. Join the list to receive it.",
+         "fr": "Votre première commande bénéficie de <span class=\"fg-off\">-15 %</span>. Rejoignez la liste pour la recevoir.",
+         "es": "Tu primer pedido tiene un <span class=\"fg-off\">15 % DTO.</span>. Únete a la lista para recibirlo.",
+         "it": "Il tuo primo ordine ha il <span class=\"fg-off\">15% DI SCONTO</span>. Iscriviti alla lista per riceverlo.",
+         "de": "Deine erste Bestellung erhält <span class=\"fg-off\">15 % RABATT</span>. Trag dich ein, um ihn zu erhalten.",
+         "nl": "Je eerste bestelling krijgt <span class=\"fg-off\">15% KORTING</span>. Schrijf je in om hem te ontvangen.",
+         "pl": "Twoje pierwsze zamówienie ma <span class=\"fg-off\">15% RABATU</span>. Zapisz się na listę, aby go otrzymać.",
+         "cs": "Vaše první objednávka má <span class=\"fg-off\">SLEVU 15 %</span>. Přidejte se na seznam a získejte ji.",
+         "pt": "A sua primeira encomenda tem <span class=\"fg-off\">15% DE DESCONTO</span>. Adira à lista para o receber.",
+         "ru": "На ваш первый заказ действует <span class=\"fg-off\">СКИДКА 15%</span>. Подпишитесь, чтобы получить её."
+        }
+       },
+       {
+        "id": "firs-181",
+        "type": "form",
+        "btn": {
+         "en": "Receive my invitation",
+         "fr": "Recevoir mon invitation",
+         "es": "Recibir mi invitación",
+         "it": "Ricevi il mio invito",
+         "de": "Meine Einladung erhalten",
+         "nl": "Ontvang mijn uitnodiging",
+         "pl": "Odbierz zaproszenie",
+         "cs": "Získat pozvánku",
+         "pt": "Receber o meu convite",
+         "ru": "Получить приглашение"
+        },
+        "label": {
+         "en": "Email address",
+         "fr": "Adresse e-mail",
+         "es": "Correo electrónico",
+         "it": "Indirizzo email",
+         "de": "E-Mail-Adresse",
+         "nl": "E-mailadres",
+         "pl": "Adres e-mail",
+         "cs": "E-mailová adresa",
+         "pt": "Endereço de email",
+         "ru": "Email"
+        },
+        "ph": {
+         "en": "Email address",
+         "fr": "Adresse e-mail",
+         "es": "Correo electrónico",
+         "it": "Indirizzo email",
+         "de": "E-Mail-Adresse",
+         "nl": "E-mailadres",
+         "pl": "Adres e-mail",
+         "cs": "E-mailová adresa",
+         "pt": "Endereço de email",
+         "ru": "Email"
+        },
+        "layout": "stack",
+        "consent": false,
+        "next": "s2",
+        "hideLabel": true
+       },
+       {
+        "id": "firs-182",
+        "type": "small",
+        "t": {
+         "en": "By joining you agree to receive our emails. Unsubscribe any time.",
+         "fr": "En vous inscrivant, vous acceptez de recevoir nos e-mails. Désinscription à tout moment.",
+         "es": "Al unirte aceptas recibir nuestros emails. Baja cuando quieras.",
+         "it": "Iscrivendoti accetti di ricevere le nostre email. Disiscrizione quando vuoi.",
+         "de": "Mit der Anmeldung stimmst du dem Erhalt unserer E-Mails zu. Abmeldung jederzeit.",
+         "nl": "Door je in te schrijven ga je akkoord met onze e-mails. Uitschrijven kan altijd.",
+         "pl": "Zapisując się, zgadzasz się na nasze e-maile. Rezygnacja w każdej chwili.",
+         "cs": "Přihlášením souhlasíte s našimi e-maily. Odhlášení kdykoli.",
+         "pt": "Ao aderir aceita receber os nossos emails. Cancela quando quiser.",
+         "ru": "Подписываясь, вы соглашаетесь получать наши письма. Отписка в любой момент."
+        },
+        "cls": "fg-l"
+       }
+      ]
+     }
+    ]
+   },
+   {
+    "id": "s2",
+    "name": "Code",
+    "cols": [
+     {
+      "blocks": [
+       {
+        "id": "firs-183",
+        "type": "html",
+        "html": "<div class=\"fg-ring\"><span>✦</span></div>"
+       },
+       {
+        "id": "firs-184",
+        "type": "heading",
+        "t": {
+         "en": "With our compliments.",
+         "fr": "Avec nos compliments.",
+         "es": "Con nuestros saludos.",
+         "it": "Con i nostri omaggi.",
+         "de": "Mit unseren Empfehlungen.",
+         "nl": "Met onze complimenten.",
+         "pl": "Z wyrazami uznania.",
+         "cs": "S naším doporučením.",
+         "pt": "Com os nossos cumprimentos.",
+         "ru": "С нашими комплиментами."
+        }
+       },
+       {
+        "id": "firs-185",
+        "type": "coupon",
+        "note": {
+         "en": "Valid for 30 days on your first order.",
+         "fr": "Valable 30 jours sur votre première commande.",
+         "es": "Válido 30 días en tu primer pedido.",
+         "it": "Valido 30 giorni sul primo ordine.",
+         "de": "30 Tage gültig auf deine erste Bestellung.",
+         "nl": "30 dagen geldig op je eerste bestelling.",
+         "pl": "Ważny 30 dni na pierwsze zamówienie.",
+         "cs": "Platí 30 dní na první objednávku.",
+         "pt": "Válido 30 dias na primeira encomenda.",
+         "ru": "Действует 30 дней на первый заказ."
+        },
+        "copy": {
+         "en": "Copy",
+         "fr": "Copier",
+         "es": "Copiar",
+         "it": "Copia",
+         "de": "Kopieren",
+         "nl": "Kopiëren",
+         "pl": "Kopiuj",
+         "cs": "Kopírovat",
+         "pt": "Copiar",
+         "ru": "Копировать"
+        },
+        "code": "WELCOME-7KQ2M9XA"
+       },
+       {
+        "id": "firs-186",
+        "type": "button",
+        "t": {
+         "en": "Begin shopping",
+         "fr": "Commencer mes achats",
+         "es": "Empezar a comprar",
+         "it": "Inizia lo shopping",
+         "de": "Einkauf beginnen",
+         "nl": "Begin met winkelen",
+         "pl": "Zacznij zakupy",
+         "cs": "Začít nakupovat",
+         "pt": "Começar a comprar",
+         "ru": "Начать покупки"
+        },
+        "act": "apply",
+        "variant": "secondary",
+        "full": true
+       }
+      ]
+     }
+    ]
+   }
+  ],
+  "template": "first-order-gold"
+ },
+ "settings": {
+  "triggers": {
+   "mode": "any",
+   "timerOn": true,
+   "timerSec": 6,
+   "exitOn": false,
+   "exitSens": "normal",
+   "idleOn": false,
+   "idleSec": 30,
+   "scrollOn": false,
+   "scrollVal": 40,
+   "scrollUnit": "pct",
+   "clickOn": false,
+   "clickSel": "",
+   "pagesOn": false,
+   "pagesN": 2,
+   "pagesSec": 0,
+   "addcartOn": false
+  },
+  "close": {
+   "x": true,
+   "xDelay": 0,
+   "overlay": true,
+   "esc": true,
+   "timeOn": false,
+   "timeSec": 20,
+   "scrollOn": false,
+   "scrollPct": 80,
+   "videoOn": false,
+   "lastOn": false,
+   "lastSec": 6
+  },
+  "frequency": {
+   "mode": "days",
+   "days": 7,
+   "maxOn": false,
+   "max": 3,
+   "stopConvert": true,
+   "afterCloseOn": true,
+   "afterCloseDays": 2
+  },
+  "form": {
+   "list": "newsletter",
+   "consent": false,
+   "consentRequired": false
+  },
+  "coupon": {
+   "mode": "generated",
+   "code": "",
+   "type": "percent",
+   "value": 15,
+   "days": 30,
+   "min": 0,
+   "prefix": "GOLD-",
+   "autoApply": false
+  },
+  "targeting": {
+   "groups": [
+    {
+     "rules": [
+      {
+       "type": "visit",
+       "value": "first"
+      }
+     ]
+    }
+   ]
+  }
+ }
+}

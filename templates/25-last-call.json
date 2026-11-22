@@ -1,0 +1,196 @@
+{
+ "num": "25",
+ "slug": "last-call",
+ "name": "Last Call",
+ "group": "exit",
+ "formatLabel": "Full screen",
+ "tags": [
+  "exit intent",
+  "bold",
+  "full screen"
+ ],
+ "doc": {
+  "format": "fullscreen",
+  "mobile": {
+   "format": "same"
+  },
+  "fonts": [
+   "Bebas Neue",
+   "Barlow",
+   "Oswald",
+   "Inter"
+  ],
+  "theme": {
+   "bg": "#E10600",
+   "ink": "#FFFFFF",
+   "accent": "#111111",
+   "accentInk": "#FFFFFF",
+   "line": "#FFFFFF",
+   "radius": 0,
+   "fh": "Bebas Neue",
+   "fb": "Barlow",
+   "ffb": {
+    "Bebas Neue": "\"Oswald\", \"Arial Narrow\", sans-serif",
+    "Barlow": "\"Inter\", system-ui, sans-serif"
+   }
+  },
+  "closeBtn": {
+   "look": "text",
+   "label": {
+    "en": "Close ×",
+    "fr": "Fermer ×",
+    "es": "Cerrar ×",
+    "it": "Chiudi ×",
+    "de": "Schließen ×",
+    "nl": "Sluiten ×",
+    "pl": "Zamknij ×",
+    "cs": "Zavřít ×",
+    "pt": "Fechar ×",
+    "ru": "Закрыть ×"
+   }
+  },
+  "steps": [
+   {
+    "id": "s1",
+    "name": "Offer",
+    "cols": [
+     {
+      "blocks": [
+       {
+        "id": "last-234",
+        "type": "small",
+        "t": {
+         "en": "Before you go",
+         "fr": "Avant de partir",
+         "es": "Antes de irte",
+         "it": "Prima di andare",
+         "de": "Bevor du gehst",
+         "nl": "Voordat je gaat",
+         "pl": "Zanim wyjdziesz",
+         "cs": "Než odejdete",
+         "pt": "Antes de ir",
+         "ru": "Пока вы не ушли"
+        },
+        "cls": "lc-k"
+       },
+       {
+        "id": "last-235",
+        "type": "heading",
+        "t": {
+         "en": "Last call:\n20% off",
+         "fr": "Dernier appel :\n-20 %",
+         "es": "Última llamada:\n20 % de descuento",
+         "it": "Ultima chiamata:\n20% di sconto",
+         "de": "Letzte Chance:\n20 % Rabatt",
+         "nl": "Laatste kans:\n20% korting",
+         "pl": "Ostatnia szansa:\n-20%",
+         "cs": "Poslední šance:\nsleva 20 %",
+         "pt": "Última chamada:\n20% de desconto",
+         "ru": "Последний шанс:\n−20%"
+        }
+       },
+       {
+        "id": "last-238",
+        "type": "row",
+        "blocks": [
+         {
+          "id": "last-236",
+          "type": "text",
+          "t": {
+           "en": "Everything in your cart, for the next hour. Applied automatically at checkout.",
+           "fr": "Sur tout votre panier, pendant une heure. Appliqué automatiquement au paiement.",
+           "es": "Todo tu carrito, durante la próxima hora. Se aplica automáticamente al pagar.",
+           "it": "Tutto il tuo carrello, per la prossima ora. Applicato automaticamente al pagamento.",
+           "de": "Auf deinen gesamten Warenkorb, für die nächste Stunde. Wird an der Kasse automatisch abgezogen.",
+           "nl": "Op je hele winkelwagen, het komende uur. Automatisch toegepast bij het afrekenen.",
+           "pl": "Cały twój koszyk, przez najbliższą godzinę. Naliczane automatycznie przy kasie.",
+           "cs": "Celý váš košík, na příští hodinu. Uplatní se automaticky v pokladně.",
+           "pt": "Todo o seu carrinho, durante a próxima hora. Aplicado automaticamente no checkout.",
+           "ru": "На всю корзину, в течение часа. Применяется автоматически при оформлении."
+          }
+         },
+         {
+          "id": "last-237",
+          "type": "button",
+          "t": {
+           "en": "Take it →",
+           "fr": "J'en profite →",
+           "es": "Lo quiero →",
+           "it": "Lo prendo →",
+           "de": "Zugreifen →",
+           "nl": "Pak hem →",
+           "pl": "Biorę →",
+           "cs": "Beru →",
+           "pt": "Quero →",
+           "ru": "Беру →"
+          },
+          "act": "apply"
+         }
+        ],
+        "cls": "lc-bot"
+       }
+      ]
+     }
+    ]
+   }
+  ],
+  "template": "last-call"
+ },
+ "settings": {
+  "triggers": {
+   "mode": "any",
+   "timerOn": false,
+   "timerSec": 8,
+   "exitOn": true,
+   "exitSens": "normal",
+   "idleOn": false,
+   "idleSec": 30,
+   "scrollOn": false,
+   "scrollVal": 40,
+   "scrollUnit": "pct",
+   "clickOn": false,
+   "clickSel": "",
+   "pagesOn": false,
+   "pagesN": 2,
+   "pagesSec": 0,
+   "addcartOn": false
+  },
+  "close": {
+   "x": true,
+   "xDelay": 0,
+   "overlay": true,
+   "esc": true,
+   "timeOn": false,
+   "timeSec": 20,
+   "scrollOn": false,
+   "scrollPct": 80,
+   "videoOn": false,
+   "lastOn": false,
+   "lastSec": 6
+  },
+  "frequency": {
+   "mode": "days",
+   "days": 7,
+   "maxOn": false,
+   "max": 3,
+   "stopConvert": true,
+   "afterCloseOn": true,
+   "afterCloseDays": 2
+  },
+  "form": {
+   "list": "leads",
+   "consent": false,
+   "consentRequired": false
+  },
+  "coupon": {
+   "mode": "fixed",
+   "code": "LASTCALL20",
+   "type": "percent",
+   "value": 10,
+   "days": 14,
+   "min": 0,
+   "prefix": "",
+   "autoApply": true
+  }
+ }
+}

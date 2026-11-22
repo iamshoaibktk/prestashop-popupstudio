@@ -1,0 +1,18 @@
+.psx-t-flash-hazard .psx-box{padding:14px;background:repeating-linear-gradient(-45deg,#111 0 18px,#FFD400 18px 36px);box-shadow:0 22px 50px rgba(0,0,0,.45);overflow:visible}
+.psx-t-flash-hazard .psx-step{background:var(--psx-bg)}
+.psx-t-flash-hazard .psx-col{padding:26px 30px;text-align:center;align-items:center;gap:12px}
+.psx-t-flash-hazard .fh-k{background:#111;color:#FFD400;padding:4px 10px;font-weight:600;font-size:14px;opacity:1}
+.psx-t-flash-hazard .psx-h{font:900 96px/.82 var(--psx-fh);text-transform:uppercase}
+.psx-t-flash-hazard .psx-cd-u b{background:#111;color:#FFD400;font:900 50px/1 var(--psx-fh);min-width:64px;padding:12px 4px;border-radius:4px;position:relative}
+.psx-t-flash-hazard .psx-cd-u b::after{content:"";position:absolute;left:0;right:0;top:50%;height:2px;background:#FFD400}
+.psx-t-flash-hazard .psx-cd{gap:14px}
+.psx-t-flash-hazard .psx-cd-u small{font-weight:600}
+.psx-t-flash-hazard .psx-btn{border-radius:0;font:900 24px var(--psx-fh);text-transform:uppercase;min-height:52px;padding:0 30px}
+.psx-t-flash-hazard .fh-n{font-size:12px;font-weight:500;opacity:1}
+.psx-t-flash-hazard .psx-x{top:-16px;right:-16px;background:#111;color:#FFD400;box-shadow:0 0 0 3px #FFD400}
+.psx-t-flash-hazard.psx-mobile .psx-box{padding:10px}
+.psx-t-flash-hazard.psx-mobile .psx-col{padding:22px 16px}
+.psx-t-flash-hazard.psx-mobile .psx-h{font-size:64px}
+.psx-t-flash-hazard.psx-mobile .psx-cd-u b{font-size:40px;min-width:50px}
+.psx-t-flash-hazard.psx-mobile .psx-btn{align-self:stretch}
+.psx-t-flash-hazard.psx-mobile .psx-x{top:-10px;right:-6px}

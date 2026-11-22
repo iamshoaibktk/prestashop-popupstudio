@@ -1,0 +1,11 @@
+.psx-t-what-stopped-you .psx-col{padding:26px 26px 22px;gap:10px}
+.psx-t-what-stopped-you .ws-k{color:var(--psx-accent);font-weight:500;font-size:13px;opacity:1}
+.psx-t-what-stopped-you .psx-h{font:700 25px/1.2 var(--psx-fh)}
+.psx-t-what-stopped-you .psx-choice{border-radius:10px}
+.psx-t-what-stopped-you .psx-choices .psx-btn{align-self:flex-end;border-radius:10px;min-height:44px;margin-top:6px}
+.psx-t-what-stopped-you .ws-n{color:#475467;font-size:12.5px;opacity:1;margin-top:-34px;max-width:55%}
+.psx-t-what-stopped-you .psx-coupon{border-color:var(--psx-accent);border-radius:10px;background:#fff}
+.psx-t-what-stopped-you .psx-btn{border-radius:10px}
+.psx-t-what-stopped-you.psx-mobile .psx-col{padding:20px 18px}
+.psx-t-what-stopped-you.psx-mobile .psx-h{font-size:21px}
+.psx-t-what-stopped-you.psx-mobile .ws-n{margin-top:0;max-width:none}

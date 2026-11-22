@@ -1,0 +1,212 @@
+{
+ "num": "43",
+ "slug": "cellar-door",
+ "name": "Cellar Door",
+ "group": "info",
+ "formatLabel": "Full screen, age gate",
+ "tags": [
+  "age gate",
+  "wine",
+  "alcohol",
+  "compliance"
+ ],
+ "doc": {
+  "format": "fullscreen",
+  "mobile": {
+   "format": "same"
+  },
+  "fonts": [
+   "Cormorant Garamond",
+   "Jost"
+  ],
+  "theme": {
+   "bg": "#2B1B1F",
+   "ink": "#F3E9DC",
+   "accent": "#C9A86A",
+   "accentInk": "#2B1B1F",
+   "line": "#C9A86A",
+   "radius": 0,
+   "fh": "Cormorant Garamond",
+   "fb": "Jost"
+  },
+  "closeBtn": {
+   "show": false
+  },
+  "overlayClose": false,
+  "steps": [
+   {
+    "id": "s1",
+    "name": "Gate",
+    "cols": [
+     {
+      "blocks": [
+       {
+        "id": "cell-341",
+        "type": "html",
+        "html": "<div class=\"cd-frame\"><i class=\"cd-o cd-o0\"><svg viewBox=\"0 0 26 26\" width=\"26\" height=\"26\"><path d=\"M13 1l3 9 9 3-9 3-3 9-3-9-9-3 9-3z\" fill=\"#C9A86A\"/></svg></i><i class=\"cd-o cd-o1\"><svg viewBox=\"0 0 26 26\" width=\"26\" height=\"26\"><path d=\"M13 1l3 9 9 3-9 3-3 9-3-9-9-3 9-3z\" fill=\"#C9A86A\"/></svg></i><i class=\"cd-o cd-o2\"><svg viewBox=\"0 0 26 26\" width=\"26\" height=\"26\"><path d=\"M13 1l3 9 9 3-9 3-3 9-3-9-9-3 9-3z\" fill=\"#C9A86A\"/></svg></i><i class=\"cd-o cd-o3\"><svg viewBox=\"0 0 26 26\" width=\"26\" height=\"26\"><path d=\"M13 1l3 9 9 3-9 3-3 9-3-9-9-3 9-3z\" fill=\"#C9A86A\"/></svg></i></div>"
+       },
+       {
+        "id": "cell-342",
+        "type": "html",
+        "html": "<svg width=\"44\" height=\"54\" viewBox=\"0 0 44 54\"><path d=\"M12 2h20c0 14 4 18 4 26a14 14 0 0 1-28 0c0-8 4-12 4-26z\" fill=\"none\" stroke=\"#C9A86A\" stroke-width=\"1.6\"/><path d=\"M22 42v8M14 52h16\" stroke=\"#C9A86A\" stroke-width=\"1.6\" stroke-linecap=\"round\"/><path d=\"M10 24c8 3 16 3 24 0\" fill=\"none\" stroke=\"#C9A86A\" stroke-width=\"1.2\"/></svg>",
+        "cls": "cd-glass"
+       },
+       {
+        "id": "cell-343",
+        "type": "heading",
+        "t": {
+         "en": "Are you of legal drinking age?",
+         "fr": "Avez-vous l'âge légal pour boire de l'alcool ?",
+         "es": "¿Tienes la edad legal para beber alcohol?",
+         "it": "Hai l'età legale per bere alcolici?",
+         "de": "Bist du alt genug, um Alkohol zu trinken?",
+         "nl": "Ben je oud genoeg om alcohol te drinken?",
+         "pl": "Czy jesteś pełnoletni?",
+         "cs": "Je vám alespoň 18 let?",
+         "pt": "Tem idade legal para beber álcool?",
+         "ru": "Вам уже есть 18 лет?"
+        }
+       },
+       {
+        "id": "cell-344",
+        "type": "text",
+        "t": {
+         "en": "This shop sells wine and spirits. You must be 18 or older to enter.",
+         "fr": "Cette boutique vend du vin et des spiritueux. Vous devez avoir 18 ans ou plus pour entrer.",
+         "es": "Esta tienda vende vinos y licores. Debes tener 18 años o más para entrar.",
+         "it": "Questo negozio vende vini e liquori. Devi avere almeno 18 anni per entrare.",
+         "de": "Dieser Shop verkauft Wein und Spirituosen. Du musst mindestens 18 Jahre alt sein.",
+         "nl": "Deze winkel verkoopt wijn en sterke drank. Je moet 18 jaar of ouder zijn.",
+         "pl": "Ten sklep sprzedaje wina i alkohole. Musisz mieć co najmniej 18 lat, aby wejść.",
+         "cs": "Tento obchod prodává víno a lihoviny. Pro vstup vám musí být alespoň 18 let.",
+         "pt": "Esta loja vende vinhos e bebidas espirituosas. Tem de ter 18 anos ou mais para entrar.",
+         "ru": "Этот магазин продаёт вино и крепкие напитки. Для входа вам должно быть 18 лет или больше."
+        }
+       },
+       {
+        "id": "cell-347",
+        "type": "row",
+        "blocks": [
+         {
+          "id": "cell-345",
+          "type": "button",
+          "t": {
+           "en": "Yes, I am 18 or over",
+           "fr": "Oui, j'ai 18 ans ou plus",
+           "es": "Sí, tengo 18 años o más",
+           "it": "Sì, ho 18 anni o più",
+           "de": "Ja, ich bin 18 oder älter",
+           "nl": "Ja, ik ben 18 of ouder",
+           "pl": "Tak, mam 18 lat lub więcej",
+           "cs": "Ano, je mi 18 nebo víc",
+           "pt": "Sim, tenho 18 anos ou mais",
+           "ru": "Да, мне 18 или больше"
+          },
+          "act": "close",
+          "cls": "cd-yes"
+         },
+         {
+          "id": "cell-346",
+          "type": "button",
+          "t": {
+           "en": "No, take me back",
+           "fr": "Non, ramenez-moi",
+           "es": "No, sácame de aquí",
+           "it": "No, riportami indietro",
+           "de": "Nein, bring mich zurück",
+           "nl": "Nee, breng me terug",
+           "pl": "Nie, zabierz mnie stąd",
+           "cs": "Ne, vezměte mě zpět",
+           "pt": "Não, levem-me de volta",
+           "ru": "Нет, вернуть меня назад"
+          },
+          "act": "url",
+          "variant": "secondary",
+          "href": "https://www.google.com"
+         }
+        ],
+        "cls": "cd-btns"
+       },
+       {
+        "id": "cell-348",
+        "type": "small",
+        "t": {
+         "en": "Please enjoy responsibly.",
+         "fr": "L'abus d'alcool est dangereux pour la santé. À consommer avec modération.",
+         "es": "Disfruta con responsabilidad.",
+         "it": "Bevi responsabilmente.",
+         "de": "Bitte genieße verantwortungsvoll.",
+         "nl": "Geniet, maar drink met mate.",
+         "pl": "Pij odpowiedzialnie.",
+         "cs": "Pijte zodpovědně.",
+         "pt": "Beba com moderação.",
+         "ru": "Пожалуйста, употребляйте ответственно."
+        },
+        "cls": "cd-n"
+       }
+      ]
+     }
+    ]
+   }
+  ],
+  "template": "cellar-door"
+ },
+ "settings": {
+  "triggers": {
+   "mode": "any",
+   "timerOn": true,
+   "timerSec": 0,
+   "exitOn": false,
+   "exitSens": "normal",
+   "idleOn": false,
+   "idleSec": 30,
+   "scrollOn": false,
+   "scrollVal": 40,
+   "scrollUnit": "pct",
+   "clickOn": false,
+   "clickSel": "",
+   "pagesOn": false,
+   "pagesN": 2,
+   "pagesSec": 0,
+   "addcartOn": false
+  },
+  "close": {
+   "x": false,
+   "xDelay": 0,
+   "overlay": false,
+   "esc": false,
+   "timeOn": false,
+   "timeSec": 20,
+   "scrollOn": false,
+   "scrollPct": 80,
+   "videoOn": false,
+   "lastOn": false,
+   "lastSec": 6
+  },
+  "frequency": {
+   "mode": "days",
+   "days": 30,
+   "maxOn": false,
+   "max": 3,
+   "stopConvert": false,
+   "afterCloseOn": false,
+   "afterCloseDays": 2
+  },
+  "form": {
+   "list": "leads",
+   "consent": false,
+   "consentRequired": false
+  },
+  "coupon": {
+   "mode": "none",
+   "code": "",
+   "type": "percent",
+   "value": 10,
+   "days": 14,
+   "min": 0,
+   "prefix": "WELCOME-",
+   "autoApply": false
+  },
+  "ageGate": true
+ }
+}

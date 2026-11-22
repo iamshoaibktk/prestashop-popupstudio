@@ -1,0 +1,387 @@
+{
+ "num": "11",
+ "slug": "yes-or-no",
+ "name": "Yes or No",
+ "group": "newsletter",
+ "formatLabel": "Modal, two steps",
+ "tags": [
+  "newsletter",
+  "two-step",
+  "bold"
+ ],
+ "doc": {
+  "format": "modal",
+  "width": 620,
+  "mobile": {
+   "format": "sheet"
+  },
+  "fonts": [
+   "Archivo Black",
+   "Archivo",
+   "Oswald",
+   "Inter"
+  ],
+  "theme": {
+   "bg": "#2D2BD6",
+   "ink": "#FFFFFF",
+   "accent": "#FFD23F",
+   "accentInk": "#14136B",
+   "field": "#FFFFFF",
+   "fieldInk": "#14136B",
+   "line": "#FFFFFF",
+   "radius": 0,
+   "fh": "Archivo Black",
+   "fb": "Archivo",
+   "overlay": "rgba(16,15,80,.55)",
+   "error": "#FFD23F",
+   "ffb": {
+    "Archivo Black": "\"Oswald\", \"Arial Narrow\", sans-serif",
+    "Archivo": "\"Inter\", system-ui, sans-serif"
+   }
+  },
+  "closeBtn": {
+   "look": "circle"
+  },
+  "steps": [
+   {
+    "id": "s1",
+    "name": "Question",
+    "cols": [
+     {
+      "blocks": [
+       {
+        "id": "yes--105",
+        "type": "small",
+        "t": {
+         "en": "Quick question",
+         "fr": "Petite question",
+         "es": "Una pregunta rápida",
+         "it": "Una domanda veloce",
+         "de": "Kurze Frage",
+         "nl": "Snelle vraag",
+         "pl": "Szybkie pytanie",
+         "cs": "Rychlá otázka",
+         "pt": "Uma pergunta rápida",
+         "ru": "Короткий вопрос"
+        },
+        "cls": "yn-k"
+       },
+       {
+        "id": "yes--106",
+        "type": "heading",
+        "t": {
+         "en": "Want 15% off\nyour first order?",
+         "fr": "Envie de -15 %\nsur votre première commande ?",
+         "es": "¿Quieres un 15 % de descuento\nen tu primer pedido?",
+         "it": "Vuoi il 15% di sconto\nsul primo ordine?",
+         "de": "Lust auf 15 % Rabatt\nauf deine erste Bestellung?",
+         "nl": "Zin in 15% korting\nop je eerste bestelling?",
+         "pl": "Chcesz 15% rabatu\nna pierwsze zamówienie?",
+         "cs": "Chcete 15% slevu\nna první objednávku?",
+         "pt": "Quer 15% de desconto\nna primeira encomenda?",
+         "ru": "Хотите скидку 15%\nна первый заказ?"
+        }
+       },
+       {
+        "id": "yes--109",
+        "type": "row",
+        "blocks": [
+         {
+          "id": "yes--107",
+          "type": "button",
+          "t": {
+           "en": "Yes, 15% please<small>Next: your email →</small>",
+           "fr": "Oui, -15 % s'il vous plaît<small>Ensuite : votre e-mail →</small>",
+           "es": "Sí, el 15 %, por favor<small>Después: tu email →</small>",
+           "it": "Sì, il 15%, grazie<small>Poi: la tua email →</small>",
+           "de": "Ja, 15 % bitte<small>Weiter: deine E-Mail →</small>",
+           "nl": "Ja, 15% graag<small>Hierna: je e-mail →</small>",
+           "pl": "Tak, poproszę 15%<small>Dalej: twój e-mail →</small>",
+           "cs": "Ano, 15 % prosím<small>Dále: váš e-mail →</small>",
+           "pt": "Sim, 15% por favor<small>A seguir: o seu email →</small>",
+           "ru": "Да, 15%, пожалуйста<small>Далее: ваш email →</small>"
+          },
+          "act": "step",
+          "cls": "yn-yes",
+          "step": "s2"
+         },
+         {
+          "id": "yes--108",
+          "type": "button",
+          "t": {
+           "en": "No, I like paying full price<small>Closes this</small>",
+           "fr": "Non, j'aime payer le prix fort<small>Ferme cette fenêtre</small>",
+           "es": "No, me gusta pagar el precio completo<small>Cierra esto</small>",
+           "it": "No, mi piace pagare prezzo pieno<small>Chiude questa finestra</small>",
+           "de": "Nein, ich zahle gern den vollen Preis<small>Schließt das Fenster</small>",
+           "nl": "Nee, ik betaal graag de volle prijs<small>Sluit dit venster</small>",
+           "pl": "Nie, lubię płacić pełną cenę<small>Zamyka okno</small>",
+           "cs": "Ne, rád platím plnou cenu<small>Zavře okno</small>",
+           "pt": "Não, gosto de pagar o preço total<small>Fecha esta janela</small>",
+           "ru": "Нет, люблю платить полную цену<small>Закрывает окно</small>"
+          },
+          "act": "close",
+          "cls": "yn-no"
+         }
+        ],
+        "cls": "yn-grid"
+       }
+      ]
+     }
+    ]
+   },
+   {
+    "id": "s2",
+    "name": "Email",
+    "cols": [
+     {
+      "blocks": [
+       {
+        "id": "yes--110",
+        "type": "html",
+        "html": "<div class=\"yn-prog\"><i></i><i></i></div>"
+       },
+       {
+        "id": "yes--111",
+        "type": "small",
+        "t": {
+         "en": "Step 2 of 2",
+         "fr": "Étape 2 sur 2",
+         "es": "Paso 2 de 2",
+         "it": "Passo 2 di 2",
+         "de": "Schritt 2 von 2",
+         "nl": "Stap 2 van 2",
+         "pl": "Krok 2 z 2",
+         "cs": "Krok 2 ze 2",
+         "pt": "Passo 2 de 2",
+         "ru": "Шаг 2 из 2"
+        },
+        "cls": "yn-k"
+       },
+       {
+        "id": "yes--112",
+        "type": "heading",
+        "t": {
+         "en": "Great. Where should we send it?",
+         "fr": "Parfait. Où devons-nous l'envoyer ?",
+         "es": "Genial. ¿A dónde te lo enviamos?",
+         "it": "Perfetto. Dove te lo mandiamo?",
+         "de": "Super. Wohin sollen wir ihn schicken?",
+         "nl": "Top. Waar mogen we hem heen sturen?",
+         "pl": "Świetnie. Dokąd go wysłać?",
+         "cs": "Skvěle. Kam ji máme poslat?",
+         "pt": "Ótimo. Para onde o enviamos?",
+         "ru": "Отлично. Куда отправить?"
+        }
+       },
+       {
+        "id": "yes--113",
+        "type": "form",
+        "btn": {
+         "en": "Send my 15%",
+         "fr": "Envoyer mes -15 %",
+         "es": "Enviar mi 15 %",
+         "it": "Invia il mio 15%",
+         "de": "Meine 15 % senden",
+         "nl": "Stuur mijn 15%",
+         "pl": "Wyślij moje 15%",
+         "cs": "Poslat mých 15 %",
+         "pt": "Enviar os meus 15%",
+         "ru": "Отправить мои 15%"
+        },
+        "label": {
+         "en": "Email",
+         "fr": "E-mail",
+         "es": "Email",
+         "it": "Email",
+         "de": "E-Mail",
+         "nl": "E-mail",
+         "pl": "E-mail",
+         "cs": "E-mail",
+         "pt": "Email",
+         "ru": "Email"
+        },
+        "ph": {
+         "en": "you@example.com",
+         "fr": "vous@exemple.com",
+         "es": "tu@ejemplo.com",
+         "it": "tu@esempio.com",
+         "de": "du@beispiel.de",
+         "nl": "jij@voorbeeld.nl",
+         "pl": "ty@przyklad.pl",
+         "cs": "vy@priklad.cz",
+         "pt": "voce@exemplo.pt",
+         "ru": "vy@primer.ru"
+        },
+        "layout": "stack",
+        "consent": true,
+        "consentRequired": true,
+        "consentText": {
+         "en": "I agree to receive emails. Unsubscribe any time.",
+         "fr": "J'accepte de recevoir des e-mails. Désinscription à tout moment.",
+         "es": "Acepto recibir emails. Baja cuando quiera.",
+         "it": "Accetto di ricevere email. Disiscrizione quando voglio.",
+         "de": "Ich möchte E-Mails erhalten. Abmeldung jederzeit möglich.",
+         "nl": "Ik wil e-mails ontvangen. Uitschrijven kan altijd.",
+         "pl": "Zgadzam się na otrzymywanie e-maili. Rezygnacja w każdej chwili.",
+         "cs": "Souhlasím se zasíláním e-mailů. Odhlášení kdykoli.",
+         "pt": "Aceito receber emails. Cancelo quando quiser.",
+         "ru": "Я согласен получать письма. Отписка в любой момент."
+        },
+        "next": "s3",
+        "hideLabel": true
+       }
+      ]
+     }
+    ]
+   },
+   {
+    "id": "s3",
+    "name": "Code",
+    "cols": [
+     {
+      "blocks": [
+       {
+        "id": "yes--114",
+        "type": "small",
+        "t": {
+         "en": "Done",
+         "fr": "Terminé",
+         "es": "Hecho",
+         "it": "Fatto",
+         "de": "Fertig",
+         "nl": "Klaar",
+         "pl": "Gotowe",
+         "cs": "Hotovo",
+         "pt": "Feito",
+         "ru": "Готово"
+        },
+        "cls": "yn-k"
+       },
+       {
+        "id": "yes--115",
+        "type": "heading",
+        "t": {
+         "en": "15% off. Yours.",
+         "fr": "-15 %. Pour vous.",
+         "es": "15 % de descuento. Tuyo.",
+         "it": "15% di sconto. Tuo.",
+         "de": "15 % Rabatt. Für dich.",
+         "nl": "15% korting. Voor jou.",
+         "pl": "15% rabatu. Dla ciebie.",
+         "cs": "Sleva 15 %. Vaše.",
+         "pt": "15% de desconto. Seus.",
+         "ru": "Скидка 15%. Ваша."
+        }
+       },
+       {
+        "id": "yes--116",
+        "type": "coupon",
+        "note": {
+         "en": "Valid until {coupon_expiry}. One use.",
+         "fr": "Valable jusqu'au {coupon_expiry}. Un seul usage.",
+         "es": "Válido hasta el {coupon_expiry}. Un solo uso.",
+         "it": "Valido fino al {coupon_expiry}. Un solo utilizzo.",
+         "de": "Gültig bis {coupon_expiry}. Einmal einlösbar.",
+         "nl": "Geldig tot {coupon_expiry}. Eenmalig te gebruiken.",
+         "pl": "Ważny do {coupon_expiry}. Jednorazowy.",
+         "cs": "Platí do {coupon_expiry}. Jedno použití.",
+         "pt": "Válido até {coupon_expiry}. Uma utilização.",
+         "ru": "Действует до {coupon_expiry}. Одно использование."
+        },
+        "copy": {
+         "en": "Copy",
+         "fr": "Copier",
+         "es": "Copiar",
+         "it": "Copia",
+         "de": "Kopieren",
+         "nl": "Kopiëren",
+         "pl": "Kopiuj",
+         "cs": "Kopírovat",
+         "pt": "Copiar",
+         "ru": "Копировать"
+        },
+        "code": "WELCOME-7KQ2M9XA"
+       },
+       {
+        "id": "yes--117",
+        "type": "button",
+        "t": {
+         "en": "Apply to my cart",
+         "fr": "Appliquer à mon panier",
+         "es": "Aplicar a mi carrito",
+         "it": "Applica al mio carrello",
+         "de": "Auf meinen Warenkorb anwenden",
+         "nl": "Toepassen op mijn winkelwagen",
+         "pl": "Zastosuj w koszyku",
+         "cs": "Uplatnit v košíku",
+         "pt": "Aplicar ao meu carrinho",
+         "ru": "Применить к корзине"
+        },
+        "act": "apply"
+       }
+      ]
+     }
+    ]
+   }
+  ],
+  "template": "yes-or-no"
+ },
+ "settings": {
+  "triggers": {
+   "mode": "any",
+   "timerOn": true,
+   "timerSec": 10,
+   "exitOn": false,
+   "exitSens": "normal",
+   "idleOn": false,
+   "idleSec": 30,
+   "scrollOn": false,
+   "scrollVal": 40,
+   "scrollUnit": "pct",
+   "clickOn": false,
+   "clickSel": "",
+   "pagesOn": false,
+   "pagesN": 2,
+   "pagesSec": 0,
+   "addcartOn": false
+  },
+  "close": {
+   "x": true,
+   "xDelay": 0,
+   "overlay": true,
+   "esc": true,
+   "timeOn": false,
+   "timeSec": 20,
+   "scrollOn": false,
+   "scrollPct": 80,
+   "videoOn": false,
+   "lastOn": false,
+   "lastSec": 6
+  },
+  "frequency": {
+   "mode": "days",
+   "days": 7,
+   "maxOn": false,
+   "max": 3,
+   "stopConvert": true,
+   "afterCloseOn": true,
+   "afterCloseDays": 2
+  },
+  "form": {
+   "list": "newsletter",
+   "consent": true,
+   "consentRequired": true
+  },
+  "coupon": {
+   "mode": "generated",
+   "code": "",
+   "type": "percent",
+   "value": 15,
+   "days": 14,
+   "min": 0,
+   "prefix": "YES15-",
+   "autoApply": false
+  }
+ }
+}

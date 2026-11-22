@@ -1,0 +1,160 @@
+{
+ "num": "34",
+ "slug": "countdown-strip",
+ "name": "Countdown Strip",
+ "group": "bars",
+ "formatLabel": "Bar, top, countdown",
+ "tags": [
+  "bar",
+  "countdown",
+  "sale"
+ ],
+ "doc": {
+  "format": "bar",
+  "position": "top",
+  "bar": "push",
+  "mobile": {
+   "format": "same"
+  },
+  "fonts": [
+   "Red Hat Display",
+   "Red Hat Mono",
+   "Inter"
+  ],
+  "theme": {
+   "bg": "#4B1D3F",
+   "ink": "#FFFFFF",
+   "accent": "#FFB4A2",
+   "accentInk": "#4B1D3F",
+   "radius": 0,
+   "fh": "Red Hat Display",
+   "fb": "Red Hat Display",
+   "ffb": {
+    "Red Hat Display": "\"Inter\", system-ui, sans-serif"
+   }
+  },
+  "overlay": false,
+  "steps": [
+   {
+    "id": "s1",
+    "name": "Bar",
+    "cols": [
+     {
+      "blocks": [
+       {
+        "id": "coun-296",
+        "type": "row",
+        "blocks": [
+         {
+          "id": "coun-293",
+          "type": "text",
+          "t": {
+           "en": "Winter sale: up to 40% off",
+           "fr": "Soldes d'hiver : jusqu'à -40 %",
+           "es": "Rebajas de invierno: hasta un 40 %",
+           "it": "Saldi invernali: fino al 40%",
+           "de": "Winter-Sale: bis zu 40 % Rabatt",
+           "nl": "Wintersale: tot 40% korting",
+           "pl": "Zimowa wyprzedaż: do -40%",
+           "cs": "Zimní výprodej: slevy až 40 %",
+           "pt": "Saldos de inverno: até 40% de desconto",
+           "ru": "Зимняя распродажа: скидки до 40%"
+          },
+          "cls": "cs-t"
+         },
+         {
+          "id": "coun-294",
+          "type": "countdown",
+          "mode": "date",
+          "minutes": 60,
+          "end": "2026-12-31T23:59",
+          "look": "strip",
+          "hideAtZero": true
+         },
+         {
+          "id": "coun-295",
+          "type": "button",
+          "t": {
+           "en": "Shop now",
+           "fr": "Acheter",
+           "es": "Comprar",
+           "it": "Acquista ora",
+           "de": "Jetzt shoppen",
+           "nl": "Shop nu",
+           "pl": "Kupuj teraz",
+           "cs": "Nakupovat",
+           "pt": "Comprar",
+           "ru": "В магазин"
+          },
+          "act": "url",
+          "cls": "cs-btn",
+          "href": "/"
+         }
+        ],
+        "cls": "cs-row"
+       }
+      ]
+     }
+    ]
+   }
+  ],
+  "template": "countdown-strip"
+ },
+ "settings": {
+  "triggers": {
+   "mode": "any",
+   "timerOn": true,
+   "timerSec": 0,
+   "exitOn": false,
+   "exitSens": "normal",
+   "idleOn": false,
+   "idleSec": 30,
+   "scrollOn": false,
+   "scrollVal": 40,
+   "scrollUnit": "pct",
+   "clickOn": false,
+   "clickSel": "",
+   "pagesOn": false,
+   "pagesN": 2,
+   "pagesSec": 0,
+   "addcartOn": false
+  },
+  "close": {
+   "x": true,
+   "xDelay": 0,
+   "overlay": false,
+   "esc": true,
+   "timeOn": false,
+   "timeSec": 20,
+   "scrollOn": false,
+   "scrollPct": 80,
+   "videoOn": false,
+   "lastOn": false,
+   "lastSec": 6
+  },
+  "frequency": {
+   "mode": "page",
+   "days": 7,
+   "maxOn": false,
+   "max": 3,
+   "stopConvert": false,
+   "afterCloseOn": true,
+   "afterCloseDays": 1
+  },
+  "form": {
+   "list": "leads",
+   "consent": false,
+   "consentRequired": false
+  },
+  "coupon": {
+   "mode": "none",
+   "code": "",
+   "type": "percent",
+   "value": 10,
+   "days": 14,
+   "min": 0,
+   "prefix": "WELCOME-",
+   "autoApply": false
+  }
+ }
+}

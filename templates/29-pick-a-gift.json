@@ -1,0 +1,505 @@
+{
+ "num": "29",
+ "slug": "pick-a-gift",
+ "name": "Pick a Gift",
+ "group": "games",
+ "formatLabel": "Modal, pick one of three",
+ "tags": [
+  "game",
+  "gift",
+  "pick"
+ ],
+ "doc": {
+  "format": "modal",
+  "width": 600,
+  "mobile": {
+   "format": "same"
+  },
+  "fonts": [
+   "Fredoka",
+   "Nunito"
+  ],
+  "theme": {
+   "bg": "#0C3B2E",
+   "ink": "#FFF8E7",
+   "accent": "#E9B44C",
+   "accentInk": "#0C3B2E",
+   "field": "#FFF8E7",
+   "fieldInk": "#0C3B2E",
+   "line": "#FFF8E7",
+   "radius": 24,
+   "fh": "Fredoka",
+   "fb": "Fredoka",
+   "overlay": "rgba(5,25,19,.6)",
+   "ffb": {
+    "Fredoka": "\"Nunito\", system-ui, sans-serif"
+   }
+  },
+  "closeBtn": {
+   "look": "circle"
+  },
+  "steps": [
+   {
+    "id": "s1",
+    "name": "Pick",
+    "cols": [
+     {
+      "blocks": [
+       {
+        "id": "pick-262",
+        "type": "heading",
+        "t": {
+         "en": "Pick a gift, any gift",
+         "fr": "Choisissez un cadeau",
+         "es": "Elige un regalo, el que quieras",
+         "it": "Scegli un regalo, uno qualsiasi",
+         "de": "Such dir ein Geschenk aus",
+         "nl": "Kies een cadeau, welk dan ook",
+         "pl": "Wybierz prezent, którykolwiek",
+         "cs": "Vyberte si dárek",
+         "pt": "Escolha um presente, qualquer um",
+         "ru": "Выберите подарок, любой"
+        }
+       },
+       {
+        "id": "pick-263",
+        "type": "text",
+        "t": {
+         "en": "Each box holds a different surprise. Choose one.",
+         "fr": "Chaque boîte cache une surprise différente. Choisissez-en une.",
+         "es": "Cada caja guarda una sorpresa distinta. Elige una.",
+         "it": "Ogni scatola nasconde una sorpresa diversa. Scegline una.",
+         "de": "Jede Box enthält eine andere Überraschung. Wähle eine.",
+         "nl": "Elke doos bevat een andere verrassing. Kies er één.",
+         "pl": "Każde pudełko kryje inną niespodziankę. Wybierz jedno.",
+         "cs": "Každá krabička skrývá jiné překvapení. Vyberte jednu.",
+         "pt": "Cada caixa tem uma surpresa diferente. Escolha uma.",
+         "ru": "В каждой коробке свой сюрприз. Выберите одну."
+        }
+       },
+       {
+        "id": "pick-264",
+        "type": "pick",
+        "look": "gift",
+        "items": [
+         {
+          "svg": "<svg viewBox=\"0 0 120 130\" width=\"120\" height=\"130\"><rect x=\"12\" y=\"56\" width=\"96\" height=\"70\" rx=\"6\" fill=\"#C8432F\"/><rect x=\"6\" y=\"40\" width=\"108\" height=\"22\" rx=\"5\" fill=\"#E05A44\"/><rect x=\"52\" y=\"40\" width=\"16\" height=\"86\" fill=\"#E9B44C\"/><path d=\"M60 40 C 40 10, 20 30, 60 40 C 100 30, 80 10, 60 40\" fill=\"none\" stroke=\"#E9B44C\" stroke-width=\"7\" stroke-linecap=\"round\"/></svg>",
+          "t": {
+           "en": "Red",
+           "fr": "Rouge",
+           "es": "Roja",
+           "it": "Rossa",
+           "de": "Rot",
+           "nl": "Rood",
+           "pl": "Czerwone",
+           "cs": "Červená",
+           "pt": "Vermelha",
+           "ru": "Красная"
+          },
+          "aria": {
+           "en": "Open the red box",
+           "fr": "Ouvrir la boîte rouge",
+           "es": "Abrir la caja roja",
+           "it": "Apri la scatola rossa",
+           "de": "Die rote Box öffnen",
+           "nl": "Open de rode doos",
+           "pl": "Otwórz czerwone pudełko",
+           "cs": "Otevřít červenou krabičku",
+           "pt": "Abrir a caixa vermelha",
+           "ru": "Открыть красную коробку"
+          }
+         },
+         {
+          "svg": "<svg viewBox=\"0 0 130 150\" width=\"130\" height=\"150\"><rect x=\"14\" y=\"74\" width=\"102\" height=\"72\" rx=\"6\" fill=\"#F3E6C8\"/><g class=\"lid\"><rect x=\"8\" y=\"50\" width=\"114\" height=\"24\" rx=\"5\" fill=\"#FFF8E7\"/><rect x=\"57\" y=\"50\" width=\"16\" height=\"24\" fill=\"#2E8B6A\"/><circle cx=\"65\" cy=\"44\" r=\"9\" fill=\"#2E8B6A\"/><path d=\"M65 44 l-20 -16 M65 44 l20 -16\" stroke=\"#2E8B6A\" stroke-width=\"7\" stroke-linecap=\"round\"/></g><rect x=\"57\" y=\"74\" width=\"16\" height=\"72\" fill=\"#2E8B6A\"/></svg>",
+          "t": {
+           "en": "Cream",
+           "fr": "Crème",
+           "es": "Crema",
+           "it": "Crema",
+           "de": "Creme",
+           "nl": "Crème",
+           "pl": "Kremowe",
+           "cs": "Krémová",
+           "pt": "Creme",
+           "ru": "Кремовая"
+          },
+          "aria": {
+           "en": "Open the cream box",
+           "fr": "Ouvrir la boîte crème",
+           "es": "Abrir la caja crema",
+           "it": "Apri la scatola crema",
+           "de": "Die cremefarbene Box öffnen",
+           "nl": "Open de crèmekleurige doos",
+           "pl": "Otwórz kremowe pudełko",
+           "cs": "Otevřít krémovou krabičku",
+           "pt": "Abrir a caixa creme",
+           "ru": "Открыть кремовую коробку"
+          }
+         },
+         {
+          "svg": "<svg viewBox=\"0 0 110 120\" width=\"110\" height=\"120\"><rect x=\"10\" y=\"50\" width=\"90\" height=\"66\" rx=\"6\" fill=\"#E9B44C\"/><rect x=\"4\" y=\"34\" width=\"102\" height=\"22\" rx=\"5\" fill=\"#F2C76A\"/><rect x=\"48\" y=\"34\" width=\"14\" height=\"82\" fill=\"#0C3B2E\"/><rect x=\"4\" y=\"76\" width=\"102\" height=\"12\" fill=\"#0C3B2E\"/><path d=\"M55 34 c-6-16-26-16-22-2 c4 8 22 2 22 2 c0 0 18 6 22-2 c4-14-16-14-22 2\" fill=\"#0C3B2E\"/></svg>",
+          "t": {
+           "en": "Gold",
+           "fr": "Or",
+           "es": "Dorada",
+           "it": "Oro",
+           "de": "Gold",
+           "nl": "Goud",
+           "pl": "Złote",
+           "cs": "Zlatá",
+           "pt": "Dourada",
+           "ru": "Золотая"
+          },
+          "aria": {
+           "en": "Open the gold box",
+           "fr": "Ouvrir la boîte dorée",
+           "es": "Abrir la caja dorada",
+           "it": "Apri la scatola dorata",
+           "de": "Die goldene Box öffnen",
+           "nl": "Open de gouden doos",
+           "pl": "Otwórz złote pudełko",
+           "cs": "Otevřít zlatou krabičku",
+           "pt": "Abrir a caixa dourada",
+           "ru": "Открыть золотую коробку"
+          }
+         }
+        ],
+        "label": {
+         "en": "Three gift boxes",
+         "fr": "Trois boîtes cadeaux",
+         "es": "Tres cajas de regalo",
+         "it": "Tre scatole regalo",
+         "de": "Drei Geschenkboxen",
+         "nl": "Drie cadeaudozen",
+         "pl": "Trzy pudełka z prezentami",
+         "cs": "Tři dárkové krabičky",
+         "pt": "Três caixas de presente",
+         "ru": "Три подарочные коробки"
+        }
+       },
+       {
+        "id": "pick-265",
+        "type": "small",
+        "t": {
+         "en": "You'll be asked for your email to keep the prize.",
+         "fr": "Votre e-mail vous sera demandé pour garder le lot.",
+         "es": "Te pediremos tu email para conservar el premio.",
+         "it": "Ti chiederemo la tua email per tenere il premio.",
+         "de": "Um den Gewinn zu behalten, fragen wir nach deiner E-Mail.",
+         "nl": "We vragen je e-mail om de prijs te houden.",
+         "pl": "Poprosimy o e-mail, by zachować nagrodę.",
+         "cs": "Pro uchování výhry vás požádáme o e-mail.",
+         "pt": "Vamos pedir o seu email para guardar o prémio.",
+         "ru": "Чтобы сохранить приз, мы попросим ваш email."
+        },
+        "cls": "pg-n"
+       }
+      ]
+     }
+    ]
+   },
+   {
+    "id": "claim",
+    "name": "Claim",
+    "cols": [
+     {
+      "blocks": [
+       {
+        "id": "pick-266",
+        "type": "heading",
+        "t": {
+         "en": "You found {prize}!",
+         "fr": "Vous avez trouvé {prize} !",
+         "es": "¡Has encontrado {prize}!",
+         "it": "Hai trovato {prize}!",
+         "de": "Du hast {prize} gefunden!",
+         "nl": "Je vond {prize}!",
+         "pl": "Znalazłeś {prize}!",
+         "cs": "Našli jste {prize}!",
+         "pt": "Encontrou {prize}!",
+         "ru": "Вы нашли {prize}!"
+        }
+       },
+       {
+        "id": "pick-267",
+        "type": "text",
+        "t": {
+         "en": "Leave your email to keep it.",
+         "fr": "Laissez votre e-mail pour la garder.",
+         "es": "Deja tu email para conservarlo.",
+         "it": "Lascia la tua email per tenerlo.",
+         "de": "Hinterlasse deine E-Mail, um ihn zu behalten.",
+         "nl": "Laat je e-mail achter om hem te houden.",
+         "pl": "Zostaw e-mail, aby go zatrzymać.",
+         "cs": "Nechte e-mail, abyste si ji nechali.",
+         "pt": "Deixe o seu email para o guardar.",
+         "ru": "Оставьте email, чтобы сохранить её."
+        }
+       },
+       {
+        "id": "pick-268",
+        "type": "form",
+        "btn": {
+         "en": "Keep my gift",
+         "fr": "Garder mon cadeau",
+         "es": "Guardar mi regalo",
+         "it": "Tieni il mio regalo",
+         "de": "Geschenk behalten",
+         "nl": "Mijn cadeau houden",
+         "pl": "Zachowaj mój prezent",
+         "cs": "Nechat si dárek",
+         "pt": "Guardar o meu presente",
+         "ru": "Сохранить подарок"
+        },
+        "label": {
+         "en": "Email",
+         "fr": "E-mail",
+         "es": "Email",
+         "it": "Email",
+         "de": "E-Mail",
+         "nl": "E-mail",
+         "pl": "E-mail",
+         "cs": "E-mail",
+         "pt": "Email",
+         "ru": "Email"
+        },
+        "ph": {
+         "en": "you@example.com",
+         "fr": "vous@exemple.com",
+         "es": "tu@ejemplo.com",
+         "it": "tu@esempio.com",
+         "de": "du@beispiel.de",
+         "nl": "jij@voorbeeld.nl",
+         "pl": "ty@przyklad.pl",
+         "cs": "vy@priklad.cz",
+         "pt": "voce@exemplo.pt",
+         "ru": "vy@primer.ru"
+        },
+        "layout": "stack",
+        "consent": true,
+        "consentRequired": true,
+        "consentText": {
+         "en": "Send me offers too",
+         "fr": "Envoyez-moi aussi des offres",
+         "es": "Enviadme también ofertas",
+         "it": "Mandatemi anche le offerte",
+         "de": "Schickt mir auch Angebote",
+         "nl": "Stuur me ook aanbiedingen",
+         "pl": "Wysyłajcie mi też oferty",
+         "cs": "Posílejte mi i nabídky",
+         "pt": "Enviem-me também ofertas",
+         "ru": "Присылайте и предложения"
+        },
+        "next": "won",
+        "hideLabel": true
+       }
+      ]
+     }
+    ]
+   },
+   {
+    "id": "won",
+    "name": "Prize",
+    "cols": [
+     {
+      "blocks": [
+       {
+        "id": "pick-269",
+        "type": "heading",
+        "t": {
+         "en": "{prize}, wrapped.",
+         "fr": "{prize}, emballé.",
+         "es": "{prize}, envuelto.",
+         "it": "{prize}, impacchettato.",
+         "de": "{prize}, verpackt.",
+         "nl": "{prize}, ingepakt.",
+         "pl": "{prize}, zapakowane.",
+         "cs": "{prize}, zabaleno.",
+         "pt": "{prize}, embrulhado.",
+         "ru": "{prize}, в подарочной упаковке."
+        }
+       },
+       {
+        "id": "pick-270",
+        "type": "coupon",
+        "note": {
+         "en": "Saved to your email. Valid 14 days.",
+         "fr": "Envoyé à votre e-mail. Valable 14 jours.",
+         "es": "Guardado en tu email. Válido 14 días.",
+         "it": "Salvato sulla tua email. Valido 14 giorni.",
+         "de": "An deine E-Mail gesendet. 14 Tage gültig.",
+         "nl": "Naar je e-mail gestuurd. 14 dagen geldig.",
+         "pl": "Wysłane na twój e-mail. Ważne 14 dni.",
+         "cs": "Uloženo k vašemu e-mailu. Platí 14 dní.",
+         "pt": "Guardado no seu email. Válido 14 dias.",
+         "ru": "Сохранено на ваш email. Действует 14 дней."
+        },
+        "copy": {
+         "en": "Copy",
+         "fr": "Copier",
+         "es": "Copiar",
+         "it": "Copia",
+         "de": "Kopieren",
+         "nl": "Kopiëren",
+         "pl": "Kopiuj",
+         "cs": "Kopírovat",
+         "pt": "Copiar",
+         "ru": "Копировать"
+        },
+        "code": "WELCOME-7KQ2M9XA"
+       },
+       {
+        "id": "pick-271",
+        "type": "button",
+        "t": {
+         "en": "Apply to my cart",
+         "fr": "Appliquer à mon panier",
+         "es": "Aplicar a mi carrito",
+         "it": "Applica al mio carrello",
+         "de": "Auf meinen Warenkorb anwenden",
+         "nl": "Toepassen op mijn winkelwagen",
+         "pl": "Zastosuj w koszyku",
+         "cs": "Uplatnit v košíku",
+         "pt": "Aplicar ao meu carrinho",
+         "ru": "Применить к корзине"
+        },
+        "act": "apply",
+        "full": true
+       }
+      ]
+     }
+    ]
+   }
+  ],
+  "template": "pick-a-gift"
+ },
+ "settings": {
+  "triggers": {
+   "mode": "any",
+   "timerOn": true,
+   "timerSec": 10,
+   "exitOn": false,
+   "exitSens": "normal",
+   "idleOn": false,
+   "idleSec": 30,
+   "scrollOn": false,
+   "scrollVal": 40,
+   "scrollUnit": "pct",
+   "clickOn": false,
+   "clickSel": "",
+   "pagesOn": false,
+   "pagesN": 2,
+   "pagesSec": 0,
+   "addcartOn": false
+  },
+  "close": {
+   "x": true,
+   "xDelay": 0,
+   "overlay": true,
+   "esc": true,
+   "timeOn": false,
+   "timeSec": 20,
+   "scrollOn": false,
+   "scrollPct": 80,
+   "videoOn": false,
+   "lastOn": false,
+   "lastSec": 6
+  },
+  "frequency": {
+   "mode": "once",
+   "days": 7,
+   "maxOn": false,
+   "max": 3,
+   "stopConvert": true,
+   "afterCloseOn": true,
+   "afterCloseDays": 2
+  },
+  "form": {
+   "list": "newsletter",
+   "consent": true,
+   "consentRequired": false
+  },
+  "coupon": {
+   "mode": "none",
+   "code": "",
+   "type": "percent",
+   "value": 10,
+   "days": 14,
+   "min": 0,
+   "prefix": "WELCOME-",
+   "autoApply": false
+  },
+  "game": {
+   "type": "pick",
+   "emailFirst": false,
+   "prizes": [
+    {
+     "key": "p10",
+     "label": {
+      "en": "10% off",
+      "fr": "-10 %",
+      "es": "10 % dto.",
+      "it": "-10%",
+      "de": "10 % Rabatt",
+      "nl": "10% korting",
+      "pl": "-10%",
+      "cs": "Sleva 10 %",
+      "pt": "10% desc.",
+      "ru": "−10%"
+     },
+     "weight": 55,
+     "stock": "",
+     "coupon": {
+      "type": "percent",
+      "value": 10,
+      "days": 14
+     }
+    },
+    {
+     "key": "p15",
+     "label": {
+      "en": "15% off",
+      "fr": "-15 %",
+      "es": "15 % dto.",
+      "it": "-15%",
+      "de": "15 % Rabatt",
+      "nl": "15% korting",
+      "pl": "-15%",
+      "cs": "Sleva 15 %",
+      "pt": "15% desc.",
+      "ru": "−15%"
+     },
+     "weight": 30,
+     "stock": "",
+     "coupon": {
+      "type": "percent",
+      "value": 15,
+      "days": 14
+     }
+    },
+    {
+     "key": "ship",
+     "label": {
+      "en": "free shipping",
+      "fr": "livraison offerte",
+      "es": "envío gratis",
+      "it": "spedizione gratuita",
+      "de": "Gratisversand",
+      "nl": "gratis verzending",
+      "pl": "darmowa dostawa",
+      "cs": "doprava zdarma",
+      "pt": "portes grátis",
+      "ru": "бесплатная доставка"
+     },
+     "weight": 15,
+     "stock": "",
+     "coupon": {
+      "type": "shipping",
+      "value": 10,
+      "days": 14
+     }
+    }
+   ]
+  }
+ }
+}

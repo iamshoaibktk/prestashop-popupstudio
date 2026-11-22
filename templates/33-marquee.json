@@ -1,0 +1,158 @@
+{
+ "num": "33",
+ "slug": "marquee",
+ "name": "Marquee",
+ "group": "bars",
+ "formatLabel": "Bar, top, scrolling",
+ "tags": [
+  "bar",
+  "ticker",
+  "announcement"
+ ],
+ "doc": {
+  "format": "bar",
+  "position": "top",
+  "bar": "push",
+  "mobile": {
+   "format": "same"
+  },
+  "fonts": [
+   "Unbounded"
+  ],
+  "theme": {
+   "bg": "#111111",
+   "ink": "#F5F5F0",
+   "accent": "#FF5C39",
+   "accentInk": "#111111",
+   "radius": 0,
+   "fh": "Unbounded",
+   "fb": "Unbounded"
+  },
+  "overlay": false,
+  "steps": [
+   {
+    "id": "s1",
+    "name": "Bar",
+    "cols": [
+     {
+      "blocks": [
+       {
+        "id": "marq-292",
+        "type": "marquee",
+        "items": [
+         {
+          "en": "Free shipping over €60",
+          "fr": "Livraison gratuite dès 60 €",
+          "es": "Envío gratis desde 60 €",
+          "it": "Spedizione gratuita sopra i 60 €",
+          "de": "Gratisversand ab 60 €",
+          "nl": "Gratis verzending boven € 60",
+          "pl": "Darmowa dostawa od 60 €",
+          "cs": "Doprava zdarma nad 60 €",
+          "pt": "Portes grátis acima de 60 €",
+          "ru": "Бесплатная доставка от 60 €"
+         },
+         {
+          "en": "New drop: Field Jacket, olive",
+          "fr": "Nouveauté : Field Jacket, olive",
+          "es": "Novedad: Field Jacket, oliva",
+          "it": "Novità: Field Jacket, oliva",
+          "de": "Neu: Field Jacket, Oliv",
+          "nl": "Nieuw: Field Jacket, olijf",
+          "pl": "Nowość: Field Jacket, oliwkowa",
+          "cs": "Novinka: Field Jacket, olivová",
+          "pt": "Novidade: Field Jacket, azeitona",
+          "ru": "Новинка: Field Jacket, оливковый"
+         },
+         {
+          "en": "30-day returns",
+          "fr": "Retours sous 30 jours",
+          "es": "Devoluciones en 30 días",
+          "it": "Reso entro 30 giorni",
+          "de": "30 Tage Rückgaberecht",
+          "nl": "30 dagen retour",
+          "pl": "30 dni na zwrot",
+          "cs": "Vrácení do 30 dní",
+          "pt": "Devoluções em 30 dias",
+          "ru": "Возврат в течение 30 дней"
+         },
+         {
+          "en": "Order by 2 pm, ships today",
+          "fr": "Commandé avant 14 h, expédié aujourd'hui",
+          "es": "Pide antes de las 14:00 y sale hoy",
+          "it": "Ordina entro le 14, spedito oggi",
+          "de": "Bis 14 Uhr bestellt, heute versandt",
+          "nl": "Voor 14.00 uur besteld, vandaag verzonden",
+          "pl": "Zamów do 14:00, wysyłka dziś",
+          "cs": "Objednáte do 14:00, odešleme dnes",
+          "pt": "Encomende até às 14h, sai hoje",
+          "ru": "Заказ до 14:00 — отправим сегодня"
+         }
+        ],
+        "sep": "✦"
+       }
+      ]
+     }
+    ]
+   }
+  ],
+  "template": "marquee"
+ },
+ "settings": {
+  "triggers": {
+   "mode": "any",
+   "timerOn": true,
+   "timerSec": 0,
+   "exitOn": false,
+   "exitSens": "normal",
+   "idleOn": false,
+   "idleSec": 30,
+   "scrollOn": false,
+   "scrollVal": 40,
+   "scrollUnit": "pct",
+   "clickOn": false,
+   "clickSel": "",
+   "pagesOn": false,
+   "pagesN": 2,
+   "pagesSec": 0,
+   "addcartOn": false
+  },
+  "close": {
+   "x": true,
+   "xDelay": 0,
+   "overlay": false,
+   "esc": true,
+   "timeOn": false,
+   "timeSec": 20,
+   "scrollOn": false,
+   "scrollPct": 80,
+   "videoOn": false,
+   "lastOn": false,
+   "lastSec": 6
+  },
+  "frequency": {
+   "mode": "page",
+   "days": 7,
+   "maxOn": false,
+   "max": 3,
+   "stopConvert": false,
+   "afterCloseOn": true,
+   "afterCloseDays": 1
+  },
+  "form": {
+   "list": "leads",
+   "consent": false,
+   "consentRequired": false
+  },
+  "coupon": {
+   "mode": "none",
+   "code": "",
+   "type": "percent",
+   "value": 10,
+   "days": 14,
+   "min": 0,
+   "prefix": "WELCOME-",
+   "autoApply": false
+  }
+ }
+}

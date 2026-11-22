@@ -1,0 +1,238 @@
+{
+ "num": "44",
+ "slug": "holiday-hours",
+ "name": "Holiday Hours",
+ "group": "info",
+ "formatLabel": "Modal, notice",
+ "tags": [
+  "notice",
+  "holidays",
+  "shipping",
+  "closing"
+ ],
+ "doc": {
+  "format": "modal",
+  "width": 560,
+  "mobile": {
+   "format": "sheet"
+  },
+  "fonts": [
+   "Zilla Slab",
+   "Bitter"
+  ],
+  "theme": {
+   "bg": "#FFFFFF",
+   "ink": "#1F2937",
+   "accent": "#1F2937",
+   "accentInk": "#FFFFFF",
+   "line": "#D1D5DB",
+   "radius": 0,
+   "fh": "Zilla Slab",
+   "fb": "Zilla Slab",
+   "overlay": "rgba(31,41,55,.5)",
+   "ffb": {
+    "Zilla Slab": "\"Bitter\", Georgia, serif"
+   }
+  },
+  "steps": [
+   {
+    "id": "s1",
+    "name": "Notice",
+    "cols": [
+     {
+      "blocks": [
+       {
+        "id": "holi-349",
+        "type": "html",
+        "html": {
+         "en": "<div class=\"hh-cal\"><b>December</b><span class=\"hh-r\"><i></i><i></i></span><strong>24</strong><small>to 2 January</small></div>",
+         "fr": "<div class=\"hh-cal\"><b>Décembre</b><span class=\"hh-r\"><i></i><i></i></span><strong>24</strong><small>au 2 janvier</small></div>",
+         "es": "<div class=\"hh-cal\"><b>Diciembre</b><span class=\"hh-r\"><i></i><i></i></span><strong>24</strong><small>al 2 de enero</small></div>",
+         "it": "<div class=\"hh-cal\"><b>Dicembre</b><span class=\"hh-r\"><i></i><i></i></span><strong>24</strong><small>al 2 gennaio</small></div>",
+         "de": "<div class=\"hh-cal\"><b>Dezember</b><span class=\"hh-r\"><i></i><i></i></span><strong>24</strong><small>bis 2. Januar</small></div>",
+         "nl": "<div class=\"hh-cal\"><b>December</b><span class=\"hh-r\"><i></i><i></i></span><strong>24</strong><small>tot 2 januari</small></div>",
+         "pl": "<div class=\"hh-cal\"><b>Grudzień</b><span class=\"hh-r\"><i></i><i></i></span><strong>24</strong><small>do 2 stycznia</small></div>",
+         "cs": "<div class=\"hh-cal\"><b>Prosinec</b><span class=\"hh-r\"><i></i><i></i></span><strong>24</strong><small>do 2. ledna</small></div>",
+         "pt": "<div class=\"hh-cal\"><b>Dezembro</b><span class=\"hh-r\"><i></i><i></i></span><strong>24</strong><small>a 2 de janeiro</small></div>",
+         "ru": "<div class=\"hh-cal\"><b>Декабрь</b><span class=\"hh-r\"><i></i><i></i></span><strong>24</strong><small>до 2 января</small></div>"
+        }
+       }
+      ],
+      "cls": "hh-l",
+      "w": "0 0 150px"
+     },
+     {
+      "blocks": [
+       {
+        "id": "holi-350",
+        "type": "heading",
+        "t": {
+         "en": "We're closed for the holidays",
+         "fr": "Nous sommes fermés pour les fêtes",
+         "es": "Cerramos por vacaciones",
+         "it": "Siamo chiusi per le feste",
+         "de": "Wir machen Feiertagspause",
+         "nl": "We zijn gesloten tijdens de feestdagen",
+         "pl": "Mamy przerwę świąteczną",
+         "cs": "Přes svátky máme zavřeno",
+         "pt": "Estamos fechados para as festas",
+         "ru": "Мы закрыты на праздники"
+        }
+       },
+       {
+        "id": "holi-351",
+        "type": "text",
+        "t": {
+         "en": "The shop stays open, but orders placed after **21 December** ship from **3 January**.",
+         "fr": "La boutique reste ouverte, mais les commandes passées après le **21 décembre** partent à partir du **3 janvier**.",
+         "es": "La tienda sigue abierta, pero los pedidos hechos después del **21 de diciembre** salen a partir del **3 de enero**.",
+         "it": "Il negozio resta aperto, ma gli ordini fatti dopo il **21 dicembre** partono dal **3 gennaio**.",
+         "de": "Der Shop bleibt geöffnet, aber Bestellungen nach dem **21. Dezember** werden ab dem **3. Januar** verschickt.",
+         "nl": "De winkel blijft open, maar bestellingen na **21 december** worden vanaf **3 januari** verzonden.",
+         "pl": "Sklep działa, ale zamówienia złożone po **21 grudnia** wyślemy od **3 stycznia**.",
+         "cs": "Obchod zůstává otevřený, ale objednávky po **21. prosinci** odešleme od **3. ledna**.",
+         "pt": "A loja continua aberta, mas as encomendas feitas depois de **21 de dezembro** são enviadas a partir de **3 de janeiro**.",
+         "ru": "Магазин работает, но заказы после **21 декабря** отправим с **3 января**."
+        }
+       },
+       {
+        "id": "holi-352",
+        "type": "list",
+        "items": [
+         {
+          "k": {
+           "en": "Last order for Christmas",
+           "fr": "Dernière commande pour Noël",
+           "es": "Último pedido para Navidad",
+           "it": "Ultimo ordine per Natale",
+           "de": "Letzte Bestellung für Weihnachten",
+           "nl": "Laatste bestelling voor Kerst",
+           "pl": "Ostatnie zamówienie na święta",
+           "cs": "Poslední objednávka před Vánoci",
+           "pt": "Última encomenda para o Natal",
+           "ru": "Последний заказ к Рождеству"
+          },
+          "v": {
+           "en": "21 Dec, 12:00",
+           "fr": "21 déc., 12:00",
+           "es": "21 dic., 12:00",
+           "it": "21 dic, 12:00",
+           "de": "21. Dez., 12:00",
+           "nl": "21 dec, 12:00",
+           "pl": "21 gru, 12:00",
+           "cs": "21. pro, 12:00",
+           "pt": "21 dez., 12:00",
+           "ru": "21 дек., 12:00"
+          }
+         },
+         {
+          "k": {
+           "en": "Customer service back",
+           "fr": "Retour du service client",
+           "es": "Vuelta de atención al cliente",
+           "it": "Il servizio clienti torna",
+           "de": "Kundenservice wieder da",
+           "nl": "Klantenservice terug",
+           "pl": "Obsługa klienta wraca",
+           "cs": "Zákaznický servis zpět",
+           "pt": "Apoio ao cliente regressa",
+           "ru": "Служба поддержки вернётся"
+          },
+          "v": {
+           "en": "2 Jan",
+           "fr": "2 janv.",
+           "es": "2 ene.",
+           "it": "2 gen",
+           "de": "2. Jan.",
+           "nl": "2 jan",
+           "pl": "2 sty",
+           "cs": "2. led",
+           "pt": "2 jan.",
+           "ru": "2 янв."
+          }
+         }
+        ]
+       },
+       {
+        "id": "holi-353",
+        "type": "button",
+        "t": {
+         "en": "Got it",
+         "fr": "Compris",
+         "es": "Entendido",
+         "it": "Ho capito",
+         "de": "Verstanden",
+         "nl": "Begrepen",
+         "pl": "Rozumiem",
+         "cs": "Rozumím",
+         "pt": "Percebido",
+         "ru": "Понятно"
+        },
+        "act": "close"
+       }
+      ],
+      "cls": "hh-r2"
+     }
+    ]
+   }
+  ],
+  "template": "holiday-hours"
+ },
+ "settings": {
+  "triggers": {
+   "mode": "any",
+   "timerOn": true,
+   "timerSec": 2,
+   "exitOn": false,
+   "exitSens": "normal",
+   "idleOn": false,
+   "idleSec": 30,
+   "scrollOn": false,
+   "scrollVal": 40,
+   "scrollUnit": "pct",
+   "clickOn": false,
+   "clickSel": "",
+   "pagesOn": false,
+   "pagesN": 2,
+   "pagesSec": 0,
+   "addcartOn": false
+  },
+  "close": {
+   "x": true,
+   "xDelay": 0,
+   "overlay": true,
+   "esc": true,
+   "timeOn": false,
+   "timeSec": 20,
+   "scrollOn": false,
+   "scrollPct": 80,
+   "videoOn": false,
+   "lastOn": false,
+   "lastSec": 6
+  },
+  "frequency": {
+   "mode": "visit",
+   "days": 7,
+   "maxOn": false,
+   "max": 3,
+   "stopConvert": true,
+   "afterCloseOn": true,
+   "afterCloseDays": 2
+  },
+  "form": {
+   "list": "leads",
+   "consent": false,
+   "consentRequired": false
+  },
+  "coupon": {
+   "mode": "none",
+   "code": "",
+   "type": "percent",
+   "value": 10,
+   "days": 14,
+   "min": 0,
+   "prefix": "WELCOME-",
+   "autoApply": false
+  }
+ }
+}

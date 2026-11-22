@@ -1,0 +1,20 @@
+.psx-t-mystery-envelope .psx-box{background:transparent;box-shadow:none;overflow:visible;text-align:center}
+.psx-t-mystery-envelope .psx-col{align-items:center;gap:16px;padding:10px}
+.psx-t-mystery-envelope .psx-h{font:italic 400 34px/1.1 var(--psx-fh)}
+.psx-t-mystery-envelope .psx-pick-i{position:relative;width:440px;max-width:100%;aspect-ratio:440/270;box-shadow:0 20px 44px rgba(0,0,0,.4)}
+.psx-t-mystery-envelope .psx-pick-art{display:block;width:100%;height:100%}
+.psx-t-mystery-envelope .psx-pick-i::after{content:"open";position:absolute;left:50%;top:47%;width:76px;height:76px;margin:-38px 0 0 -38px;border-radius:47% 53% 49% 51%/52% 46% 54% 48%;background:radial-gradient(circle at 40% 35%,#C2272D,#A4161A 60%,#7E0F13);color:#F3D9C6;font:italic 400 15px/76px var(--psx-fh);box-shadow:0 3px 6px rgba(0,0,0,.35),inset 0 0 0 6px rgba(0,0,0,.12)}
+.psx-t-mystery-envelope .psx-pick-i:hover{transform:translateY(-4px)}
+.psx-t-mystery-envelope .psx-chosen::after{transform:scale(.2);opacity:0;transition:all .5s}
+.psx-t-mystery-envelope .psx-pick-t{display:none}
+.psx-t-mystery-envelope .me-n{font-size:13.5px;color:#E6D3BF;opacity:1}
+.psx-t-mystery-envelope .psx-step[data-step=s2] .psx-col,.psx-t-mystery-envelope .psx-step[data-step=s3] .psx-col{background:#FFFDF8;color:#3D2B1F;padding:26px 28px;box-shadow:0 20px 44px rgba(0,0,0,.4);max-width:420px;margin:0 auto}
+.psx-t-mystery-envelope .me-k{font-style:italic;color:var(--psx-accent);opacity:1}
+.psx-t-mystery-envelope .me-prize{font:700 46px/1 var(--psx-fh);font-style:normal}
+.psx-t-mystery-envelope .psx-form{align-self:stretch}
+.psx-t-mystery-envelope .psx-input{border:1px solid #3D2B1F;border-radius:0}
+.psx-t-mystery-envelope .psx-btn{border-radius:0;font-weight:700}
+.psx-t-mystery-envelope .psx-check{color:#3D2B1F}
+.psx-t-mystery-envelope .psx-coupon{border-color:#3D2B1F;color:#3D2B1F;border-radius:0;align-self:stretch}
+.psx-t-mystery-envelope .psx-x{top:-6px;right:-6px;border:1px solid rgba(247,237,226,.4);color:#F7EDE2}
+.psx-t-mystery-envelope.psx-mobile .psx-h{font-size:26px}

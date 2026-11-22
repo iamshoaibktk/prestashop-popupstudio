@@ -1,0 +1,394 @@
+{
+ "num": "12",
+ "slug": "pocket-sheet",
+ "name": "Pocket Sheet",
+ "group": "newsletter",
+ "formatLabel": "Bottom sheet on phones",
+ "tags": [
+  "newsletter",
+  "interests",
+  "app",
+  "mobile"
+ ],
+ "doc": {
+  "format": "modal",
+  "width": 440,
+  "mobile": {
+   "format": "sheet"
+  },
+  "fonts": [
+   "Plus Jakarta Sans",
+   "Inter"
+  ],
+  "theme": {
+   "bg": "#FFFFFF",
+   "ink": "#121417",
+   "accent": "#0A7CFF",
+   "accentInk": "#FFFFFF",
+   "field": "#FFFFFF",
+   "line": "#D5D9E0",
+   "radius": 24,
+   "fh": "Plus Jakarta Sans",
+   "fb": "Plus Jakarta Sans",
+   "overlay": "rgba(18,20,23,.45)",
+   "ffb": {
+    "Plus Jakarta Sans": "\"Inter\", system-ui, sans-serif"
+   }
+  },
+  "closeBtn": {
+   "look": "circle"
+  },
+  "steps": [
+   {
+    "id": "s1",
+    "name": "Offer",
+    "cols": [
+     {
+      "blocks": [
+       {
+        "id": "pock-118",
+        "type": "html",
+        "html": "<div class=\"ps-ico\"><svg width=\"24\" height=\"24\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"#0A7CFF\" stroke-width=\"2\" stroke-linecap=\"round\"><path d=\"M6 8a6 6 0 0 1 12 0c0 7 3 9 3 9H3s3-2 3-9M10.3 21a1.9 1.9 0 0 0 3.4 0\"/></svg></div>",
+        "cls": "psx-hide-m"
+       },
+       {
+        "id": "pock-119",
+        "type": "heading",
+        "t": {
+         "en": "Get the drops you care about",
+         "fr": "Recevez les nouveautés qui vous intéressent",
+         "es": "Recibe las novedades que te interesan",
+         "it": "Ricevi le novità che ti interessano",
+         "de": "Erhalte die Neuheiten, die dich interessieren",
+         "nl": "Ontvang de drops die jou interesseren",
+         "pl": "Dostawaj nowości, które cię interesują",
+         "cs": "Dostávejte novinky, které vás zajímají",
+         "pt": "Receba as novidades que lhe interessam",
+         "ru": "Получайте новинки, которые вам интересны"
+        }
+       },
+       {
+        "id": "pock-120",
+        "type": "text",
+        "t": {
+         "en": "Pick what you like. We only email about those, and you get 10% off now.",
+         "fr": "Choisissez ce qui vous plaît. Nous ne vous écrirons qu'à ce sujet, et vous avez -10 % tout de suite.",
+         "es": "Elige lo que te gusta. Solo te escribiremos de eso, y ahora tienes un 10 % de descuento.",
+         "it": "Scegli cosa ti piace. Ti scriveremo solo di quello, e hai subito il 10% di sconto.",
+         "de": "Wähle, was dir gefällt. Wir schreiben nur dazu, und du bekommst jetzt 10 % Rabatt.",
+         "nl": "Kies wat je leuk vindt. We mailen alleen daarover, en je krijgt nu 10% korting.",
+         "pl": "Wybierz, co lubisz. Napiszemy tylko o tym, a teraz dostajesz 10% rabatu.",
+         "cs": "Vyberte, co máte rádi. Napíšeme jen o tom a hned máte 10 % slevu.",
+         "pt": "Escolha o que gosta. Só lhe escrevemos sobre isso, e já tem 10% de desconto.",
+         "ru": "Выберите, что вам нравится. Будем писать только об этом, а сейчас вы получаете 10% скидки."
+        }
+       },
+       {
+        "id": "pock-121",
+        "type": "chips",
+        "options": [
+         {
+          "key": "running",
+          "t": {
+           "en": "Running",
+           "fr": "Course à pied",
+           "es": "Running",
+           "it": "Corsa",
+           "de": "Laufen",
+           "nl": "Hardlopen",
+           "pl": "Bieganie",
+           "cs": "Běh",
+           "pt": "Corrida",
+           "ru": "Бег"
+          },
+          "on": true
+         },
+         {
+          "key": "outdoor",
+          "t": {
+           "en": "Outdoor",
+           "fr": "Plein air",
+           "es": "Montaña",
+           "it": "Outdoor",
+           "de": "Outdoor",
+           "nl": "Outdoor",
+           "pl": "Outdoor",
+           "cs": "Outdoor",
+           "pt": "Ar livre",
+           "ru": "Туризм"
+          },
+          "on": false
+         },
+         {
+          "key": "sale",
+          "t": {
+           "en": "Sale only",
+           "fr": "Soldes uniquement",
+           "es": "Solo rebajas",
+           "it": "Solo saldi",
+           "de": "Nur Sale",
+           "nl": "Alleen sale",
+           "pl": "Tylko wyprzedaże",
+           "cs": "Jen výprodej",
+           "pt": "Só saldos",
+           "ru": "Только распродажи"
+          },
+          "on": true
+         },
+         {
+          "key": "kids",
+          "t": {
+           "en": "Kids",
+           "fr": "Enfants",
+           "es": "Niños",
+           "it": "Bambini",
+           "de": "Kinder",
+           "nl": "Kinderen",
+           "pl": "Dzieci",
+           "cs": "Děti",
+           "pt": "Criança",
+           "ru": "Дети"
+          },
+          "on": false
+         }
+        ]
+       },
+       {
+        "id": "pock-122",
+        "type": "form",
+        "btn": {
+         "en": "Get 10% off",
+         "fr": "Obtenir -10 %",
+         "es": "Conseguir un 10 %",
+         "it": "Ottieni il 10%",
+         "de": "10 % sichern",
+         "nl": "Krijg 10% korting",
+         "pl": "Odbierz 10% rabatu",
+         "cs": "Získat 10 %",
+         "pt": "Obter 10% de desconto",
+         "ru": "Получить 10%"
+        },
+        "label": {
+         "en": "Email address",
+         "fr": "Adresse e-mail",
+         "es": "Correo electrónico",
+         "it": "Indirizzo email",
+         "de": "E-Mail-Adresse",
+         "nl": "E-mailadres",
+         "pl": "Adres e-mail",
+         "cs": "E-mailová adresa",
+         "pt": "Endereço de email",
+         "ru": "Email"
+        },
+        "ph": {
+         "en": "Email address",
+         "fr": "Adresse e-mail",
+         "es": "Correo electrónico",
+         "it": "Indirizzo email",
+         "de": "E-Mail-Adresse",
+         "nl": "E-mailadres",
+         "pl": "Adres e-mail",
+         "cs": "E-mailová adresa",
+         "pt": "Endereço de email",
+         "ru": "Email"
+        },
+        "layout": "stack",
+        "consent": false,
+        "next": "s2",
+        "hideLabel": true
+       },
+       {
+        "id": "pock-123",
+        "type": "small",
+        "t": {
+         "en": "By signing up you agree to receive emails. Unsubscribe any time.",
+         "fr": "En vous inscrivant, vous acceptez de recevoir des e-mails. Désinscription à tout moment.",
+         "es": "Al suscribirte aceptas recibir emails. Baja cuando quieras.",
+         "it": "Iscrivendoti accetti di ricevere email. Disiscrizione quando vuoi.",
+         "de": "Mit der Anmeldung stimmst du dem Erhalt von E-Mails zu. Abmeldung jederzeit.",
+         "nl": "Door je in te schrijven ga je akkoord met het ontvangen van e-mails. Uitschrijven kan altijd.",
+         "pl": "Zapisując się, zgadzasz się na otrzymywanie e-maili. Rezygnacja w każdej chwili.",
+         "cs": "Přihlášením souhlasíte se zasíláním e-mailů. Odhlášení kdykoli.",
+         "pt": "Ao subscrever aceita receber emails. Cancela quando quiser.",
+         "ru": "Подписываясь, вы соглашаетесь получать письма. Отписка в любой момент."
+        },
+        "cls": "ps-legal"
+       },
+       {
+        "id": "pock-124",
+        "type": "link",
+        "t": {
+         "en": "Not now",
+         "fr": "Pas maintenant",
+         "es": "Ahora no",
+         "it": "Non ora",
+         "de": "Nicht jetzt",
+         "nl": "Niet nu",
+         "pl": "Nie teraz",
+         "cs": "Teď ne",
+         "pt": "Agora não",
+         "ru": "Не сейчас"
+        },
+        "act": "close",
+        "cls": "psx-hide-d ps-not"
+       }
+      ]
+     }
+    ]
+   },
+   {
+    "id": "s2",
+    "name": "Thanks",
+    "cols": [
+     {
+      "blocks": [
+       {
+        "id": "pock-125",
+        "type": "html",
+        "html": "<div class=\"ps-ico\"><svg width=\"24\" height=\"24\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"#0A7CFF\" stroke-width=\"2\" stroke-linecap=\"round\"><path d=\"M6 8a6 6 0 0 1 12 0c0 7 3 9 3 9H3s3-2 3-9M10.3 21a1.9 1.9 0 0 0 3.4 0\"/></svg></div>",
+        "cls": "psx-hide-m"
+       },
+       {
+        "id": "pock-126",
+        "type": "heading",
+        "t": {
+         "en": "You're in",
+         "fr": "C'est fait",
+         "es": "Ya estás dentro",
+         "it": "Sei dentro",
+         "de": "Du bist dabei",
+         "nl": "Je bent erbij",
+         "pl": "Jesteś z nami",
+         "cs": "Jste uvnitř",
+         "pt": "Já está dentro",
+         "ru": "Вы с нами"
+        }
+       },
+       {
+        "id": "pock-127",
+        "type": "text",
+        "t": {
+         "en": "We will only write about what you picked. Your code:",
+         "fr": "Nous ne vous parlerons que de ce que vous avez choisi. Votre code :",
+         "es": "Solo te escribiremos sobre lo que elegiste. Tu código:",
+         "it": "Ti scriveremo solo di ciò che hai scelto. Il tuo codice:",
+         "de": "Wir schreiben dir nur über das, was du gewählt hast. Dein Code:",
+         "nl": "We schrijven alleen over wat je hebt gekozen. Je code:",
+         "pl": "Napiszemy tylko o tym, co wybrałeś. Twój kod:",
+         "cs": "Napíšeme jen o tom, co jste vybrali. Váš kód:",
+         "pt": "Só lhe escrevemos sobre o que escolheu. O seu código:",
+         "ru": "Будем писать только о том, что вы выбрали. Ваш код:"
+        }
+       },
+       {
+        "id": "pock-128",
+        "type": "coupon",
+        "note": {
+         "en": "Valid until {coupon_expiry}. One use.",
+         "fr": "Valable jusqu'au {coupon_expiry}. Un seul usage.",
+         "es": "Válido hasta el {coupon_expiry}. Un solo uso.",
+         "it": "Valido fino al {coupon_expiry}. Un solo utilizzo.",
+         "de": "Gültig bis {coupon_expiry}. Einmal einlösbar.",
+         "nl": "Geldig tot {coupon_expiry}. Eenmalig te gebruiken.",
+         "pl": "Ważny do {coupon_expiry}. Jednorazowy.",
+         "cs": "Platí do {coupon_expiry}. Jedno použití.",
+         "pt": "Válido até {coupon_expiry}. Uma utilização.",
+         "ru": "Действует до {coupon_expiry}. Одно использование."
+        },
+        "copy": {
+         "en": "Copy",
+         "fr": "Copier",
+         "es": "Copiar",
+         "it": "Copia",
+         "de": "Kopieren",
+         "nl": "Kopiëren",
+         "pl": "Kopiuj",
+         "cs": "Kopírovat",
+         "pt": "Copiar",
+         "ru": "Копировать"
+        },
+        "code": "WELCOME-7KQ2M9XA"
+       },
+       {
+        "id": "pock-129",
+        "type": "button",
+        "t": {
+         "en": "Apply to cart",
+         "fr": "Appliquer au panier",
+         "es": "Aplicar al carrito",
+         "it": "Applica al carrello",
+         "de": "In den Warenkorb",
+         "nl": "Toepassen op winkelwagen",
+         "pl": "Zastosuj w koszyku",
+         "cs": "Uplatnit v košíku",
+         "pt": "Aplicar ao carrinho",
+         "ru": "Применить к корзине"
+        },
+        "act": "apply",
+        "full": true
+       }
+      ]
+     }
+    ]
+   }
+  ],
+  "template": "pocket-sheet"
+ },
+ "settings": {
+  "triggers": {
+   "mode": "any",
+   "timerOn": false,
+   "timerSec": 8,
+   "exitOn": false,
+   "exitSens": "normal",
+   "idleOn": false,
+   "idleSec": 30,
+   "scrollOn": false,
+   "scrollVal": 40,
+   "scrollUnit": "pct",
+   "clickOn": false,
+   "clickSel": "",
+   "pagesOn": true,
+   "pagesN": 2,
+   "pagesSec": 0,
+   "addcartOn": false
+  },
+  "close": {
+   "x": true,
+   "xDelay": 0,
+   "overlay": true,
+   "esc": true,
+   "timeOn": false,
+   "timeSec": 20,
+   "scrollOn": false,
+   "scrollPct": 80,
+   "videoOn": false,
+   "lastOn": false,
+   "lastSec": 6
+  },
+  "frequency": {
+   "mode": "days",
+   "days": 7,
+   "maxOn": false,
+   "max": 3,
+   "stopConvert": true,
+   "afterCloseOn": true,
+   "afterCloseDays": 2
+  },
+  "form": {
+   "list": "newsletter",
+   "consent": false,
+   "consentRequired": false
+  },
+  "coupon": {
+   "mode": "generated",
+   "code": "",
+   "type": "percent",
+   "value": 10,
+   "days": 14,
+   "min": 0,
+   "prefix": "DROP-",
+   "autoApply": false
+  }
+ }
+}

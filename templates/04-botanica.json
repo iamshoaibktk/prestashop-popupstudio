@@ -1,0 +1,299 @@
+{
+ "num": "04",
+ "slug": "botanica",
+ "name": "Botanica",
+ "group": "newsletter",
+ "formatLabel": "Slide-in, bottom right",
+ "tags": [
+  "newsletter",
+  "garden",
+  "organic",
+  "slide-in"
+ ],
+ "doc": {
+  "format": "slidein",
+  "position": "br",
+  "width": 360,
+  "mobile": {
+   "format": "same"
+  },
+  "fonts": [
+   "Fraunces",
+   "Work Sans",
+   "Playfair Display",
+   "Inter"
+  ],
+  "theme": {
+   "bg": "#EAF4EC",
+   "ink": "#173B2A",
+   "accent": "#173B2A",
+   "accentInk": "#EAF4EC",
+   "field": "#ffffff",
+   "line": "#8FB8A0",
+   "radius": 18,
+   "fh": "Fraunces",
+   "fb": "Work Sans",
+   "ffb": {
+    "Fraunces": "\"Playfair Display\", Georgia, serif",
+    "Work Sans": "\"Inter\", system-ui, sans-serif"
+   }
+  },
+  "decor": [
+   {
+    "html": "<svg viewBox=\"0 0 210 120\" width=\"210\" height=\"120\"><path d=\"M8 112 C 60 90, 120 60, 202 8\" fill=\"none\" stroke=\"#2E7D4F\" stroke-width=\"1.6\" stroke-linecap=\"round\"/><path d=\"M40 96c-6-14-4-26 4-34M40 96c12-6 22-6 32 0M66 82c-4-14 0-26 10-32M66 82c12-4 22-2 30 6M92 66c-2-14 4-24 14-28M92 66c12-2 22 2 28 10M118 50c0-12 6-22 16-24M118 50c10 0 20 4 24 12M144 34c2-10 8-17 16-18M144 34c8 2 15 6 18 13M168 21c3-7 8-11 14-11M168 21c6 2 10 5 12 10\" fill=\"none\" stroke=\"#2E7D4F\" stroke-width=\"1.4\" stroke-linecap=\"round\"/></svg>",
+    "name": "Fern",
+    "right": "-30px",
+    "top": "-14px"
+   }
+  ],
+  "closeBtn": {
+   "look": "circle"
+  },
+  "steps": [
+   {
+    "id": "s1",
+    "name": "Offer",
+    "cols": [
+     {
+      "blocks": [
+       {
+        "id": "bota-34",
+        "type": "heading",
+        "t": {
+         "en": "Hello, green thumb.",
+         "fr": "Bonjour, main verte.",
+         "es": "Hola, mano verde.",
+         "it": "Ciao, pollice verde.",
+         "de": "Hallo, grüner Daumen.",
+         "nl": "Hallo, groene vingers.",
+         "pl": "Cześć, zielona rączko.",
+         "cs": "Dobrý den, zahrádkáři.",
+         "pt": "Olá, mão verde.",
+         "ru": "Здравствуйте, садовод."
+        }
+       },
+       {
+        "id": "bota-35",
+        "type": "text",
+        "t": {
+         "en": "Seasonal planting notes once a month, and 10% off your first pots and seeds.",
+         "fr": "Des conseils de plantation de saison une fois par mois, et -10 % sur vos premiers pots et graines.",
+         "es": "Notas de plantación de temporada una vez al mes y un 10 % en tus primeras macetas y semillas.",
+         "it": "Consigli di semina stagionali una volta al mese e il 10% di sconto sui primi vasi e semi.",
+         "de": "Saisonale Pflanztipps einmal im Monat und 10 % Rabatt auf deine ersten Töpfe und Samen.",
+         "nl": "Seizoensgebonden planttips één keer per maand, en 10% korting op je eerste potten en zaden.",
+         "pl": "Sezonowe porady ogrodnicze raz w miesiącu i 10% rabatu na pierwsze doniczki i nasiona.",
+         "cs": "Sezónní tipy na pěstování jednou měsíčně a 10 % sleva na první květináče a semínka.",
+         "pt": "Notas de plantação da estação uma vez por mês e 10% de desconto nos primeiros vasos e sementes.",
+         "ru": "Сезонные советы по посадке раз в месяц и 10% скидки на первые горшки и семена."
+        }
+       },
+       {
+        "id": "bota-36",
+        "type": "form",
+        "btn": {
+         "en": "Join the garden letter",
+         "fr": "Recevoir la lettre du jardin",
+         "es": "Recibir la carta del jardín",
+         "it": "Ricevi la lettera dell'orto",
+         "de": "Den Gartenbrief abonnieren",
+         "nl": "Ontvang de tuinbrief",
+         "pl": "Zapisz się na list ogrodowy",
+         "cs": "Odebírat zahradní dopis",
+         "pt": "Receber a carta do jardim",
+         "ru": "Подписаться на садовое письмо"
+        },
+        "label": {
+         "en": "Email",
+         "fr": "E-mail",
+         "es": "Email",
+         "it": "Email",
+         "de": "E-Mail",
+         "nl": "E-mail",
+         "pl": "E-mail",
+         "cs": "E-mail",
+         "pt": "Email",
+         "ru": "Email"
+        },
+        "ph": {
+         "en": "you@example.com",
+         "fr": "vous@exemple.com",
+         "es": "tu@ejemplo.com",
+         "it": "tu@esempio.com",
+         "de": "du@beispiel.de",
+         "nl": "jij@voorbeeld.nl",
+         "pl": "ty@przyklad.pl",
+         "cs": "vy@priklad.cz",
+         "pt": "voce@exemplo.pt",
+         "ru": "vy@primer.ru"
+        },
+        "layout": "stack",
+        "consent": true,
+        "consentRequired": true,
+        "consentText": {
+         "en": "I'd like the letter. I can leave whenever I want.",
+         "fr": "Je veux bien la lettre. Je peux partir quand je veux.",
+         "es": "Quiero la carta. Puedo irme cuando quiera.",
+         "it": "Vorrei la lettera. Posso andarmene quando voglio.",
+         "de": "Ich möchte den Brief. Ich kann jederzeit gehen.",
+         "nl": "Ik wil graag de brief. Ik kan stoppen wanneer ik wil.",
+         "pl": "Chcę dostawać list. Mogę odejść, kiedy zechcę.",
+         "cs": "Chci dopis. Můžu odejít, kdy chci.",
+         "pt": "Quero a carta. Posso sair quando quiser.",
+         "ru": "Хочу получать письмо. Могу уйти, когда захочу."
+        },
+        "next": "s2"
+       }
+      ]
+     }
+    ]
+   },
+   {
+    "id": "s2",
+    "name": "Thanks",
+    "cols": [
+     {
+      "blocks": [
+       {
+        "id": "bota-37",
+        "type": "heading",
+        "t": {
+         "en": "Planted!",
+         "fr": "Planté !",
+         "es": "¡Plantado!",
+         "it": "Piantato!",
+         "de": "Gepflanzt!",
+         "nl": "Geplant!",
+         "pl": "Posadzone!",
+         "cs": "Zasazeno!",
+         "pt": "Plantado!",
+         "ru": "Посажено!"
+        }
+       },
+       {
+        "id": "bota-38",
+        "type": "text",
+        "t": {
+         "en": "Your 10% code:",
+         "fr": "Votre code -10 % :",
+         "es": "Tu código del 10 %:",
+         "it": "Il tuo codice del 10%:",
+         "de": "Dein 10-%-Code:",
+         "nl": "Je 10%-code:",
+         "pl": "Twój kod -10%:",
+         "cs": "Váš kód na 10 %:",
+         "pt": "O seu código de 10%:",
+         "ru": "Ваш код на 10%:"
+        }
+       },
+       {
+        "id": "bota-39",
+        "type": "coupon",
+        "note": {
+         "en": "Valid until {coupon_expiry}. One use.",
+         "fr": "Valable jusqu'au {coupon_expiry}. Un seul usage.",
+         "es": "Válido hasta el {coupon_expiry}. Un solo uso.",
+         "it": "Valido fino al {coupon_expiry}. Un solo utilizzo.",
+         "de": "Gültig bis {coupon_expiry}. Einmal einlösbar.",
+         "nl": "Geldig tot {coupon_expiry}. Eenmalig te gebruiken.",
+         "pl": "Ważny do {coupon_expiry}. Jednorazowy.",
+         "cs": "Platí do {coupon_expiry}. Jedno použití.",
+         "pt": "Válido até {coupon_expiry}. Uma utilização.",
+         "ru": "Действует до {coupon_expiry}. Одно использование."
+        },
+        "copy": {
+         "en": "Copy",
+         "fr": "Copier",
+         "es": "Copiar",
+         "it": "Copia",
+         "de": "Kopieren",
+         "nl": "Kopiëren",
+         "pl": "Kopiuj",
+         "cs": "Kopírovat",
+         "pt": "Copiar",
+         "ru": "Копировать"
+        },
+        "code": "WELCOME-7KQ2M9XA"
+       },
+       {
+        "id": "bota-40",
+        "type": "link",
+        "t": {
+         "en": "Back to the shop",
+         "fr": "Retour à la boutique",
+         "es": "Volver a la tienda",
+         "it": "Torna al negozio",
+         "de": "Zurück zum Shop",
+         "nl": "Terug naar de winkel",
+         "pl": "Wróć do sklepu",
+         "cs": "Zpět do obchodu",
+         "pt": "Voltar à loja",
+         "ru": "Вернуться в магазин"
+        },
+        "act": "close"
+       }
+      ]
+     }
+    ]
+   }
+  ],
+  "template": "botanica"
+ },
+ "settings": {
+  "triggers": {
+   "mode": "any",
+   "timerOn": false,
+   "timerSec": 8,
+   "exitOn": false,
+   "exitSens": "normal",
+   "idleOn": false,
+   "idleSec": 30,
+   "scrollOn": true,
+   "scrollVal": 50,
+   "scrollUnit": "pct",
+   "clickOn": false,
+   "clickSel": "",
+   "pagesOn": false,
+   "pagesN": 2,
+   "pagesSec": 0,
+   "addcartOn": false
+  },
+  "close": {
+   "x": true,
+   "xDelay": 0,
+   "overlay": true,
+   "esc": true,
+   "timeOn": false,
+   "timeSec": 20,
+   "scrollOn": false,
+   "scrollPct": 80,
+   "videoOn": false,
+   "lastOn": false,
+   "lastSec": 6
+  },
+  "frequency": {
+   "mode": "days",
+   "days": 7,
+   "maxOn": false,
+   "max": 3,
+   "stopConvert": true,
+   "afterCloseOn": true,
+   "afterCloseDays": 2
+  },
+  "form": {
+   "list": "newsletter",
+   "consent": true,
+   "consentRequired": true
+  },
+  "coupon": {
+   "mode": "generated",
+   "code": "",
+   "type": "percent",
+   "value": 10,
+   "days": 14,
+   "min": 0,
+   "prefix": "GARDEN-",
+   "autoApply": false
+  }
+ }
+}

@@ -1,0 +1,226 @@
+{
+ "num": "49",
+ "slug": "love-letter",
+ "name": "Love Letter",
+ "group": "seasonal",
+ "formatLabel": "Modal, centre",
+ "tags": [
+  "seasonal",
+  "valentine",
+  "gifts"
+ ],
+ "doc": {
+  "format": "modal",
+  "width": 600,
+  "mobile": {
+   "format": "sheet"
+  },
+  "fonts": [
+   "Della Respira",
+   "Quicksand",
+   "Playfair Display",
+   "Nunito"
+  ],
+  "theme": {
+   "bg": "#FFD6E0",
+   "ink": "#5C0A2E",
+   "accent": "#E0115F",
+   "accentInk": "#FFFFFF",
+   "line": "#5C0A2E",
+   "radius": 0,
+   "fh": "Della Respira",
+   "fb": "Quicksand",
+   "overlay": "rgba(92,10,46,.5)",
+   "ffb": {
+    "Della Respira": "\"Playfair Display\", Georgia, serif",
+    "Quicksand": "\"Nunito\", system-ui, sans-serif"
+   }
+  },
+  "closeBtn": {
+   "look": "circle"
+  },
+  "steps": [
+   {
+    "id": "s1",
+    "name": "Offer",
+    "cols": [
+     {
+      "blocks": [
+       {
+        "id": "love-374",
+        "type": "small",
+        "t": {
+         "en": "A note for you",
+         "fr": "Un mot pour vous",
+         "es": "Una nota para ti",
+         "it": "Un biglietto per te",
+         "de": "Eine Nachricht für dich",
+         "nl": "Een briefje voor jou",
+         "pl": "Liścik dla ciebie",
+         "cs": "Vzkaz pro vás",
+         "pt": "Um bilhete para si",
+         "ru": "Записка для вас"
+        },
+        "cls": "ll-k"
+       },
+       {
+        "id": "love-375",
+        "type": "heading",
+        "t": {
+         "en": "Dear you,\nwe picked\nsomething.",
+         "fr": "Cher vous,\nnous avons choisi\nquelque chose.",
+         "es": "Querida persona,\nte hemos elegido\nalgo.",
+         "it": "Caro te,\nabbiamo scelto\nqualcosa.",
+         "de": "Liebe:r du,\nwir haben\netwas ausgesucht.",
+         "nl": "Lieve jij,\nwe hebben\niets uitgekozen.",
+         "pl": "Droga osobo,\ncoś dla ciebie\nwybraliśmy.",
+         "cs": "Milá duše,\nnašli jsme pro vás\nněco.",
+         "pt": "Querido leitor,\nescolhemos\nalgo para si.",
+         "ru": "Дорогой человек,\nмы кое-что\nвыбрали."
+        }
+       },
+       {
+        "id": "love-376",
+        "type": "text",
+        "t": {
+         "en": "Valentine's gifts with 15% off, wrapped and with a card. Ships until 11 February.",
+         "fr": "Cadeaux de Saint-Valentin à -15 %, emballés et avec une carte. Expédition jusqu'au 11 février.",
+         "es": "Regalos de San Valentín con un 15 %, envueltos y con tarjeta. Envíos hasta el 11 de febrero.",
+         "it": "Regali di San Valentino con il 15% di sconto, incartati e con biglietto. Spedizioni fino all'11 febbraio.",
+         "de": "Valentinsgeschenke mit 15 % Rabatt, verpackt und mit Karte. Versand bis 11. Februar.",
+         "nl": "Valentijnscadeaus met 15% korting, ingepakt en met een kaartje. Verzending tot 11 februari.",
+         "pl": "Prezenty walentynkowe -15%, zapakowane i z kartką. Wysyłka do 11 lutego.",
+         "cs": "Valentýnské dárky se slevou 15 %, zabalené a s přáníčkem. Odesíláme do 11. února.",
+         "pt": "Presentes de São Valentim com 15% de desconto, embrulhados e com cartão. Envios até 11 de fevereiro.",
+         "ru": "Подарки ко Дню святого Валентина со скидкой 15%, в упаковке и с открыткой. Отправка до 11 февраля."
+        }
+       },
+       {
+        "id": "love-377",
+        "type": "button",
+        "t": {
+         "en": "Find a gift",
+         "fr": "Trouver un cadeau",
+         "es": "Buscar un regalo",
+         "it": "Trova un regalo",
+         "de": "Geschenk finden",
+         "nl": "Vind een cadeau",
+         "pl": "Znajdź prezent",
+         "cs": "Najít dárek",
+         "pt": "Encontrar um presente",
+         "ru": "Найти подарок"
+        },
+        "act": "url",
+        "href": "/"
+       }
+      ],
+      "cls": "ll-l"
+     },
+     {
+      "blocks": [
+       {
+        "id": "love-378",
+        "type": "html",
+        "html": {
+         "en": "<div class=\"ll-win\"><div class=\"ll-heart\"><b>15%</b><span>{coupon|LOVE15}</span></div></div>",
+         "fr": "<div class=\"ll-win\"><div class=\"ll-heart\"><b>15 %</b><span>{coupon|LOVE15}</span></div></div>",
+         "es": "<div class=\"ll-win\"><div class=\"ll-heart\"><b>15 %</b><span>{coupon|LOVE15}</span></div></div>",
+         "it": "<div class=\"ll-win\"><div class=\"ll-heart\"><b>15%</b><span>{coupon|LOVE15}</span></div></div>",
+         "de": "<div class=\"ll-win\"><div class=\"ll-heart\"><b>15 %</b><span>{coupon|LOVE15}</span></div></div>",
+         "nl": "<div class=\"ll-win\"><div class=\"ll-heart\"><b>15%</b><span>{coupon|LOVE15}</span></div></div>",
+         "pl": "<div class=\"ll-win\"><div class=\"ll-heart\"><b>15%</b><span>{coupon|LOVE15}</span></div></div>",
+         "cs": "<div class=\"ll-win\"><div class=\"ll-heart\"><b>15 %</b><span>{coupon|LOVE15}</span></div></div>",
+         "pt": "<div class=\"ll-win\"><div class=\"ll-heart\"><b>15%</b><span>{coupon|LOVE15}</span></div></div>",
+         "ru": "<div class=\"ll-win\"><div class=\"ll-heart\"><b>15%</b><span>{coupon|LOVE15}</span></div></div>"
+        }
+       },
+       {
+        "id": "love-379",
+        "type": "button",
+        "t": {
+         "en": "Copy the code",
+         "fr": "Copier le code",
+         "es": "Copiar el código",
+         "it": "Copia il codice",
+         "de": "Code kopieren",
+         "nl": "Kopieer de code",
+         "pl": "Kopiuj kod",
+         "cs": "Kopírovat kód",
+         "pt": "Copiar o código",
+         "ru": "Копировать код"
+        },
+        "act": "copy",
+        "cls": "ll-copy",
+        "variant": "secondary"
+       }
+      ],
+      "cls": "ll-r",
+      "w": "0 0 190px"
+     }
+    ]
+   }
+  ],
+  "template": "love-letter"
+ },
+ "settings": {
+  "triggers": {
+   "mode": "any",
+   "timerOn": true,
+   "timerSec": 5,
+   "exitOn": false,
+   "exitSens": "normal",
+   "idleOn": false,
+   "idleSec": 30,
+   "scrollOn": false,
+   "scrollVal": 40,
+   "scrollUnit": "pct",
+   "clickOn": false,
+   "clickSel": "",
+   "pagesOn": false,
+   "pagesN": 2,
+   "pagesSec": 0,
+   "addcartOn": false
+  },
+  "close": {
+   "x": true,
+   "xDelay": 0,
+   "overlay": true,
+   "esc": true,
+   "timeOn": false,
+   "timeSec": 20,
+   "scrollOn": false,
+   "scrollPct": 80,
+   "videoOn": false,
+   "lastOn": false,
+   "lastSec": 6
+  },
+  "frequency": {
+   "mode": "visit",
+   "days": 7,
+   "maxOn": false,
+   "max": 3,
+   "stopConvert": true,
+   "afterCloseOn": true,
+   "afterCloseDays": 2
+  },
+  "form": {
+   "list": "leads",
+   "consent": false,
+   "consentRequired": false
+  },
+  "coupon": {
+   "mode": "fixed",
+   "code": "LOVE15",
+   "type": "percent",
+   "value": 10,
+   "days": 14,
+   "min": 0,
+   "prefix": "",
+   "autoApply": false
+  },
+  "dates": [
+   "2027-02-01 00:00",
+   "2027-02-14 23:59"
+  ]
+ }
+}

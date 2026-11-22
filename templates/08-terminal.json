@@ -1,0 +1,333 @@
+{
+ "num": "08",
+ "slug": "terminal",
+ "name": "Terminal",
+ "group": "newsletter",
+ "formatLabel": "Modal, centre",
+ "tags": [
+  "newsletter",
+  "tech",
+  "gadgets",
+  "dark"
+ ],
+ "doc": {
+  "format": "modal",
+  "width": 600,
+  "mobile": {
+   "format": "same",
+   "width": "calc(100vw - 20px)"
+  },
+  "fonts": [
+   "JetBrains Mono"
+  ],
+  "theme": {
+   "bg": "#15181C",
+   "ink": "#D6F5DD",
+   "accent": "#3DDC84",
+   "accentInk": "#0E1013",
+   "field": "#0E1013",
+   "fieldInk": "#FFFFFF",
+   "line": "#2A2F36",
+   "radius": 12,
+   "fh": "JetBrains Mono",
+   "fb": "JetBrains Mono",
+   "overlay": "rgba(8,10,12,.6)",
+   "error": "#FF7B72"
+  },
+  "closeBtn": {
+   "look": "x"
+  },
+  "steps": [
+   {
+    "id": "s1",
+    "name": "Offer",
+    "cols": [
+     {
+      "blocks": [
+       {
+        "id": "term-76",
+        "type": "html",
+        "html": "<div class=\"tm-bar\"><i style=\"background:#FF5F57\"></i><i style=\"background:#FEBC2E\"></i><i style=\"background:#28C840\"></i><span>~/shop — subscribe</span></div>"
+       },
+       {
+        "id": "term-77",
+        "type": "small",
+        "t": {
+         "en": "<span class=\"tm-g\">$</span> shop --welcome",
+         "fr": "<span class=\"tm-g\">$</span> boutique --bienvenue",
+         "es": "<span class=\"tm-g\">$</span> tienda --bienvenida",
+         "it": "<span class=\"tm-g\">$</span> negozio --benvenuto",
+         "de": "<span class=\"tm-g\">$</span> shop --willkommen",
+         "nl": "<span class=\"tm-g\">$</span> winkel --welkom",
+         "pl": "<span class=\"tm-g\">$</span> sklep --witaj",
+         "cs": "<span class=\"tm-g\">$</span> obchod --vitejte",
+         "pt": "<span class=\"tm-g\">$</span> loja --boas-vindas",
+         "ru": "<span class=\"tm-g\">$</span> shop --welcome"
+        },
+        "cls": "tm-line"
+       },
+       {
+        "id": "term-78",
+        "type": "heading",
+        "t": {
+         "en": "Get <span class=\"tm-g\">10%</span> off your first build.",
+         "fr": "<span class=\"tm-g\">-10 %</span> sur votre première config.",
+         "es": "<span class=\"tm-g\">10 %</span> de descuento en tu primer montaje.",
+         "it": "<span class=\"tm-g\">10%</span> di sconto sulla tua prima build.",
+         "de": "<span class=\"tm-g\">10 %</span> Rabatt auf deinen ersten Build.",
+         "nl": "<span class=\"tm-g\">10%</span> korting op je eerste build.",
+         "pl": "<span class=\"tm-g\">10%</span> rabatu na twój pierwszy zestaw.",
+         "cs": "<span class=\"tm-g\">10 %</span> sleva na vaši první sestavu.",
+         "pt": "<span class=\"tm-g\">10%</span> de desconto na sua primeira build.",
+         "ru": "<span class=\"tm-g\">10%</span> скидки на вашу первую сборку."
+        }
+       },
+       {
+        "id": "term-79",
+        "type": "small",
+        "t": {
+         "en": "# one email a month: new gear, restocks, changelogs. no spam.",
+         "fr": "# un e-mail par mois : nouveau matériel, réassorts, journaux des modifications. pas de spam.",
+         "es": "# un email al mes: equipo nuevo, reposiciones, registros de cambios. sin spam.",
+         "it": "# una email al mese: nuova attrezzatura, riassortimenti, changelog. niente spam.",
+         "de": "# eine E-Mail im Monat: neue Hardware, Nachschub, Changelogs. kein Spam.",
+         "nl": "# één e-mail per maand: nieuwe gear, aanvullingen, changelogs. geen spam.",
+         "pl": "# jeden e-mail w miesiącu: nowy sprzęt, dostawy, changelogi. bez spamu.",
+         "cs": "# jeden e-mail měsíčně: nové vybavení, naskladnění, changelogy. žádný spam.",
+         "pt": "# um email por mês: equipamento novo, reposições, changelogs. sem spam.",
+         "ru": "# одно письмо в месяц: новое железо, поступления, changelog. без спама."
+        },
+        "cls": "tm-c"
+       },
+       {
+        "id": "term-80",
+        "type": "form",
+        "btn": {
+         "en": "Run ⏎",
+         "fr": "Exécuter ⏎",
+         "es": "Ejecutar ⏎",
+         "it": "Esegui ⏎",
+         "de": "Ausführen ⏎",
+         "nl": "Uitvoeren ⏎",
+         "pl": "Uruchom ⏎",
+         "cs": "Spustit ⏎",
+         "pt": "Executar ⏎",
+         "ru": "Запустить ⏎"
+        },
+        "label": {
+         "en": "$ subscribe --email",
+         "fr": "$ abonnement --email",
+         "es": "$ suscribir --email",
+         "it": "$ iscriviti --email",
+         "de": "$ abonnieren --email",
+         "nl": "$ inschrijven --email",
+         "pl": "$ zapisz --email",
+         "cs": "$ odebirat --email",
+         "pt": "$ subscrever --email",
+         "ru": "$ subscribe --email"
+        },
+        "ph": {
+         "en": "you@domain.dev",
+         "fr": "vous@domaine.dev",
+         "es": "tu@dominio.dev",
+         "it": "tu@dominio.dev",
+         "de": "du@domain.dev",
+         "nl": "jij@domein.dev",
+         "pl": "ty@domena.dev",
+         "cs": "vy@domena.dev",
+         "pt": "voce@dominio.dev",
+         "ru": "vy@domain.dev"
+        },
+        "layout": "inline",
+        "consent": true,
+        "consentRequired": true,
+        "consentText": {
+         "en": "--consent \"I want the newsletter\"",
+         "fr": "--consentement \"je veux la newsletter\"",
+         "es": "--consentimiento \"quiero el boletín\"",
+         "it": "--consenso \"voglio la newsletter\"",
+         "de": "--einwilligung \"ich will den Newsletter\"",
+         "nl": "--toestemming \"ik wil de nieuwsbrief\"",
+         "pl": "--zgoda \"chcę newsletter\"",
+         "cs": "--souhlas \"chci newsletter\"",
+         "pt": "--consentimento \"quero a newsletter\"",
+         "ru": "--consent \"хочу рассылку\""
+        },
+        "next": "s2"
+       }
+      ]
+     }
+    ]
+   },
+   {
+    "id": "s2",
+    "name": "Thanks",
+    "cols": [
+     {
+      "blocks": [
+       {
+        "id": "term-81",
+        "type": "html",
+        "html": "<div class=\"tm-bar\"><i style=\"background:#FF5F57\"></i><i style=\"background:#FEBC2E\"></i><i style=\"background:#28C840\"></i><span>~/shop — subscribe</span></div>"
+       },
+       {
+        "id": "term-82",
+        "type": "small",
+        "t": {
+         "en": "<span class=\"tm-g\">$</span> shop --welcome --email ok",
+         "fr": "<span class=\"tm-g\">$</span> boutique --bienvenue --email ok",
+         "es": "<span class=\"tm-g\">$</span> tienda --bienvenida --email ok",
+         "it": "<span class=\"tm-g\">$</span> negozio --benvenuto --email ok",
+         "de": "<span class=\"tm-g\">$</span> shop --willkommen --email ok",
+         "nl": "<span class=\"tm-g\">$</span> winkel --welkom --email ok",
+         "pl": "<span class=\"tm-g\">$</span> sklep --witaj --email ok",
+         "cs": "<span class=\"tm-g\">$</span> obchod --vitejte --email ok",
+         "pt": "<span class=\"tm-g\">$</span> loja --boas-vindas --email ok",
+         "ru": "<span class=\"tm-g\">$</span> shop --welcome --email ok"
+        },
+        "cls": "tm-line"
+       },
+       {
+        "id": "term-83",
+        "type": "heading",
+        "t": {
+         "en": "<span class=\"tm-g\">✓</span> subscribed.",
+         "fr": "<span class=\"tm-g\">✓</span> abonné.",
+         "es": "<span class=\"tm-g\">✓</span> suscrito.",
+         "it": "<span class=\"tm-g\">✓</span> iscritto.",
+         "de": "<span class=\"tm-g\">✓</span> abonniert.",
+         "nl": "<span class=\"tm-g\">✓</span> ingeschreven.",
+         "pl": "<span class=\"tm-g\">✓</span> zapisano.",
+         "cs": "<span class=\"tm-g\">✓</span> přihlášeno.",
+         "pt": "<span class=\"tm-g\">✓</span> subscrito.",
+         "ru": "<span class=\"tm-g\">✓</span> подписка оформлена."
+        }
+       },
+       {
+        "id": "term-84",
+        "type": "small",
+        "t": {
+         "en": "# your code (valid 14 days):",
+         "fr": "# votre code (valable 14 jours) :",
+         "es": "# tu código (válido 14 días):",
+         "it": "# il tuo codice (valido 14 giorni):",
+         "de": "# dein Code (14 Tage gültig):",
+         "nl": "# je code (14 dagen geldig):",
+         "pl": "# twój kod (ważny 14 dni):",
+         "cs": "# váš kód (platí 14 dní):",
+         "pt": "# o seu código (válido 14 dias):",
+         "ru": "# ваш код (действует 14 дней):"
+        },
+        "cls": "tm-c"
+       },
+       {
+        "id": "term-85",
+        "type": "coupon",
+        "note": {
+         "en": "Valid until {coupon_expiry}. One use.",
+         "fr": "Valable jusqu'au {coupon_expiry}. Un seul usage.",
+         "es": "Válido hasta el {coupon_expiry}. Un solo uso.",
+         "it": "Valido fino al {coupon_expiry}. Un solo utilizzo.",
+         "de": "Gültig bis {coupon_expiry}. Einmal einlösbar.",
+         "nl": "Geldig tot {coupon_expiry}. Eenmalig te gebruiken.",
+         "pl": "Ważny do {coupon_expiry}. Jednorazowy.",
+         "cs": "Platí do {coupon_expiry}. Jedno použití.",
+         "pt": "Válido até {coupon_expiry}. Uma utilização.",
+         "ru": "Действует до {coupon_expiry}. Одно использование."
+        },
+        "copy": {
+         "en": "copy",
+         "fr": "copier",
+         "es": "copiar",
+         "it": "copia",
+         "de": "kopieren",
+         "nl": "kopiëren",
+         "pl": "kopiuj",
+         "cs": "kopírovat",
+         "pt": "copiar",
+         "ru": "копировать"
+        },
+        "code": "WELCOME-7KQ2M9XA"
+       },
+       {
+        "id": "term-86",
+        "type": "button",
+        "t": {
+         "en": "apply --cart",
+         "fr": "appliquer --panier",
+         "es": "aplicar --carrito",
+         "it": "applica --carrello",
+         "de": "anwenden --warenkorb",
+         "nl": "toepassen --winkelwagen",
+         "pl": "zastosuj --koszyk",
+         "cs": "uplatnit --kosik",
+         "pt": "aplicar --carrinho",
+         "ru": "применить --cart"
+        },
+        "act": "apply"
+       }
+      ]
+     }
+    ]
+   }
+  ],
+  "template": "terminal"
+ },
+ "settings": {
+  "triggers": {
+   "mode": "any",
+   "timerOn": true,
+   "timerSec": 15,
+   "exitOn": false,
+   "exitSens": "normal",
+   "idleOn": false,
+   "idleSec": 30,
+   "scrollOn": false,
+   "scrollVal": 40,
+   "scrollUnit": "pct",
+   "clickOn": false,
+   "clickSel": "",
+   "pagesOn": false,
+   "pagesN": 2,
+   "pagesSec": 0,
+   "addcartOn": false
+  },
+  "close": {
+   "x": true,
+   "xDelay": 0,
+   "overlay": true,
+   "esc": true,
+   "timeOn": false,
+   "timeSec": 20,
+   "scrollOn": false,
+   "scrollPct": 80,
+   "videoOn": false,
+   "lastOn": false,
+   "lastSec": 6
+  },
+  "frequency": {
+   "mode": "days",
+   "days": 7,
+   "maxOn": false,
+   "max": 3,
+   "stopConvert": true,
+   "afterCloseOn": true,
+   "afterCloseDays": 2
+  },
+  "form": {
+   "list": "newsletter",
+   "consent": true,
+   "consentRequired": true
+  },
+  "coupon": {
+   "mode": "generated",
+   "code": "",
+   "type": "percent",
+   "value": 10,
+   "days": 14,
+   "min": 0,
+   "prefix": "DEV-",
+   "autoApply": false
+  }
+ }
+}

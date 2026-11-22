@@ -1,0 +1,187 @@
+{
+ "num": "39",
+ "slug": "corner-product",
+ "name": "Corner Product",
+ "group": "slidein",
+ "formatLabel": "Slide-in, product",
+ "tags": [
+  "slide-in",
+  "product",
+  "upsell"
+ ],
+ "doc": {
+  "format": "slidein",
+  "position": "br",
+  "width": 300,
+  "mobile": {
+   "format": "same"
+  },
+  "fonts": [
+   "Albert Sans",
+   "Inter"
+  ],
+  "theme": {
+   "bg": "#FFFFFF",
+   "ink": "#18181B",
+   "accent": "#18181B",
+   "accentInk": "#FFFFFF",
+   "line": "#D4D4D8",
+   "radius": 0,
+   "fh": "Albert Sans",
+   "fb": "Albert Sans",
+   "ffb": {
+    "Albert Sans": "\"Inter\", system-ui, sans-serif"
+   }
+  },
+  "closeBtn": {
+   "look": "circle"
+  },
+  "steps": [
+   {
+    "id": "s1",
+    "name": "Product",
+    "cols": [
+     {
+      "blocks": [
+       {
+        "id": "corn-316",
+        "type": "badge",
+        "t": {
+         "en": "Bestseller",
+         "fr": "Meilleure vente",
+         "es": "Más vendido",
+         "it": "Più venduto",
+         "de": "Bestseller",
+         "nl": "Bestseller",
+         "pl": "Bestseller",
+         "cs": "Nejprodávanější",
+         "pt": "Mais vendido",
+         "ru": "Хит продаж"
+        },
+        "cls": "cp-badge"
+       },
+       {
+        "id": "corn-317",
+        "type": "product",
+        "source": "bestseller",
+        "btn": {
+         "en": "Add to cart",
+         "fr": "Ajouter au panier",
+         "es": "Añadir al carrito",
+         "it": "Aggiungi al carrello",
+         "de": "In den Warenkorb",
+         "nl": "In winkelwagen",
+         "pl": "Dodaj do koszyka",
+         "cs": "Do košíku",
+         "pt": "Adicionar ao carrinho",
+         "ru": "В корзину"
+        },
+        "view": {
+         "en": "View",
+         "fr": "Voir",
+         "es": "Ver",
+         "it": "Vedi",
+         "de": "Ansehen",
+         "nl": "Bekijken",
+         "pl": "Zobacz",
+         "cs": "Zobrazit",
+         "pt": "Ver",
+         "ru": "Смотреть"
+        },
+        "lowStock": {
+         "en": "{n} left",
+         "fr": "Plus que {n}",
+         "es": "Quedan {n}",
+         "it": "Ne restano {n}",
+         "de": "Noch {n} da",
+         "nl": "Nog {n} over",
+         "pl": "Zostało {n}",
+         "cs": "Zbývá {n}",
+         "pt": "Restam {n}",
+         "ru": "Осталось {n}"
+        }
+       }
+      ]
+     }
+    ]
+   }
+  ],
+  "template": "corner-product"
+ },
+ "settings": {
+  "triggers": {
+   "mode": "any",
+   "timerOn": false,
+   "timerSec": 8,
+   "exitOn": false,
+   "exitSens": "normal",
+   "idleOn": false,
+   "idleSec": 30,
+   "scrollOn": true,
+   "scrollVal": 50,
+   "scrollUnit": "pct",
+   "clickOn": false,
+   "clickSel": "",
+   "pagesOn": false,
+   "pagesN": 2,
+   "pagesSec": 0,
+   "addcartOn": false
+  },
+  "close": {
+   "x": true,
+   "xDelay": 0,
+   "overlay": false,
+   "esc": true,
+   "timeOn": false,
+   "timeSec": 20,
+   "scrollOn": false,
+   "scrollPct": 80,
+   "videoOn": false,
+   "lastOn": false,
+   "lastSec": 6
+  },
+  "frequency": {
+   "mode": "visit",
+   "days": 7,
+   "maxOn": false,
+   "max": 3,
+   "stopConvert": true,
+   "afterCloseOn": true,
+   "afterCloseDays": 2
+  },
+  "form": {
+   "list": "leads",
+   "consent": false,
+   "consentRequired": false
+  },
+  "coupon": {
+   "mode": "none",
+   "code": "",
+   "type": "percent",
+   "value": 10,
+   "days": 14,
+   "min": 0,
+   "prefix": "WELCOME-",
+   "autoApply": false
+  },
+  "targeting": {
+   "groups": [
+    {
+     "rules": [
+      {
+       "type": "page",
+       "op": "show_on",
+       "pages": [
+        "category",
+        "home"
+       ],
+       "categories": [],
+       "products": [],
+       "cms": []
+      }
+     ]
+    }
+   ]
+  }
+ }
+}

@@ -1,0 +1,354 @@
+{
+ "num": "13",
+ "slug": "ticket-stub",
+ "name": "Ticket Stub",
+ "group": "discount",
+ "formatLabel": "Modal, centre",
+ "tags": [
+  "discount",
+  "coupon",
+  "ticket"
+ ],
+ "doc": {
+  "format": "modal",
+  "width": 640,
+  "mobile": {
+   "format": "same"
+  },
+  "fonts": [
+   "Bricolage Grotesque",
+   "DM Mono",
+   "Inter"
+  ],
+  "theme": {
+   "bg": "#FFF4DD",
+   "ink": "#2B1D0E",
+   "accent": "#2B1D0E",
+   "accentInk": "#FFF4DD",
+   "field": "#FFFFFF",
+   "line": "#2B1D0E",
+   "radius": 0,
+   "fh": "Bricolage Grotesque",
+   "fb": "Bricolage Grotesque",
+   "overlay": "rgba(43,29,14,.6)",
+   "ffb": {
+    "Bricolage Grotesque": "\"Inter\", system-ui, sans-serif"
+   }
+  },
+  "decor": [
+   {
+    "html": "<svg width=\"18\" height=\"18\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"#2B1D0E\" stroke-width=\"1.8\"><circle cx=\"6\" cy=\"6\" r=\"3\"/><circle cx=\"6\" cy=\"18\" r=\"3\"/><path d=\"M20 4L8.1 15.9M14.5 14.5L20 20M8.1 8.1L12 12\"/></svg>",
+    "name": "Scissors",
+    "hideMobile": true,
+    "right": "161px",
+    "top": "120px"
+   }
+  ],
+  "steps": [
+   {
+    "id": "s1",
+    "name": "Offer",
+    "cols": [
+     {
+      "blocks": [
+       {
+        "id": "tick-130",
+        "type": "small",
+        "t": {
+         "en": "Admit one · your first order · row A, seat 1",
+         "fr": "Entrée pour une personne · votre première commande · rang A, place 1",
+         "es": "Entrada individual · tu primer pedido · fila A, asiento 1",
+         "it": "Ingresso singolo · il tuo primo ordine · fila A, posto 1",
+         "de": "Eintritt für eine Person · deine erste Bestellung · Reihe A, Platz 1",
+         "nl": "Toegang voor één · je eerste bestelling · rij A, stoel 1",
+         "pl": "Wstęp dla jednej osoby · twoje pierwsze zamówienie · rząd A, miejsce 1",
+         "cs": "Vstup pro jednoho · vaše první objednávka · řada A, místo 1",
+         "pt": "Entrada individual · a sua primeira encomenda · fila A, lugar 1",
+         "ru": "Вход для одного · ваш первый заказ · ряд A, место 1"
+        },
+        "cls": "ts-k"
+       },
+       {
+        "id": "tick-131",
+        "type": "heading",
+        "t": {
+         "en": "15% off",
+         "fr": "-15 %",
+         "es": "15 % dto.",
+         "it": "-15%",
+         "de": "15 % Rabatt",
+         "nl": "15% korting",
+         "pl": "-15%",
+         "cs": "Sleva 15 %",
+         "pt": "15% desc.",
+         "ru": "−15%"
+        }
+       },
+       {
+        "id": "tick-132",
+        "type": "text",
+        "t": {
+         "en": "Your ticket prints with your email. One code, one order.",
+         "fr": "Votre billet s'imprime avec votre e-mail. Un code, une commande.",
+         "es": "Tu entrada se imprime con tu email. Un código, un pedido.",
+         "it": "Il tuo biglietto si stampa con la tua email. Un codice, un ordine.",
+         "de": "Dein Ticket wird mit deiner E-Mail gedruckt. Ein Code, eine Bestellung.",
+         "nl": "Je ticket wordt met je e-mail gedrukt. Eén code, één bestelling.",
+         "pl": "Twój bilet drukuje się z twoim e-mailem. Jeden kod, jedno zamówienie.",
+         "cs": "Vstupenka se tiskne s vaším e-mailem. Jeden kód, jedna objednávka.",
+         "pt": "O seu bilhete é impresso com o seu email. Um código, uma encomenda.",
+         "ru": "Билет печатается с вашим email. Один код, один заказ."
+        }
+       },
+       {
+        "id": "tick-133",
+        "type": "form",
+        "btn": {
+         "en": "Print my ticket",
+         "fr": "Imprimer mon billet",
+         "es": "Imprimir mi entrada",
+         "it": "Stampa il mio biglietto",
+         "de": "Mein Ticket drucken",
+         "nl": "Print mijn ticket",
+         "pl": "Wydrukuj mój bilet",
+         "cs": "Vytisknout vstupenku",
+         "pt": "Imprimir o meu bilhete",
+         "ru": "Напечатать билет"
+        },
+        "label": {
+         "en": "Email",
+         "fr": "E-mail",
+         "es": "Email",
+         "it": "Email",
+         "de": "E-Mail",
+         "nl": "E-mail",
+         "pl": "E-mail",
+         "cs": "E-mail",
+         "pt": "Email",
+         "ru": "Email"
+        },
+        "ph": {
+         "en": "you@example.com",
+         "fr": "vous@exemple.com",
+         "es": "tu@ejemplo.com",
+         "it": "tu@esempio.com",
+         "de": "du@beispiel.de",
+         "nl": "jij@voorbeeld.nl",
+         "pl": "ty@przyklad.pl",
+         "cs": "vy@priklad.cz",
+         "pt": "voce@exemplo.pt",
+         "ru": "vy@primer.ru"
+        },
+        "layout": "inline",
+        "consent": true,
+        "consentRequired": true,
+        "consentText": {
+         "en": "Send me the newsletter too",
+         "fr": "Envoyez-moi aussi la newsletter",
+         "es": "Enviadme también el boletín",
+         "it": "Mandatemi anche la newsletter",
+         "de": "Schickt mir auch den Newsletter",
+         "nl": "Stuur me ook de nieuwsbrief",
+         "pl": "Wysyłajcie mi też newsletter",
+         "cs": "Pošlete mi i newsletter",
+         "pt": "Enviem-me também a newsletter",
+         "ru": "Присылайте и рассылку"
+        },
+        "next": "s2",
+        "hideLabel": true
+       }
+      ],
+      "cls": "ts-main"
+     },
+     {
+      "blocks": [
+       {
+        "id": "tick-134",
+        "type": "html",
+        "html": "<div class=\"ts-stub\"><span class=\"ts-code\">TIX-15-········</span><i class=\"ts-bars\"></i><small>no. 000 001</small></div>"
+       }
+      ],
+      "cls": "ts-side",
+      "w": "0 0 170px"
+     }
+    ]
+   },
+   {
+    "id": "s2",
+    "name": "Ticket",
+    "cols": [
+     {
+      "blocks": [
+       {
+        "id": "tick-135",
+        "type": "small",
+        "t": {
+         "en": "Admit one · your first order",
+         "fr": "Entrée pour une personne · votre première commande",
+         "es": "Entrada individual · tu primer pedido",
+         "it": "Ingresso singolo · il tuo primo ordine",
+         "de": "Eintritt für eine Person · deine erste Bestellung",
+         "nl": "Toegang voor één · je eerste bestelling",
+         "pl": "Wstęp dla jednej osoby · twoje pierwsze zamówienie",
+         "cs": "Vstup pro jednoho · vaše první objednávka",
+         "pt": "Entrada individual · a sua primeira encomenda",
+         "ru": "Вход для одного · ваш первый заказ"
+        },
+        "cls": "ts-k"
+       },
+       {
+        "id": "tick-136",
+        "type": "heading",
+        "t": {
+         "en": "15% off",
+         "fr": "-15 %",
+         "es": "15 % dto.",
+         "it": "-15%",
+         "de": "15 % Rabatt",
+         "nl": "15% korting",
+         "pl": "-15%",
+         "cs": "Sleva 15 %",
+         "pt": "15% desc.",
+         "ru": "−15%"
+        }
+       },
+       {
+        "id": "tick-137",
+        "type": "text",
+        "t": {
+         "en": "Printed. Tear off the stub at checkout.",
+         "fr": "Imprimé. Détachez le talon au paiement.",
+         "es": "Impresa. Corta la matriz al pagar.",
+         "it": "Stampato. Strappa la matrice al pagamento.",
+         "de": "Gedruckt. Reiß den Abschnitt an der Kasse ab.",
+         "nl": "Geprint. Scheur het strookje af bij het afrekenen.",
+         "pl": "Wydrukowano. Oderwij odcinek przy kasie.",
+         "cs": "Vytištěno. Ústřižek odtrhněte u pokladny.",
+         "pt": "Impresso. Destaque o canhoto no checkout.",
+         "ru": "Напечатано. Оторвите корешок при оформлении заказа."
+        }
+       }
+      ],
+      "cls": "ts-main"
+     },
+     {
+      "blocks": [
+       {
+        "id": "tick-138",
+        "type": "coupon",
+        "note": {
+         "en": "Valid until {coupon_expiry}",
+         "fr": "Valable jusqu'au {coupon_expiry}",
+         "es": "Válido hasta el {coupon_expiry}",
+         "it": "Valido fino al {coupon_expiry}",
+         "de": "Gültig bis {coupon_expiry}",
+         "nl": "Geldig tot {coupon_expiry}",
+         "pl": "Ważny do {coupon_expiry}",
+         "cs": "Platí do {coupon_expiry}",
+         "pt": "Válido até {coupon_expiry}",
+         "ru": "Действует до {coupon_expiry}"
+        },
+        "copy": {
+         "en": "Copy code",
+         "fr": "Copier le code",
+         "es": "Copiar código",
+         "it": "Copia il codice",
+         "de": "Code kopieren",
+         "nl": "Code kopiëren",
+         "pl": "Kopiuj kod",
+         "cs": "Kopírovat kód",
+         "pt": "Copiar código",
+         "ru": "Копировать код"
+        },
+        "code": "WELCOME-7KQ2M9XA"
+       },
+       {
+        "id": "tick-139",
+        "type": "html",
+        "html": "<i class=\"ts-bars\"></i>"
+       },
+       {
+        "id": "tick-140",
+        "type": "button",
+        "t": {
+         "en": "Apply to cart",
+         "fr": "Appliquer au panier",
+         "es": "Aplicar al carrito",
+         "it": "Applica al carrello",
+         "de": "In den Warenkorb",
+         "nl": "Toepassen op winkelwagen",
+         "pl": "Zastosuj w koszyku",
+         "cs": "Uplatnit v košíku",
+         "pt": "Aplicar ao carrinho",
+         "ru": "Применить к корзине"
+        },
+        "act": "apply",
+        "full": true
+       }
+      ],
+      "cls": "ts-side ts-side2",
+      "w": "0 0 230px"
+     }
+    ]
+   }
+  ],
+  "template": "ticket-stub"
+ },
+ "settings": {
+  "triggers": {
+   "mode": "any",
+   "timerOn": true,
+   "timerSec": 6,
+   "exitOn": false,
+   "exitSens": "normal",
+   "idleOn": false,
+   "idleSec": 30,
+   "scrollOn": false,
+   "scrollVal": 40,
+   "scrollUnit": "pct",
+   "clickOn": false,
+   "clickSel": "",
+   "pagesOn": false,
+   "pagesN": 2,
+   "pagesSec": 0,
+   "addcartOn": false
+  },
+  "close": {
+   "x": true,
+   "xDelay": 0,
+   "overlay": true,
+   "esc": true,
+   "timeOn": false,
+   "timeSec": 20,
+   "scrollOn": false,
+   "scrollPct": 80,
+   "videoOn": false,
+   "lastOn": false,
+   "lastSec": 6
+  },
+  "frequency": {
+   "mode": "days",
+   "days": 7,
+   "maxOn": false,
+   "max": 3,
+   "stopConvert": true,
+   "afterCloseOn": true,
+   "afterCloseDays": 2
+  },
+  "form": {
+   "list": "newsletter",
+   "consent": true,
+   "consentRequired": false
+  },
+  "coupon": {
+   "mode": "generated",
+   "code": "",
+   "type": "percent",
+   "value": 15,
+   "days": 14,
+   "min": 0,
+   "prefix": "TIX-15-",
+   "autoApply": false
+  }
+ }
+}

@@ -1,0 +1,27 @@
+.psx-t-swiss-grid .psx-box{background-image:repeating-linear-gradient(90deg,transparent 0 calc(100%/12 - 1px),rgba(227,6,19,.09) calc(100%/12 - 1px) calc(100%/12))}
+.psx-t-swiss-grid .psx-cols{min-height:380px}
+.psx-t-swiss-grid .sg-left{padding:22px 0 14px 22px;justify-content:space-between}
+.psx-t-swiss-grid .sg-sq{width:46px;height:46px;background:#E30613}
+.psx-t-swiss-grid .sg-num{font:900 210px/.78 var(--psx-fh);letter-spacing:-.07em;opacity:1}
+.psx-t-swiss-grid .sg-right{padding:22px 22px 22px 0;gap:10px;justify-content:space-between}
+.psx-t-swiss-grid .sg-meta{justify-content:space-between;font-size:12px;padding-right:30px}
+.psx-t-swiss-grid .sg-meta .psx-small{opacity:1}
+.psx-t-swiss-grid .psx-h{font:700 34px/1.02 var(--psx-fh);letter-spacing:-.03em;margin-top:auto}
+.psx-t-swiss-grid .psx-p{font-size:14px;color:#333}
+.psx-t-swiss-grid .psx-row{gap:0}
+.psx-t-swiss-grid .psx-input{border:2px solid var(--psx-ink);border-right:0;min-height:48px}
+.psx-t-swiss-grid .psx-input:focus{box-shadow:none;border-color:#E30613}
+.psx-t-swiss-grid .psx-btn{border-radius:0;min-height:48px;font-weight:700}
+.psx-t-swiss-grid .psx-box-ck{border-radius:0;border-width:2px}
+.psx-t-swiss-grid .psx-check{font-size:12px}
+.psx-t-swiss-grid .psx-x{top:0;right:0;width:44px;height:44px;border-radius:0;background:var(--psx-ink);color:#fff}
+.psx-t-swiss-grid .psx-coupon{border-radius:0;border-style:solid;border-width:2px}
+.psx-t-swiss-grid.psx-mobile .psx-cols{flex-direction:column;min-height:0}
+.psx-t-swiss-grid.psx-mobile .sg-left{flex-direction:row-reverse;justify-content:flex-end;align-items:flex-end;gap:12px;padding:22px 20px 0}
+.psx-t-swiss-grid.psx-mobile .sg-num{font-size:120px}
+.psx-t-swiss-grid.psx-mobile .sg-sq{width:30px;height:30px;margin-bottom:6px}
+.psx-t-swiss-grid.psx-mobile .sg-meta{display:none}
+.psx-t-swiss-grid.psx-mobile .sg-right{padding:10px 20px 24px}
+.psx-t-swiss-grid.psx-mobile .psx-h{font-size:26px}
+.psx-t-swiss-grid.psx-mobile .psx-row{flex-direction:column;gap:10px}
+.psx-t-swiss-grid.psx-mobile .psx-input{border-right:2px solid var(--psx-ink)}

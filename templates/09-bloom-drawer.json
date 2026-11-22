@@ -1,0 +1,331 @@
+{
+ "num": "09",
+ "slug": "bloom-drawer",
+ "name": "Bloom Drawer",
+ "group": "newsletter",
+ "formatLabel": "Side drawer, right",
+ "tags": [
+  "newsletter",
+  "beauty",
+  "drawer",
+  "elegant"
+ ],
+ "doc": {
+  "format": "drawer",
+  "position": "right",
+  "width": 360,
+  "mobile": {
+   "format": "same",
+   "width": "88vw"
+  },
+  "fonts": [
+   "Cormorant",
+   "Jost"
+  ],
+  "theme": {
+   "bg": "#F8E9E6",
+   "ink": "#4A2C2A",
+   "accent": "#4A2C2A",
+   "accentInk": "#F8E9E6",
+   "field": "transparent",
+   "line": "#4A2C2A",
+   "radius": 0,
+   "fh": "Cormorant",
+   "fb": "Jost",
+   "overlay": "rgba(74,44,42,.42)"
+  },
+  "closeBtn": {
+   "look": "text",
+   "label": {
+    "en": "Close",
+    "fr": "Fermer",
+    "es": "Cerrar",
+    "it": "Chiudi",
+    "de": "Schließen",
+    "nl": "Sluiten",
+    "pl": "Zamknij",
+    "cs": "Zavřít",
+    "pt": "Fechar",
+    "ru": "Закрыть"
+   }
+  },
+  "steps": [
+   {
+    "id": "s1",
+    "name": "Offer",
+    "cols": [
+     {
+      "blocks": [
+       {
+        "id": "bloo-87",
+        "type": "html",
+        "html": {
+         "en": "<div class=\"bd-frame\"><div class=\"bd-art\"><svg viewBox=\"0 0 260 200\" width=\"100%\" height=\"100%\"><g fill=\"none\" stroke=\"#B5525C\" stroke-width=\"1.2\" stroke-linecap=\"round\"><path d=\"M130 196 C 128 150, 132 110, 130 70\"/><path d=\"M130 70 c-14-18-10-40 0-50 c10 10 14 32 0 50z\"/><path d=\"M130 70 c-24-4-40-20-42-36 c18 0 36 14 42 36z\"/><path d=\"M130 70 c24-4 40-20 42-36 c-18 0-36 14-42 36z\"/><path d=\"M130 130 c-20-6-34-22-34-38 c16 4 30 18 34 38z\"/><path d=\"M130 150 c20-6 34-22 34-38 c-16 4-30 18-34 38z\"/></g></svg></div><span>pressed, not picked</span></div>",
+         "fr": "<div class=\"bd-frame\"><div class=\"bd-art\"><svg viewBox=\"0 0 260 200\" width=\"100%\" height=\"100%\"><g fill=\"none\" stroke=\"#B5525C\" stroke-width=\"1.2\" stroke-linecap=\"round\"><path d=\"M130 196 C 128 150, 132 110, 130 70\"/><path d=\"M130 70 c-14-18-10-40 0-50 c10 10 14 32 0 50z\"/><path d=\"M130 70 c-24-4-40-20-42-36 c18 0 36 14 42 36z\"/><path d=\"M130 70 c24-4 40-20 42-36 c-18 0-36 14-42 36z\"/><path d=\"M130 130 c-20-6-34-22-34-38 c16 4 30 18 34 38z\"/><path d=\"M130 150 c20-6 34-22 34-38 c-16 4-30 18-34 38z\"/></g></svg></div><span>pressées, pas cueillies</span></div>",
+         "es": "<div class=\"bd-frame\"><div class=\"bd-art\"><svg viewBox=\"0 0 260 200\" width=\"100%\" height=\"100%\"><g fill=\"none\" stroke=\"#B5525C\" stroke-width=\"1.2\" stroke-linecap=\"round\"><path d=\"M130 196 C 128 150, 132 110, 130 70\"/><path d=\"M130 70 c-14-18-10-40 0-50 c10 10 14 32 0 50z\"/><path d=\"M130 70 c-24-4-40-20-42-36 c18 0 36 14 42 36z\"/><path d=\"M130 70 c24-4 40-20 42-36 c-18 0-36 14-42 36z\"/><path d=\"M130 130 c-20-6-34-22-34-38 c16 4 30 18 34 38z\"/><path d=\"M130 150 c20-6 34-22 34-38 c-16 4-30 18-34 38z\"/></g></svg></div><span>prensadas, no cortadas</span></div>",
+         "it": "<div class=\"bd-frame\"><div class=\"bd-art\"><svg viewBox=\"0 0 260 200\" width=\"100%\" height=\"100%\"><g fill=\"none\" stroke=\"#B5525C\" stroke-width=\"1.2\" stroke-linecap=\"round\"><path d=\"M130 196 C 128 150, 132 110, 130 70\"/><path d=\"M130 70 c-14-18-10-40 0-50 c10 10 14 32 0 50z\"/><path d=\"M130 70 c-24-4-40-20-42-36 c18 0 36 14 42 36z\"/><path d=\"M130 70 c24-4 40-20 42-36 c-18 0-36 14-42 36z\"/><path d=\"M130 130 c-20-6-34-22-34-38 c16 4 30 18 34 38z\"/><path d=\"M130 150 c20-6 34-22 34-38 c-16 4-30 18-34 38z\"/></g></svg></div><span>pressati, non colti</span></div>",
+         "de": "<div class=\"bd-frame\"><div class=\"bd-art\"><svg viewBox=\"0 0 260 200\" width=\"100%\" height=\"100%\"><g fill=\"none\" stroke=\"#B5525C\" stroke-width=\"1.2\" stroke-linecap=\"round\"><path d=\"M130 196 C 128 150, 132 110, 130 70\"/><path d=\"M130 70 c-14-18-10-40 0-50 c10 10 14 32 0 50z\"/><path d=\"M130 70 c-24-4-40-20-42-36 c18 0 36 14 42 36z\"/><path d=\"M130 70 c24-4 40-20 42-36 c-18 0-36 14-42 36z\"/><path d=\"M130 130 c-20-6-34-22-34-38 c16 4 30 18 34 38z\"/><path d=\"M130 150 c20-6 34-22 34-38 c-16 4-30 18-34 38z\"/></g></svg></div><span>gepresst, nicht gepflückt</span></div>",
+         "nl": "<div class=\"bd-frame\"><div class=\"bd-art\"><svg viewBox=\"0 0 260 200\" width=\"100%\" height=\"100%\"><g fill=\"none\" stroke=\"#B5525C\" stroke-width=\"1.2\" stroke-linecap=\"round\"><path d=\"M130 196 C 128 150, 132 110, 130 70\"/><path d=\"M130 70 c-14-18-10-40 0-50 c10 10 14 32 0 50z\"/><path d=\"M130 70 c-24-4-40-20-42-36 c18 0 36 14 42 36z\"/><path d=\"M130 70 c24-4 40-20 42-36 c-18 0-36 14-42 36z\"/><path d=\"M130 130 c-20-6-34-22-34-38 c16 4 30 18 34 38z\"/><path d=\"M130 150 c20-6 34-22 34-38 c-16 4-30 18-34 38z\"/></g></svg></div><span>geperst, niet geplukt</span></div>",
+         "pl": "<div class=\"bd-frame\"><div class=\"bd-art\"><svg viewBox=\"0 0 260 200\" width=\"100%\" height=\"100%\"><g fill=\"none\" stroke=\"#B5525C\" stroke-width=\"1.2\" stroke-linecap=\"round\"><path d=\"M130 196 C 128 150, 132 110, 130 70\"/><path d=\"M130 70 c-14-18-10-40 0-50 c10 10 14 32 0 50z\"/><path d=\"M130 70 c-24-4-40-20-42-36 c18 0 36 14 42 36z\"/><path d=\"M130 70 c24-4 40-20 42-36 c-18 0-36 14-42 36z\"/><path d=\"M130 130 c-20-6-34-22-34-38 c16 4 30 18 34 38z\"/><path d=\"M130 150 c20-6 34-22 34-38 c-16 4-30 18-34 38z\"/></g></svg></div><span>tłoczone, nie zrywane</span></div>",
+         "cs": "<div class=\"bd-frame\"><div class=\"bd-art\"><svg viewBox=\"0 0 260 200\" width=\"100%\" height=\"100%\"><g fill=\"none\" stroke=\"#B5525C\" stroke-width=\"1.2\" stroke-linecap=\"round\"><path d=\"M130 196 C 128 150, 132 110, 130 70\"/><path d=\"M130 70 c-14-18-10-40 0-50 c10 10 14 32 0 50z\"/><path d=\"M130 70 c-24-4-40-20-42-36 c18 0 36 14 42 36z\"/><path d=\"M130 70 c24-4 40-20 42-36 c-18 0-36 14-42 36z\"/><path d=\"M130 130 c-20-6-34-22-34-38 c16 4 30 18 34 38z\"/><path d=\"M130 150 c20-6 34-22 34-38 c-16 4-30 18-34 38z\"/></g></svg></div><span>lisované, ne trhané</span></div>",
+         "pt": "<div class=\"bd-frame\"><div class=\"bd-art\"><svg viewBox=\"0 0 260 200\" width=\"100%\" height=\"100%\"><g fill=\"none\" stroke=\"#B5525C\" stroke-width=\"1.2\" stroke-linecap=\"round\"><path d=\"M130 196 C 128 150, 132 110, 130 70\"/><path d=\"M130 70 c-14-18-10-40 0-50 c10 10 14 32 0 50z\"/><path d=\"M130 70 c-24-4-40-20-42-36 c18 0 36 14 42 36z\"/><path d=\"M130 70 c24-4 40-20 42-36 c-18 0-36 14-42 36z\"/><path d=\"M130 130 c-20-6-34-22-34-38 c16 4 30 18 34 38z\"/><path d=\"M130 150 c20-6 34-22 34-38 c-16 4-30 18-34 38z\"/></g></svg></div><span>prensadas, não colhidas</span></div>",
+         "ru": "<div class=\"bd-frame\"><div class=\"bd-art\"><svg viewBox=\"0 0 260 200\" width=\"100%\" height=\"100%\"><g fill=\"none\" stroke=\"#B5525C\" stroke-width=\"1.2\" stroke-linecap=\"round\"><path d=\"M130 196 C 128 150, 132 110, 130 70\"/><path d=\"M130 70 c-14-18-10-40 0-50 c10 10 14 32 0 50z\"/><path d=\"M130 70 c-24-4-40-20-42-36 c18 0 36 14 42 36z\"/><path d=\"M130 70 c24-4 40-20 42-36 c-18 0-36 14-42 36z\"/><path d=\"M130 130 c-20-6-34-22-34-38 c16 4 30 18 34 38z\"/><path d=\"M130 150 c20-6 34-22 34-38 c-16 4-30 18-34 38z\"/></g></svg></div><span>прессованные, не сорванные</span></div>"
+        }
+       },
+       {
+        "id": "bloo-88",
+        "type": "heading",
+        "t": {
+         "en": "The <i>Bloom</i>\nletter",
+         "fr": "La lettre\n<i>Bloom</i>",
+         "es": "La carta\n<i>Bloom</i>",
+         "it": "La lettera\n<i>Bloom</i>",
+         "de": "Der <i>Bloom</i>\nBrief",
+         "nl": "De <i>Bloom</i>\nbrief",
+         "pl": "List\n<i>Bloom</i>",
+         "cs": "Dopis\n<i>Bloom</i>",
+         "pt": "A carta\n<i>Bloom</i>",
+         "ru": "Письмо\n<i>Bloom</i>"
+        }
+       },
+       {
+        "id": "bloo-89",
+        "type": "text",
+        "t": {
+         "en": "Notes on skin, scent and slow mornings. Ten percent off when you join.",
+         "fr": "Des notes sur la peau, les parfums et les matins sans hâte. -10 % en vous inscrivant.",
+         "es": "Notas sobre piel, aromas y mañanas sin prisa. Un 10 % de descuento al unirte.",
+         "it": "Note su pelle, profumi e mattine lente. Il 10% di sconto quando ti iscrivi.",
+         "de": "Notizen über Haut, Duft und langsame Morgen. Zehn Prozent Rabatt, wenn du dabei bist.",
+         "nl": "Notities over huid, geur en trage ochtenden. Tien procent korting als je meedoet.",
+         "pl": "Notatki o skórze, zapachach i powolnych porankach. Dziesięć procent rabatu po zapisaniu się.",
+         "cs": "Poznámky o pleti, vůních a pomalých ránech. Deset procent sleva, když se přidáte.",
+         "pt": "Notas sobre pele, aromas e manhãs sem pressa. Dez por cento de desconto ao aderir.",
+         "ru": "Заметки о коже, ароматах и неспешных утрах. Десять процентов скидки при подписке."
+        }
+       },
+       {
+        "id": "bloo-90",
+        "type": "form",
+        "btn": {
+         "en": "Join the letter",
+         "fr": "Recevoir la lettre",
+         "es": "Unirme a la carta",
+         "it": "Iscriviti alla lettera",
+         "de": "Den Brief abonnieren",
+         "nl": "Schrijf je in voor de brief",
+         "pl": "Zapisz się na list",
+         "cs": "Odebírat dopis",
+         "pt": "Aderir à carta",
+         "ru": "Подписаться на письмо"
+        },
+        "label": {
+         "en": "Email address",
+         "fr": "Adresse e-mail",
+         "es": "Correo electrónico",
+         "it": "Indirizzo email",
+         "de": "E-Mail-Adresse",
+         "nl": "E-mailadres",
+         "pl": "Adres e-mail",
+         "cs": "E-mailová adresa",
+         "pt": "Endereço de email",
+         "ru": "Email"
+        },
+        "ph": {
+         "en": "you@example.com",
+         "fr": "vous@exemple.com",
+         "es": "tu@ejemplo.com",
+         "it": "tu@esempio.com",
+         "de": "du@beispiel.de",
+         "nl": "jij@voorbeeld.nl",
+         "pl": "ty@przyklad.pl",
+         "cs": "vy@priklad.cz",
+         "pt": "voce@exemplo.pt",
+         "ru": "vy@primer.ru"
+        },
+        "layout": "stack",
+        "consent": true,
+        "consentRequired": true,
+        "consentText": {
+         "en": "I'd like to receive the letter. I can leave at any time.",
+         "fr": "Je souhaite recevoir la lettre. Je peux me désinscrire à tout moment.",
+         "es": "Quiero recibir la carta. Puedo darme de baja cuando quiera.",
+         "it": "Vorrei ricevere la lettera. Posso andarmene quando voglio.",
+         "de": "Ich möchte den Brief erhalten. Ich kann mich jederzeit abmelden.",
+         "nl": "Ik wil de brief ontvangen. Ik kan me altijd uitschrijven.",
+         "pl": "Chcę otrzymywać list. Mogę zrezygnować w każdej chwili.",
+         "cs": "Chci dostávat dopis. Odhlásit se mohu kdykoli.",
+         "pt": "Quero receber a carta. Posso sair a qualquer momento.",
+         "ru": "Хочу получать письмо. Могу отписаться в любой момент."
+        },
+        "next": "s2"
+       }
+      ]
+     }
+    ]
+   },
+   {
+    "id": "s2",
+    "name": "Thanks",
+    "cols": [
+     {
+      "blocks": [
+       {
+        "id": "bloo-91",
+        "type": "html",
+        "html": {
+         "en": "<div class=\"bd-frame\"><div class=\"bd-art\"><svg viewBox=\"0 0 260 200\" width=\"100%\" height=\"100%\"><g fill=\"none\" stroke=\"#B5525C\" stroke-width=\"1.2\" stroke-linecap=\"round\"><path d=\"M130 196 C 128 150, 132 110, 130 70\"/><path d=\"M130 70 c-14-18-10-40 0-50 c10 10 14 32 0 50z\"/><path d=\"M130 70 c-24-4-40-20-42-36 c18 0 36 14 42 36z\"/><path d=\"M130 70 c24-4 40-20 42-36 c-18 0-36 14-42 36z\"/><path d=\"M130 130 c-20-6-34-22-34-38 c16 4 30 18 34 38z\"/><path d=\"M130 150 c20-6 34-22 34-38 c-16 4-30 18-34 38z\"/></g></svg></div><span>pressed, not picked</span></div>",
+         "fr": "<div class=\"bd-frame\"><div class=\"bd-art\"><svg viewBox=\"0 0 260 200\" width=\"100%\" height=\"100%\"><g fill=\"none\" stroke=\"#B5525C\" stroke-width=\"1.2\" stroke-linecap=\"round\"><path d=\"M130 196 C 128 150, 132 110, 130 70\"/><path d=\"M130 70 c-14-18-10-40 0-50 c10 10 14 32 0 50z\"/><path d=\"M130 70 c-24-4-40-20-42-36 c18 0 36 14 42 36z\"/><path d=\"M130 70 c24-4 40-20 42-36 c-18 0-36 14-42 36z\"/><path d=\"M130 130 c-20-6-34-22-34-38 c16 4 30 18 34 38z\"/><path d=\"M130 150 c20-6 34-22 34-38 c-16 4-30 18-34 38z\"/></g></svg></div><span>pressées, pas cueillies</span></div>",
+         "es": "<div class=\"bd-frame\"><div class=\"bd-art\"><svg viewBox=\"0 0 260 200\" width=\"100%\" height=\"100%\"><g fill=\"none\" stroke=\"#B5525C\" stroke-width=\"1.2\" stroke-linecap=\"round\"><path d=\"M130 196 C 128 150, 132 110, 130 70\"/><path d=\"M130 70 c-14-18-10-40 0-50 c10 10 14 32 0 50z\"/><path d=\"M130 70 c-24-4-40-20-42-36 c18 0 36 14 42 36z\"/><path d=\"M130 70 c24-4 40-20 42-36 c-18 0-36 14-42 36z\"/><path d=\"M130 130 c-20-6-34-22-34-38 c16 4 30 18 34 38z\"/><path d=\"M130 150 c20-6 34-22 34-38 c-16 4-30 18-34 38z\"/></g></svg></div><span>prensadas, no cortadas</span></div>",
+         "it": "<div class=\"bd-frame\"><div class=\"bd-art\"><svg viewBox=\"0 0 260 200\" width=\"100%\" height=\"100%\"><g fill=\"none\" stroke=\"#B5525C\" stroke-width=\"1.2\" stroke-linecap=\"round\"><path d=\"M130 196 C 128 150, 132 110, 130 70\"/><path d=\"M130 70 c-14-18-10-40 0-50 c10 10 14 32 0 50z\"/><path d=\"M130 70 c-24-4-40-20-42-36 c18 0 36 14 42 36z\"/><path d=\"M130 70 c24-4 40-20 42-36 c-18 0-36 14-42 36z\"/><path d=\"M130 130 c-20-6-34-22-34-38 c16 4 30 18 34 38z\"/><path d=\"M130 150 c20-6 34-22 34-38 c-16 4-30 18-34 38z\"/></g></svg></div><span>pressati, non colti</span></div>",
+         "de": "<div class=\"bd-frame\"><div class=\"bd-art\"><svg viewBox=\"0 0 260 200\" width=\"100%\" height=\"100%\"><g fill=\"none\" stroke=\"#B5525C\" stroke-width=\"1.2\" stroke-linecap=\"round\"><path d=\"M130 196 C 128 150, 132 110, 130 70\"/><path d=\"M130 70 c-14-18-10-40 0-50 c10 10 14 32 0 50z\"/><path d=\"M130 70 c-24-4-40-20-42-36 c18 0 36 14 42 36z\"/><path d=\"M130 70 c24-4 40-20 42-36 c-18 0-36 14-42 36z\"/><path d=\"M130 130 c-20-6-34-22-34-38 c16 4 30 18 34 38z\"/><path d=\"M130 150 c20-6 34-22 34-38 c-16 4-30 18-34 38z\"/></g></svg></div><span>gepresst, nicht gepflückt</span></div>",
+         "nl": "<div class=\"bd-frame\"><div class=\"bd-art\"><svg viewBox=\"0 0 260 200\" width=\"100%\" height=\"100%\"><g fill=\"none\" stroke=\"#B5525C\" stroke-width=\"1.2\" stroke-linecap=\"round\"><path d=\"M130 196 C 128 150, 132 110, 130 70\"/><path d=\"M130 70 c-14-18-10-40 0-50 c10 10 14 32 0 50z\"/><path d=\"M130 70 c-24-4-40-20-42-36 c18 0 36 14 42 36z\"/><path d=\"M130 70 c24-4 40-20 42-36 c-18 0-36 14-42 36z\"/><path d=\"M130 130 c-20-6-34-22-34-38 c16 4 30 18 34 38z\"/><path d=\"M130 150 c20-6 34-22 34-38 c-16 4-30 18-34 38z\"/></g></svg></div><span>geperst, niet geplukt</span></div>",
+         "pl": "<div class=\"bd-frame\"><div class=\"bd-art\"><svg viewBox=\"0 0 260 200\" width=\"100%\" height=\"100%\"><g fill=\"none\" stroke=\"#B5525C\" stroke-width=\"1.2\" stroke-linecap=\"round\"><path d=\"M130 196 C 128 150, 132 110, 130 70\"/><path d=\"M130 70 c-14-18-10-40 0-50 c10 10 14 32 0 50z\"/><path d=\"M130 70 c-24-4-40-20-42-36 c18 0 36 14 42 36z\"/><path d=\"M130 70 c24-4 40-20 42-36 c-18 0-36 14-42 36z\"/><path d=\"M130 130 c-20-6-34-22-34-38 c16 4 30 18 34 38z\"/><path d=\"M130 150 c20-6 34-22 34-38 c-16 4-30 18-34 38z\"/></g></svg></div><span>tłoczone, nie zrywane</span></div>",
+         "cs": "<div class=\"bd-frame\"><div class=\"bd-art\"><svg viewBox=\"0 0 260 200\" width=\"100%\" height=\"100%\"><g fill=\"none\" stroke=\"#B5525C\" stroke-width=\"1.2\" stroke-linecap=\"round\"><path d=\"M130 196 C 128 150, 132 110, 130 70\"/><path d=\"M130 70 c-14-18-10-40 0-50 c10 10 14 32 0 50z\"/><path d=\"M130 70 c-24-4-40-20-42-36 c18 0 36 14 42 36z\"/><path d=\"M130 70 c24-4 40-20 42-36 c-18 0-36 14-42 36z\"/><path d=\"M130 130 c-20-6-34-22-34-38 c16 4 30 18 34 38z\"/><path d=\"M130 150 c20-6 34-22 34-38 c-16 4-30 18-34 38z\"/></g></svg></div><span>lisované, ne trhané</span></div>",
+         "pt": "<div class=\"bd-frame\"><div class=\"bd-art\"><svg viewBox=\"0 0 260 200\" width=\"100%\" height=\"100%\"><g fill=\"none\" stroke=\"#B5525C\" stroke-width=\"1.2\" stroke-linecap=\"round\"><path d=\"M130 196 C 128 150, 132 110, 130 70\"/><path d=\"M130 70 c-14-18-10-40 0-50 c10 10 14 32 0 50z\"/><path d=\"M130 70 c-24-4-40-20-42-36 c18 0 36 14 42 36z\"/><path d=\"M130 70 c24-4 40-20 42-36 c-18 0-36 14-42 36z\"/><path d=\"M130 130 c-20-6-34-22-34-38 c16 4 30 18 34 38z\"/><path d=\"M130 150 c20-6 34-22 34-38 c-16 4-30 18-34 38z\"/></g></svg></div><span>prensadas, não colhidas</span></div>",
+         "ru": "<div class=\"bd-frame\"><div class=\"bd-art\"><svg viewBox=\"0 0 260 200\" width=\"100%\" height=\"100%\"><g fill=\"none\" stroke=\"#B5525C\" stroke-width=\"1.2\" stroke-linecap=\"round\"><path d=\"M130 196 C 128 150, 132 110, 130 70\"/><path d=\"M130 70 c-14-18-10-40 0-50 c10 10 14 32 0 50z\"/><path d=\"M130 70 c-24-4-40-20-42-36 c18 0 36 14 42 36z\"/><path d=\"M130 70 c24-4 40-20 42-36 c-18 0-36 14-42 36z\"/><path d=\"M130 130 c-20-6-34-22-34-38 c16 4 30 18 34 38z\"/><path d=\"M130 150 c20-6 34-22 34-38 c-16 4-30 18-34 38z\"/></g></svg></div><span>прессованные, не сорванные</span></div>"
+        }
+       },
+       {
+        "id": "bloo-92",
+        "type": "heading",
+        "t": {
+         "en": "Welcome to <i>Bloom</i>",
+         "fr": "Bienvenue chez <i>Bloom</i>",
+         "es": "Bienvenida a <i>Bloom</i>",
+         "it": "Benvenuta in <i>Bloom</i>",
+         "de": "Willkommen bei <i>Bloom</i>",
+         "nl": "Welkom bij <i>Bloom</i>",
+         "pl": "Witaj w <i>Bloom</i>",
+         "cs": "Vítejte v <i>Bloom</i>",
+         "pt": "Bem-vinda à <i>Bloom</i>",
+         "ru": "Добро пожаловать в <i>Bloom</i>"
+        }
+       },
+       {
+        "id": "bloo-93",
+        "type": "text",
+        "t": {
+         "en": "Your welcome code:",
+         "fr": "Votre code de bienvenue :",
+         "es": "Tu código de bienvenida:",
+         "it": "Il tuo codice di benvenuto:",
+         "de": "Dein Willkommenscode:",
+         "nl": "Je welkomstcode:",
+         "pl": "Twój kod powitalny:",
+         "cs": "Váš uvítací kód:",
+         "pt": "O seu código de boas-vindas:",
+         "ru": "Ваш приветственный код:"
+        }
+       },
+       {
+        "id": "bloo-94",
+        "type": "coupon",
+        "note": {
+         "en": "Valid until {coupon_expiry}. One use.",
+         "fr": "Valable jusqu'au {coupon_expiry}. Un seul usage.",
+         "es": "Válido hasta el {coupon_expiry}. Un solo uso.",
+         "it": "Valido fino al {coupon_expiry}. Un solo utilizzo.",
+         "de": "Gültig bis {coupon_expiry}. Einmal einlösbar.",
+         "nl": "Geldig tot {coupon_expiry}. Eenmalig te gebruiken.",
+         "pl": "Ważny do {coupon_expiry}. Jednorazowy.",
+         "cs": "Platí do {coupon_expiry}. Jedno použití.",
+         "pt": "Válido até {coupon_expiry}. Uma utilização.",
+         "ru": "Действует до {coupon_expiry}. Одно использование."
+        },
+        "copy": {
+         "en": "Copy",
+         "fr": "Copier",
+         "es": "Copiar",
+         "it": "Copia",
+         "de": "Kopieren",
+         "nl": "Kopiëren",
+         "pl": "Kopiuj",
+         "cs": "Kopírovat",
+         "pt": "Copiar",
+         "ru": "Копировать"
+        },
+        "code": "WELCOME-7KQ2M9XA"
+       },
+       {
+        "id": "bloo-95",
+        "type": "link",
+        "t": {
+         "en": "Back to the shop",
+         "fr": "Retour à la boutique",
+         "es": "Volver a la tienda",
+         "it": "Torna al negozio",
+         "de": "Zurück zum Shop",
+         "nl": "Terug naar de winkel",
+         "pl": "Wróć do sklepu",
+         "cs": "Zpět do obchodu",
+         "pt": "Voltar à loja",
+         "ru": "Вернуться в магазин"
+        },
+        "act": "close"
+       }
+      ]
+     }
+    ]
+   }
+  ],
+  "template": "bloom-drawer"
+ },
+ "settings": {
+  "triggers": {
+   "mode": "any",
+   "timerOn": false,
+   "timerSec": 8,
+   "exitOn": false,
+   "exitSens": "normal",
+   "idleOn": false,
+   "idleSec": 30,
+   "scrollOn": false,
+   "scrollVal": 40,
+   "scrollUnit": "pct",
+   "clickOn": true,
+   "clickSel": "a[href*=\"newsletter\"],.js-join",
+   "pagesOn": false,
+   "pagesN": 2,
+   "pagesSec": 0,
+   "addcartOn": false
+  },
+  "close": {
+   "x": true,
+   "xDelay": 0,
+   "overlay": true,
+   "esc": true,
+   "timeOn": false,
+   "timeSec": 20,
+   "scrollOn": false,
+   "scrollPct": 80,
+   "videoOn": false,
+   "lastOn": false,
+   "lastSec": 6
+  },
+  "frequency": {
+   "mode": "page",
+   "days": 7,
+   "maxOn": false,
+   "max": 3,
+   "stopConvert": true,
+   "afterCloseOn": true,
+   "afterCloseDays": 2
+  },
+  "form": {
+   "list": "newsletter",
+   "consent": true,
+   "consentRequired": true
+  },
+  "coupon": {
+   "mode": "generated",
+   "code": "",
+   "type": "percent",
+   "value": 10,
+   "days": 14,
+   "min": 0,
+   "prefix": "BLOOM-",
+   "autoApply": false
+  }
+ }
+}

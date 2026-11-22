@@ -1,0 +1,43 @@
+{
+  "title": "Popup Studio",
+  "subtitle": "Benutzerhandbuch",
+  "labels": {"version": "Version", "author": "Autor", "contact": "Kontakt", "page": "Seite", "contents": "Inhalt", "compat": "Kompatibilität"},
+  "sections": [
+    {"title": "Überblick", "content": [
+      {"p": "Popup Studio zeigt in Ihrem Shop Popups, Leisten, Slide-ins, Seitenleisten, Vollbildseiten und eingebettete Blöcke. Jedes davon kann E-Mails sammeln, einen Gutschein vergeben, ein Spiel starten, eine Frage stellen oder etwas ankündigen."},
+      {"p": "Sie finden es unter **Marketing › Popup Studio**. Es hat fünf Bereiche: Popups, Vorlagen, Statistik, Kontakte und Einstellungen."}
+    ]},
+    {"title": "Ein Popup erstellen", "content": [
+      {"ol": ["Öffnen Sie **Vorlagen** und wählen Sie eines der 50 Designs, oder klicken Sie auf **Neues Popup › Leer beginnen** und wählen Sie ein Format.", "Ändern Sie Texte, Farben und Blöcke im Editor.", "Legen Sie fest, wann es erscheint und wer es sieht.", "Stellen Sie den Status auf **Live** und klicken Sie auf **Speichern**."]},
+      {"note": "Ein neues Popup ist immer ein Entwurf. Im Shop erscheint nichts, bis Sie es auf Live stellen."}
+    ]},
+    {"title": "Der Editor", "content": [
+      {"p": "Der Tab **Design** zeigt das Popup in einer Live-Vorschau. Klicken Sie auf einen Block, um ihn rechts zu bearbeiten, auf eine Kachel links, um einen Block hinzuzufügen, oder ziehen Sie Blöcke und Ebenen, um sie zu verschieben. Mit **Desktop** und **Mobil** prüfen Sie beide Layouts."},
+      {"ul": ["**Schritte**: Ein Popup kann mehrere Bildschirme haben, etwa Angebot, Formular und Danke.", "Tab **Mobil** eines Blocks: auf Smartphones ausblenden oder die Größe ändern.", "**Strg+S** speichert, **Strg+Z** macht rückgängig, **Strg+Umschalt+Z** wiederholt.", "Text unterstützt **fett**, *kursiv* und Platzhalter wie {firstname}, {cart_total}, {free_shipping_remaining}, {coupon} und {shop_name}. Mit {firstname|du} geben Sie einen Ersatzwert an."]},
+      {"p": "Texte werden pro Sprache gespeichert. Wählen Sie die Sprache in der oberen Leiste, um ein Popup zu übersetzen."}
+    ]},
+    {"title": "Wann es erscheint und wie es schließt", "content": [
+      {"p": "Unter **Auslöser und Schließen** schalten Sie einen oder mehrere Auslöser ein: Timer nach dem Aufruf, Exit-Intent, Inaktivität, Scrolltiefe, Klick auf einen beliebigen CSS-Selektor, die N-te Seite eines Besuchs oder direkt nach dem Hinzufügen zum Warenkorb. Wählen Sie, ob einer genügt oder alle eingetreten sein müssen."},
+      {"p": "Besucher schließen es mit dem X, einem Klick auf die abgedunkelte Seite oder Esc. Es kann sich auch selbst schließen: nach einer Zeit, an einer Scrollposition, am Ende eines Videos oder nach dem letzten Schritt. Ein kleiner Tab kann am Rand bleiben, um es wieder zu öffnen."}
+    ]},
+    {"title": "Wer es sieht und wie oft", "content": [
+      {"p": "Unter **Zielgruppe** fügen Sie Regeln hinzu: Besuchertyp, Erstbesuch, Kundengruppe, frühere Bestellungen, Newsletter-Status, Warenkorbwert und -inhalt, Artikelanzahl, Seitentypen, URL, UTM, Referrer, Land, Sprache, Währung, Gerät, Tage und Uhrzeiten. Regeln in einer Gruppe müssen alle zutreffen; getrennte Gruppen sind Alternativen (ODER)."},
+      {"p": "Unter **Zeitplan und Häufigkeit** legen Sie Start und Ende, Tage und Uhrzeiten, die Priorität und die Häufigkeit pro Besucher fest: auf jeder Seite, einmal pro Besuch, höchstens alle N Tage oder nur einmal. Es kann nach einer Anmeldung aufhören und nach dem Schließen einige Tage warten."},
+      {"note": "Länderregeln benötigen die PrestaShop-Geolokalisierung (Voreinstellungen › Geolokalisierung)."}
+    ]},
+    {"title": "Anmeldungen, Gutscheine und Spiele", "content": [
+      {"ul": ["Das E-Mail-Formular trägt die Adresse in die Liste **Kontakte** ein und auf Wunsch in den Newsletter des Moduls ps_emailsubscription. Das Double-Opt-in folgt der Einstellung dieses Moduls.", "Die Einwilligungs-Checkbox nutzt den Text des offiziellen DSGVO-Moduls, wenn es installiert ist, und für jede Anmeldung wird ein Einwilligungsnachweis gespeichert.", "Ein Popup kann einen festen Code vergeben oder pro Anmeldung eine eigene Warenkorbregel anlegen (Prozent, Betrag oder Gratisversand, mit Gültigkeitstagen und Mindestbestellwert). Codes können automatisch auf den Warenkorb angewendet werden.", "Glücksrad, Rubbelkarte, Geschenkboxen und Karten ziehen den Gewinn auf dem Server, nach Ihren Chancen und Beständen. Jeder Besucher spielt einmal."]},
+      {"p": "Ein Webhook unter **Einstellungen** kann jede Anmeldung an Brevo, Mailchimp, Zapier oder ein anderes Tool senden. Die Anfragen werden mit Ihrem Geheimnis signiert."}
+    ]},
+    {"title": "A/B-Tests und Statistik", "content": [
+      {"p": "Im Tab **A/B-Test** fügen Sie Varianten hinzu und legen ihre Gewichtung fest. Jeder Besucher sieht immer dieselbe Variante. Sobald jede Variante 300 Aufrufe hat, zeigt das Modul den Gewinner und wie sicher das Ergebnis ist; dann können Sie nur den Gewinner behalten."},
+      {"p": "**Statistik** zeigt Aufrufe, Schließungen, Klicks, Anmeldungen, Bestellungen und Umsatz pro Tag, Gerät und Popup sowie Umfrageantworten und schriftliches Feedback. Eine Bestellung zählt für ein Popup, wenn dessen Gutschein genutzt wurde oder der Käufer sich innerhalb der in den Einstellungen festgelegten Tage angemeldet hat."}
+    ]},
+    {"title": "Gut zu wissen", "content": [
+      {"ul": ["**Als Besucher testen** im Popup-Menü öffnet den Shop mit einem Vorschau-Link, der Zielgruppe und Häufigkeit ignoriert und ein Testfeld zeigt.", "Jeder Link auf #popup-ID öffnet dieses Popup, zum Beispiel ein Menülink.", "Eingebettete Popups setzen Sie in den Hook displayPopupStudio oder mit {widget name=\"popupstudio\" id=ID}.", "Die Einstellungen begrenzen, wie viele Popups ein Besucher pro Besuch sieht, verbergen Popups vor Bots und schließen IP-Adressen aus.", "Schriften sind im Modul enthalten; es gibt keine Anfrage an Google. Videos laden erst, wenn der Besucher auf Abspielen drückt."]}
+    ]},
+    {"title": "Support", "content": [
+      {"p": "Fragen oder eine individuelle Anpassung: schreiben Sie an iamshoaibktk@gmail.com oder per WhatsApp an +923459016286. Weitere Module: https://www.fiverr.com/shoaibktk"}
+    ]}
+  ]
+}

@@ -1,0 +1,476 @@
+{
+ "num": "27",
+ "slug": "mono-wheel",
+ "name": "Mono Wheel",
+ "group": "games",
+ "formatLabel": "Modal, spin to win",
+ "tags": [
+  "game",
+  "wheel",
+  "minimal",
+  "design"
+ ],
+ "doc": {
+  "format": "modal",
+  "width": 680,
+  "mobile": {
+   "format": "sheet"
+  },
+  "fonts": [
+   "Instrument Serif",
+   "Instrument Sans",
+   "Playfair Display",
+   "Inter"
+  ],
+  "theme": {
+   "bg": "#F4F4F2",
+   "ink": "#111111",
+   "accent": "#111111",
+   "accentInk": "#F4F4F2",
+   "field": "#FFFFFF",
+   "line": "#B5B5B0",
+   "radius": 0,
+   "fh": "Instrument Serif",
+   "fb": "Instrument Sans",
+   "overlay": "rgba(17,17,17,.55)",
+   "w1": "#FBFBF9",
+   "w2": "#E9E9E5",
+   "w3": "#FBFBF9",
+   "w4": "#E9E9E5",
+   "wi1": "#111111",
+   "wi2": "#111111",
+   "wi3": "#111111",
+   "wi4": "#111111",
+   "ffb": {
+    "Instrument Serif": "\"Playfair Display\", Georgia, serif",
+    "Instrument Sans": "\"Inter\", system-ui, sans-serif"
+   }
+  },
+  "steps": [
+   {
+    "id": "s1",
+    "name": "Spin",
+    "cols": [
+     {
+      "blocks": [
+       {
+        "id": "mono-246",
+        "type": "wheel",
+        "look": "ticks"
+       }
+      ],
+      "cls": "mw-w",
+      "w": "0 0 320px"
+     },
+     {
+      "blocks": [
+       {
+        "id": "mono-247",
+        "type": "heading",
+        "t": {
+         "en": "One turn.\n*Every slice wins.*",
+         "fr": "Un tour.\n*Chaque part gagne.*",
+         "es": "Una tirada.\n*Todas las porciones ganan.*",
+         "it": "Un giro.\n*Ogni spicchio vince.*",
+         "de": "Ein Dreh.\n*Jedes Feld gewinnt.*",
+         "nl": "Eén draai.\n*Elk vak wint.*",
+         "pl": "Jeden obrót.\n*Każde pole wygrywa.*",
+         "cs": "Jedno točení.\n*Každá výseč vyhrává.*",
+         "pt": "Uma volta.\n*Todas as fatias ganham.*",
+         "ru": "Одно вращение.\n*Каждый сектор выигрывает.*"
+        }
+       },
+       {
+        "id": "mono-248",
+        "type": "text",
+        "t": {
+         "en": "Enter your email and give it a spin. Your prize is saved to your address.",
+         "fr": "Saisissez votre e-mail et lancez la roue. Votre lot est envoyé à votre adresse.",
+         "es": "Escribe tu email y gira la ruleta. Tu premio se guarda en tu dirección.",
+         "it": "Inserisci la tua email e fai girare la ruota. Il premio viene salvato sul tuo indirizzo.",
+         "de": "Gib deine E-Mail ein und dreh das Rad. Dein Gewinn wird an deine Adresse gesendet.",
+         "nl": "Vul je e-mail in en geef het rad een zwieper. Je prijs wordt naar je adres gestuurd.",
+         "pl": "Wpisz e-mail i zakręć kołem. Nagroda trafi na twój adres.",
+         "cs": "Zadejte e-mail a roztočte kolo. Výhra se uloží na vaši adresu.",
+         "pt": "Escreva o seu email e dê uma volta. O prémio fica guardado no seu endereço.",
+         "ru": "Введите email и крутите колесо. Приз сохранится на ваш адрес."
+        }
+       },
+       {
+        "id": "mono-249",
+        "type": "form",
+        "btn": {
+         "en": "Turn the wheel",
+         "fr": "Tourner la roue",
+         "es": "Girar la ruleta",
+         "it": "Gira la ruota",
+         "de": "Rad drehen",
+         "nl": "Draai het rad",
+         "pl": "Zakręć kołem",
+         "cs": "Roztočit kolo",
+         "pt": "Girar a roda",
+         "ru": "Крутить колесо"
+        },
+        "label": {
+         "en": "Email",
+         "fr": "E-mail",
+         "es": "Email",
+         "it": "Email",
+         "de": "E-Mail",
+         "nl": "E-mail",
+         "pl": "E-mail",
+         "cs": "E-mail",
+         "pt": "Email",
+         "ru": "Email"
+        },
+        "ph": {
+         "en": "you@example.com",
+         "fr": "vous@exemple.com",
+         "es": "tu@ejemplo.com",
+         "it": "tu@esempio.com",
+         "de": "du@beispiel.de",
+         "nl": "jij@voorbeeld.nl",
+         "pl": "ty@przyklad.pl",
+         "cs": "vy@priklad.cz",
+         "pt": "voce@exemplo.pt",
+         "ru": "vy@primer.ru"
+        },
+        "layout": "stack",
+        "consent": true,
+        "consentRequired": true,
+        "consentText": {
+         "en": "Email me offers. Unsubscribe any time.",
+         "fr": "Envoyez-moi des offres. Désinscription à tout moment.",
+         "es": "Enviadme ofertas. Baja cuando quiera.",
+         "it": "Mandatemi offerte. Disiscrizione quando voglio.",
+         "de": "Schickt mir Angebote. Abmeldung jederzeit.",
+         "nl": "Mail me aanbiedingen. Uitschrijven kan altijd.",
+         "pl": "Wysyłajcie mi oferty. Rezygnacja w każdej chwili.",
+         "cs": "Posílejte mi nabídky. Odhlášení kdykoli.",
+         "pt": "Enviem-me ofertas. Cancelo quando quiser.",
+         "ru": "Присылайте предложения. Отписка в любой момент."
+        },
+        "next": "won",
+        "play": true
+       }
+      ],
+      "cls": "mw-f"
+     }
+    ]
+   },
+   {
+    "id": "won",
+    "name": "Prize",
+    "cols": [
+     {
+      "blocks": [
+       {
+        "id": "mono-250",
+        "type": "heading",
+        "t": {
+         "en": "*{prize}.* Yours.",
+         "fr": "*{prize}.* Pour vous.",
+         "es": "*{prize}.* Tuyo.",
+         "it": "*{prize}.* Tuo.",
+         "de": "*{prize}.* Für dich.",
+         "nl": "*{prize}.* Voor jou.",
+         "pl": "*{prize}.* Twoje.",
+         "cs": "*{prize}.* Vaše.",
+         "pt": "*{prize}.* Seu.",
+         "ru": "*{prize}.* Ваше."
+        }
+       },
+       {
+        "id": "mono-251",
+        "type": "coupon",
+        "note": {
+         "en": "Saved to your email. Valid 14 days.",
+         "fr": "Envoyé à votre e-mail. Valable 14 jours.",
+         "es": "Guardado en tu email. Válido 14 días.",
+         "it": "Salvato sulla tua email. Valido 14 giorni.",
+         "de": "An deine E-Mail gesendet. 14 Tage gültig.",
+         "nl": "Naar je e-mail gestuurd. 14 dagen geldig.",
+         "pl": "Wysłane na twój e-mail. Ważne 14 dni.",
+         "cs": "Uloženo k vašemu e-mailu. Platí 14 dní.",
+         "pt": "Guardado no seu email. Válido 14 dias.",
+         "ru": "Сохранено на ваш email. Действует 14 дней."
+        },
+        "copy": {
+         "en": "Copy",
+         "fr": "Copier",
+         "es": "Copiar",
+         "it": "Copia",
+         "de": "Kopieren",
+         "nl": "Kopiëren",
+         "pl": "Kopiuj",
+         "cs": "Kopírovat",
+         "pt": "Copiar",
+         "ru": "Копировать"
+        },
+        "code": "WELCOME-7KQ2M9XA"
+       },
+       {
+        "id": "mono-252",
+        "type": "button",
+        "t": {
+         "en": "Apply to my cart",
+         "fr": "Appliquer à mon panier",
+         "es": "Aplicar a mi carrito",
+         "it": "Applica al mio carrello",
+         "de": "Auf meinen Warenkorb anwenden",
+         "nl": "Toepassen op mijn winkelwagen",
+         "pl": "Zastosuj w koszyku",
+         "cs": "Uplatnit v košíku",
+         "pt": "Aplicar ao meu carrinho",
+         "ru": "Применить к корзине"
+        },
+        "act": "apply",
+        "full": true
+       }
+      ]
+     }
+    ]
+   }
+  ],
+  "template": "mono-wheel"
+ },
+ "settings": {
+  "triggers": {
+   "mode": "any",
+   "timerOn": true,
+   "timerSec": 8,
+   "exitOn": false,
+   "exitSens": "normal",
+   "idleOn": false,
+   "idleSec": 30,
+   "scrollOn": false,
+   "scrollVal": 40,
+   "scrollUnit": "pct",
+   "clickOn": false,
+   "clickSel": "",
+   "pagesOn": false,
+   "pagesN": 2,
+   "pagesSec": 0,
+   "addcartOn": false
+  },
+  "close": {
+   "x": true,
+   "xDelay": 0,
+   "overlay": true,
+   "esc": true,
+   "timeOn": false,
+   "timeSec": 20,
+   "scrollOn": false,
+   "scrollPct": 80,
+   "videoOn": false,
+   "lastOn": false,
+   "lastSec": 6
+  },
+  "frequency": {
+   "mode": "once",
+   "days": 7,
+   "maxOn": false,
+   "max": 3,
+   "stopConvert": true,
+   "afterCloseOn": true,
+   "afterCloseDays": 2
+  },
+  "form": {
+   "list": "newsletter",
+   "consent": true,
+   "consentRequired": true
+  },
+  "coupon": {
+   "mode": "none",
+   "code": "",
+   "type": "percent",
+   "value": 10,
+   "days": 14,
+   "min": 0,
+   "prefix": "WELCOME-",
+   "autoApply": false
+  },
+  "game": {
+   "type": "wheel",
+   "emailFirst": true,
+   "prizes": [
+    {
+     "key": "p5a",
+     "label": {
+      "en": "5%",
+      "fr": "5 %",
+      "es": "5 %",
+      "it": "5%",
+      "de": "5 %",
+      "nl": "5%",
+      "pl": "5%",
+      "cs": "5 %",
+      "pt": "5%",
+      "ru": "5%"
+     },
+     "weight": 25,
+     "stock": "",
+     "coupon": {
+      "type": "percent",
+      "value": 5,
+      "days": 14
+     }
+    },
+    {
+     "key": "ship",
+     "label": {
+      "en": "Free ship",
+      "fr": "Livraison offerte",
+      "es": "Envío gratis",
+      "it": "Sped. gratis",
+      "de": "Gratis Versand",
+      "nl": "Gratis verz.",
+      "pl": "Darmowa dost.",
+      "cs": "Doprava zdarma",
+      "pt": "Portes grátis",
+      "ru": "Бесп. доставка"
+     },
+     "weight": 15,
+     "stock": "",
+     "coupon": {
+      "type": "shipping",
+      "value": 10,
+      "days": 14
+     }
+    },
+    {
+     "key": "p10a",
+     "label": {
+      "en": "10%",
+      "fr": "10 %",
+      "es": "10 %",
+      "it": "10%",
+      "de": "10 %",
+      "nl": "10%",
+      "pl": "10%",
+      "cs": "10 %",
+      "pt": "10%",
+      "ru": "10%"
+     },
+     "weight": 20,
+     "stock": "",
+     "coupon": {
+      "type": "percent",
+      "value": 10,
+      "days": 14
+     }
+    },
+    {
+     "key": "p5b",
+     "label": {
+      "en": "5%",
+      "fr": "5 %",
+      "es": "5 %",
+      "it": "5%",
+      "de": "5 %",
+      "nl": "5%",
+      "pl": "5%",
+      "cs": "5 %",
+      "pt": "5%",
+      "ru": "5%"
+     },
+     "weight": 20,
+     "stock": "",
+     "coupon": {
+      "type": "percent",
+      "value": 5,
+      "days": 14
+     }
+    },
+    {
+     "key": "p15",
+     "label": {
+      "en": "15%",
+      "fr": "15 %",
+      "es": "15 %",
+      "it": "15%",
+      "de": "15 %",
+      "nl": "15%",
+      "pl": "15%",
+      "cs": "15 %",
+      "pt": "15%",
+      "ru": "15%"
+     },
+     "weight": 8,
+     "stock": "",
+     "coupon": {
+      "type": "percent",
+      "value": 15,
+      "days": 14
+     }
+    },
+    {
+     "key": "gift",
+     "label": {
+      "en": "Gift",
+      "fr": "Cadeau",
+      "es": "Regalo",
+      "it": "Regalo",
+      "de": "Geschenk",
+      "nl": "Cadeau",
+      "pl": "Prezent",
+      "cs": "Dárek",
+      "pt": "Presente",
+      "ru": "Подарок"
+     },
+     "weight": 5,
+     "stock": "",
+     "coupon": {
+      "type": "amount",
+      "value": 10,
+      "days": 14
+     }
+    },
+    {
+     "key": "p10b",
+     "label": {
+      "en": "10%",
+      "fr": "10 %",
+      "es": "10 %",
+      "it": "10%",
+      "de": "10 %",
+      "nl": "10%",
+      "pl": "10%",
+      "cs": "10 %",
+      "pt": "10%",
+      "ru": "10%"
+     },
+     "weight": 6,
+     "stock": "",
+     "coupon": {
+      "type": "percent",
+      "value": 10,
+      "days": 14
+     }
+    },
+    {
+     "key": "p20",
+     "label": {
+      "en": "20%",
+      "fr": "20 %",
+      "es": "20 %",
+      "it": "20%",
+      "de": "20 %",
+      "nl": "20%",
+      "pl": "20%",
+      "cs": "20 %",
+      "pt": "20%",
+      "ru": "20%"
+     },
+     "weight": 1,
+     "stock": "",
+     "coupon": {
+      "type": "percent",
+      "value": 20,
+      "days": 14
+     }
+    }
+   ]
+  }
+ }
+}

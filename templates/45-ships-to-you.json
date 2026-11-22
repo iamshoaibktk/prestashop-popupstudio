@@ -1,0 +1,206 @@
+{
+ "num": "45",
+ "slug": "ships-to-you",
+ "name": "Ships to You",
+ "group": "info",
+ "formatLabel": "Slide-in, country notice",
+ "tags": [
+  "country",
+  "geo",
+  "store switch"
+ ],
+ "doc": {
+  "format": "slidein",
+  "position": "bl",
+  "width": 370,
+  "mobile": {
+   "format": "same"
+  },
+  "fonts": [
+   "Hanken Grotesk",
+   "Inter"
+  ],
+  "theme": {
+   "bg": "#F0F4F8",
+   "ink": "#102A43",
+   "accent": "#2680C2",
+   "accentInk": "#FFFFFF",
+   "line": "#BCCCDC",
+   "radius": 14,
+   "fh": "Hanken Grotesk",
+   "fb": "Hanken Grotesk",
+   "ffb": {
+    "Hanken Grotesk": "\"Inter\", system-ui, sans-serif"
+   }
+  },
+  "closeBtn": {
+   "look": "circle"
+  },
+  "steps": [
+   {
+    "id": "s1",
+    "name": "Notice",
+    "cols": [
+     {
+      "blocks": [
+       {
+        "id": "ship-354",
+        "type": "html",
+        "html": "<div class=\"sy-map\"><svg width=\"44\" height=\"54\" viewBox=\"0 0 24 30\"><path d=\"M12 1C6 1 2 5.5 2 11c0 7.5 10 18 10 18s10-10.5 10-18C22 5.5 18 1 12 1z\" fill=\"#2680C2\"/><circle cx=\"12\" cy=\"11\" r=\"4\" fill=\"#F0F4F8\"/></svg></div>"
+       },
+       {
+        "id": "ship-355",
+        "type": "heading",
+        "t": {
+         "en": "Shopping from Germany?",
+         "fr": "Vous commandez depuis l'Allemagne ?",
+         "es": "¿Compras desde Alemania?",
+         "it": "Acquisti dalla Germania?",
+         "de": "Du kaufst aus Deutschland ein?",
+         "nl": "Winkel je vanuit Duitsland?",
+         "pl": "Kupujesz z Niemiec?",
+         "cs": "Nakupujete z Německa?",
+         "pt": "A comprar a partir da Alemanha?",
+         "ru": "Покупаете из Германии?"
+        }
+       },
+       {
+        "id": "ship-356",
+        "type": "text",
+        "t": {
+         "en": "We ship to you in 2–4 days. Our German store shows prices in euro and speaks Deutsch.",
+         "fr": "Nous livrons chez vous en 2 à 4 jours. Notre boutique allemande affiche les prix en euros et parle allemand.",
+         "es": "Te lo enviamos en 2–4 días. Nuestra tienda alemana muestra los precios en euros y habla alemán.",
+         "it": "Spediamo da te in 2–4 giorni. Il nostro negozio tedesco mostra i prezzi in euro e parla tedesco.",
+         "de": "Wir liefern in 2–4 Tagen zu dir. Unser deutscher Shop zeigt Preise in Euro und spricht Deutsch.",
+         "nl": "We leveren bij jou in 2–4 dagen. Onze Duitse winkel toont prijzen in euro en spreekt Duits.",
+         "pl": "Dostarczamy do ciebie w 2–4 dni. Nasz niemiecki sklep pokazuje ceny w euro i mówi po niemiecku.",
+         "cs": "Doručíme vám za 2–4 dny. Náš německý obchod ukazuje ceny v eurech a mluví německy.",
+         "pt": "Enviamos para si em 2–4 dias. A nossa loja alemã mostra preços em euros e fala alemão.",
+         "ru": "Доставим вам за 2–4 дня. Наш немецкий магазин показывает цены в евро и говорит по-немецки."
+        }
+       },
+       {
+        "id": "ship-359",
+        "type": "row",
+        "blocks": [
+         {
+          "id": "ship-357",
+          "type": "button",
+          "t": {
+           "en": "Visit the German store",
+           "fr": "Aller sur la boutique allemande",
+           "es": "Ir a la tienda alemana",
+           "it": "Vai al negozio tedesco",
+           "de": "Zum deutschen Shop",
+           "nl": "Naar de Duitse winkel",
+           "pl": "Przejdź do sklepu niemieckiego",
+           "cs": "Do německého obchodu",
+           "pt": "Ir para a loja alemã",
+           "ru": "В немецкий магазин"
+          },
+          "act": "url",
+          "cls": "sy-go",
+          "href": "/de/"
+         },
+         {
+          "id": "ship-358",
+          "type": "button",
+          "t": {
+           "en": "Stay here",
+           "fr": "Rester ici",
+           "es": "Quedarme aquí",
+           "it": "Resta qui",
+           "de": "Hier bleiben",
+           "nl": "Hier blijven",
+           "pl": "Zostań tutaj",
+           "cs": "Zůstat zde",
+           "pt": "Ficar aqui",
+           "ru": "Остаться здесь"
+          },
+          "act": "close",
+          "variant": "secondary"
+         }
+        ]
+       }
+      ]
+     }
+    ]
+   }
+  ],
+  "template": "ships-to-you"
+ },
+ "settings": {
+  "triggers": {
+   "mode": "any",
+   "timerOn": true,
+   "timerSec": 3,
+   "exitOn": false,
+   "exitSens": "normal",
+   "idleOn": false,
+   "idleSec": 30,
+   "scrollOn": false,
+   "scrollVal": 40,
+   "scrollUnit": "pct",
+   "clickOn": false,
+   "clickSel": "",
+   "pagesOn": false,
+   "pagesN": 2,
+   "pagesSec": 0,
+   "addcartOn": false
+  },
+  "close": {
+   "x": true,
+   "xDelay": 0,
+   "overlay": false,
+   "esc": true,
+   "timeOn": false,
+   "timeSec": 20,
+   "scrollOn": false,
+   "scrollPct": 80,
+   "videoOn": false,
+   "lastOn": false,
+   "lastSec": 6
+  },
+  "frequency": {
+   "mode": "days",
+   "days": 30,
+   "maxOn": false,
+   "max": 3,
+   "stopConvert": true,
+   "afterCloseOn": true,
+   "afterCloseDays": 2
+  },
+  "form": {
+   "list": "leads",
+   "consent": false,
+   "consentRequired": false
+  },
+  "coupon": {
+   "mode": "none",
+   "code": "",
+   "type": "percent",
+   "value": 10,
+   "days": 14,
+   "min": 0,
+   "prefix": "WELCOME-",
+   "autoApply": false
+  },
+  "targeting": {
+   "groups": [
+    {
+     "rules": [
+      {
+       "type": "country",
+       "op": "any",
+       "value": [
+        "DE",
+        "AT"
+       ]
+      }
+     ]
+    }
+   ]
+  }
+ }
+}

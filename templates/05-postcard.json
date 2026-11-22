@@ -1,0 +1,344 @@
+{
+ "num": "05",
+ "slug": "postcard",
+ "name": "Postcard",
+ "group": "newsletter",
+ "formatLabel": "Modal, centre",
+ "tags": [
+  "newsletter",
+  "travel",
+  "vintage"
+ ],
+ "doc": {
+  "format": "modal",
+  "width": 620,
+  "mobile": {
+   "format": "same"
+  },
+  "fonts": [
+   "DM Serif Display",
+   "Courier Prime",
+   "Playfair Display",
+   "IBM Plex Mono"
+  ],
+  "theme": {
+   "bg": "#FBF7EF",
+   "ink": "#1E2A44",
+   "accent": "#1E2A44",
+   "accentInk": "#FBF7EF",
+   "field": "transparent",
+   "line": "#1E2A44",
+   "radius": 0,
+   "fh": "DM Serif Display",
+   "fb": "Courier Prime",
+   "overlay": "rgba(30,42,68,.55)",
+   "ffb": {
+    "DM Serif Display": "\"Playfair Display\", Georgia, serif",
+    "Courier Prime": "\"IBM Plex Mono\", ui-monospace, monospace"
+   }
+  },
+  "closeBtn": {
+   "look": "circle"
+  },
+  "steps": [
+   {
+    "id": "s1",
+    "name": "Offer",
+    "cols": [
+     {
+      "blocks": [
+       {
+        "id": "post-41",
+        "type": "heading",
+        "t": {
+         "en": "Greetings\nfrom the shop.",
+         "fr": "Bons baisers\nde la boutique.",
+         "es": "Saludos\ndesde la tienda.",
+         "it": "Saluti\ndal negozio.",
+         "de": "Grüße\naus dem Laden.",
+         "nl": "Groeten\nuit de winkel.",
+         "pl": "Pozdrowienia\nze sklepu.",
+         "cs": "Pozdravy\nz obchodu.",
+         "pt": "Saudações\nda loja.",
+         "ru": "Привет\nиз магазина."
+        }
+       },
+       {
+        "id": "post-42",
+        "type": "text",
+        "t": {
+         "en": "Wish you were here. Write your address on the right and we'll mail you 10% off, plus a letter now and then.",
+         "fr": "Vous nous manquez. Écrivez votre adresse à droite et nous vous enverrons -10 %, et une lettre de temps en temps.",
+         "es": "Ojalá estuvieras aquí. Escribe tu dirección a la derecha y te enviaremos un 10 % de descuento, y alguna carta de vez en cuando.",
+         "it": "Vorremmo che fossi qui. Scrivi il tuo indirizzo a destra e ti manderemo il 10% di sconto, e ogni tanto una lettera.",
+         "de": "Schade, dass du nicht hier bist. Schreib rechts deine Adresse hin, dann schicken wir dir 10 % Rabatt und ab und zu einen Brief.",
+         "nl": "Was je maar hier. Schrijf rechts je adres op en we sturen je 10% korting, plus af en toe een brief.",
+         "pl": "Szkoda, że cię tu nie ma. Wpisz adres po prawej, a wyślemy ci 10% rabatu i od czasu do czasu list.",
+         "cs": "Škoda, že tu nejste. Napište vpravo svou adresu a pošleme vám slevu 10 % a občas dopis.",
+         "pt": "Quem nos dera tê-lo aqui. Escreva a sua morada à direita e enviamos-lhe 10% de desconto, e uma carta de vez em quando.",
+         "ru": "Жаль, что вас здесь нет. Напишите свой адрес справа, и мы пришлём вам 10% скидки и иногда письмо."
+        }
+       },
+       {
+        "id": "post-43",
+        "type": "small",
+        "t": {
+         "en": "— the team",
+         "fr": "— l'équipe",
+         "es": "— el equipo",
+         "it": "— il team",
+         "de": "— das Team",
+         "nl": "— het team",
+         "pl": "— zespół",
+         "cs": "— tým",
+         "pt": "— a equipa",
+         "ru": "— команда"
+        },
+        "cls": "pc-sign"
+       }
+      ],
+      "cls": "pc-msg"
+     },
+     {
+      "blocks": [
+       {
+        "id": "post-44",
+        "type": "html",
+        "html": {
+         "en": "<div class=\"pc-stamp\"><div><b>10%</b><small>PAR AVION</small></div></div>",
+         "fr": "<div class=\"pc-stamp\"><div><b>10 %</b><small>PAR AVION</small></div></div>",
+         "es": "<div class=\"pc-stamp\"><div><b>10 %</b><small>PAR AVION</small></div></div>",
+         "it": "<div class=\"pc-stamp\"><div><b>10%</b><small>PAR AVION</small></div></div>",
+         "de": "<div class=\"pc-stamp\"><div><b>10 %</b><small>PAR AVION</small></div></div>",
+         "nl": "<div class=\"pc-stamp\"><div><b>10%</b><small>PAR AVION</small></div></div>",
+         "pl": "<div class=\"pc-stamp\"><div><b>10%</b><small>PAR AVION</small></div></div>",
+         "cs": "<div class=\"pc-stamp\"><div><b>10 %</b><small>PAR AVION</small></div></div>",
+         "pt": "<div class=\"pc-stamp\"><div><b>10%</b><small>PAR AVION</small></div></div>",
+         "ru": "<div class=\"pc-stamp\"><div><b>10%</b><small>PAR AVION</small></div></div>"
+        },
+        "cls": "pc-stampw"
+       },
+       {
+        "id": "post-45",
+        "type": "form",
+        "btn": {
+         "en": "Post it →",
+         "fr": "Poster →",
+         "es": "Enviar →",
+         "it": "Spedisci →",
+         "de": "Abschicken →",
+         "nl": "Posten →",
+         "pl": "Wyślij →",
+         "cs": "Odeslat →",
+         "pt": "Enviar →",
+         "ru": "Отправить →"
+        },
+        "label": {
+         "en": "Address",
+         "fr": "Adresse",
+         "es": "Dirección",
+         "it": "Indirizzo",
+         "de": "Adresse",
+         "nl": "Adres",
+         "pl": "Adres",
+         "cs": "Adresa",
+         "pt": "Morada",
+         "ru": "Адрес"
+        },
+        "ph": {
+         "en": "you@example.com",
+         "fr": "vous@exemple.com",
+         "es": "tu@ejemplo.com",
+         "it": "tu@esempio.com",
+         "de": "du@beispiel.de",
+         "nl": "jij@voorbeeld.nl",
+         "pl": "ty@przyklad.pl",
+         "cs": "vy@priklad.cz",
+         "pt": "voce@exemplo.pt",
+         "ru": "vy@primer.ru"
+        },
+        "layout": "stack",
+        "consent": true,
+        "consentRequired": true,
+        "consentText": {
+         "en": "Yes, send me letters. I can stop them any time.",
+         "fr": "Oui, envoyez-moi des lettres. Je peux arrêter à tout moment.",
+         "es": "Sí, enviadme cartas. Puedo pararlas cuando quiera.",
+         "it": "Sì, mandatemi lettere. Posso smettere quando voglio.",
+         "de": "Ja, schickt mir Briefe. Ich kann sie jederzeit abbestellen.",
+         "nl": "Ja, stuur me brieven. Ik kan altijd stoppen.",
+         "pl": "Tak, wysyłajcie mi listy. Mogę zrezygnować w każdej chwili.",
+         "cs": "Ano, posílejte mi dopisy. Můžu je kdykoli zrušit.",
+         "pt": "Sim, enviem-me cartas. Posso pará-las a qualquer momento.",
+         "ru": "Да, присылайте письма. Могу отказаться в любой момент."
+        },
+        "name": true,
+        "nameLabel": {
+         "en": "To",
+         "fr": "À",
+         "es": "Para",
+         "it": "A",
+         "de": "An",
+         "nl": "Aan",
+         "pl": "Do",
+         "cs": "Komu",
+         "pt": "Para",
+         "ru": "Кому"
+        },
+        "next": "s2"
+       }
+      ],
+      "cls": "pc-addr"
+     }
+    ]
+   },
+   {
+    "id": "s2",
+    "name": "Thanks",
+    "cols": [
+     {
+      "blocks": [
+       {
+        "id": "post-46",
+        "type": "heading",
+        "t": {
+         "en": "Posted!",
+         "fr": "Posté !",
+         "es": "¡Enviado!",
+         "it": "Spedito!",
+         "de": "Abgeschickt!",
+         "nl": "Gepost!",
+         "pl": "Wysłane!",
+         "cs": "Odesláno!",
+         "pt": "Enviado!",
+         "ru": "Отправлено!"
+        }
+       },
+       {
+        "id": "post-47",
+        "type": "text",
+        "t": {
+         "en": "Your code arrives by email too. Here it is now:",
+         "fr": "Votre code arrive aussi par e-mail. Le voici déjà :",
+         "es": "Tu código también llega por email. Aquí lo tienes ya:",
+         "it": "Il tuo codice arriva anche via email. Eccolo già qui:",
+         "de": "Dein Code kommt auch per E-Mail. Hier ist er schon:",
+         "nl": "Je code komt ook per e-mail. Hier is hij alvast:",
+         "pl": "Kod przyjdzie też e-mailem. Oto on już teraz:",
+         "cs": "Kód přijde i e-mailem. Tady ho máte hned:",
+         "pt": "O seu código também chega por email. Aqui está já:",
+         "ru": "Код также придёт на email. Вот он уже сейчас:"
+        }
+       },
+       {
+        "id": "post-48",
+        "type": "coupon",
+        "note": {
+         "en": "Valid until {coupon_expiry}. One use.",
+         "fr": "Valable jusqu'au {coupon_expiry}. Un seul usage.",
+         "es": "Válido hasta el {coupon_expiry}. Un solo uso.",
+         "it": "Valido fino al {coupon_expiry}. Un solo utilizzo.",
+         "de": "Gültig bis {coupon_expiry}. Einmal einlösbar.",
+         "nl": "Geldig tot {coupon_expiry}. Eenmalig te gebruiken.",
+         "pl": "Ważny do {coupon_expiry}. Jednorazowy.",
+         "cs": "Platí do {coupon_expiry}. Jedno použití.",
+         "pt": "Válido até {coupon_expiry}. Uma utilização.",
+         "ru": "Действует до {coupon_expiry}. Одно использование."
+        },
+        "copy": {
+         "en": "Copy",
+         "fr": "Copier",
+         "es": "Copiar",
+         "it": "Copia",
+         "de": "Kopieren",
+         "nl": "Kopiëren",
+         "pl": "Kopiuj",
+         "cs": "Kopírovat",
+         "pt": "Copiar",
+         "ru": "Копировать"
+        },
+        "code": "WELCOME-7KQ2M9XA"
+       },
+       {
+        "id": "post-49",
+        "type": "link",
+        "t": {
+         "en": "Back to the shop",
+         "fr": "Retour à la boutique",
+         "es": "Volver a la tienda",
+         "it": "Torna al negozio",
+         "de": "Zurück zum Shop",
+         "nl": "Terug naar de winkel",
+         "pl": "Wróć do sklepu",
+         "cs": "Zpět do obchodu",
+         "pt": "Voltar à loja",
+         "ru": "Вернуться в магазин"
+        },
+        "act": "close"
+       }
+      ],
+      "cls": "pc-msg"
+     }
+    ]
+   }
+  ],
+  "template": "postcard"
+ },
+ "settings": {
+  "triggers": {
+   "mode": "any",
+   "timerOn": false,
+   "timerSec": 8,
+   "exitOn": true,
+   "exitSens": "normal",
+   "idleOn": false,
+   "idleSec": 30,
+   "scrollOn": false,
+   "scrollVal": 40,
+   "scrollUnit": "pct",
+   "clickOn": false,
+   "clickSel": "",
+   "pagesOn": false,
+   "pagesN": 2,
+   "pagesSec": 0,
+   "addcartOn": false
+  },
+  "close": {
+   "x": true,
+   "xDelay": 0,
+   "overlay": true,
+   "esc": true,
+   "timeOn": false,
+   "timeSec": 20,
+   "scrollOn": false,
+   "scrollPct": 80,
+   "videoOn": false,
+   "lastOn": false,
+   "lastSec": 6
+  },
+  "frequency": {
+   "mode": "days",
+   "days": 7,
+   "maxOn": false,
+   "max": 3,
+   "stopConvert": true,
+   "afterCloseOn": true,
+   "afterCloseDays": 2
+  },
+  "form": {
+   "list": "newsletter",
+   "consent": true,
+   "consentRequired": true
+  },
+  "coupon": {
+   "mode": "generated",
+   "code": "",
+   "type": "percent",
+   "value": 10,
+   "days": 14,
+   "min": 0,
+   "prefix": "POST-",
+   "autoApply": false
+  }
+ }
+}

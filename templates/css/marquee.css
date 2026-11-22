@@ -1,0 +1,6 @@
+.psx-t-marquee .psx-col{padding:0}
+.psx-t-marquee .psx-marquee{min-height:44px;font:500 13px var(--psx-fb);padding-right:84px}
+.psx-t-marquee .psx-sep{color:var(--psx-accent)}
+.psx-t-marquee .psx-pause{background:#111;color:#F5F5F0;box-shadow:-14px 0 14px #111}
+.psx-t-marquee .psx-x{top:4px;right:6px;width:36px;height:36px;color:#F5F5F0;background:#111}
+.psx-t-marquee.psx-mobile .psx-marquee{font-size:12px;min-height:40px}

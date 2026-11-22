@@ -1,0 +1,159 @@
+{
+ "num": "36",
+ "slug": "coupon-strip",
+ "name": "Coupon Strip",
+ "group": "bars",
+ "formatLabel": "Bar, bottom",
+ "tags": [
+  "bar",
+  "coupon",
+  "code"
+ ],
+ "doc": {
+  "format": "bar",
+  "position": "bottom",
+  "bar": "overlay",
+  "mobile": {
+   "format": "same"
+  },
+  "fonts": [
+   "Chivo",
+   "Chivo Mono",
+   "Inter"
+  ],
+  "theme": {
+   "bg": "#FFF1E6",
+   "ink": "#3A1F0F",
+   "accent": "#E85D04",
+   "accentInk": "#FFFFFF",
+   "line": "#3A1F0F",
+   "radius": 8,
+   "fh": "Chivo",
+   "fb": "Chivo",
+   "ffb": {
+    "Chivo": "\"Inter\", system-ui, sans-serif"
+   }
+  },
+  "overlay": false,
+  "steps": [
+   {
+    "id": "s1",
+    "name": "Bar",
+    "cols": [
+     {
+      "blocks": [
+       {
+        "id": "coup-302",
+        "type": "row",
+        "blocks": [
+         {
+          "id": "coup-300",
+          "type": "text",
+          "t": {
+           "en": "**Take 15% off today**\nOn orders over €40 · expires 23:59 tonight",
+           "fr": "**-15 % aujourd'hui**\nDès 40 € d'achat · expire ce soir à 23:59",
+           "es": "**Un 15 % de descuento hoy**\nEn pedidos de más de 40 € · caduca hoy a las 23:59",
+           "it": "**Il 15% di sconto oggi**\nSu ordini sopra i 40 € · scade stasera alle 23:59",
+           "de": "**Heute 15 % Rabatt**\nAb 40 € Bestellwert · gilt bis heute 23:59 Uhr",
+           "nl": "**Vandaag 15% korting**\nOp bestellingen boven € 40 · verloopt vanavond om 23:59",
+           "pl": "**Dziś 15% rabatu**\nNa zamówienia powyżej 40 € · wygasa dziś o 23:59",
+           "cs": "**Dnes sleva 15 %**\nNa objednávky nad 40 € · platí do dnešních 23:59",
+           "pt": "**15% de desconto hoje**\nEm encomendas acima de 40 € · expira hoje às 23:59",
+           "ru": "**Сегодня −15%**\nНа заказы от 40 € · до 23:59 сегодня"
+          },
+          "cls": "cp-t"
+         },
+         {
+          "id": "coup-301",
+          "type": "coupon",
+          "copy": {
+           "en": "Copy",
+           "fr": "Copier",
+           "es": "Copiar",
+           "it": "Copia",
+           "de": "Kopieren",
+           "nl": "Kopiëren",
+           "pl": "Kopiuj",
+           "cs": "Kopírovat",
+           "pt": "Copiar",
+           "ru": "Копировать"
+          },
+          "cls": "cp-code",
+          "code": "SNIP15"
+         }
+        ],
+        "cls": "cp-row"
+       }
+      ]
+     }
+    ]
+   }
+  ],
+  "decor": [
+   {
+    "html": "<svg width=\"24\" height=\"24\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"#E85D04\" stroke-width=\"2\" stroke-linecap=\"round\"><circle cx=\"6\" cy=\"6\" r=\"3\"/><circle cx=\"6\" cy=\"18\" r=\"3\"/><path d=\"M20 4L8.1 15.9M14.5 14.5L20 20M8.1 8.1L12 12\"/></svg>",
+    "name": "Scissors",
+    "left": "30px",
+    "top": "-13px"
+   }
+  ],
+  "template": "coupon-strip"
+ },
+ "settings": {
+  "triggers": {
+   "mode": "any",
+   "timerOn": false,
+   "timerSec": 8,
+   "exitOn": false,
+   "exitSens": "normal",
+   "idleOn": false,
+   "idleSec": 30,
+   "scrollOn": false,
+   "scrollVal": 40,
+   "scrollUnit": "pct",
+   "clickOn": false,
+   "clickSel": "",
+   "pagesOn": true,
+   "pagesN": 2,
+   "pagesSec": 0,
+   "addcartOn": false
+  },
+  "close": {
+   "x": true,
+   "xDelay": 0,
+   "overlay": false,
+   "esc": true,
+   "timeOn": false,
+   "timeSec": 20,
+   "scrollOn": false,
+   "scrollPct": 80,
+   "videoOn": false,
+   "lastOn": false,
+   "lastSec": 6
+  },
+  "frequency": {
+   "mode": "visit",
+   "days": 7,
+   "maxOn": false,
+   "max": 3,
+   "stopConvert": true,
+   "afterCloseOn": true,
+   "afterCloseDays": 2
+  },
+  "form": {
+   "list": "leads",
+   "consent": false,
+   "consentRequired": false
+  },
+  "coupon": {
+   "mode": "fixed",
+   "code": "SNIP15",
+   "type": "percent",
+   "value": 10,
+   "days": 14,
+   "min": 0,
+   "prefix": "",
+   "autoApply": false
+  }
+ }
+}

@@ -1,0 +1,24 @@
+.psx-t-neon-night .psx-box{background-image:radial-gradient(rgba(255,255,255,.07) 1px,transparent 1.2px);background-size:3px 3px;display:flex;align-items:center;justify-content:center}
+.psx-t-neon-night .psx-step{width:100%;max-width:1100px;padding:56px 64px}
+.psx-t-neon-night .psx-cols{gap:56px}
+.psx-t-neon-night .nn-left{justify-content:space-between;gap:28px}
+.psx-t-neon-night .nn-right{justify-content:flex-end;gap:16px}
+.psx-t-neon-night .nn-meta{font-size:12px;color:#9A9A92;opacity:1}
+.psx-t-neon-night .nn-h,.psx-t-neon-night .psx-h{font:400 clamp(64px,10vw,150px)/.86 var(--psx-fh);text-transform:uppercase;letter-spacing:-.01em}
+.psx-t-neon-night .nn-a{color:var(--psx-accent)}
+.psx-t-neon-night .nn-o{-webkit-text-stroke:1.5px var(--psx-ink);color:transparent}
+.psx-t-neon-night .psx-p{font-size:14px;line-height:1.6;color:#D9D9D2}
+.psx-t-neon-night .psx-label{font-weight:400;color:#9A9A92}
+.psx-t-neon-night .psx-row{border-bottom:2px solid var(--psx-accent);align-items:center}
+.psx-t-neon-night .psx-row::before{content:">";color:var(--psx-accent);font-weight:700;margin-right:6px}
+.psx-t-neon-night .psx-input{border:0;padding:0;background:transparent;font-family:var(--psx-fb);color:var(--psx-ink)}
+.psx-t-neon-night .psx-input:focus{box-shadow:none}
+.psx-t-neon-night .psx-btn{min-height:56px;font:400 24px var(--psx-fh);text-transform:uppercase;letter-spacing:.02em;border-radius:0}
+.psx-t-neon-night .psx-check{color:#B8B8B0;font-size:11.5px}
+.psx-t-neon-night .psx-box-ck{border-radius:0;border-color:var(--psx-accent);background:transparent}
+.psx-t-neon-night .psx-x{width:auto;padding:0 10px;height:30px;border:1px solid #3A3A3A;border-radius:0;font:700 12px var(--psx-fb);top:22px;right:26px}
+.psx-t-neon-night .psx-coupon{border-color:var(--psx-accent);border-radius:0}
+.psx-t-neon-night .psx-code{font-family:var(--psx-fb)}
+.psx-t-neon-night.psx-mobile .psx-step{padding:64px 22px 26px}
+.psx-t-neon-night.psx-mobile .psx-cols{gap:18px}
+.psx-t-neon-night.psx-mobile .nn-h{font-size:74px}

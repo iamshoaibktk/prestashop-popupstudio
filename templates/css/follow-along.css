@@ -1,0 +1,15 @@
+.psx-t-follow-along .psx-box{box-shadow:0 16px 36px rgba(44,26,18,.2),0 0 0 1px rgba(44,26,18,.06)}
+.psx-t-follow-along .psx-col{padding:16px;gap:12px}
+.psx-t-follow-along .fa-grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:4px;border-radius:10px;overflow:hidden}
+.psx-t-follow-along .fa-grid i{aspect-ratio:1;display:block}
+.psx-t-follow-along .fa-who{flex-wrap:nowrap;gap:10px}
+.psx-t-follow-along .fa-av{width:38px;height:38px;border-radius:50%;background:conic-gradient(#C2410C,#E9A36C,#C2410C);display:flex;align-items:center;justify-content:center;flex:none}
+.psx-t-follow-along .fa-av span{width:32px;height:32px;border-radius:50%;background:#FFF7F0;display:flex;align-items:center;justify-content:center;font:800 13px var(--psx-fh)}
+.psx-t-follow-along .psx-h{font:800 16px/1.2 var(--psx-fh)}
+.psx-t-follow-along .psx-h small{display:block;font:400 12.5px var(--psx-fb);color:#6E5444}
+.psx-t-follow-along .psx-social .psx-btn{flex:1;white-space:nowrap;border-radius:999px;min-height:44px;font-weight:700}
+.psx-t-follow-along .psx-x{top:22px;right:22px;width:30px;height:30px;background:#FFF7F0;font-size:15px}
+.psx-t-follow-along.psx-mobile .psx-step .psx-col{display:grid;grid-template-columns:96px 1fr;gap:6px 12px;align-items:center;padding:12px}
+.psx-t-follow-along.psx-mobile .fa-grid{grid-row:span 2;gap:2px}
+.psx-t-follow-along.psx-mobile .fa-av{display:none}
+.psx-t-follow-along.psx-mobile .psx-x{top:6px;right:6px}

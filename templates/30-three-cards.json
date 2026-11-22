@@ -1,0 +1,452 @@
+{
+ "num": "30",
+ "slug": "three-cards",
+ "name": "Three Cards",
+ "group": "games",
+ "formatLabel": "Modal, pick a card",
+ "tags": [
+  "game",
+  "cards",
+  "mystic"
+ ],
+ "doc": {
+  "format": "modal",
+  "width": 580,
+  "mobile": {
+   "format": "sheet"
+  },
+  "fonts": [
+   "Cinzel",
+   "Lato",
+   "Playfair Display",
+   "Inter"
+  ],
+  "theme": {
+   "bg": "#1B1424",
+   "ink": "#EDE3F7",
+   "accent": "#D4A657",
+   "accentInk": "#1B1424",
+   "field": "#2A1F38",
+   "fieldInk": "#EDE3F7",
+   "line": "#D4A657",
+   "radius": 16,
+   "fh": "Cinzel",
+   "fb": "Lato",
+   "overlay": "rgba(10,6,16,.66)",
+   "ffb": {
+    "Cinzel": "\"Playfair Display\", Georgia, serif",
+    "Lato": "\"Inter\", system-ui, sans-serif"
+   }
+  },
+  "steps": [
+   {
+    "id": "s1",
+    "name": "Pick",
+    "cols": [
+     {
+      "blocks": [
+       {
+        "id": "thre-272",
+        "type": "heading",
+        "t": {
+         "en": "Choose your card",
+         "fr": "Choisissez votre carte",
+         "es": "Elige tu carta",
+         "it": "Scegli la tua carta",
+         "de": "Wähle deine Karte",
+         "nl": "Kies je kaart",
+         "pl": "Wybierz kartę",
+         "cs": "Vyberte si kartu",
+         "pt": "Escolha a sua carta",
+         "ru": "Выберите карту"
+        }
+       },
+       {
+        "id": "thre-273",
+        "type": "text",
+        "t": {
+         "en": "The fortune you draw is yours to keep.",
+         "fr": "La fortune que vous tirez est à vous.",
+         "es": "La fortuna que saques es tuya.",
+         "it": "La fortuna che peschi è tua.",
+         "de": "Das Glück, das du ziehst, gehört dir.",
+         "nl": "Het geluk dat je trekt, is van jou.",
+         "pl": "Los, który wyciągniesz, jest twój.",
+         "cs": "Štěstí, které si vytáhnete, je vaše.",
+         "pt": "A sorte que tirar é sua.",
+         "ru": "Удача, которую вы вытянете, — ваша."
+        }
+       },
+       {
+        "id": "thre-274",
+        "type": "pick",
+        "look": "card",
+        "items": [
+         {
+          "svg": "<svg width=\"44\" height=\"44\" viewBox=\"0 0 44 44\"><circle cx=\"22\" cy=\"22\" r=\"12\" fill=\"none\" stroke=\"#D4A657\" stroke-width=\"1.5\"/><path d=\"M22 4v6M22 34v6M4 22h6M34 22h6\" stroke=\"#D4A657\" stroke-width=\"1.5\"/></svg>",
+          "aria": {
+           "en": "Turn the first card",
+           "fr": "Retourner la première carte",
+           "es": "Girar la primera carta",
+           "it": "Gira la prima carta",
+           "de": "Erste Karte umdrehen",
+           "nl": "Draai de eerste kaart om",
+           "pl": "Odwróć pierwszą kartę",
+           "cs": "Otočit první kartu",
+           "pt": "Virar a primeira carta",
+           "ru": "Перевернуть первую карту"
+          }
+         },
+         {
+          "svg": "<svg width=\"44\" height=\"44\" viewBox=\"0 0 44 44\"><path d=\"M22 6l4.5 10 11 1-8.3 7.4 2.5 10.8L22 29.5 12.3 35l2.5-10.8L6.5 17l11-1z\" fill=\"none\" stroke=\"#D4A657\" stroke-width=\"1.5\"/></svg>",
+          "aria": {
+           "en": "Turn the second card",
+           "fr": "Retourner la deuxième carte",
+           "es": "Girar la segunda carta",
+           "it": "Gira la seconda carta",
+           "de": "Zweite Karte umdrehen",
+           "nl": "Draai de tweede kaart om",
+           "pl": "Odwróć drugą kartę",
+           "cs": "Otočit druhou kartu",
+           "pt": "Virar a segunda carta",
+           "ru": "Перевернуть вторую карту"
+          }
+         },
+         {
+          "svg": "<svg width=\"44\" height=\"44\" viewBox=\"0 0 44 44\"><path d=\"M30 8a14 14 0 1 0 6 20 11 11 0 1 1-6-20z\" fill=\"none\" stroke=\"#D4A657\" stroke-width=\"1.5\"/></svg>",
+          "aria": {
+           "en": "Turn the third card",
+           "fr": "Retourner la troisième carte",
+           "es": "Girar la tercera carta",
+           "it": "Gira la terza carta",
+           "de": "Dritte Karte umdrehen",
+           "nl": "Draai de derde kaart om",
+           "pl": "Odwróć trzecią kartę",
+           "cs": "Otočit třetí kartu",
+           "pt": "Virar a terceira carta",
+           "ru": "Перевернуть третью карту"
+          }
+         }
+        ],
+        "label": {
+         "en": "Three cards",
+         "fr": "Trois cartes",
+         "es": "Tres cartas",
+         "it": "Tre carte",
+         "de": "Drei Karten",
+         "nl": "Drie kaarten",
+         "pl": "Trzy karty",
+         "cs": "Tři karty",
+         "pt": "Três cartas",
+         "ru": "Три карты"
+        }
+       }
+      ]
+     }
+    ]
+   },
+   {
+    "id": "claim",
+    "name": "Claim",
+    "cols": [
+     {
+      "blocks": [
+       {
+        "id": "thre-275",
+        "type": "heading",
+        "t": {
+         "en": "{prize}",
+         "fr": "{prize}",
+         "es": "{prize}",
+         "it": "{prize}",
+         "de": "{prize}",
+         "nl": "{prize}",
+         "pl": "{prize}",
+         "cs": "{prize}",
+         "pt": "{prize}",
+         "ru": "{prize}"
+        }
+       },
+       {
+        "id": "thre-276",
+        "type": "text",
+        "t": {
+         "en": "Leave your email to keep your fortune.",
+         "fr": "Laissez votre e-mail pour garder votre fortune.",
+         "es": "Deja tu email para conservar tu fortuna.",
+         "it": "Lascia la tua email per tenere la tua fortuna.",
+         "de": "Hinterlasse deine E-Mail, um dein Glück zu behalten.",
+         "nl": "Laat je e-mail achter om je geluk te houden.",
+         "pl": "Zostaw e-mail, aby zachować swój los.",
+         "cs": "Nechte e-mail, abyste si své štěstí nechali.",
+         "pt": "Deixe o seu email para guardar a sua sorte.",
+         "ru": "Оставьте email, чтобы сохранить свою удачу."
+        }
+       },
+       {
+        "id": "thre-277",
+        "type": "form",
+        "btn": {
+         "en": "Keep it",
+         "fr": "La garder",
+         "es": "Guardarla",
+         "it": "Tienila",
+         "de": "Behalten",
+         "nl": "Houden",
+         "pl": "Zachowaj",
+         "cs": "Nechat si",
+         "pt": "Guardar",
+         "ru": "Сохранить"
+        },
+        "label": {
+         "en": "Email",
+         "fr": "E-mail",
+         "es": "Email",
+         "it": "Email",
+         "de": "E-Mail",
+         "nl": "E-mail",
+         "pl": "E-mail",
+         "cs": "E-mail",
+         "pt": "Email",
+         "ru": "Email"
+        },
+        "ph": {
+         "en": "you@example.com",
+         "fr": "vous@exemple.com",
+         "es": "tu@ejemplo.com",
+         "it": "tu@esempio.com",
+         "de": "du@beispiel.de",
+         "nl": "jij@voorbeeld.nl",
+         "pl": "ty@przyklad.pl",
+         "cs": "vy@priklad.cz",
+         "pt": "voce@exemplo.pt",
+         "ru": "vy@primer.ru"
+        },
+        "layout": "stack",
+        "consent": true,
+        "consentRequired": true,
+        "consentText": {
+         "en": "Send me offers too",
+         "fr": "Envoyez-moi aussi des offres",
+         "es": "Enviadme también ofertas",
+         "it": "Mandatemi anche le offerte",
+         "de": "Schickt mir auch Angebote",
+         "nl": "Stuur me ook aanbiedingen",
+         "pl": "Wysyłajcie mi też oferty",
+         "cs": "Posílejte mi i nabídky",
+         "pt": "Enviem-me também ofertas",
+         "ru": "Присылайте и предложения"
+        },
+        "next": "won",
+        "hideLabel": true
+       }
+      ]
+     }
+    ]
+   },
+   {
+    "id": "won",
+    "name": "Prize",
+    "cols": [
+     {
+      "blocks": [
+       {
+        "id": "thre-278",
+        "type": "heading",
+        "t": {
+         "en": "{prize}",
+         "fr": "{prize}",
+         "es": "{prize}",
+         "it": "{prize}",
+         "de": "{prize}",
+         "nl": "{prize}",
+         "pl": "{prize}",
+         "cs": "{prize}",
+         "pt": "{prize}",
+         "ru": "{prize}"
+        }
+       },
+       {
+        "id": "thre-279",
+        "type": "coupon",
+        "note": {
+         "en": "Valid 14 days, one use.",
+         "fr": "Valable 14 jours, un seul usage.",
+         "es": "Válido 14 días, un solo uso.",
+         "it": "Valido 14 giorni, un solo utilizzo.",
+         "de": "14 Tage gültig, einmal einlösbar.",
+         "nl": "14 dagen geldig, eenmalig.",
+         "pl": "Ważny 14 dni, jednorazowy.",
+         "cs": "Platí 14 dní, jedno použití.",
+         "pt": "Válido 14 dias, uma utilização.",
+         "ru": "Действует 14 дней, одно использование."
+        },
+        "copy": {
+         "en": "Copy",
+         "fr": "Copier",
+         "es": "Copiar",
+         "it": "Copia",
+         "de": "Kopieren",
+         "nl": "Kopiëren",
+         "pl": "Kopiuj",
+         "cs": "Kopírovat",
+         "pt": "Copiar",
+         "ru": "Копировать"
+        },
+        "code": "WELCOME-7KQ2M9XA"
+       },
+       {
+        "id": "thre-280",
+        "type": "button",
+        "t": {
+         "en": "Apply to my cart",
+         "fr": "Appliquer à mon panier",
+         "es": "Aplicar a mi carrito",
+         "it": "Applica al mio carrello",
+         "de": "Auf meinen Warenkorb anwenden",
+         "nl": "Toepassen op mijn winkelwagen",
+         "pl": "Zastosuj w koszyku",
+         "cs": "Uplatnit v košíku",
+         "pt": "Aplicar ao meu carrinho",
+         "ru": "Применить к корзине"
+        },
+        "act": "apply",
+        "full": true
+       }
+      ]
+     }
+    ]
+   }
+  ],
+  "template": "three-cards"
+ },
+ "settings": {
+  "triggers": {
+   "mode": "any",
+   "timerOn": true,
+   "timerSec": 10,
+   "exitOn": false,
+   "exitSens": "normal",
+   "idleOn": false,
+   "idleSec": 30,
+   "scrollOn": false,
+   "scrollVal": 40,
+   "scrollUnit": "pct",
+   "clickOn": false,
+   "clickSel": "",
+   "pagesOn": false,
+   "pagesN": 2,
+   "pagesSec": 0,
+   "addcartOn": false
+  },
+  "close": {
+   "x": true,
+   "xDelay": 0,
+   "overlay": true,
+   "esc": true,
+   "timeOn": false,
+   "timeSec": 20,
+   "scrollOn": false,
+   "scrollPct": 80,
+   "videoOn": false,
+   "lastOn": false,
+   "lastSec": 6
+  },
+  "frequency": {
+   "mode": "once",
+   "days": 7,
+   "maxOn": false,
+   "max": 3,
+   "stopConvert": true,
+   "afterCloseOn": true,
+   "afterCloseDays": 2
+  },
+  "form": {
+   "list": "newsletter",
+   "consent": true,
+   "consentRequired": false
+  },
+  "coupon": {
+   "mode": "none",
+   "code": "",
+   "type": "percent",
+   "value": 10,
+   "days": 14,
+   "min": 0,
+   "prefix": "WELCOME-",
+   "autoApply": false
+  },
+  "game": {
+   "type": "pick",
+   "emailFirst": false,
+   "prizes": [
+    {
+     "key": "p10",
+     "label": {
+      "en": "The Moon: 10% off",
+      "fr": "La Lune : -10 %",
+      "es": "La Luna: 10 % dto.",
+      "it": "La Luna: -10%",
+      "de": "Der Mond: 10 % Rabatt",
+      "nl": "De Maan: 10% korting",
+      "pl": "Księżyc: -10%",
+      "cs": "Měsíc: sleva 10 %",
+      "pt": "A Lua: 10% desc.",
+      "ru": "Луна: −10%"
+     },
+     "weight": 55,
+     "stock": "",
+     "coupon": {
+      "type": "percent",
+      "value": 10,
+      "days": 14
+     }
+    },
+    {
+     "key": "p15",
+     "label": {
+      "en": "The Star: 15% off",
+      "fr": "L'Étoile : -15 %",
+      "es": "La Estrella: 15 % dto.",
+      "it": "La Stella: -15%",
+      "de": "Der Stern: 15 % Rabatt",
+      "nl": "De Ster: 15% korting",
+      "pl": "Gwiazda: -15%",
+      "cs": "Hvězda: sleva 15 %",
+      "pt": "A Estrela: 15% desc.",
+      "ru": "Звезда: −15%"
+     },
+     "weight": 30,
+     "stock": "",
+     "coupon": {
+      "type": "percent",
+      "value": 15,
+      "days": 14
+     }
+    },
+    {
+     "key": "p20",
+     "label": {
+      "en": "The Sun: 20% off",
+      "fr": "Le Soleil : -20 %",
+      "es": "El Sol: 20 % dto.",
+      "it": "Il Sole: -20%",
+      "de": "Die Sonne: 20 % Rabatt",
+      "nl": "De Zon: 20% korting",
+      "pl": "Słońce: -20%",
+      "cs": "Slunce: sleva 20 %",
+      "pt": "O Sol: 20% desc.",
+      "ru": "Солнце: −20%"
+     },
+     "weight": 15,
+     "stock": "",
+     "coupon": {
+      "type": "percent",
+      "value": 20,
+      "days": 14
+     }
+    }
+   ]
+  }
+ }
+}

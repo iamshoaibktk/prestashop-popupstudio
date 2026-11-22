@@ -1,0 +1,10 @@
+.psx-t-summer-swell .psx-box{overflow:hidden;box-shadow:0 22px 50px rgba(11,79,108,.35);min-height:400px}
+.psx-t-summer-swell .psx-decor{overflow:hidden}
+.psx-t-summer-swell .psx-col{padding:40px 44px;max-width:300px;gap:12px}
+.psx-t-summer-swell .psx-h{font:400 54px/.95 var(--psx-fh)}
+.psx-t-summer-swell .psx-p{font-weight:700}
+.psx-t-summer-swell .psx-btn{align-self:flex-start;border-radius:999px;font-weight:800;padding:0 24px}
+.psx-t-summer-swell .psx-x{background:var(--psx-bg);box-shadow:0 0 0 2px var(--psx-ink);font-weight:800}
+.psx-t-summer-swell.psx-mobile .psx-box{min-height:420px}
+.psx-t-summer-swell.psx-mobile .psx-col{padding:30px 24px}
+.psx-t-summer-swell.psx-mobile .psx-h{font-size:44px}

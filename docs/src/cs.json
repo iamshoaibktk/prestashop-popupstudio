@@ -1,0 +1,43 @@
+{
+  "title": "Popup Studio",
+  "subtitle": "Uživatelská příručka",
+  "labels": {"version": "Verze", "author": "Autor", "contact": "Kontakt", "page": "Strana", "contents": "Obsah", "compat": "Kompatibilita"},
+  "sections": [
+    {"title": "Přehled", "content": [
+      {"p": "Popup Studio zobrazuje ve vašem obchodě popupy, lišty, vysouvací okna, boční panely, celoobrazovkové stránky a vložené bloky. Každý z nich může sbírat e-maily, dát kupón, spustit hru, položit otázku nebo něco oznámit."},
+      {"p": "Najdete ho v **Marketing › Popup Studio**. Má pět obrazovek: Popupy, Šablony, Statistiky, Kontakty a Nastavení."}
+    ]},
+    {"title": "Vytvoření popupu", "content": [
+      {"ol": ["Otevřete **Šablony** a vyberte jeden z 50 návrhů, nebo klikněte na **Nový popup › Začít od nuly** a zvolte formát.", "V editoru upravte texty, barvy a bloky.", "Nastavte, kdy se zobrazí a kdo ho uvidí.", "Přepněte stav na **Aktivní** a klikněte na **Uložit**."]},
+      {"note": "Nový popup je vždy koncept. V obchodě se nic neobjeví, dokud ho neaktivujete."}
+    ]},
+    {"title": "Editor", "content": [
+      {"p": "Karta **Vzhled** ukazuje popup v živém náhledu. Kliknutím na blok ho upravíte vpravo, kliknutím na dlaždici vlevo blok přidáte, bloky a vrstvy přesunete přetažením. Přepínači **Počítač** a **Mobil** zkontrolujete obě rozvržení."},
+      {"ul": ["**Kroky**: popup může mít více obrazovek, například nabídku, formulář a poděkování.", "Karta **Mobil** u bloku: skrýt ho na telefonech nebo změnit velikost.", "**Ctrl+S** ukládá, **Ctrl+Z** vrací, **Ctrl+Shift+Z** opakuje.", "Text podporuje **tučné**, *kurzívu* a značky jako {firstname}, {cart_total}, {free_shipping_remaining}, {coupon} a {shop_name}. Zápisem {firstname|vy} zadáte náhradní hodnotu."]},
+      {"p": "Texty se ukládají pro každý jazyk. Jazyk pro překlad popupu zvolíte v horní liště."}
+    ]},
+    {"title": "Kdy se zobrazí a jak se zavírá", "content": [
+      {"p": "V **Spouštěče a zavírání** zapněte jeden nebo více spouštěčů: čas po příchodu, záměr odchodu, nečinnost, hloubka posunu, kliknutí na libovolný CSS selektor, N-tá stránka návštěvy nebo hned po přidání do košíku. Zvolte, zda stačí jeden, nebo musí nastat všechny."},
+      {"p": "Návštěvníci ho zavřou křížkem, kliknutím na ztmavenou stránku nebo klávesou Esc. Může se zavřít i sám po čase, na pozici posunu, na konci videa nebo po posledním kroku. Na okraji může zůstat malá záložka pro opětovné otevření."}
+    ]},
+    {"title": "Kdo ho uvidí a jak často", "content": [
+      {"p": "V **Cílení** přidejte pravidla: typ návštěvníka, první návštěva, skupina zákazníků, předchozí objednávky, odběr newsletteru, hodnota a obsah košíku, počet položek, typy stránek, URL, UTM, odkazující stránka, země, jazyk, měna, zařízení, dny a hodiny. Pravidla v jedné skupině musí platit všechna; samostatné skupiny jsou alternativy (NEBO)."},
+      {"p": "V **Plán a frekvence** nastavte datum začátku a konce, dny a hodiny, prioritu a jak často ho jeden návštěvník uvidí: na každé stránce, jednou za návštěvu, nejvýše jednou za N dní nebo jen jednou. Po přihlášení se může přestat zobrazovat a po zavření několik dní počkat."},
+      {"note": "Pravidla zemí vyžadují geolokaci PrestaShopu (Nastavení › Geolokace)."}
+    ]},
+    {"title": "Přihlášení, kupóny a hry", "content": [
+      {"ul": ["E-mailový formulář přidá adresu do seznamu **Kontakty** a podle vaší volby i do newsletteru modulu ps_emailsubscription. Dvojité potvrzení se řídí nastavením tohoto modulu.", "Políčko souhlasu používá text oficiálního modulu GDPR, je-li nainstalován, a ke každému přihlášení se ukládá záznam o souhlasu.", "Popup může dát pevný kód nebo pro každé přihlášení vytvořit jedinečné pravidlo košíku (procenta, částka nebo doprava zdarma, s dobou platnosti a minimální objednávkou). Kódy lze automaticky uplatnit v košíku.", "Kolo štěstí, stírací los, dárkové krabičky a karty losují výhru na serveru podle vašich šancí a zásob. Každý návštěvník hraje jednou."]},
+      {"p": "Webhook v **Nastavení** může posílat každé přihlášení do Brevo, Mailchimp, Zapier nebo jiného nástroje. Požadavky jsou podepsány vaším klíčem."}
+    ]},
+    {"title": "A/B testy a statistiky", "content": [
+      {"p": "Na kartě **A/B test** přidejte varianty a nastavte jejich váhy. Každý návštěvník vidí stále stejnou variantu. Jakmile má každá varianta 300 zobrazení, modul ukáže vítěze a jistotu výsledku; pak můžete ponechat jen vítěze."},
+      {"p": "**Statistiky** ukazují zobrazení, zavření, kliknutí, přihlášení, objednávky a tržby po dnech, zařízeních a popupech, a také odpovědi z anket a písemnou zpětnou vazbu. Objednávka se popupu připíše, když byl použit jeho kupón nebo se kupující přihlásil v počtu dní nastaveném v Nastavení."}
+    ]},
+    {"title": "Dobré vědět", "content": [
+      {"ul": ["**Vyzkoušet jako návštěvník** v menu popupu otevře obchod s odkazem na náhled, který ignoruje cílení a frekvenci a zobrazí testovací panel.", "Každý odkaz na #popup-ID otevře daný popup, například odkaz v menu.", "Vložené popupy umístíte do hooku displayPopupStudio nebo pomocí {widget name=\"popupstudio\" id=ID}.", "Nastavení omezuje počet popupů na návštěvu, skrývá je před roboty a vylučuje IP adresy.", "Písma jsou součástí modulu; na Google nejde žádný požadavek. Videa se načtou až po stisku přehrávání."]}
+    ]},
+    {"title": "Podpora", "content": [
+      {"p": "Dotazy nebo úpravy na míru: pište na iamshoaibktk@gmail.com nebo přes WhatsApp na +923459016286. Další moduly: https://www.fiverr.com/shoaibktk"}
+    ]}
+  ]
+}

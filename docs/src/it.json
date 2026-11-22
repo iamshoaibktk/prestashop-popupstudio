@@ -1,0 +1,43 @@
+{
+  "title": "Popup Studio",
+  "subtitle": "Guida utente",
+  "labels": {"version": "Versione", "author": "Autore", "contact": "Contatto", "page": "Pagina", "contents": "Indice", "compat": "Compatibilità"},
+  "sections": [
+    {"title": "Panoramica", "content": [
+      {"p": "Popup Studio mostra sul tuo negozio popup, barre, riquadri laterali, pannelli, pagine a schermo intero e blocchi integrati. Ognuno può raccogliere email, dare un coupon, avviare un gioco, fare una domanda o annunciare qualcosa."},
+      {"p": "Lo trovi in **Marketing › Popup Studio**. Ha cinque schermate: Popup, Modelli, Statistiche, Contatti e Impostazioni."}
+    ]},
+    {"title": "Creare un popup", "content": [
+      {"ol": ["Apri **Modelli** e scegli uno dei 50 design, oppure clicca **Nuovo popup › Parti da zero** e scegli un formato.", "Cambia testi, colori e blocchi nell'editor.", "Imposta quando appare e chi lo vede.", "Porta lo stato su **Attivo** e clicca **Salva**."]},
+      {"note": "Un nuovo popup è sempre una bozza. Nulla compare sul negozio finché non lo attivi."}
+    ]},
+    {"title": "L'editor", "content": [
+      {"p": "La scheda **Design** mostra il popup in anteprima dal vivo. Clicca un blocco per modificarlo a destra, clicca una casella a sinistra per aggiungere un blocco, oppure trascina blocchi e livelli per spostarli. Usa **Desktop** e **Mobile** per controllare entrambi i layout."},
+      {"ul": ["**Passi**: un popup può avere più schermate, per esempio offerta, modulo e ringraziamento.", "Scheda **Mobile** di un blocco: nasconderlo sui telefoni o cambiarne la dimensione.", "**Ctrl+S** salva, **Ctrl+Z** annulla, **Ctrl+Maiusc+Z** ripete.", "Il testo accetta **grassetto**, *corsivo* e tag come {firstname}, {cart_total}, {free_shipping_remaining}, {coupon} e {shop_name}. Scrivi {firstname|amico} per un valore di riserva."]},
+      {"p": "I testi si salvano per lingua. Scegli la lingua nella barra in alto per tradurre un popup."}
+    ]},
+    {"title": "Quando appare e come si chiude", "content": [
+      {"p": "In **Attivazione e chiusura**, attiva uno o più attivatori: tempo dopo l'arrivo, intento di uscita, inattività, scorrimento, clic su qualsiasi selettore CSS, l'N-esima pagina della visita o subito dopo l'aggiunta al carrello. Scegli se ne basta uno o se devono essere accaduti tutti."},
+      {"p": "I visitatori possono chiuderlo con la X, un clic sulla pagina oscurata o Esc. Può anche chiudersi da solo dopo un tempo, a una posizione di scorrimento, alla fine di un video o dopo l'ultimo passo. Una piccola linguetta può restare sul bordo per riaprirlo."}
+    ]},
+    {"title": "Chi lo vede e quanto spesso", "content": [
+      {"p": "In **Targeting**, aggiungi regole: tipo di visitatore, prima visita, gruppo clienti, ordini passati, iscrizione alla newsletter, valore e contenuto del carrello, numero di articoli, tipi di pagina, URL, UTM, provenienza, paese, lingua, valuta, dispositivo, giorni e orari. Le regole di un gruppo devono valere tutte; gruppi separati sono alternative (OPPURE)."},
+      {"p": "In **Programmazione e frequenza**, imposta date di inizio e fine, giorni e orari, priorità e quanto spesso lo vede un visitatore: a ogni pagina, una volta per visita, al massimo ogni N giorni o una sola volta. Può fermarsi dopo un'iscrizione e attendere qualche giorno dopo la chiusura."},
+      {"note": "Le regole per paese richiedono la geolocalizzazione di PrestaShop (Preferenze › Geolocalizzazione)."}
+    ]},
+    {"title": "Iscrizioni, coupon e giochi", "content": [
+      {"ul": ["Il modulo email aggiunge l'indirizzo all'elenco **Contatti** e, se vuoi, alla newsletter del modulo ps_emailsubscription. Il doppio opt-in segue l'impostazione di quel modulo.", "La casella del consenso usa il testo del modulo GDPR ufficiale quando è installato, e per ogni iscrizione si conserva una registrazione del consenso.", "Un popup può dare un codice fisso o creare una regola carrello unica per ogni iscrizione (percentuale, importo o spedizione gratuita, con giorni di validità e ordine minimo). I codici possono essere applicati automaticamente al carrello.", "Ruota, gratta e vinci, scatole regalo e carte estraggono il premio sul server, secondo le tue probabilità e scorte. Ogni visitatore gioca una volta."]},
+      {"p": "Un webhook in **Impostazioni** può inviare ogni iscrizione a Brevo, Mailchimp, Zapier o qualsiasi altro strumento. Le richieste sono firmate con il tuo segreto."}
+    ]},
+    {"title": "Test A/B e statistiche", "content": [
+      {"p": "Nella scheda **Test A/B**, aggiungi varianti e impostane il peso. Ogni visitatore vede sempre la stessa variante. Quando ogni variante ha 300 visualizzazioni, il modulo indica quale vince e con quale certezza; puoi quindi tenere solo la vincitrice."},
+      {"p": "**Statistiche** mostra visualizzazioni, chiusure, clic, iscrizioni, ordini e fatturato per giorno, dispositivo e popup, oltre alle risposte ai sondaggi e ai commenti scritti. Un ordine conta per un popup quando è stato usato il suo coupon o quando l'acquirente si è iscritto entro i giorni impostati nelle Impostazioni."}
+    ]},
+    {"title": "Buono a sapersi", "content": [
+      {"ul": ["**Prova come visitatore**, nel menu del popup, apre il negozio con un link di anteprima che ignora targeting e frequenza e mostra un pannello di test.", "Qualsiasi link a #popup-ID apre quel popup, per esempio un link del menu.", "I popup integrati vanno nell'hook displayPopupStudio o con {widget name=\"popupstudio\" id=ID}.", "Le Impostazioni limitano quanti popup vede un visitatore per visita, li nascondono ai bot ed escludono indirizzi IP.", "I caratteri sono inclusi nel modulo; nessuna richiesta parte verso Google. I video si caricano solo quando il visitatore preme play."]}
+    ]},
+    {"title": "Assistenza", "content": [
+      {"p": "Domande o una modifica su misura: scrivi a iamshoaibktk@gmail.com o su WhatsApp al +923459016286. Altri moduli: https://www.fiverr.com/shoaibktk"}
+    ]}
+  ]
+}

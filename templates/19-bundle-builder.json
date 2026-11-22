@@ -1,0 +1,189 @@
+{
+ "num": "19",
+ "slug": "bundle-builder",
+ "name": "Bundle Builder",
+ "group": "discount",
+ "formatLabel": "Slide-in, top right",
+ "tags": [
+  "upsell",
+  "cross-sell",
+  "product"
+ ],
+ "doc": {
+  "format": "slidein",
+  "position": "tr",
+  "width": 340,
+  "mobile": {
+   "format": "same"
+  },
+  "fonts": [
+   "Outfit",
+   "Inter"
+  ],
+  "theme": {
+   "bg": "#F5F7FA",
+   "ink": "#0F172A",
+   "accent": "#0E7490",
+   "accentInk": "#FFFFFF",
+   "line": "#E2E8F0",
+   "radius": 18,
+   "fh": "Outfit",
+   "fb": "Outfit",
+   "ffb": {
+    "Outfit": "\"Inter\", system-ui, sans-serif"
+   }
+  },
+  "closeBtn": {
+   "look": "circle"
+  },
+  "steps": [
+   {
+    "id": "s1",
+    "name": "Bundle",
+    "cols": [
+     {
+      "blocks": [
+       {
+        "id": "bund-174",
+        "type": "small",
+        "t": {
+         "en": "Added to cart ✓",
+         "fr": "Ajouté au panier ✓",
+         "es": "Añadido al carrito ✓",
+         "it": "Aggiunto al carrello ✓",
+         "de": "In den Warenkorb gelegt ✓",
+         "nl": "Toegevoegd aan winkelwagen ✓",
+         "pl": "Dodano do koszyka ✓",
+         "cs": "Přidáno do košíku ✓",
+         "pt": "Adicionado ao carrinho ✓",
+         "ru": "Добавлено в корзину ✓"
+        },
+        "cls": "bb-k"
+       },
+       {
+        "id": "bund-175",
+        "type": "heading",
+        "t": {
+         "en": "Complete the set",
+         "fr": "Complétez l'ensemble",
+         "es": "Completa el conjunto",
+         "it": "Completa il set",
+         "de": "Vervollständige das Set",
+         "nl": "Maak de set compleet",
+         "pl": "Uzupełnij zestaw",
+         "cs": "Doplňte sadu",
+         "pt": "Complete o conjunto",
+         "ru": "Дополните комплект"
+        }
+       },
+       {
+        "id": "bund-176",
+        "type": "product",
+        "source": "bestseller",
+        "btn": {
+         "en": "Add it too",
+         "fr": "L'ajouter aussi",
+         "es": "Añadirlo también",
+         "it": "Aggiungi anche questo",
+         "de": "Auch hinzufügen",
+         "nl": "Ook toevoegen",
+         "pl": "Dodaj też to",
+         "cs": "Přidat také",
+         "pt": "Adicionar também",
+         "ru": "Добавить и это"
+        },
+        "lowStock": {
+         "en": "{n} left",
+         "fr": "Plus que {n}",
+         "es": "Quedan {n}",
+         "it": "Ne restano {n}",
+         "de": "Noch {n} da",
+         "nl": "Nog {n} over",
+         "pl": "Zostało {n}",
+         "cs": "Zbývá {n}",
+         "pt": "Restam {n}",
+         "ru": "Осталось {n}"
+        }
+       },
+       {
+        "id": "bund-177",
+        "type": "small",
+        "t": {
+         "en": "Pairs well with what you just added.",
+         "fr": "S'accorde bien avec ce que vous venez d'ajouter.",
+         "es": "Combina bien con lo que acabas de añadir.",
+         "it": "Si abbina bene a ciò che hai appena aggiunto.",
+         "de": "Passt gut zu dem, was du gerade hinzugefügt hast.",
+         "nl": "Past goed bij wat je net hebt toegevoegd.",
+         "pl": "Pasuje do tego, co właśnie dodałeś.",
+         "cs": "Hodí se k tomu, co jste právě přidali.",
+         "pt": "Combina bem com o que acabou de adicionar.",
+         "ru": "Хорошо сочетается с тем, что вы только что добавили."
+        },
+        "cls": "bb-n"
+       }
+      ]
+     }
+    ]
+   }
+  ],
+  "template": "bundle-builder"
+ },
+ "settings": {
+  "triggers": {
+   "mode": "any",
+   "timerOn": false,
+   "timerSec": 8,
+   "exitOn": false,
+   "exitSens": "normal",
+   "idleOn": false,
+   "idleSec": 30,
+   "scrollOn": false,
+   "scrollVal": 40,
+   "scrollUnit": "pct",
+   "clickOn": false,
+   "clickSel": "",
+   "pagesOn": false,
+   "pagesN": 2,
+   "pagesSec": 0,
+   "addcartOn": true
+  },
+  "close": {
+   "x": true,
+   "xDelay": 0,
+   "overlay": false,
+   "esc": true,
+   "timeOn": true,
+   "timeSec": 25,
+   "scrollOn": false,
+   "scrollPct": 80,
+   "videoOn": false,
+   "lastOn": false,
+   "lastSec": 6
+  },
+  "frequency": {
+   "mode": "page",
+   "days": 7,
+   "maxOn": false,
+   "max": 3,
+   "stopConvert": false,
+   "afterCloseOn": false,
+   "afterCloseDays": 2
+  },
+  "form": {
+   "list": "leads",
+   "consent": false,
+   "consentRequired": false
+  },
+  "coupon": {
+   "mode": "none",
+   "code": "",
+   "type": "percent",
+   "value": 10,
+   "days": 14,
+   "min": 0,
+   "prefix": "WELCOME-",
+   "autoApply": false
+  }
+ }
+}

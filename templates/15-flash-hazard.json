@@ -1,0 +1,192 @@
+{
+ "num": "15",
+ "slug": "flash-hazard",
+ "name": "Flash Hazard",
+ "group": "discount",
+ "formatLabel": "Modal with countdown",
+ "tags": [
+  "discount",
+  "flash sale",
+  "countdown",
+  "urgent"
+ ],
+ "doc": {
+  "format": "modal",
+  "width": 560,
+  "mobile": {
+   "format": "same"
+  },
+  "fonts": [
+   "Big Shoulders Display",
+   "Barlow",
+   "Oswald",
+   "Inter"
+  ],
+  "theme": {
+   "bg": "#FFD400",
+   "ink": "#111111",
+   "accent": "#111111",
+   "accentInk": "#FFD400",
+   "line": "#111111",
+   "radius": 0,
+   "fh": "Big Shoulders Display",
+   "fb": "Barlow",
+   "overlay": "rgba(17,17,17,.6)",
+   "ffb": {
+    "Big Shoulders Display": "\"Oswald\", \"Arial Narrow\", sans-serif",
+    "Barlow": "\"Inter\", system-ui, sans-serif"
+   }
+  },
+  "closeBtn": {
+   "look": "circle"
+  },
+  "steps": [
+   {
+    "id": "s1",
+    "name": "Sale",
+    "cols": [
+     {
+      "blocks": [
+       {
+        "id": "flas-146",
+        "type": "small",
+        "t": {
+         "en": "Flash sale · ends tonight",
+         "fr": "Vente flash · se termine ce soir",
+         "es": "Venta flash · termina esta noche",
+         "it": "Flash sale · finisce stasera",
+         "de": "Flash Sale · endet heute Abend",
+         "nl": "Flash sale · eindigt vanavond",
+         "pl": "Flash sale · kończy się dziś wieczorem",
+         "cs": "Bleskový výprodej · končí dnes večer",
+         "pt": "Venda relâmpago · termina esta noite",
+         "ru": "Флеш-распродажа · заканчивается сегодня"
+        },
+        "cls": "fh-k"
+       },
+       {
+        "id": "flas-147",
+        "type": "heading",
+        "t": {
+         "en": "30% off\neverything",
+         "fr": "-30 % sur\ntout",
+         "es": "30 % de descuento\nen todo",
+         "it": "30% di sconto\nsu tutto",
+         "de": "30 % auf\nalles",
+         "nl": "30% korting\nop alles",
+         "pl": "-30% na\nwszystko",
+         "cs": "Sleva 30 %\nna vše",
+         "pt": "30% de desconto\nem tudo",
+         "ru": "−30%\nна всё"
+        }
+       },
+       {
+        "id": "flas-148",
+        "type": "countdown",
+        "mode": "date",
+        "minutes": 60,
+        "end": "2026-12-31T23:59",
+        "look": "flap",
+        "noDays": true,
+        "hideAtZero": true
+       },
+       {
+        "id": "flas-149",
+        "type": "button",
+        "t": {
+         "en": "Shop the sale",
+         "fr": "Voir les soldes",
+         "es": "Ver las rebajas",
+         "it": "Vai ai saldi",
+         "de": "Zum Sale",
+         "nl": "Naar de sale",
+         "pl": "Zobacz wyprzedaż",
+         "cs": "Do výprodeje",
+         "pt": "Ver os saldos",
+         "ru": "К распродаже"
+        },
+        "act": "url",
+        "href": "/"
+       },
+       {
+        "id": "flas-150",
+        "type": "small",
+        "t": {
+         "en": "Applied at checkout. No code needed.",
+         "fr": "Appliqué au paiement. Aucun code nécessaire.",
+         "es": "Se aplica al pagar. No hace falta código.",
+         "it": "Applicato al pagamento. Nessun codice necessario.",
+         "de": "Wird an der Kasse abgezogen. Kein Code nötig.",
+         "nl": "Toegepast bij het afrekenen. Geen code nodig.",
+         "pl": "Naliczane przy kasie. Bez kodu.",
+         "cs": "Uplatní se v pokladně. Kód není potřeba.",
+         "pt": "Aplicado no checkout. Sem código.",
+         "ru": "Применяется при оформлении. Код не нужен."
+        },
+        "cls": "fh-n"
+       }
+      ]
+     }
+    ]
+   }
+  ],
+  "template": "flash-hazard"
+ },
+ "settings": {
+  "triggers": {
+   "mode": "any",
+   "timerOn": true,
+   "timerSec": 0,
+   "exitOn": false,
+   "exitSens": "normal",
+   "idleOn": false,
+   "idleSec": 30,
+   "scrollOn": false,
+   "scrollVal": 40,
+   "scrollUnit": "pct",
+   "clickOn": false,
+   "clickSel": "",
+   "pagesOn": false,
+   "pagesN": 2,
+   "pagesSec": 0,
+   "addcartOn": false
+  },
+  "close": {
+   "x": true,
+   "xDelay": 0,
+   "overlay": true,
+   "esc": true,
+   "timeOn": false,
+   "timeSec": 20,
+   "scrollOn": false,
+   "scrollPct": 80,
+   "videoOn": false,
+   "lastOn": false,
+   "lastSec": 6
+  },
+  "frequency": {
+   "mode": "visit",
+   "days": 7,
+   "maxOn": false,
+   "max": 3,
+   "stopConvert": true,
+   "afterCloseOn": true,
+   "afterCloseDays": 2
+  },
+  "form": {
+   "list": "leads",
+   "consent": false,
+   "consentRequired": false
+  },
+  "coupon": {
+   "mode": "none",
+   "code": "",
+   "type": "percent",
+   "value": 10,
+   "days": 14,
+   "min": 0,
+   "prefix": "WELCOME-",
+   "autoApply": false
+  }
+ }
+}

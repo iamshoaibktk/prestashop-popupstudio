@@ -1,0 +1,172 @@
+{
+ "num": "35",
+ "slug": "free-shipping-meter",
+ "name": "Free-shipping Meter",
+ "group": "bars",
+ "formatLabel": "Bar, bottom, push",
+ "tags": [
+  "bar",
+  "free shipping",
+  "cart",
+  "progress"
+ ],
+ "doc": {
+  "format": "bar",
+  "position": "bottom",
+  "bar": "push",
+  "mobile": {
+   "format": "same"
+  },
+  "fonts": [
+   "Manrope"
+  ],
+  "theme": {
+   "bg": "#FFFFFF",
+   "ink": "#0F2A22",
+   "accent": "#1E6B52",
+   "accentInk": "#FFFFFF",
+   "line": "#DDE3E0",
+   "radius": 0,
+   "fh": "Manrope",
+   "fb": "Manrope"
+  },
+  "overlay": false,
+  "steps": [
+   {
+    "id": "s1",
+    "name": "Bar",
+    "cols": [
+     {
+      "blocks": [
+       {
+        "id": "free-299",
+        "type": "row",
+        "blocks": [
+         {
+          "id": "free-297",
+          "type": "meter",
+          "threshold": 0,
+          "t_empty": {
+           "en": "Free shipping from {free_shipping_threshold}",
+           "fr": "Livraison gratuite dès {free_shipping_threshold}",
+           "es": "Envío gratis desde {free_shipping_threshold}",
+           "it": "Spedizione gratuita da {free_shipping_threshold}",
+           "de": "Gratisversand ab {free_shipping_threshold}",
+           "nl": "Gratis verzending vanaf {free_shipping_threshold}",
+           "pl": "Darmowa dostawa od {free_shipping_threshold}",
+           "cs": "Doprava zdarma od {free_shipping_threshold}",
+           "pt": "Portes grátis a partir de {free_shipping_threshold}",
+           "ru": "Бесплатная доставка от {free_shipping_threshold}"
+          },
+          "t_progress": {
+           "en": "{free_shipping_remaining} to go for free shipping",
+           "fr": "Encore {free_shipping_remaining} pour la livraison gratuite",
+           "es": "Faltan {free_shipping_remaining} para el envío gratis",
+           "it": "Mancano {free_shipping_remaining} alla spedizione gratuita",
+           "de": "Noch {free_shipping_remaining} bis zum Gratisversand",
+           "nl": "Nog {free_shipping_remaining} tot gratis verzending",
+           "pl": "Brakuje {free_shipping_remaining} do darmowej dostawy",
+           "cs": "Ještě {free_shipping_remaining} do dopravy zdarma",
+           "pt": "Faltam {free_shipping_remaining} para portes grátis",
+           "ru": "Ещё {free_shipping_remaining} до бесплатной доставки"
+          },
+          "t_done": {
+           "en": "Free shipping unlocked",
+           "fr": "Livraison gratuite débloquée",
+           "es": "Envío gratis conseguido",
+           "it": "Spedizione gratuita sbloccata",
+           "de": "Gratisversand freigeschaltet",
+           "nl": "Gratis verzending ontgrendeld",
+           "pl": "Darmowa dostawa odblokowana",
+           "cs": "Doprava zdarma odemčena",
+           "pt": "Portes grátis desbloqueados",
+           "ru": "Бесплатная доставка открыта"
+          }
+         },
+         {
+          "id": "free-298",
+          "type": "button",
+          "t": {
+           "en": "See cart",
+           "fr": "Voir le panier",
+           "es": "Ver carrito",
+           "it": "Vedi il carrello",
+           "de": "Warenkorb ansehen",
+           "nl": "Bekijk winkelwagen",
+           "pl": "Zobacz koszyk",
+           "cs": "Zobrazit košík",
+           "pt": "Ver carrinho",
+           "ru": "Корзина"
+          },
+          "act": "url",
+          "cls": "fm-link",
+          "href": "{cart_url}"
+         }
+        ],
+        "cls": "fm-row"
+       }
+      ]
+     }
+    ]
+   }
+  ],
+  "template": "free-shipping-meter"
+ },
+ "settings": {
+  "triggers": {
+   "mode": "any",
+   "timerOn": true,
+   "timerSec": 0,
+   "exitOn": false,
+   "exitSens": "normal",
+   "idleOn": false,
+   "idleSec": 30,
+   "scrollOn": false,
+   "scrollVal": 40,
+   "scrollUnit": "pct",
+   "clickOn": false,
+   "clickSel": "",
+   "pagesOn": false,
+   "pagesN": 2,
+   "pagesSec": 0,
+   "addcartOn": false
+  },
+  "close": {
+   "x": true,
+   "xDelay": 0,
+   "overlay": false,
+   "esc": true,
+   "timeOn": false,
+   "timeSec": 20,
+   "scrollOn": false,
+   "scrollPct": 80,
+   "videoOn": false,
+   "lastOn": false,
+   "lastSec": 6
+  },
+  "frequency": {
+   "mode": "page",
+   "days": 7,
+   "maxOn": false,
+   "max": 3,
+   "stopConvert": false,
+   "afterCloseOn": true,
+   "afterCloseDays": 1
+  },
+  "form": {
+   "list": "leads",
+   "consent": false,
+   "consentRequired": false
+  },
+  "coupon": {
+   "mode": "none",
+   "code": "",
+   "type": "percent",
+   "value": 10,
+   "days": 14,
+   "min": 0,
+   "prefix": "WELCOME-",
+   "autoApply": false
+  }
+ }
+}

@@ -1,0 +1,345 @@
+{
+ "num": "03",
+ "slug": "neon-night",
+ "name": "Neon Night",
+ "group": "newsletter",
+ "formatLabel": "Full screen",
+ "tags": [
+  "newsletter",
+  "streetwear",
+  "bold",
+  "dark"
+ ],
+ "doc": {
+  "format": "fullscreen",
+  "mobile": {
+   "format": "same"
+  },
+  "fonts": [
+   "Anton",
+   "Space Mono",
+   "Oswald",
+   "JetBrains Mono"
+  ],
+  "theme": {
+   "bg": "#0B0B0C",
+   "ink": "#F5F5F0",
+   "accent": "#C6FF3D",
+   "accentInk": "#0B0B0C",
+   "field": "transparent",
+   "line": "#C6FF3D",
+   "radius": 0,
+   "fh": "Anton",
+   "fb": "Space Mono",
+   "error": "#FF6B6B",
+   "ffb": {
+    "Anton": "\"Oswald\", \"Arial Narrow\", sans-serif",
+    "Space Mono": "\"JetBrains Mono\", ui-monospace, monospace"
+   }
+  },
+  "closeBtn": {
+   "look": "text",
+   "label": {
+    "en": "esc ×",
+    "fr": "échap ×",
+    "es": "esc ×",
+    "it": "esc ×",
+    "de": "esc ×",
+    "nl": "esc ×",
+    "pl": "esc ×",
+    "cs": "esc ×",
+    "pt": "esc ×",
+    "ru": "esc ×"
+   }
+  },
+  "steps": [
+   {
+    "id": "s1",
+    "name": "Offer",
+    "cols": [
+     {
+      "blocks": [
+       {
+        "id": "neon-25",
+        "type": "small",
+        "t": {
+         "en": "issue 003 · members hear about drops first",
+         "fr": "numéro 003 · les abonnés découvrent les nouveautés en premier",
+         "es": "número 003 · los suscriptores se enteran antes de las novedades",
+         "it": "numero 003 · gli iscritti scoprono le novità per primi",
+         "de": "Ausgabe 003 · Abonnenten erfahren als Erste von Neuem",
+         "nl": "editie 003 · abonnees horen als eerste over nieuwe drops",
+         "pl": "wydanie 003 · subskrybenci pierwsi dowiadują się o nowościach",
+         "cs": "číslo 003 · odběratelé se o novinkách dozvědí první",
+         "pt": "edição 003 · os subscritores sabem das novidades primeiro",
+         "ru": "выпуск 003 · подписчики узнают о новинках первыми"
+        },
+        "cls": "nn-meta"
+       },
+       {
+        "id": "neon-26",
+        "type": "heading",
+        "t": {
+         "en": "<span class=\"nn-a\">Ten</span>\npercent\noff\n<span class=\"nn-o\">tonight</span>",
+         "fr": "<span class=\"nn-a\">Dix</span>\npour cent\nde remise\n<span class=\"nn-o\">ce soir</span>",
+         "es": "<span class=\"nn-a\">Diez</span>\npor ciento\nmenos\n<span class=\"nn-o\">esta noche</span>",
+         "it": "<span class=\"nn-a\">Dieci</span>\nper cento\ndi sconto\n<span class=\"nn-o\">stasera</span>",
+         "de": "<span class=\"nn-a\">Zehn</span>\nProzent\nRabatt\n<span class=\"nn-o\">heute Abend</span>",
+         "nl": "<span class=\"nn-a\">Tien</span>\nprocent\nkorting\n<span class=\"nn-o\">vanavond</span>",
+         "pl": "<span class=\"nn-a\">Dziesięć</span>\nprocent\nrabatu\n<span class=\"nn-o\">dziś wieczorem</span>",
+         "cs": "<span class=\"nn-a\">Deset</span>\nprocent\nsleva\n<span class=\"nn-o\">dnes večer</span>",
+         "pt": "<span class=\"nn-a\">Dez</span>\npor cento\nde desconto\n<span class=\"nn-o\">esta noite</span>",
+         "ru": "<span class=\"nn-a\">Десять</span>\nпроцентов\nскидки\n<span class=\"nn-o\">сегодня вечером</span>"
+        },
+        "cls": "nn-h"
+       }
+      ],
+      "cls": "nn-left",
+      "w": "1.25"
+     },
+     {
+      "blocks": [
+       {
+        "id": "neon-27",
+        "type": "text",
+        "t": {
+         "en": "Drop your email. The code lands in your inbox before the kettle boils.",
+         "fr": "Laissez votre e-mail. Le code arrive avant que l'eau ne bouille.",
+         "es": "Deja tu email. El código llega antes de que hierva el agua.",
+         "it": "Lascia la tua email. Il codice arriva prima che l'acqua bolla.",
+         "de": "E-Mail eintragen. Der Code ist da, bevor das Wasser kocht.",
+         "nl": "Laat je e-mail achter. De code is er voordat het water kookt.",
+         "pl": "Zostaw e-mail. Kod dotrze, zanim zagotuje się woda.",
+         "cs": "Nechte nám e-mail. Kód dorazí dřív, než se uvaří voda.",
+         "pt": "Deixe o seu email. O código chega antes de a água ferver.",
+         "ru": "Оставьте email. Код придёт раньше, чем закипит чайник."
+        }
+       },
+       {
+        "id": "neon-28",
+        "type": "form",
+        "btn": {
+         "en": "Send it",
+         "fr": "Envoyer",
+         "es": "Enviar",
+         "it": "Invia",
+         "de": "Abschicken",
+         "nl": "Versturen",
+         "pl": "Wyślij",
+         "cs": "Odeslat",
+         "pt": "Enviar",
+         "ru": "Отправить"
+        },
+        "label": {
+         "en": "email",
+         "fr": "e-mail",
+         "es": "email",
+         "it": "email",
+         "de": "E-Mail",
+         "nl": "e-mail",
+         "pl": "e-mail",
+         "cs": "e-mail",
+         "pt": "email",
+         "ru": "email"
+        },
+        "ph": {
+         "en": "you@domain.com",
+         "fr": "vous@domaine.com",
+         "es": "tu@dominio.com",
+         "it": "tu@dominio.com",
+         "de": "du@domain.de",
+         "nl": "jij@domein.nl",
+         "pl": "ty@domena.pl",
+         "cs": "vy@domena.cz",
+         "pt": "voce@dominio.pt",
+         "ru": "vy@domain.ru"
+        },
+        "layout": "stack",
+        "consent": true,
+        "consentRequired": true,
+        "consentText": {
+         "en": "Yes, email me. I can unsubscribe in one click.",
+         "fr": "Oui, écrivez-moi. Je peux me désinscrire en un clic.",
+         "es": "Sí, escribidme. Puedo darme de baja con un clic.",
+         "it": "Sì, scrivetemi. Posso disiscrivermi con un clic.",
+         "de": "Ja, schreibt mir. Ich kann mich mit einem Klick abmelden.",
+         "nl": "Ja, mail me. Ik kan me met één klik uitschrijven.",
+         "pl": "Tak, piszcie do mnie. Mogę się wypisać jednym kliknięciem.",
+         "cs": "Ano, pište mi. Odhlásit se mohu jedním kliknutím.",
+         "pt": "Sim, escrevam-me. Posso cancelar com um clique.",
+         "ru": "Да, пишите мне. Отписаться можно в один клик."
+        },
+        "next": "s2"
+       }
+      ],
+      "cls": "nn-right"
+     }
+    ]
+   },
+   {
+    "id": "s2",
+    "name": "Thanks",
+    "cols": [
+     {
+      "blocks": [
+       {
+        "id": "neon-29",
+        "type": "small",
+        "t": {
+         "en": "issue 003",
+         "fr": "numéro 003",
+         "es": "número 003",
+         "it": "numero 003",
+         "de": "Ausgabe 003",
+         "nl": "editie 003",
+         "pl": "wydanie 003",
+         "cs": "číslo 003",
+         "pt": "edição 003",
+         "ru": "выпуск 003"
+        },
+        "cls": "nn-meta"
+       },
+       {
+        "id": "neon-30",
+        "type": "heading",
+        "t": {
+         "en": "<span class=\"nn-a\">You're</span>\nin.",
+         "fr": "<span class=\"nn-a\">C'est</span>\nfait.",
+         "es": "<span class=\"nn-a\">Ya</span>\nestás dentro.",
+         "it": "<span class=\"nn-a\">Sei</span>\ndentro.",
+         "de": "<span class=\"nn-a\">Du bist</span>\ndabei.",
+         "nl": "<span class=\"nn-a\">Je bent</span>\nerbij.",
+         "pl": "<span class=\"nn-a\">Jesteś</span>\nz nami.",
+         "cs": "<span class=\"nn-a\">Jste</span>\nuvnitř.",
+         "pt": "<span class=\"nn-a\">Já está</span>\ndentro.",
+         "ru": "<span class=\"nn-a\">Вы</span>\nс нами."
+        },
+        "cls": "nn-h"
+       },
+       {
+        "id": "neon-31",
+        "type": "text",
+        "t": {
+         "en": "Your code, valid for two weeks:",
+         "fr": "Votre code, valable deux semaines :",
+         "es": "Tu código, válido durante dos semanas:",
+         "it": "Il tuo codice, valido due settimane:",
+         "de": "Dein Code, zwei Wochen gültig:",
+         "nl": "Je code, twee weken geldig:",
+         "pl": "Twój kod, ważny dwa tygodnie:",
+         "cs": "Váš kód, platný dva týdny:",
+         "pt": "O seu código, válido duas semanas:",
+         "ru": "Ваш код, действует две недели:"
+        }
+       },
+       {
+        "id": "neon-32",
+        "type": "coupon",
+        "note": {
+         "en": "Valid until {coupon_expiry}. One use.",
+         "fr": "Valable jusqu'au {coupon_expiry}. Un seul usage.",
+         "es": "Válido hasta el {coupon_expiry}. Un solo uso.",
+         "it": "Valido fino al {coupon_expiry}. Un solo utilizzo.",
+         "de": "Gültig bis {coupon_expiry}. Einmal einlösbar.",
+         "nl": "Geldig tot {coupon_expiry}. Eenmalig te gebruiken.",
+         "pl": "Ważny do {coupon_expiry}. Jednorazowy.",
+         "cs": "Platí do {coupon_expiry}. Jedno použití.",
+         "pt": "Válido até {coupon_expiry}. Uma utilização.",
+         "ru": "Действует до {coupon_expiry}. Одно использование."
+        },
+        "copy": {
+         "en": "Copy",
+         "fr": "Copier",
+         "es": "Copiar",
+         "it": "Copia",
+         "de": "Kopieren",
+         "nl": "Kopiëren",
+         "pl": "Kopiuj",
+         "cs": "Kopírovat",
+         "pt": "Copiar",
+         "ru": "Копировать"
+        },
+        "code": "WELCOME-7KQ2M9XA"
+       },
+       {
+        "id": "neon-33",
+        "type": "button",
+        "t": {
+         "en": "Use it now",
+         "fr": "L'utiliser maintenant",
+         "es": "Usarlo ahora",
+         "it": "Usalo ora",
+         "de": "Jetzt einlösen",
+         "nl": "Nu gebruiken",
+         "pl": "Użyj teraz",
+         "cs": "Použít hned",
+         "pt": "Usar agora",
+         "ru": "Использовать сейчас"
+        },
+        "act": "apply"
+       }
+      ]
+     }
+    ]
+   }
+  ],
+  "template": "neon-night"
+ },
+ "settings": {
+  "triggers": {
+   "mode": "any",
+   "timerOn": false,
+   "timerSec": 8,
+   "exitOn": false,
+   "exitSens": "normal",
+   "idleOn": false,
+   "idleSec": 30,
+   "scrollOn": false,
+   "scrollVal": 40,
+   "scrollUnit": "pct",
+   "clickOn": false,
+   "clickSel": "",
+   "pagesOn": true,
+   "pagesN": 2,
+   "pagesSec": 0,
+   "addcartOn": false
+  },
+  "close": {
+   "x": true,
+   "xDelay": 0,
+   "overlay": false,
+   "esc": true,
+   "timeOn": false,
+   "timeSec": 20,
+   "scrollOn": false,
+   "scrollPct": 80,
+   "videoOn": false,
+   "lastOn": false,
+   "lastSec": 6
+  },
+  "frequency": {
+   "mode": "days",
+   "days": 7,
+   "maxOn": false,
+   "max": 3,
+   "stopConvert": true,
+   "afterCloseOn": true,
+   "afterCloseDays": 2
+  },
+  "form": {
+   "list": "newsletter",
+   "consent": true,
+   "consentRequired": true
+  },
+  "coupon": {
+   "mode": "generated",
+   "code": "",
+   "type": "percent",
+   "value": 10,
+   "days": 14,
+   "min": 0,
+   "prefix": "NIGHT-",
+   "autoApply": false
+  }
+ }
+}

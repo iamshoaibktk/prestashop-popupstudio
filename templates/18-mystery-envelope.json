@@ -1,0 +1,485 @@
+{
+ "num": "18",
+ "slug": "mystery-envelope",
+ "name": "Mystery Envelope",
+ "group": "discount",
+ "formatLabel": "Modal, click to open",
+ "tags": [
+  "discount",
+  "game",
+  "envelope",
+  "surprise"
+ ],
+ "doc": {
+  "format": "modal",
+  "width": 520,
+  "mobile": {
+   "format": "same"
+  },
+  "fonts": [
+   "Libre Baskerville",
+   "Playfair Display"
+  ],
+  "theme": {
+   "bg": "transparent",
+   "ink": "#F7EDE2",
+   "accent": "#A4161A",
+   "accentInk": "#F7EDE2",
+   "field": "#FFFDF8",
+   "fieldInk": "#3D2B1F",
+   "line": "#3D2B1F",
+   "radius": 0,
+   "fh": "Libre Baskerville",
+   "fb": "Libre Baskerville",
+   "overlay": "rgba(40,26,18,.72)",
+   "ffb": {
+    "Libre Baskerville": "\"Playfair Display\", Georgia, serif"
+   }
+  },
+  "closeBtn": {
+   "look": "circle"
+  },
+  "steps": [
+   {
+    "id": "s1",
+    "name": "Sealed",
+    "cols": [
+     {
+      "blocks": [
+       {
+        "id": "myst-163",
+        "type": "heading",
+        "t": {
+         "en": "Something came for you.",
+         "fr": "Quelque chose est arrivé pour vous.",
+         "es": "Ha llegado algo para ti.",
+         "it": "È arrivato qualcosa per te.",
+         "de": "Für dich ist etwas angekommen.",
+         "nl": "Er is iets voor je gekomen.",
+         "pl": "Coś do ciebie przyszło.",
+         "cs": "Něco pro vás přišlo.",
+         "pt": "Chegou algo para si.",
+         "ru": "Для вас кое-что пришло."
+        }
+       },
+       {
+        "id": "myst-164",
+        "type": "pick",
+        "look": "envelope",
+        "items": [
+         {
+          "svg": "<svg viewBox=\"0 0 440 270\" width=\"100%\" height=\"100%\"><rect width=\"440\" height=\"270\" fill=\"#EADBC8\"/><path d=\"M0 0 L220 150 L440 0 V270 H0z\" fill=\"#E3D1B9\"/><path d=\"M0 0 H440 L220 160z\" fill=\"#DCC8AE\"/></svg>",
+          "t": {
+           "en": ""
+          },
+          "aria": {
+           "en": "Break the seal and open the envelope",
+           "fr": "Briser le sceau et ouvrir l'enveloppe",
+           "es": "Rompe el sello y abre el sobre",
+           "it": "Rompi il sigillo e apri la busta",
+           "de": "Siegel brechen und Umschlag öffnen",
+           "nl": "Breek het zegel en open de envelop",
+           "pl": "Złam pieczęć i otwórz kopertę",
+           "cs": "Rozlomte pečeť a otevřete obálku",
+           "pt": "Quebre o selo e abra o envelope",
+           "ru": "Сломайте печать и откройте конверт"
+          }
+         }
+        ],
+        "label": {
+         "en": "Envelope",
+         "fr": "Enveloppe",
+         "es": "Sobre",
+         "it": "Busta",
+         "de": "Umschlag",
+         "nl": "Envelop",
+         "pl": "Koperta",
+         "cs": "Obálka",
+         "pt": "Envelope",
+         "ru": "Конверт"
+        }
+       },
+       {
+        "id": "myst-165",
+        "type": "small",
+        "t": {
+         "en": "Inside: a discount between 5% and 20%. One envelope per visitor.",
+         "fr": "À l'intérieur : une remise de 5 % à 20 %. Une enveloppe par visiteur.",
+         "es": "Dentro: un descuento entre el 5 % y el 20 %. Un sobre por visitante.",
+         "it": "Dentro: uno sconto tra il 5% e il 20%. Una busta per visitatore.",
+         "de": "Darin: ein Rabatt zwischen 5 % und 20 %. Ein Umschlag pro Besucher.",
+         "nl": "Erin: een korting tussen 5% en 20%. Eén envelop per bezoeker.",
+         "pl": "W środku: rabat od 5% do 20%. Jedna koperta na osobę.",
+         "cs": "Uvnitř: sleva od 5 % do 20 %. Jedna obálka na návštěvníka.",
+         "pt": "Lá dentro: um desconto entre 5% e 20%. Um envelope por visitante.",
+         "ru": "Внутри: скидка от 5% до 20%. Один конверт на посетителя."
+        },
+        "cls": "me-n"
+       }
+      ]
+     }
+    ]
+   },
+   {
+    "id": "s2",
+    "name": "Claim",
+    "cols": [
+     {
+      "blocks": [
+       {
+        "id": "myst-166",
+        "type": "small",
+        "t": {
+         "en": "It's yours",
+         "fr": "C'est à vous",
+         "es": "Es tuyo",
+         "it": "È tuo",
+         "de": "Er gehört dir",
+         "nl": "Hij is van jou",
+         "pl": "Jest twój",
+         "cs": "Je vaše",
+         "pt": "É seu",
+         "ru": "Это ваше"
+        },
+        "cls": "me-k"
+       },
+       {
+        "id": "myst-167",
+        "type": "heading",
+        "t": {
+         "en": "{prize}",
+         "fr": "{prize}",
+         "es": "{prize}",
+         "it": "{prize}",
+         "de": "{prize}",
+         "nl": "{prize}",
+         "pl": "{prize}",
+         "cs": "{prize}",
+         "pt": "{prize}",
+         "ru": "{prize}"
+        },
+        "cls": "me-prize"
+       },
+       {
+        "id": "myst-168",
+        "type": "text",
+        "t": {
+         "en": "Leave your email to keep it.",
+         "fr": "Laissez votre e-mail pour la garder.",
+         "es": "Deja tu email para conservarlo.",
+         "it": "Lascia la tua email per tenerlo.",
+         "de": "Hinterlasse deine E-Mail, um ihn zu behalten.",
+         "nl": "Laat je e-mail achter om hem te houden.",
+         "pl": "Zostaw e-mail, aby go zatrzymać.",
+         "cs": "Nechte e-mail, abyste si ji nechali.",
+         "pt": "Deixe o seu email para o guardar.",
+         "ru": "Оставьте email, чтобы сохранить её."
+        }
+       },
+       {
+        "id": "myst-169",
+        "type": "form",
+        "btn": {
+         "en": "Keep my discount",
+         "fr": "Garder ma remise",
+         "es": "Guardar mi descuento",
+         "it": "Tieni il mio sconto",
+         "de": "Rabatt behalten",
+         "nl": "Mijn korting houden",
+         "pl": "Zachowaj mój rabat",
+         "cs": "Nechat si slevu",
+         "pt": "Guardar o meu desconto",
+         "ru": "Сохранить скидку"
+        },
+        "label": {
+         "en": "Email",
+         "fr": "E-mail",
+         "es": "Email",
+         "it": "Email",
+         "de": "E-Mail",
+         "nl": "E-mail",
+         "pl": "E-mail",
+         "cs": "E-mail",
+         "pt": "Email",
+         "ru": "Email"
+        },
+        "ph": {
+         "en": "you@example.com",
+         "fr": "vous@exemple.com",
+         "es": "tu@ejemplo.com",
+         "it": "tu@esempio.com",
+         "de": "du@beispiel.de",
+         "nl": "jij@voorbeeld.nl",
+         "pl": "ty@przyklad.pl",
+         "cs": "vy@priklad.cz",
+         "pt": "voce@exemplo.pt",
+         "ru": "vy@primer.ru"
+        },
+        "layout": "stack",
+        "consent": true,
+        "consentRequired": true,
+        "consentText": {
+         "en": "Send me the newsletter as well",
+         "fr": "Envoyez-moi aussi la newsletter",
+         "es": "Enviadme también el boletín",
+         "it": "Mandatemi anche la newsletter",
+         "de": "Schickt mir auch den Newsletter",
+         "nl": "Stuur me ook de nieuwsbrief",
+         "pl": "Wysyłajcie mi też newsletter",
+         "cs": "Pošlete mi i newsletter",
+         "pt": "Enviem-me também a newsletter",
+         "ru": "Присылайте и рассылку"
+        },
+        "next": "s3",
+        "hideLabel": true
+       }
+      ]
+     }
+    ]
+   },
+   {
+    "id": "s3",
+    "name": "Code",
+    "cols": [
+     {
+      "blocks": [
+       {
+        "id": "myst-170",
+        "type": "small",
+        "t": {
+         "en": "It's yours",
+         "fr": "C'est à vous",
+         "es": "Es tuyo",
+         "it": "È tuo",
+         "de": "Er gehört dir",
+         "nl": "Hij is van jou",
+         "pl": "Jest twój",
+         "cs": "Je vaše",
+         "pt": "É seu",
+         "ru": "Это ваше"
+        },
+        "cls": "me-k"
+       },
+       {
+        "id": "myst-171",
+        "type": "heading",
+        "t": {
+         "en": "{prize}",
+         "fr": "{prize}",
+         "es": "{prize}",
+         "it": "{prize}",
+         "de": "{prize}",
+         "nl": "{prize}",
+         "pl": "{prize}",
+         "cs": "{prize}",
+         "pt": "{prize}",
+         "ru": "{prize}"
+        },
+        "cls": "me-prize"
+       },
+       {
+        "id": "myst-172",
+        "type": "coupon",
+        "note": {
+         "en": "Valid 7 days, one use.",
+         "fr": "Valable 7 jours, un seul usage.",
+         "es": "Válido 7 días, un solo uso.",
+         "it": "Valido 7 giorni, un solo utilizzo.",
+         "de": "7 Tage gültig, einmal einlösbar.",
+         "nl": "7 dagen geldig, eenmalig.",
+         "pl": "Ważny 7 dni, jednorazowy.",
+         "cs": "Platí 7 dní, jedno použití.",
+         "pt": "Válido 7 dias, uma utilização.",
+         "ru": "Действует 7 дней, одно использование."
+        },
+        "copy": {
+         "en": "Copy",
+         "fr": "Copier",
+         "es": "Copiar",
+         "it": "Copia",
+         "de": "Kopieren",
+         "nl": "Kopiëren",
+         "pl": "Kopiuj",
+         "cs": "Kopírovat",
+         "pt": "Copiar",
+         "ru": "Копировать"
+        },
+        "code": "WELCOME-7KQ2M9XA"
+       },
+       {
+        "id": "myst-173",
+        "type": "button",
+        "t": {
+         "en": "Copy and shop",
+         "fr": "Copier et faire mes achats",
+         "es": "Copiar y comprar",
+         "it": "Copia e acquista",
+         "de": "Kopieren und einkaufen",
+         "nl": "Kopiëren en winkelen",
+         "pl": "Kopiuj i kupuj",
+         "cs": "Kopírovat a nakupovat",
+         "pt": "Copiar e comprar",
+         "ru": "Копировать и за покупками"
+        },
+        "act": "apply",
+        "full": true
+       }
+      ]
+     }
+    ]
+   }
+  ],
+  "template": "mystery-envelope"
+ },
+ "settings": {
+  "triggers": {
+   "mode": "any",
+   "timerOn": true,
+   "timerSec": 10,
+   "exitOn": false,
+   "exitSens": "normal",
+   "idleOn": false,
+   "idleSec": 30,
+   "scrollOn": false,
+   "scrollVal": 40,
+   "scrollUnit": "pct",
+   "clickOn": false,
+   "clickSel": "",
+   "pagesOn": false,
+   "pagesN": 2,
+   "pagesSec": 0,
+   "addcartOn": false
+  },
+  "close": {
+   "x": true,
+   "xDelay": 0,
+   "overlay": true,
+   "esc": true,
+   "timeOn": false,
+   "timeSec": 20,
+   "scrollOn": false,
+   "scrollPct": 80,
+   "videoOn": false,
+   "lastOn": false,
+   "lastSec": 6
+  },
+  "frequency": {
+   "mode": "once",
+   "days": 7,
+   "maxOn": false,
+   "max": 3,
+   "stopConvert": true,
+   "afterCloseOn": true,
+   "afterCloseDays": 2
+  },
+  "form": {
+   "list": "newsletter",
+   "consent": true,
+   "consentRequired": false
+  },
+  "coupon": {
+   "mode": "none",
+   "code": "",
+   "type": "percent",
+   "value": 10,
+   "days": 14,
+   "min": 0,
+   "prefix": "WELCOME-",
+   "autoApply": false
+  },
+  "game": {
+   "type": "pick",
+   "emailFirst": false,
+   "prizes": [
+    {
+     "key": "p5",
+     "label": {
+      "en": "5% off",
+      "fr": "-5 %",
+      "es": "5 % dto.",
+      "it": "-5%",
+      "de": "5 % Rabatt",
+      "nl": "5% korting",
+      "pl": "-5%",
+      "cs": "Sleva 5 %",
+      "pt": "5% desc.",
+      "ru": "−5%"
+     },
+     "weight": 40,
+     "stock": "",
+     "coupon": {
+      "type": "percent",
+      "value": 5,
+      "days": 7
+     }
+    },
+    {
+     "key": "p10",
+     "label": {
+      "en": "10% off",
+      "fr": "-10 %",
+      "es": "10 % dto.",
+      "it": "-10%",
+      "de": "10 % Rabatt",
+      "nl": "10% korting",
+      "pl": "-10%",
+      "cs": "Sleva 10 %",
+      "pt": "10% desc.",
+      "ru": "−10%"
+     },
+     "weight": 35,
+     "stock": "",
+     "coupon": {
+      "type": "percent",
+      "value": 10,
+      "days": 7
+     }
+    },
+    {
+     "key": "p15",
+     "label": {
+      "en": "15% off",
+      "fr": "-15 %",
+      "es": "15 % dto.",
+      "it": "-15%",
+      "de": "15 % Rabatt",
+      "nl": "15% korting",
+      "pl": "-15%",
+      "cs": "Sleva 15 %",
+      "pt": "15% desc.",
+      "ru": "−15%"
+     },
+     "weight": 20,
+     "stock": "",
+     "coupon": {
+      "type": "percent",
+      "value": 15,
+      "days": 7
+     }
+    },
+    {
+     "key": "p20",
+     "label": {
+      "en": "20% off",
+      "fr": "-20 %",
+      "es": "20 % dto.",
+      "it": "-20%",
+      "de": "20 % Rabatt",
+      "nl": "20% korting",
+      "pl": "-20%",
+      "cs": "Sleva 20 %",
+      "pt": "20% desc.",
+      "ru": "−20%"
+     },
+     "weight": 5,
+     "stock": "",
+     "coupon": {
+      "type": "percent",
+      "value": 20,
+      "days": 7
+     }
+    }
+   ]
+  }
+ }
+}

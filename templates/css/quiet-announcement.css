@@ -1,0 +1,10 @@
+.psx-t-quiet-announcement .psx-box{box-shadow:none}
+.psx-t-quiet-announcement .psx-col{padding:0 56px 0 20px;min-height:42px;justify-content:center}
+.psx-t-quiet-announcement .qa-row{justify-content:center;gap:10px;flex-wrap:nowrap}
+.psx-t-quiet-announcement .psx-p{font-size:13.5px}
+.psx-t-quiet-announcement .qa-link{background:none;color:#CFE3F5;min-height:0;padding:0;font-weight:500;font-size:13.5px;text-decoration:underline;text-underline-offset:3px;border-radius:0}
+.psx-t-quiet-announcement .psx-x{top:3px;right:6px;width:36px;height:36px;color:#CFE3F5;font-size:20px}
+.psx-t-quiet-announcement.psx-mobile .psx-col{padding:12px 50px 12px 16px}
+.psx-t-quiet-announcement.psx-mobile .qa-row{flex-wrap:wrap;justify-content:flex-start;gap:2px 8px}
+.psx-t-quiet-announcement.psx-mobile .psx-p{font-size:13px;line-height:1.4}
+.psx-t-quiet-announcement.psx-mobile .psx-x{top:50%;transform:translateY(-50%);width:44px;height:44px}

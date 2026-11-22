@@ -1,0 +1,256 @@
+{
+ "num": "21",
+ "slug": "wait-your-cart",
+ "name": "Wait, your cart",
+ "group": "exit",
+ "formatLabel": "Modal, exit intent",
+ "tags": [
+  "exit intent",
+  "cart",
+  "abandonment"
+ ],
+ "doc": {
+  "format": "modal",
+  "width": 500,
+  "mobile": {
+   "format": "sheet"
+  },
+  "fonts": [
+   "Rubik"
+  ],
+  "theme": {
+   "bg": "#FBFAF7",
+   "ink": "#1D1D1B",
+   "accent": "#1F6F5C",
+   "accentInk": "#FFFFFF",
+   "line": "#E7E4DC",
+   "radius": 16,
+   "fh": "Rubik",
+   "fb": "Rubik",
+   "overlay": "rgba(29,29,27,.5)"
+  },
+  "closeBtn": {
+   "look": "circle"
+  },
+  "steps": [
+   {
+    "id": "s1",
+    "name": "Cart",
+    "cols": [
+     {
+      "blocks": [
+       {
+        "id": "wait-187",
+        "type": "heading",
+        "t": {
+         "en": "You left something behind.",
+         "fr": "Vous avez oublié quelque chose.",
+         "es": "Te has dejado algo.",
+         "it": "Hai dimenticato qualcosa.",
+         "de": "Du hast etwas vergessen.",
+         "nl": "Je bent iets vergeten.",
+         "pl": "Zostawiłeś coś za sobą.",
+         "cs": "Něco jste zapomněli.",
+         "pt": "Deixou algo para trás.",
+         "ru": "Вы кое-что забыли."
+        }
+       },
+       {
+        "id": "wait-188",
+        "type": "text",
+        "t": {
+         "en": "They are still in your cart on this device.",
+         "fr": "Ils sont toujours dans votre panier sur cet appareil.",
+         "es": "Siguen en tu carrito en este dispositivo.",
+         "it": "Sono ancora nel tuo carrello su questo dispositivo.",
+         "de": "Es liegt noch in deinem Warenkorb auf diesem Gerät.",
+         "nl": "Het ligt nog in je winkelwagen op dit apparaat.",
+         "pl": "Wciąż czekają w twoim koszyku na tym urządzeniu.",
+         "cs": "Stále jsou ve vašem košíku na tomto zařízení.",
+         "pt": "Continuam no seu carrinho neste dispositivo.",
+         "ru": "Товары всё ещё в вашей корзине на этом устройстве."
+        }
+       },
+       {
+        "id": "wait-189",
+        "type": "cart",
+        "max": 3,
+        "totalLabel": {
+         "en": "Total",
+         "fr": "Total",
+         "es": "Total",
+         "it": "Totale",
+         "de": "Summe",
+         "nl": "Totaal",
+         "pl": "Razem",
+         "cs": "Celkem",
+         "pt": "Total",
+         "ru": "Итого"
+        }
+       },
+       {
+        "id": "wait-190",
+        "type": "meter",
+        "threshold": 0,
+        "t_empty": {
+         "en": ""
+        },
+        "t_progress": {
+         "en": "{free_shipping_remaining} more for free shipping",
+         "fr": "Encore {free_shipping_remaining} pour la livraison gratuite",
+         "es": "Faltan {free_shipping_remaining} para el envío gratis",
+         "it": "Mancano {free_shipping_remaining} per la spedizione gratuita",
+         "de": "Noch {free_shipping_remaining} bis zum Gratisversand",
+         "nl": "Nog {free_shipping_remaining} tot gratis verzending",
+         "pl": "Brakuje {free_shipping_remaining} do darmowej dostawy",
+         "cs": "Ještě {free_shipping_remaining} do dopravy zdarma",
+         "pt": "Faltam {free_shipping_remaining} para portes grátis",
+         "ru": "Ещё {free_shipping_remaining} до бесплатной доставки"
+        },
+        "t_done": {
+         "en": "Free shipping is unlocked on this order",
+         "fr": "La livraison gratuite est débloquée pour cette commande",
+         "es": "Este pedido ya tiene envío gratis",
+         "it": "Spedizione gratuita sbloccata per questo ordine",
+         "de": "Gratisversand für diese Bestellung freigeschaltet",
+         "nl": "Gratis verzending is ontgrendeld voor deze bestelling",
+         "pl": "Darmowa dostawa odblokowana dla tego zamówienia",
+         "cs": "Doprava zdarma je pro tuto objednávku odemčena",
+         "pt": "Portes grátis desbloqueados nesta encomenda",
+         "ru": "Для этого заказа доставка бесплатная"
+        },
+        "cls": "wc-meter"
+       },
+       {
+        "id": "wait-193",
+        "type": "row",
+        "blocks": [
+         {
+          "id": "wait-191",
+          "type": "button",
+          "t": {
+           "en": "Go to checkout",
+           "fr": "Passer commande",
+           "es": "Ir a pagar",
+           "it": "Vai alla cassa",
+           "de": "Zur Kasse",
+           "nl": "Naar afrekenen",
+           "pl": "Przejdź do kasy",
+           "cs": "K pokladně",
+           "pt": "Ir para o checkout",
+           "ru": "Оформить заказ"
+          },
+          "act": "url",
+          "cls": "wc-go",
+          "href": "{checkout_url}"
+         },
+         {
+          "id": "wait-192",
+          "type": "button",
+          "t": {
+           "en": "Keep browsing",
+           "fr": "Continuer la visite",
+           "es": "Seguir mirando",
+           "it": "Continua a guardare",
+           "de": "Weiterstöbern",
+           "nl": "Verder kijken",
+           "pl": "Przeglądaj dalej",
+           "cs": "Prohlížet dál",
+           "pt": "Continuar a ver",
+           "ru": "Смотреть дальше"
+          },
+          "act": "close",
+          "variant": "secondary"
+         }
+        ]
+       }
+      ]
+     }
+    ]
+   }
+  ],
+  "template": "wait-your-cart"
+ },
+ "settings": {
+  "triggers": {
+   "mode": "any",
+   "timerOn": false,
+   "timerSec": 8,
+   "exitOn": true,
+   "exitSens": "normal",
+   "idleOn": false,
+   "idleSec": 30,
+   "scrollOn": false,
+   "scrollVal": 40,
+   "scrollUnit": "pct",
+   "clickOn": false,
+   "clickSel": "",
+   "pagesOn": false,
+   "pagesN": 2,
+   "pagesSec": 0,
+   "addcartOn": false
+  },
+  "close": {
+   "x": true,
+   "xDelay": 0,
+   "overlay": true,
+   "esc": true,
+   "timeOn": false,
+   "timeSec": 20,
+   "scrollOn": false,
+   "scrollPct": 80,
+   "videoOn": false,
+   "lastOn": false,
+   "lastSec": 6
+  },
+  "frequency": {
+   "mode": "visit",
+   "days": 7,
+   "maxOn": false,
+   "max": 3,
+   "stopConvert": true,
+   "afterCloseOn": true,
+   "afterCloseDays": 2
+  },
+  "form": {
+   "list": "leads",
+   "consent": false,
+   "consentRequired": false
+  },
+  "coupon": {
+   "mode": "none",
+   "code": "",
+   "type": "percent",
+   "value": 10,
+   "days": 14,
+   "min": 0,
+   "prefix": "WELCOME-",
+   "autoApply": false
+  },
+  "targeting": {
+   "groups": [
+    {
+     "rules": [
+      {
+       "type": "cart_items",
+       "op": "gte",
+       "a": 1
+      },
+      {
+       "type": "page",
+       "op": "except",
+       "pages": [
+        "cart",
+        "checkout",
+        "confirmation"
+       ],
+       "categories": [],
+       "products": [],
+       "cms": []
+      }
+     ]
+    }
+   ]
+  }
+ }
+}

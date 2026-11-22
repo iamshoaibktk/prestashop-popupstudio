@@ -1,0 +1,43 @@
+{
+  "title": "Popup Studio",
+  "subtitle": "Instrukcja obsługi",
+  "labels": {"version": "Wersja", "author": "Autor", "contact": "Kontakt", "page": "Strona", "contents": "Spis treści", "compat": "Zgodność"},
+  "sections": [
+    {"title": "Przegląd", "content": [
+      {"p": "Popup Studio wyświetla w sklepie popupy, paski, wysuwane okna, panele boczne, strony pełnoekranowe i bloki osadzone. Każdy z nich może zbierać adresy e-mail, dawać kupon, uruchamiać grę, zadawać pytanie lub coś ogłaszać."},
+      {"p": "Znajdziesz go w **Marketing › Popup Studio**. Ma pięć ekranów: Popupy, Szablony, Statystyki, Kontakty i Ustawienia."}
+    ]},
+    {"title": "Tworzenie popupu", "content": [
+      {"ol": ["Otwórz **Szablony** i wybierz jeden z 50 projektów albo kliknij **Nowy popup › Zacznij od zera** i wybierz format.", "Zmień teksty, kolory i bloki w edytorze.", "Ustaw, kiedy się pojawia i kto go widzi.", "Zmień status na **Aktywny** i kliknij **Zapisz**."]},
+      {"note": "Nowy popup jest zawsze szkicem. Nic nie pojawi się w sklepie, dopóki go nie aktywujesz."}
+    ]},
+    {"title": "Edytor", "content": [
+      {"p": "Karta **Wygląd** pokazuje popup w podglądzie na żywo. Kliknij blok, aby edytować go po prawej, kliknij kafelek po lewej, aby dodać blok, albo przeciągaj bloki i warstwy, aby je przenieść. Przełączniki **Komputer** i **Telefon** pokazują oba układy."},
+      {"ul": ["**Kroki**: popup może mieć kilka ekranów, np. ofertę, formularz i podziękowanie.", "Karta **Telefon** bloku: ukryj go na telefonach lub zmień rozmiar.", "**Ctrl+S** zapisuje, **Ctrl+Z** cofa, **Ctrl+Shift+Z** ponawia.", "Tekst obsługuje **pogrubienie**, *kursywę* i znaczniki, np. {firstname}, {cart_total}, {free_shipping_remaining}, {coupon} i {shop_name}. Wpisz {firstname|Ty}, aby podać wartość zastępczą."]},
+      {"p": "Teksty zapisywane są dla każdego języka osobno. Wybierz język na górnym pasku, aby przetłumaczyć popup."}
+    ]},
+    {"title": "Kiedy się pojawia i jak się zamyka", "content": [
+      {"p": "W **Wyzwalacze i zamykanie** włącz jeden lub więcej wyzwalaczy: czas po wejściu, zamiar wyjścia, bezczynność, głębokość przewinięcia, kliknięcie dowolnego selektora CSS, N-ta strona wizyty lub zaraz po dodaniu do koszyka. Wybierz, czy wystarczy jeden, czy muszą zajść wszystkie."},
+      {"p": "Odwiedzający zamykają go krzyżykiem, kliknięciem przyciemnionej strony lub klawiszem Esc. Może też zamknąć się sam po czasie, przy danej pozycji przewinięcia, po końcu wideo lub po ostatnim kroku. Na krawędzi może zostać mała zakładka do ponownego otwarcia."}
+    ]},
+    {"title": "Kto go widzi i jak często", "content": [
+      {"p": "W **Targetowanie** dodaj reguły: typ odwiedzającego, pierwsza wizyta, grupa klientów, wcześniejsze zamówienia, zapis do newslettera, wartość i zawartość koszyka, liczba produktów, typy stron, URL, UTM, strona odsyłająca, kraj, język, waluta, urządzenie, dni i godziny. Reguły w jednej grupie muszą być spełnione wszystkie; osobne grupy są alternatywami (LUB)."},
+      {"p": "W **Harmonogram i częstotliwość** ustaw daty startu i końca, dni i godziny, priorytet oraz jak często widzi go jedna osoba: na każdej stronie, raz na wizytę, najwyżej co N dni lub tylko raz. Może przestać się pokazywać po zapisie i odczekać kilka dni po zamknięciu."},
+      {"note": "Reguły krajów wymagają geolokalizacji PrestaShop (Preferencje › Geolokalizacja)."}
+    ]},
+    {"title": "Zapisy, kupony i gry", "content": [
+      {"ul": ["Formularz e-mail dodaje adres do listy **Kontakty**, a jeśli chcesz, także do newslettera modułu ps_emailsubscription. Podwójne potwierdzenie działa według ustawień tego modułu.", "Pole zgody używa tekstu z oficjalnego modułu RODO, jeśli jest zainstalowany, a dla każdego zapisu przechowywany jest dowód zgody.", "Popup może dawać stały kod lub tworzyć unikalną regułę koszyka dla każdego zapisu (procent, kwota lub darmowa dostawa, z dniami ważności i minimalnym zamówieniem). Kody mogą być automatycznie stosowane w koszyku.", "Koło fortuny, zdrapka, pudełka z prezentami i karty losują nagrodę na serwerze, według Twoich szans i stanów. Każdy odwiedzający gra raz."]},
+      {"p": "Webhook w **Ustawieniach** może wysyłać każdy zapis do Brevo, Mailchimp, Zapier lub innego narzędzia. Żądania są podpisywane Twoim sekretem."}
+    ]},
+    {"title": "Testy A/B i statystyki", "content": [
+      {"p": "Na karcie **Test A/B** dodaj warianty i ustaw ich wagi. Każdy odwiedzający zawsze widzi ten sam wariant. Gdy każdy wariant ma 300 wyświetleń, moduł pokazuje zwycięzcę i pewność wyniku; możesz wtedy zostawić tylko zwycięzcę."},
+      {"p": "**Statystyki** pokazują wyświetlenia, zamknięcia, kliknięcia, zapisy, zamówienia i przychód według dni, urządzeń i popupów, a także odpowiedzi z ankiet i opinie pisemne. Zamówienie liczy się dla popupu, gdy użyto jego kuponu lub kupujący zapisał się w liczbie dni ustawionej w Ustawieniach."}
+    ]},
+    {"title": "Warto wiedzieć", "content": [
+      {"ul": ["**Testuj jako odwiedzający** w menu popupu otwiera sklep z linkiem podglądu, który pomija targetowanie i częstotliwość oraz pokazuje panel testowy.", "Każdy link do #popup-ID otwiera ten popup, np. link w menu.", "Popupy osadzone umieszczasz w hooku displayPopupStudio lub przez {widget name=\"popupstudio\" id=ID}.", "Ustawienia ograniczają liczbę popupów na wizytę, ukrywają je przed robotami i wykluczają adresy IP.", "Czcionki są dołączone do modułu; nie ma żadnych zapytań do Google. Wideo ładuje się dopiero po naciśnięciu odtwarzania."]}
+    ]},
+    {"title": "Wsparcie", "content": [
+      {"p": "Pytania lub zmiany na zamówienie: napisz na iamshoaibktk@gmail.com lub na WhatsApp +923459016286. Więcej modułów: https://www.fiverr.com/shoaibktk"}
+    ]}
+  ]
+}

@@ -1,0 +1,18 @@
+.psx-t-bloom-drawer .psx-box{box-shadow:-18px 0 40px rgba(74,44,42,.2)}
+.psx-t-bloom-drawer .psx-col{padding:70px 32px 30px;gap:16px}
+.psx-t-bloom-drawer .bd-frame{position:relative;border:1px solid #D9A9A4;padding:10px;margin-bottom:24px}
+.psx-t-bloom-drawer .bd-art{height:200px;background:#EFD3CE}
+.psx-t-bloom-drawer .bd-frame span{position:absolute;left:0;right:0;bottom:-26px;text-align:center;font:italic 500 14px var(--psx-fh)}
+.psx-t-bloom-drawer .psx-h{font:500 38px/1.02 var(--psx-fh)}
+.psx-t-bloom-drawer .psx-p{font:300 14px/1.6 var(--psx-fb)}
+.psx-t-bloom-drawer .psx-label{font-weight:400;font-size:11.5px}
+.psx-t-bloom-drawer .psx-input{border:0;border-bottom:1px solid var(--psx-ink);border-radius:0;padding:0;font-weight:300;min-height:40px}
+.psx-t-bloom-drawer .psx-input:focus{box-shadow:none;border-bottom-color:#B5525C}
+.psx-t-bloom-drawer .psx-btn{border-radius:0;font-weight:400;font-size:14px;min-height:48px}
+.psx-t-bloom-drawer .psx-box-ck{border-radius:0;width:13px;height:13px;border-width:1px}
+.psx-t-bloom-drawer .psx-check{font-weight:300;font-size:12px}
+.psx-t-bloom-drawer .psx-x{width:auto;height:auto;padding:6px 0;right:32px;top:26px;font:300 13px var(--psx-fb);text-decoration:underline;text-underline-offset:4px;border-radius:0}
+.psx-t-bloom-drawer .psx-coupon{border-radius:0;border-style:solid;border-width:1px}
+.psx-t-bloom-drawer.psx-mobile .psx-col{padding:60px 22px 24px;gap:12px}
+.psx-t-bloom-drawer.psx-mobile .bd-art{height:150px}
+.psx-t-bloom-drawer.psx-mobile .psx-h{font-size:32px}

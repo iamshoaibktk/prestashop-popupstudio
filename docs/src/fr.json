@@ -1,0 +1,43 @@
+{
+  "title": "Popup Studio",
+  "subtitle": "Guide d'utilisation",
+  "labels": {"version": "Version", "author": "Auteur", "contact": "Contact", "page": "Page", "contents": "Sommaire", "compat": "Compatibilité"},
+  "sections": [
+    {"title": "Présentation", "content": [
+      {"p": "Popup Studio affiche sur votre boutique des popups, barres, encarts, tiroirs, pages plein écran et blocs intégrés. Chacun peut collecter des e-mails, offrir un bon de réduction, lancer un jeu, poser une question ou faire une annonce."},
+      {"p": "Vous le trouvez dans **Marketing › Popup Studio**. Il comporte cinq écrans : Popups, Modèles, Statistiques, Contacts et Réglages."}
+    ]},
+    {"title": "Créer un popup", "content": [
+      {"ol": ["Ouvrez **Modèles** et choisissez l'un des 50 designs, ou cliquez sur **Nouveau popup › Partir de zéro** et choisissez un format.", "Modifiez les textes, les couleurs et les blocs dans l'éditeur.", "Réglez quand il s'affiche et qui le voit.", "Passez le statut sur **En ligne** et cliquez sur **Enregistrer**."]},
+      {"note": "Un nouveau popup est toujours un brouillon. Rien n'apparaît sur la boutique tant que vous ne le mettez pas en ligne."}
+    ]},
+    {"title": "L'éditeur", "content": [
+      {"p": "L'onglet **Design** montre le popup en aperçu direct. Cliquez sur un bloc pour le modifier à droite, cliquez sur une tuile à gauche pour ajouter un bloc, ou glissez blocs et calques pour les déplacer. Utilisez **Ordinateur** et **Mobile** pour vérifier les deux mises en page."},
+      {"ul": ["**Étapes** : un popup peut avoir plusieurs écrans, par exemple offre, formulaire et remerciement.", "Onglet **Mobile** d'un bloc : le masquer sur téléphone ou changer sa taille.", "**Ctrl+S** enregistre, **Ctrl+Z** annule, **Ctrl+Maj+Z** rétablit.", "Le texte accepte le **gras**, l'*italique* et des balises comme {firstname}, {cart_total}, {free_shipping_remaining}, {coupon} et {shop_name}. Écrivez {firstname|vous} pour prévoir une valeur de secours."]},
+      {"p": "Les textes sont enregistrés par langue. Choisissez la langue dans la barre du haut pour traduire un popup."}
+    ]},
+    {"title": "Quand il s'affiche et comment il se ferme", "content": [
+      {"p": "Dans **Déclencheurs et fermeture**, activez un ou plusieurs déclencheurs : minuteur après l'arrivée, intention de sortie, inactivité, profondeur de défilement, clic sur n'importe quel sélecteur CSS, Nième page d'une visite, ou juste après un ajout au panier. Choisissez si un seul déclencheur suffit ou s'il faut qu'ils se soient tous produits."},
+      {"p": "Les visiteurs peuvent le fermer avec la croix, un clic sur la page assombrie ou Échap. Il peut aussi se fermer seul après un délai, à une position de défilement, à la fin d'une vidéo ou après la dernière étape. Un petit onglet peut rester sur le bord pour le rouvrir."}
+    ]},
+    {"title": "Qui le voit et à quelle fréquence", "content": [
+      {"p": "Dans **Ciblage**, ajoutez des règles : type de visiteur, première visite, groupe client, commandes passées, abonnement newsletter, montant et contenu du panier, nombre d'articles, types de page, URL, UTM, site d'origine, pays, langue, devise, appareil, jours et heures. Les règles d'un même groupe doivent toutes correspondre ; des groupes séparés sont des alternatives (OU)."},
+      {"p": "Dans **Planning et fréquence**, réglez les dates de début et de fin, les jours et heures, la priorité, et la fréquence pour un visiteur : à chaque page, une fois par visite, au plus tous les N jours ou une seule fois. Il peut s'arrêter après une inscription et attendre quelques jours après une fermeture."},
+      {"note": "Les règles par pays nécessitent la géolocalisation de PrestaShop (Préférences › Géolocalisation)."}
+    ]},
+    {"title": "Inscriptions, bons et jeux", "content": [
+      {"ul": ["Le formulaire e-mail ajoute l'adresse à la liste **Contacts** et, si vous le souhaitez, à la newsletter du module ps_emailsubscription. La double confirmation suit le réglage de ce module.", "La case de consentement reprend le texte du module RGPD officiel quand il est installé, et une preuve de consentement est conservée pour chaque inscription.", "Un popup peut donner un code fixe ou créer une règle panier unique par inscription (pourcentage, montant ou livraison gratuite, avec durée de validité et commande minimum). Les codes peuvent être appliqués automatiquement au panier.", "Roue, carte à gratter, boîtes cadeaux et cartes tirent le lot sur le serveur, selon vos chances et vos stocks. Un visiteur ne joue qu'une fois."]},
+      {"p": "Un webhook dans **Réglages** peut envoyer chaque inscription vers Brevo, Mailchimp, Zapier ou tout autre outil. Les requêtes sont signées avec votre secret."}
+    ]},
+    {"title": "Tests A/B et statistiques", "content": [
+      {"p": "Dans l'onglet **Test A/B**, ajoutez des variantes et réglez leur poids. Chaque visiteur voit toujours la même variante. Dès que chaque variante a 300 affichages, le module indique laquelle gagne et avec quelle certitude ; vous pouvez alors ne garder que la gagnante."},
+      {"p": "**Statistiques** montre affichages, fermetures, clics, inscriptions, commandes et chiffre d'affaires par jour, par appareil et par popup, ainsi que les réponses aux sondages et les avis écrits. Une commande est attribuée à un popup quand son bon a été utilisé ou quand l'acheteur s'est inscrit dans le nombre de jours fixé dans les Réglages."}
+    ]},
+    {"title": "Bon à savoir", "content": [
+      {"ul": ["**Tester comme un visiteur** dans le menu du popup ouvre la boutique avec un lien d'aperçu qui ignore ciblage et fréquence et affiche un panneau de test.", "Tout lien vers #popup-ID ouvre ce popup, par exemple un lien de menu.", "Les popups intégrés se placent dans le hook displayPopupStudio ou avec {widget name=\"popupstudio\" id=ID}.", "Les Réglages limitent le nombre de popups vus par visite, masquent les popups aux robots et excluent des adresses IP.", "Les polices sont fournies avec le module ; aucune requête n'est envoyée à Google. Les vidéos ne se chargent que lorsque le visiteur appuie sur lecture."]}
+    ]},
+    {"title": "Assistance", "content": [
+      {"p": "Une question ou une adaptation sur mesure : écrivez à iamshoaibktk@gmail.com ou sur WhatsApp au +923459016286. Autres modules : https://www.fiverr.com/shoaibktk"}
+    ]}
+  ]
+}

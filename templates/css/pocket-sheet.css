@@ -1,0 +1,17 @@
+.psx-t-pocket-sheet .psx-col{padding:28px 28px 24px;gap:14px}
+.psx-t-pocket-sheet .ps-ico{width:48px;height:48px;border-radius:14px;background:#E8F2FF;display:flex;align-items:center;justify-content:center}
+.psx-t-pocket-sheet .psx-h{font:800 26px/1.15 var(--psx-fh);letter-spacing:-.02em}
+.psx-t-pocket-sheet .psx-p{font-weight:500;color:#4B5563;margin-top:-4px}
+.psx-t-pocket-sheet .psx-chip{border-radius:999px}
+.psx-t-pocket-sheet .psx-chip[aria-pressed=true]::before{content:"✓ "}
+.psx-t-pocket-sheet .psx-input{border-radius:14px;min-height:52px;font-weight:600}
+.psx-t-pocket-sheet .psx-btn{border-radius:14px;min-height:54px;font-weight:700;font-size:16px}
+.psx-t-pocket-sheet .ps-legal{text-align:center;color:#6B7280;font-size:12px;opacity:1}
+.psx-t-pocket-sheet .ps-not{align-self:center;text-decoration:none;font-weight:600;color:#4B5563}
+.psx-t-pocket-sheet .psx-x{background:#F1F3F6;top:18px;right:18px}
+.psx-t-pocket-sheet .psx-coupon{border-radius:14px;border-color:#0A7CFF}
+.psx-t-pocket-sheet.psx-f-sheet .psx-box{border-radius:26px 26px 0 0}
+.psx-t-pocket-sheet.psx-f-sheet .psx-box::before{content:"";display:block;width:40px;height:5px;border-radius:3px;background:#D5D9E0;margin:10px auto 0}
+.psx-t-pocket-sheet.psx-mobile .psx-col{padding:12px 18px 22px;gap:12px}
+.psx-t-pocket-sheet.psx-mobile .psx-h{font-size:22px}
+.psx-t-pocket-sheet.psx-mobile .psx-x{display:none}

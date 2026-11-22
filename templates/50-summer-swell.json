@@ -1,0 +1,188 @@
+{
+ "num": "50",
+ "slug": "summer-swell",
+ "name": "Summer Swell",
+ "group": "seasonal",
+ "formatLabel": "Modal, centre",
+ "tags": [
+  "seasonal",
+  "summer",
+  "sale"
+ ],
+ "doc": {
+  "format": "modal",
+  "width": 560,
+  "mobile": {
+   "format": "same"
+  },
+  "fonts": [
+   "Righteous",
+   "Nunito"
+  ],
+  "theme": {
+   "bg": "#FFE8C2",
+   "ink": "#0B4F6C",
+   "accent": "#0B4F6C",
+   "accentInk": "#FFE8C2",
+   "line": "#0B4F6C",
+   "radius": 26,
+   "fh": "Righteous",
+   "fb": "Nunito",
+   "overlay": "rgba(11,79,108,.5)",
+   "ffb": {
+    "Righteous": "\"Nunito\", system-ui, sans-serif"
+   }
+  },
+  "decor": [
+   {
+    "html": "<svg viewBox=\"0 0 560 400\" width=\"100%\" height=\"100%\" preserveAspectRatio=\"none\"><path d=\"M0 290 C 70 260, 140 320, 210 290 S 350 260, 420 290 S 530 320, 560 290 V400 H0z\" fill=\"#56B4C9\"/><path d=\"M0 325 C 70 300, 140 350, 210 325 S 350 300, 420 325 S 530 350, 560 325 V400 H0z\" fill=\"#1C7C9C\"/><path d=\"M0 360 C 70 340, 140 380, 210 360 S 350 340, 420 360 S 530 380, 560 360 V400 H0z\" fill=\"#0B4F6C\"/></svg>",
+    "name": "Waves",
+    "left": "0",
+    "top": "0",
+    "width": "100%",
+    "height": "100%"
+   },
+   {
+    "html": "<svg viewBox=\"0 0 210 210\" width=\"100%\" height=\"100%\"><circle cx=\"105\" cy=\"105\" r=\"78\" fill=\"#FF7F11\"/><circle cx=\"105\" cy=\"105\" r=\"100\" fill=\"none\" stroke=\"#FF7F11\" stroke-width=\"3\" stroke-dasharray=\"2 14\" stroke-linecap=\"round\"/></svg>",
+    "name": "Sun",
+    "m": {
+     "right": "-30px",
+     "top": "-10px",
+     "width": "150px",
+     "height": "150px"
+    },
+    "right": "24px",
+    "top": "6px",
+    "width": "210px",
+    "height": "210px"
+   }
+  ],
+  "closeBtn": {
+   "look": "circle"
+  },
+  "steps": [
+   {
+    "id": "s1",
+    "name": "Offer",
+    "cols": [
+     {
+      "blocks": [
+       {
+        "id": "summ-380",
+        "type": "heading",
+        "t": {
+         "en": "Summer\nsale is\non",
+         "fr": "Les soldes\nd'été sont\nlà",
+         "es": "Las rebajas\nde verano\nhan llegado",
+         "it": "I saldi\nestivi\nsono qui",
+         "de": "Der\nSommer-Sale\nist da",
+         "nl": "De\nzomersale\nis begonnen",
+         "pl": "Letnia\nwyprzedaż\nruszyła",
+         "cs": "Letní\nvýprodej\nje tady",
+         "pt": "Os saldos\nde verão\nchegaram",
+         "ru": "Летняя\nраспродажа\nначалась"
+        }
+       },
+       {
+        "id": "summ-381",
+        "type": "text",
+        "t": {
+         "en": "Up to 30% off swimwear and sandals, until the last wave of August.",
+         "fr": "Jusqu'à -30 % sur les maillots et sandales, jusqu'à la dernière vague d'août.",
+         "es": "Hasta un 30 % en bañadores y sandalias, hasta la última ola de agosto.",
+         "it": "Fino al 30% su costumi e sandali, fino all'ultima onda di agosto.",
+         "de": "Bis zu 30 % auf Bademode und Sandalen, bis zur letzten Welle im August.",
+         "nl": "Tot 30% korting op badmode en sandalen, tot de laatste golf van augustus.",
+         "pl": "Do -30% na stroje kąpielowe i sandały, aż do ostatniej sierpniowej fali.",
+         "cs": "Slevy až 30 % na plavky a sandály, až do poslední srpnové vlny.",
+         "pt": "Até 30% de desconto em fatos de banho e sandálias, até à última onda de agosto.",
+         "ru": "Скидки до 30% на купальники и сандалии, до последней августовской волны."
+        }
+       },
+       {
+        "id": "summ-382",
+        "type": "button",
+        "t": {
+         "en": "Dive in",
+         "fr": "Plonger",
+         "es": "Al agua",
+         "it": "Tuffati",
+         "de": "Eintauchen",
+         "nl": "Duik erin",
+         "pl": "Zanurz się",
+         "cs": "Skočte do toho",
+         "pt": "Mergulhe",
+         "ru": "Нырнуть"
+        },
+        "act": "url",
+        "href": "/"
+       }
+      ]
+     }
+    ]
+   }
+  ],
+  "template": "summer-swell"
+ },
+ "settings": {
+  "triggers": {
+   "mode": "any",
+   "timerOn": true,
+   "timerSec": 6,
+   "exitOn": false,
+   "exitSens": "normal",
+   "idleOn": false,
+   "idleSec": 30,
+   "scrollOn": false,
+   "scrollVal": 40,
+   "scrollUnit": "pct",
+   "clickOn": false,
+   "clickSel": "",
+   "pagesOn": false,
+   "pagesN": 2,
+   "pagesSec": 0,
+   "addcartOn": false
+  },
+  "close": {
+   "x": true,
+   "xDelay": 0,
+   "overlay": true,
+   "esc": true,
+   "timeOn": false,
+   "timeSec": 20,
+   "scrollOn": false,
+   "scrollPct": 80,
+   "videoOn": false,
+   "lastOn": false,
+   "lastSec": 6
+  },
+  "frequency": {
+   "mode": "visit",
+   "days": 7,
+   "maxOn": false,
+   "max": 3,
+   "stopConvert": true,
+   "afterCloseOn": true,
+   "afterCloseDays": 2
+  },
+  "form": {
+   "list": "leads",
+   "consent": false,
+   "consentRequired": false
+  },
+  "coupon": {
+   "mode": "none",
+   "code": "",
+   "type": "percent",
+   "value": 10,
+   "days": 14,
+   "min": 0,
+   "prefix": "WELCOME-",
+   "autoApply": false
+  },
+  "dates": [
+   "2027-06-01 00:00",
+   "2027-08-31 23:59"
+  ]
+ }
+}

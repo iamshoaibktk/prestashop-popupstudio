@@ -1,0 +1,19 @@
+.psx-t-love-letter .psx-box{background:linear-gradient(180deg,#FFD6E0 0 49.6%,#F7C2D0 49.6% 50.4%,#FFD6E0 50.4%);box-shadow:0 22px 50px rgba(92,10,46,.35)}
+.psx-t-love-letter .psx-cols{align-items:center;padding:0 40px;min-height:380px;gap:32px}
+.psx-t-love-letter .ll-l{gap:12px}
+.psx-t-love-letter .ll-k{color:var(--psx-accent);font-weight:600;font-size:13px;opacity:1}
+.psx-t-love-letter .psx-h{font:400 40px/1.08 var(--psx-fh)}
+.psx-t-love-letter .psx-p{font-weight:500;color:#7A2148;line-height:1.55}
+.psx-t-love-letter .psx-btn{align-self:flex-start;border-radius:999px;font-weight:700;padding:0 24px}
+.psx-t-love-letter .ll-r{align-items:center;text-align:center}
+.psx-t-love-letter .ll-win{padding:18px;background:#E0115F;border-radius:6px;box-shadow:0 6px 16px rgba(224,17,95,.35)}
+.psx-t-love-letter .ll-heart{width:150px;height:136px;background:#fff;clip-path:path('M75 136 C 20 100, 0 70, 0 42 C 0 18, 18 0, 40 0 C 56 0, 68 9, 75 22 C 82 9, 94 0, 110 0 C 132 0, 150 18, 150 42 C 150 70, 130 100, 75 136 Z');display:flex;flex-direction:column;align-items:center;justify-content:center;padding-bottom:16px}
+.psx-t-love-letter .ll-heart b{font:700 26px var(--psx-fb);color:var(--psx-accent)}
+.psx-t-love-letter .ll-heart span{font:600 12px ui-monospace,Menlo,monospace;margin-top:4px;max-width:104px;text-align:center;overflow-wrap:anywhere;line-height:1.25}
+.psx-t-love-letter .ll-copy{align-self:center!important;box-shadow:none;text-decoration:underline;text-underline-offset:3px;min-height:36px}
+.psx-t-love-letter .psx-x{background:rgba(255,255,255,.6)}
+.psx-t-love-letter.psx-mobile .psx-cols{flex-direction:column-reverse;padding:22px 20px;min-height:0;gap:8px}
+.psx-t-love-letter.psx-mobile .ll-win{padding:8px}
+.psx-t-love-letter.psx-mobile .ll-heart{transform:scale(.6);margin:-26px}
+.psx-t-love-letter.psx-mobile .psx-h{font-size:26px}
+.psx-t-love-letter.psx-mobile .psx-btn{align-self:stretch}

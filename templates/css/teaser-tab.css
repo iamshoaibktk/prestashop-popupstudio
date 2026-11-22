@@ -1,0 +1,11 @@
+.psx-t-teaser-tab.psx-f-drawer .psx-box{top:auto;bottom:auto;top:40%;border-radius:0 16px 16px 0;box-shadow:6px 10px 28px rgba(0,0,0,.22);max-height:none}
+.psx-t-teaser-tab .psx-col{padding:20px 22px 20px 20px;gap:8px}
+.psx-t-teaser-tab .psx-h{font:700 26px/1.05 var(--psx-fh);padding-right:30px}
+.psx-t-teaser-tab .psx-p{font-weight:500;font-size:13.5px;color:#FFE5DA}
+.psx-t-teaser-tab .psx-input{border:0;border-radius:8px;min-height:44px}
+.psx-t-teaser-tab .psx-btn{border-radius:8px;min-height:44px;font-weight:700}
+.psx-t-teaser-tab .psx-coupon{border-color:#fff;border-radius:8px}
+.psx-t-teaser-tab .psx-x{top:10px;right:10px;width:30px;height:30px;background:rgba(255,255,255,.2);font-size:15px}
+.psx-tab.psx-t-teaser-tab{background:#FF6B35;color:#fff;font:700 16px "Space Grotesk",sans-serif}
+.psx-t-teaser-tab.psx-mobile .psx-col{padding:18px}
+.psx-t-teaser-tab.psx-mobile .psx-row{flex-direction:column}

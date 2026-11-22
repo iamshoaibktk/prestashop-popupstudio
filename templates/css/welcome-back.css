@@ -1,0 +1,13 @@
+.psx-t-welcome-back .psx-box{box-shadow:0 22px 50px rgba(0,0,0,.45);text-align:center}
+.psx-t-welcome-back .psx-col{padding:40px 48px 34px;align-items:center;gap:14px}
+.psx-t-welcome-back .wb-k{color:var(--psx-accent);font-weight:500;font-size:13px;opacity:1}
+.psx-t-welcome-back .psx-h{font:400 72px/.95 var(--psx-fh);letter-spacing:-.02em}
+.psx-t-welcome-back .wb-rule{display:block;width:260px;height:1px;background:linear-gradient(90deg,transparent,#D9A441 15%,#D9A441 85%,transparent)}
+.psx-t-welcome-back .psx-p{max-width:380px;color:#D7D0BB;line-height:1.6}
+.psx-t-welcome-back .psx-p strong{color:#F2EAD3}
+.psx-t-welcome-back .psx-coupon{border-style:solid;border-color:var(--psx-accent);border-width:1px;border-radius:0}
+.psx-t-welcome-back .psx-copy{border-left:1px solid var(--psx-accent);color:var(--psx-accent)}
+.psx-t-welcome-back .psx-btn{border-radius:0;font-weight:600}
+.psx-t-welcome-back.psx-mobile .psx-col{padding:28px 22px 24px}
+.psx-t-welcome-back.psx-mobile .psx-h{font-size:54px}
+.psx-t-welcome-back.psx-mobile .psx-coupon,.psx-t-welcome-back.psx-mobile .psx-btn{align-self:stretch}

@@ -1,0 +1,257 @@
+{
+ "num": "17",
+ "slug": "spend-ladder",
+ "name": "Spend Ladder",
+ "group": "discount",
+ "formatLabel": "Modal, cart page",
+ "tags": [
+  "discount",
+  "tiers",
+  "cart"
+ ],
+ "doc": {
+  "format": "modal",
+  "width": 560,
+  "mobile": {
+   "format": "sheet"
+  },
+  "fonts": [
+   "Sora",
+   "Inter"
+  ],
+  "theme": {
+   "bg": "#FFFFFF",
+   "ink": "#14213D",
+   "accent": "#FCA311",
+   "accentInk": "#14213D",
+   "line": "#D5DBE7",
+   "radius": 20,
+   "fh": "Sora",
+   "fb": "Sora",
+   "overlay": "rgba(20,33,61,.55)",
+   "ffb": {
+    "Sora": "\"Inter\", system-ui, sans-serif"
+   }
+  },
+  "closeBtn": {
+   "look": "circle"
+  },
+  "steps": [
+   {
+    "id": "s1",
+    "name": "Ladder",
+    "cols": [
+     {
+      "blocks": [
+       {
+        "id": "spen-157",
+        "type": "heading",
+        "t": {
+         "en": "The more you add,\nthe more you save.",
+         "fr": "Plus vous ajoutez,\nplus vous économisez.",
+         "es": "Cuanto más añades,\nmás ahorras.",
+         "it": "Più aggiungi,\npiù risparmi.",
+         "de": "Je mehr du kaufst,\ndesto mehr sparst du.",
+         "nl": "Hoe meer je toevoegt,\nhoe meer je bespaart.",
+         "pl": "Im więcej dodasz,\ntym więcej oszczędzasz.",
+         "cs": "Čím víc přidáte,\ntím víc ušetříte.",
+         "pt": "Quanto mais junta,\nmais poupa.",
+         "ru": "Чем больше добавляете,\nтем больше экономите."
+        }
+       },
+       {
+        "id": "spen-158",
+        "type": "text",
+        "t": {
+         "en": "Your cart is **{cart_total}**. Climb a step for a bigger discount, applied at checkout.",
+         "fr": "Votre panier fait **{cart_total}**. Montez d'une marche pour une plus grosse remise, appliquée au paiement.",
+         "es": "Tu carrito suma **{cart_total}**. Sube un escalón para un descuento mayor, aplicado al pagar.",
+         "it": "Il tuo carrello è di **{cart_total}**. Sali di un gradino per uno sconto maggiore, applicato al pagamento.",
+         "de": "Dein Warenkorb liegt bei **{cart_total}**. Steig eine Stufe höher für mehr Rabatt, abgezogen an der Kasse.",
+         "nl": "Je winkelwagen staat op **{cart_total}**. Klim een trede voor meer korting, toegepast bij het afrekenen.",
+         "pl": "Twój koszyk to **{cart_total}**. Wejdź stopień wyżej po większy rabat, naliczany przy kasie.",
+         "cs": "Váš košík má **{cart_total}**. Vystoupejte o stupeň výš pro větší slevu, uplatněnou v pokladně.",
+         "pt": "O seu carrinho está em **{cart_total}**. Suba um degrau para um desconto maior, aplicado no checkout.",
+         "ru": "В корзине **{cart_total}**. Поднимитесь на ступень выше ради большей скидки — она применится при оформлении."
+        }
+       },
+       {
+        "id": "spen-159",
+        "type": "ladder",
+        "tiers": [
+         {
+          "min": 50,
+          "pct": 10
+         },
+         {
+          "min": 100,
+          "pct": 15
+         },
+         {
+          "min": 150,
+          "pct": 20
+         }
+        ],
+        "doneT": {
+         "en": "from {min} · reached",
+         "fr": "dès {min} · atteint",
+         "es": "desde {min} · conseguido",
+         "it": "da {min} · raggiunto",
+         "de": "ab {min} · erreicht",
+         "nl": "vanaf {min} · bereikt",
+         "pl": "od {min} · osiągnięto",
+         "cs": "od {min} · dosaženo",
+         "pt": "a partir de {min} · atingido",
+         "ru": "от {min} · достигнуто"
+        },
+        "nextT": {
+         "en": "{left} to go",
+         "fr": "encore {left}",
+         "es": "faltan {left}",
+         "it": "mancano {left}",
+         "de": "noch {left}",
+         "nl": "nog {left}",
+         "pl": "brakuje {left}",
+         "cs": "zbývá {left}",
+         "pt": "faltam {left}",
+         "ru": "ещё {left}"
+        },
+        "todoT": {
+         "en": "from {min}",
+         "fr": "dès {min}",
+         "es": "desde {min}",
+         "it": "da {min}",
+         "de": "ab {min}",
+         "nl": "vanaf {min}",
+         "pl": "od {min}",
+         "cs": "od {min}",
+         "pt": "a partir de {min}",
+         "ru": "от {min}"
+        }
+       },
+       {
+        "id": "spen-162",
+        "type": "row",
+        "blocks": [
+         {
+          "id": "spen-160",
+          "type": "button",
+          "t": {
+           "en": "Keep shopping",
+           "fr": "Continuer mes achats",
+           "es": "Seguir comprando",
+           "it": "Continua lo shopping",
+           "de": "Weiter einkaufen",
+           "nl": "Verder winkelen",
+           "pl": "Kontynuuj zakupy",
+           "cs": "Pokračovat v nákupu",
+           "pt": "Continuar a comprar",
+           "ru": "Продолжить покупки"
+          },
+          "act": "close",
+          "cls": "sl-main"
+         },
+         {
+          "id": "spen-161",
+          "type": "button",
+          "t": {
+           "en": "Go to checkout",
+           "fr": "Passer commande",
+           "es": "Ir a pagar",
+           "it": "Vai alla cassa",
+           "de": "Zur Kasse",
+           "nl": "Naar afrekenen",
+           "pl": "Przejdź do kasy",
+           "cs": "K pokladně",
+           "pt": "Ir para o checkout",
+           "ru": "Оформить заказ"
+          },
+          "act": "url",
+          "variant": "secondary",
+          "href": "{checkout_url}"
+         }
+        ]
+       }
+      ]
+     }
+    ]
+   }
+  ],
+  "template": "spend-ladder"
+ },
+ "settings": {
+  "triggers": {
+   "mode": "any",
+   "timerOn": true,
+   "timerSec": 3,
+   "exitOn": false,
+   "exitSens": "normal",
+   "idleOn": false,
+   "idleSec": 30,
+   "scrollOn": false,
+   "scrollVal": 40,
+   "scrollUnit": "pct",
+   "clickOn": false,
+   "clickSel": "",
+   "pagesOn": false,
+   "pagesN": 2,
+   "pagesSec": 0,
+   "addcartOn": false
+  },
+  "close": {
+   "x": true,
+   "xDelay": 0,
+   "overlay": true,
+   "esc": true,
+   "timeOn": false,
+   "timeSec": 20,
+   "scrollOn": false,
+   "scrollPct": 80,
+   "videoOn": false,
+   "lastOn": false,
+   "lastSec": 6
+  },
+  "frequency": {
+   "mode": "visit",
+   "days": 7,
+   "maxOn": false,
+   "max": 3,
+   "stopConvert": true,
+   "afterCloseOn": true,
+   "afterCloseDays": 2
+  },
+  "form": {
+   "list": "leads",
+   "consent": false,
+   "consentRequired": false
+  },
+  "coupon": {
+   "mode": "none",
+   "code": "",
+   "type": "percent",
+   "value": 10,
+   "days": 14,
+   "min": 0,
+   "prefix": "WELCOME-",
+   "autoApply": false
+  },
+  "targeting": {
+   "groups": [
+    {
+     "rules": [
+      {
+       "type": "page",
+       "op": "show_on",
+       "pages": [
+        "cart"
+       ],
+       "categories": [],
+       "products": [],
+       "cms": []
+      }
+     ]
+    }
+   ]
+  }
+ }
+}

@@ -1,0 +1,231 @@
+{
+ "num": "47",
+ "slug": "black-friday-sticker",
+ "name": "Black Friday Sticker",
+ "group": "seasonal",
+ "formatLabel": "Modal, centre",
+ "tags": [
+  "seasonal",
+  "black friday",
+  "sale"
+ ],
+ "doc": {
+  "format": "modal",
+  "width": 600,
+  "mobile": {
+   "format": "sheet"
+  },
+  "fonts": [
+   "Archivo Black",
+   "Archivo",
+   "Oswald",
+   "Inter"
+  ],
+  "theme": {
+   "bg": "#0A0A0A",
+   "ink": "#FFFFFF",
+   "accent": "#FF2E63",
+   "accentInk": "#FFFFFF",
+   "line": "#FFFFFF",
+   "radius": 0,
+   "fh": "Archivo Black",
+   "fb": "Archivo",
+   "overlay": "rgba(0,0,0,.6)",
+   "ffb": {
+    "Archivo Black": "\"Oswald\", \"Arial Narrow\", sans-serif",
+    "Archivo": "\"Inter\", system-ui, sans-serif"
+   }
+  },
+  "decor": [
+   {
+    "html": "<span class=\"bf-st bf-1\">−40%</span>",
+    "name": "Sticker 1",
+    "m": {
+     "right": "20px",
+     "top": "-34px"
+    },
+    "right": "34px",
+    "top": "-26px",
+    "rot": 12
+   },
+   {
+    "html": {
+     "en": "<span class=\"bf-st bf-2\">Ends Monday</span>",
+     "fr": "<span class=\"bf-st bf-2\">Fin lundi</span>",
+     "es": "<span class=\"bf-st bf-2\">Acaba el lunes</span>",
+     "it": "<span class=\"bf-st bf-2\">Finisce lunedì</span>",
+     "de": "<span class=\"bf-st bf-2\">Endet Montag</span>",
+     "nl": "<span class=\"bf-st bf-2\">Eindigt maandag</span>",
+     "pl": "<span class=\"bf-st bf-2\">Do poniedziałku</span>",
+     "cs": "<span class=\"bf-st bf-2\">Končí v pondělí</span>",
+     "pt": "<span class=\"bf-st bf-2\">Acaba segunda</span>",
+     "ru": "<span class=\"bf-st bf-2\">До понедельника</span>"
+    },
+    "name": "Sticker 2",
+    "hideMobile": true,
+    "right": "56px",
+    "top": "196px",
+    "rot": -8
+   },
+   {
+    "html": {
+     "en": "<span class=\"bf-st bf-3\">Free shipping</span>",
+     "fr": "<span class=\"bf-st bf-3\">Livraison gratuite</span>",
+     "es": "<span class=\"bf-st bf-3\">Envío gratis</span>",
+     "it": "<span class=\"bf-st bf-3\">Spedizione gratuita</span>",
+     "de": "<span class=\"bf-st bf-3\">Gratisversand</span>",
+     "nl": "<span class=\"bf-st bf-3\">Gratis verzending</span>",
+     "pl": "<span class=\"bf-st bf-3\">Darmowa dostawa</span>",
+     "cs": "<span class=\"bf-st bf-3\">Doprava zdarma</span>",
+     "pt": "<span class=\"bf-st bf-3\">Portes grátis</span>",
+     "ru": "<span class=\"bf-st bf-3\">Бесплатная доставка</span>"
+    },
+    "name": "Sticker 3",
+    "hideMobile": true,
+    "right": "30px",
+    "bottom": "-18px",
+    "rot": 5
+   }
+  ],
+  "closeBtn": {
+   "look": "x"
+  },
+  "steps": [
+   {
+    "id": "s1",
+    "name": "Offer",
+    "cols": [
+     {
+      "blocks": [
+       {
+        "id": "blac-366",
+        "type": "heading",
+        "t": {
+         "en": "BLACK\nFRIDAY",
+         "fr": "BLACK\nFRIDAY",
+         "es": "BLACK\nFRIDAY",
+         "it": "BLACK\nFRIDAY",
+         "de": "BLACK\nFRIDAY",
+         "nl": "BLACK\nFRIDAY",
+         "pl": "BLACK\nFRIDAY",
+         "cs": "BLACK\nFRIDAY",
+         "pt": "BLACK\nFRIDAY",
+         "ru": "BLACK\nFRIDAY"
+        }
+       },
+       {
+        "id": "blac-367",
+        "type": "text",
+        "t": {
+         "en": "Up to 40% off sitewide. Our lowest prices of the year, until Monday night.",
+         "fr": "Jusqu'à -40 % sur tout le site. Nos prix les plus bas de l'année, jusqu'à lundi soir.",
+         "es": "Hasta un 40 % en toda la tienda. Nuestros precios más bajos del año, hasta el lunes por la noche.",
+         "it": "Fino al 40% su tutto il sito. I nostri prezzi più bassi dell'anno, fino a lunedì sera.",
+         "de": "Bis zu 40 % auf alles. Unsere niedrigsten Preise des Jahres, bis Montagabend.",
+         "nl": "Tot 40% korting op alles. Onze laagste prijzen van het jaar, tot maandagavond.",
+         "pl": "Do -40% na wszystko. Nasze najniższe ceny w roku, do poniedziałku wieczorem.",
+         "cs": "Slevy až 40 % na vše. Naše nejnižší ceny roku, do pondělního večera.",
+         "pt": "Até 40% de desconto em toda a loja. Os nossos preços mais baixos do ano, até segunda à noite.",
+         "ru": "Скидки до 40% на всё. Самые низкие цены года, до вечера понедельника."
+        }
+       },
+       {
+        "id": "blac-368",
+        "type": "button",
+        "t": {
+         "en": "Shop the sale",
+         "fr": "Voir les soldes",
+         "es": "Ver las rebajas",
+         "it": "Vai ai saldi",
+         "de": "Zum Sale",
+         "nl": "Naar de sale",
+         "pl": "Zobacz wyprzedaż",
+         "cs": "Do výprodeje",
+         "pt": "Ver os saldos",
+         "ru": "К распродаже"
+        },
+        "act": "url",
+        "href": "/"
+       }
+      ]
+     }
+    ]
+   }
+  ],
+  "template": "black-friday-sticker"
+ },
+ "settings": {
+  "triggers": {
+   "mode": "any",
+   "timerOn": true,
+   "timerSec": 4,
+   "exitOn": false,
+   "exitSens": "normal",
+   "idleOn": false,
+   "idleSec": 30,
+   "scrollOn": false,
+   "scrollVal": 40,
+   "scrollUnit": "pct",
+   "clickOn": false,
+   "clickSel": "",
+   "pagesOn": false,
+   "pagesN": 2,
+   "pagesSec": 0,
+   "addcartOn": false
+  },
+  "close": {
+   "x": true,
+   "xDelay": 0,
+   "overlay": true,
+   "esc": true,
+   "timeOn": false,
+   "timeSec": 20,
+   "scrollOn": false,
+   "scrollPct": 80,
+   "videoOn": false,
+   "lastOn": false,
+   "lastSec": 6
+  },
+  "frequency": {
+   "mode": "visit",
+   "days": 7,
+   "maxOn": false,
+   "max": 3,
+   "stopConvert": true,
+   "afterCloseOn": true,
+   "afterCloseDays": 2
+  },
+  "form": {
+   "list": "leads",
+   "consent": false,
+   "consentRequired": false
+  },
+  "coupon": {
+   "mode": "none",
+   "code": "",
+   "type": "percent",
+   "value": 10,
+   "days": 14,
+   "min": 0,
+   "prefix": "WELCOME-",
+   "autoApply": false
+  },
+  "schedule": {
+   "days": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7
+   ],
+   "from": "00:00",
+   "to": "23:59"
+  },
+  "dates": [
+   "2026-11-27 00:00",
+   "2026-11-30 23:59"
+  ]
+ }
+}

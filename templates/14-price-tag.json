@@ -1,0 +1,214 @@
+{
+ "num": "14",
+ "slug": "price-tag",
+ "name": "Price Tag",
+ "group": "discount",
+ "formatLabel": "Slide-in, bottom left",
+ "tags": [
+  "discount",
+  "product page",
+  "tag"
+ ],
+ "doc": {
+  "format": "slidein",
+  "position": "bl",
+  "width": 230,
+  "mobile": {
+   "format": "same"
+  },
+  "fonts": [
+   "Bitter"
+  ],
+  "theme": {
+   "bg": "#F6E7C8",
+   "ink": "#3A2A12",
+   "accent": "#8C2F1B",
+   "accentInk": "#F6E7C8",
+   "line": "#3A2A12",
+   "radius": 0,
+   "fh": "Bitter",
+   "fb": "Bitter"
+  },
+  "decor": [
+   {
+    "html": "<span class=\"pt-eye\"></span>",
+    "name": "Eyelet",
+    "left": "50%",
+    "top": "22px"
+   }
+  ],
+  "steps": [
+   {
+    "id": "s1",
+    "name": "Tag",
+    "cols": [
+     {
+      "blocks": [
+       {
+        "id": "pric-141",
+        "type": "small",
+        "t": {
+         "en": "Today only",
+         "fr": "Aujourd'hui seulement",
+         "es": "Solo hoy",
+         "it": "Solo oggi",
+         "de": "Nur heute",
+         "nl": "Alleen vandaag",
+         "pl": "Tylko dziś",
+         "cs": "Jen dnes",
+         "pt": "Só hoje",
+         "ru": "Только сегодня"
+        },
+        "cls": "pt-k"
+       },
+       {
+        "id": "pric-142",
+        "type": "heading",
+        "t": {
+         "en": "−12%",
+         "fr": "−12 %",
+         "es": "−12 %",
+         "it": "−12%",
+         "de": "−12 %",
+         "nl": "−12%",
+         "pl": "−12%",
+         "cs": "−12 %",
+         "pt": "−12%",
+         "ru": "−12%"
+        }
+       },
+       {
+        "id": "pric-143",
+        "type": "text",
+        "t": {
+         "en": "on this product and anything you add with it.",
+         "fr": "sur ce produit et tout ce que vous ajoutez avec.",
+         "es": "en este producto y en todo lo que añadas con él.",
+         "it": "su questo prodotto e su tutto ciò che aggiungi.",
+         "de": "auf dieses Produkt und alles, was du dazulegst.",
+         "nl": "op dit product en alles wat je erbij legt.",
+         "pl": "na ten produkt i wszystko, co do niego dodasz.",
+         "cs": "na tento produkt a vše, co k němu přidáte.",
+         "pt": "neste produto e em tudo o que juntar a ele.",
+         "ru": "на этот товар и всё, что добавите к нему."
+        }
+       },
+       {
+        "id": "pric-144",
+        "type": "coupon",
+        "copy": {
+         "en": "Copy",
+         "fr": "Copier",
+         "es": "Copiar",
+         "it": "Copia",
+         "de": "Kopieren",
+         "nl": "Kopiëren",
+         "pl": "Kopiuj",
+         "cs": "Kopírovat",
+         "pt": "Copiar",
+         "ru": "Копировать"
+        },
+        "cls": "pt-code",
+        "code": "TAG12"
+       },
+       {
+        "id": "pric-145",
+        "type": "button",
+        "t": {
+         "en": "Copy and apply",
+         "fr": "Copier et appliquer",
+         "es": "Copiar y aplicar",
+         "it": "Copia e applica",
+         "de": "Kopieren und einlösen",
+         "nl": "Kopiëren en toepassen",
+         "pl": "Kopiuj i zastosuj",
+         "cs": "Kopírovat a uplatnit",
+         "pt": "Copiar e aplicar",
+         "ru": "Копировать и применить"
+        },
+        "act": "apply",
+        "full": true
+       }
+      ]
+     }
+    ]
+   }
+  ],
+  "template": "price-tag"
+ },
+ "settings": {
+  "triggers": {
+   "mode": "any",
+   "timerOn": true,
+   "timerSec": 20,
+   "exitOn": false,
+   "exitSens": "normal",
+   "idleOn": false,
+   "idleSec": 30,
+   "scrollOn": false,
+   "scrollVal": 40,
+   "scrollUnit": "pct",
+   "clickOn": false,
+   "clickSel": "",
+   "pagesOn": false,
+   "pagesN": 2,
+   "pagesSec": 0,
+   "addcartOn": false
+  },
+  "close": {
+   "x": true,
+   "xDelay": 0,
+   "overlay": false,
+   "esc": true,
+   "timeOn": false,
+   "timeSec": 20,
+   "scrollOn": false,
+   "scrollPct": 80,
+   "videoOn": false,
+   "lastOn": false,
+   "lastSec": 6
+  },
+  "frequency": {
+   "mode": "visit",
+   "days": 7,
+   "maxOn": false,
+   "max": 3,
+   "stopConvert": true,
+   "afterCloseOn": true,
+   "afterCloseDays": 2
+  },
+  "form": {
+   "list": "leads",
+   "consent": false,
+   "consentRequired": false
+  },
+  "coupon": {
+   "mode": "fixed",
+   "code": "TAG12",
+   "type": "percent",
+   "value": 10,
+   "days": 14,
+   "min": 0,
+   "prefix": "",
+   "autoApply": true
+  },
+  "targeting": {
+   "groups": [
+    {
+     "rules": [
+      {
+       "type": "page",
+       "op": "show_on",
+       "pages": [
+        "product"
+       ],
+       "categories": [],
+       "products": [],
+       "cms": []
+      }
+     ]
+    }
+   ]
+  }
+ }
+}

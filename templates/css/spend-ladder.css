@@ -1,0 +1,20 @@
+.psx-t-spend-ladder .psx-col{padding:30px 32px 26px;gap:12px}
+.psx-t-spend-ladder .psx-h{font:800 30px/1.1 var(--psx-fh);letter-spacing:-.02em}
+.psx-t-spend-ladder .psx-p{color:#4A5672}
+.psx-t-spend-ladder .psx-p strong{color:var(--psx-ink)}
+.psx-t-spend-ladder .psx-ladder{border-bottom:3px solid var(--psx-ink);margin-top:6px}
+.psx-t-spend-ladder .psx-step-t{border-radius:12px 12px 0 0;background:#E8ECF4}
+.psx-t-spend-ladder .psx-step-t b{font-weight:800}
+.psx-t-spend-ladder .psx-step-t small{font-size:12px}
+.psx-t-spend-ladder .psx-step-t.psx-done{background:var(--psx-ink);color:#fff}
+.psx-t-spend-ladder .psx-step-t.psx-next{background:var(--psx-accent);color:var(--psx-ink)}
+.psx-t-spend-ladder .psx-rowb{margin-top:8px}
+.psx-t-spend-ladder .sl-main{flex:1;background:var(--psx-ink);color:#fff;border-radius:12px}
+.psx-t-spend-ladder .psx-btn-secondary{border-radius:12px;box-shadow:inset 0 0 0 1.5px #D5DBE7}
+.psx-t-spend-ladder .psx-x{background:#F0F3F8;top:16px;right:16px}
+.psx-t-spend-ladder.psx-mobile .psx-col{padding:22px 18px 20px}
+.psx-t-spend-ladder.psx-mobile .psx-h{font-size:23px}
+.psx-t-spend-ladder.psx-mobile .psx-ladder{grid-template-columns:1fr;border:0}
+.psx-t-spend-ladder.psx-mobile .psx-step-t{min-height:0;flex-direction:row;justify-content:space-between;align-items:center;border-radius:12px}
+.psx-t-spend-ladder.psx-mobile .psx-step-t b{font-size:16px}
+.psx-t-spend-ladder.psx-mobile .psx-rowb{flex-direction:column;align-items:stretch}

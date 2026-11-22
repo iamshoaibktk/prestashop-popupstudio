@@ -1,0 +1,190 @@
+{
+ "num": "46",
+ "slug": "cinema",
+ "name": "Cinema",
+ "group": "info",
+ "formatLabel": "Modal, video",
+ "tags": [
+  "video",
+  "film",
+  "story"
+ ],
+ "doc": {
+  "format": "modal",
+  "width": 680,
+  "mobile": {
+   "format": "same"
+  },
+  "fonts": [
+   "Oswald"
+  ],
+  "theme": {
+   "bg": "transparent",
+   "ink": "#FFFFFF",
+   "accent": "#FFFFFF",
+   "accentInk": "#000000",
+   "line": "#FFFFFF",
+   "radius": 0,
+   "fh": "Oswald",
+   "fb": "Oswald",
+   "overlay": "rgba(0,0,0,.86)"
+  },
+  "closeBtn": {
+   "look": "text",
+   "label": {
+    "en": "CLOSE ×",
+    "fr": "FERMER ×",
+    "es": "CERRAR ×",
+    "it": "CHIUDI ×",
+    "de": "SCHLIESSEN ×",
+    "nl": "SLUITEN ×",
+    "pl": "ZAMKNIJ ×",
+    "cs": "ZAVŘÍT ×",
+    "pt": "FECHAR ×",
+    "ru": "ЗАКРЫТЬ ×"
+   }
+  },
+  "steps": [
+   {
+    "id": "s1",
+    "name": "Video",
+    "cols": [
+     {
+      "blocks": [
+       {
+        "id": "cine-361",
+        "type": "row",
+        "blocks": [
+         {
+          "id": "cine-360",
+          "type": "heading",
+          "t": {
+           "en": "The making of the Field Jacket",
+           "fr": "Les coulisses de la Field Jacket",
+           "es": "Así se hizo la Field Jacket",
+           "it": "Come nasce la Field Jacket",
+           "de": "So entsteht die Field Jacket",
+           "nl": "Het maken van de Field Jacket",
+           "pl": "Jak powstaje Field Jacket",
+           "cs": "Jak vzniká Field Jacket",
+           "pt": "Como se faz a Field Jacket",
+           "ru": "Как создаётся Field Jacket"
+          }
+         }
+        ],
+        "cls": "ci-top"
+       },
+       {
+        "id": "cine-362",
+        "type": "video",
+        "src": "",
+        "poster": ""
+       },
+       {
+        "id": "cine-365",
+        "type": "row",
+        "blocks": [
+         {
+          "id": "cine-363",
+          "type": "small",
+          "t": {
+           "en": "Captions on · sound starts muted",
+           "fr": "Sous-titres activés · son coupé au départ",
+           "es": "Subtítulos activados · empieza sin sonido",
+           "it": "Sottotitoli attivi · audio inizialmente disattivato",
+           "de": "Untertitel an · Ton startet stumm",
+           "nl": "Ondertiteling aan · geluid start gedempt",
+           "pl": "Napisy włączone · dźwięk startuje wyciszony",
+           "cs": "Titulky zapnuty · zvuk začíná ztlumený",
+           "pt": "Legendas ativas · o som começa desligado",
+           "ru": "Субтитры включены · звук сначала выключен"
+          },
+          "cls": "ci-n"
+         },
+         {
+          "id": "cine-364",
+          "type": "button",
+          "t": {
+           "en": "Shop the jacket →",
+           "fr": "Voir la veste →",
+           "es": "Ver la chaqueta →",
+           "it": "Vedi la giacca →",
+           "de": "Zur Jacke →",
+           "nl": "Bekijk de jas →",
+           "pl": "Zobacz kurtkę →",
+           "cs": "Zobrazit bundu →",
+           "pt": "Ver o casaco →",
+           "ru": "Смотреть куртку →"
+          },
+          "act": "url",
+          "cls": "ci-link",
+          "href": "/"
+         }
+        ],
+        "cls": "ci-bot"
+       }
+      ]
+     }
+    ]
+   }
+  ],
+  "template": "cinema"
+ },
+ "settings": {
+  "triggers": {
+   "mode": "any",
+   "timerOn": false,
+   "timerSec": 8,
+   "exitOn": false,
+   "exitSens": "normal",
+   "idleOn": false,
+   "idleSec": 30,
+   "scrollOn": false,
+   "scrollVal": 40,
+   "scrollUnit": "pct",
+   "clickOn": true,
+   "clickSel": ".play-film,[href=\"#film\"]",
+   "pagesOn": false,
+   "pagesN": 2,
+   "pagesSec": 0,
+   "addcartOn": false
+  },
+  "close": {
+   "x": true,
+   "xDelay": 0,
+   "overlay": true,
+   "esc": true,
+   "timeOn": false,
+   "timeSec": 20,
+   "scrollOn": false,
+   "scrollPct": 80,
+   "videoOn": true,
+   "lastOn": false,
+   "lastSec": 6
+  },
+  "frequency": {
+   "mode": "page",
+   "days": 7,
+   "maxOn": false,
+   "max": 3,
+   "stopConvert": true,
+   "afterCloseOn": true,
+   "afterCloseDays": 2
+  },
+  "form": {
+   "list": "leads",
+   "consent": false,
+   "consentRequired": false
+  },
+  "coupon": {
+   "mode": "none",
+   "code": "",
+   "type": "percent",
+   "value": 10,
+   "days": 14,
+   "min": 0,
+   "prefix": "WELCOME-",
+   "autoApply": false
+  }
+ }
+}

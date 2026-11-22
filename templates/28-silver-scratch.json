@@ -1,0 +1,432 @@
+{
+ "num": "28",
+ "slug": "silver-scratch",
+ "name": "Silver Scratch",
+ "group": "games",
+ "formatLabel": "Modal, scratch card",
+ "tags": [
+  "game",
+  "scratch card",
+  "dark"
+ ],
+ "doc": {
+  "format": "modal",
+  "width": 480,
+  "mobile": {
+   "format": "same"
+  },
+  "fonts": [
+   "Space Grotesk",
+   "Rubik",
+   "Inter"
+  ],
+  "theme": {
+   "bg": "#1E2433",
+   "ink": "#F1F3F7",
+   "accent": "#F1F3F7",
+   "accentInk": "#1E2433",
+   "field": "#2A3245",
+   "fieldInk": "#F1F3F7",
+   "line": "#3A4358",
+   "radius": 20,
+   "fh": "Space Grotesk",
+   "fb": "Rubik",
+   "overlay": "rgba(10,13,20,.66)",
+   "ffb": {
+    "Space Grotesk": "\"Inter\", system-ui, sans-serif"
+   }
+  },
+  "decor": [
+   {
+    "html": "<svg width=\"56\" height=\"56\" viewBox=\"0 0 56 56\"><circle cx=\"28\" cy=\"28\" r=\"24\" fill=\"#C0C6D0\"/><circle cx=\"28\" cy=\"28\" r=\"17\" fill=\"none\" stroke=\"#8C94A3\" stroke-width=\"2\"/><text x=\"28\" y=\"34\" text-anchor=\"middle\" font-family=\"sans-serif\" font-weight=\"700\" font-size=\"16\" fill=\"#5B6373\">%</text></svg>",
+    "name": "Coin",
+    "left": "-14px",
+    "top": "-14px"
+   },
+   {
+    "html": "<svg width=\"40\" height=\"40\" viewBox=\"0 0 56 56\"><circle cx=\"28\" cy=\"28\" r=\"24\" fill=\"#C0C6D0\"/><circle cx=\"28\" cy=\"28\" r=\"17\" fill=\"none\" stroke=\"#8C94A3\" stroke-width=\"2\"/><text x=\"28\" y=\"34\" text-anchor=\"middle\" font-family=\"sans-serif\" font-weight=\"700\" font-size=\"16\" fill=\"#5B6373\">%</text></svg>",
+    "name": "Coin 2",
+    "hideMobile": true,
+    "right": "-10px",
+    "bottom": "40px"
+   }
+  ],
+  "closeBtn": {
+   "look": "circle"
+  },
+  "steps": [
+   {
+    "id": "s1",
+    "name": "Email",
+    "cols": [
+     {
+      "blocks": [
+       {
+        "id": "silv-253",
+        "type": "heading",
+        "t": {
+         "en": "Scratch for your prize",
+         "fr": "Grattez pour gagner",
+         "es": "Rasca y gana",
+         "it": "Gratta e vinci",
+         "de": "Rubbeln und gewinnen",
+         "nl": "Kras voor je prijs",
+         "pl": "Zdrap i wygraj",
+         "cs": "Setřete a vyhrajte",
+         "pt": "Raspe e ganhe",
+         "ru": "Сотрите и выиграйте"
+        }
+       },
+       {
+        "id": "silv-254",
+        "type": "text",
+        "t": {
+         "en": "Leave your email to get a card. Every card wins.",
+         "fr": "Laissez votre e-mail pour recevoir une carte. Chaque carte gagne.",
+         "es": "Deja tu email para recibir una tarjeta. Todas tienen premio.",
+         "it": "Lascia la tua email per avere una carta. Ogni carta vince.",
+         "de": "Hinterlasse deine E-Mail für eine Karte. Jede Karte gewinnt.",
+         "nl": "Laat je e-mail achter voor een kaart. Elke kaart wint.",
+         "pl": "Zostaw e-mail, aby dostać zdrapkę. Każda wygrywa.",
+         "cs": "Nechte e-mail a dostanete los. Každý los vyhrává.",
+         "pt": "Deixe o seu email para receber uma raspadinha. Todas ganham.",
+         "ru": "Оставьте email, чтобы получить карту. Каждая карта выигрывает."
+        }
+       },
+       {
+        "id": "silv-255",
+        "type": "form",
+        "btn": {
+         "en": "Get my card",
+         "fr": "Recevoir ma carte",
+         "es": "Quiero mi tarjeta",
+         "it": "Voglio la mia carta",
+         "de": "Meine Karte holen",
+         "nl": "Mijn kaart",
+         "pl": "Daj mi zdrapkę",
+         "cs": "Chci svůj los",
+         "pt": "Quero a minha raspadinha",
+         "ru": "Получить карту"
+        },
+        "label": {
+         "en": "Email",
+         "fr": "E-mail",
+         "es": "Email",
+         "it": "Email",
+         "de": "E-Mail",
+         "nl": "E-mail",
+         "pl": "E-mail",
+         "cs": "E-mail",
+         "pt": "Email",
+         "ru": "Email"
+        },
+        "ph": {
+         "en": "you@example.com",
+         "fr": "vous@exemple.com",
+         "es": "tu@ejemplo.com",
+         "it": "tu@esempio.com",
+         "de": "du@beispiel.de",
+         "nl": "jij@voorbeeld.nl",
+         "pl": "ty@przyklad.pl",
+         "cs": "vy@priklad.cz",
+         "pt": "voce@exemplo.pt",
+         "ru": "vy@primer.ru"
+        },
+        "layout": "stack",
+        "consent": true,
+        "consentRequired": true,
+        "consentText": {
+         "en": "Send me offers by email.",
+         "fr": "Envoyez-moi des offres par e-mail.",
+         "es": "Enviadme ofertas por email.",
+         "it": "Mandatemi offerte via email.",
+         "de": "Schickt mir Angebote per E-Mail.",
+         "nl": "Stuur me aanbiedingen per e-mail.",
+         "pl": "Wysyłajcie mi oferty e-mailem.",
+         "cs": "Posílejte mi nabídky e-mailem.",
+         "pt": "Enviem-me ofertas por email.",
+         "ru": "Присылайте предложения на email."
+        },
+        "next": "scratch",
+        "hideLabel": true
+       }
+      ]
+     }
+    ]
+   },
+   {
+    "id": "scratch",
+    "name": "Scratch",
+    "cols": [
+     {
+      "blocks": [
+       {
+        "id": "silv-256",
+        "type": "heading",
+        "t": {
+         "en": "Scratch for your prize",
+         "fr": "Grattez pour gagner",
+         "es": "Rasca y gana",
+         "it": "Gratta e vinci",
+         "de": "Rubbeln und gewinnen",
+         "nl": "Kras voor je prijs",
+         "pl": "Zdrap i wygraj",
+         "cs": "Setřete a vyhrajte",
+         "pt": "Raspe e ganhe",
+         "ru": "Сотрите и выиграйте"
+        }
+       },
+       {
+        "id": "silv-257",
+        "type": "text",
+        "t": {
+         "en": "Use your mouse or finger. Every card wins.",
+         "fr": "Grattez avec la souris ou le doigt. Chaque carte gagne.",
+         "es": "Usa el ratón o el dedo. Todas las tarjetas tienen premio.",
+         "it": "Usa il mouse o il dito. Ogni carta vince.",
+         "de": "Mit Maus oder Finger rubbeln. Jede Karte gewinnt.",
+         "nl": "Gebruik je muis of vinger. Elke kaart wint.",
+         "pl": "Użyj myszy lub palca. Każda zdrapka wygrywa.",
+         "cs": "Setřete myší nebo prstem. Každý los vyhrává.",
+         "pt": "Use o rato ou o dedo. Todas as raspadinhas ganham.",
+         "ru": "Сотрите мышью или пальцем. Каждая карта выигрывает."
+        }
+       },
+       {
+        "id": "silv-258",
+        "type": "scratch",
+        "prize": {
+         "en": "{prize}",
+         "fr": "{prize}",
+         "es": "{prize}",
+         "it": "{prize}",
+         "de": "{prize}",
+         "nl": "{prize}",
+         "pl": "{prize}",
+         "cs": "{prize}",
+         "pt": "{prize}",
+         "ru": "{prize}"
+        },
+        "reveal": {
+         "en": "Reveal it all",
+         "fr": "Tout révéler",
+         "es": "Descubrirlo todo",
+         "it": "Scopri tutto",
+         "de": "Alles aufdecken",
+         "nl": "Alles onthullen",
+         "pl": "Odkryj wszystko",
+         "cs": "Odkrýt vše",
+         "pt": "Revelar tudo",
+         "ru": "Открыть всё"
+        }
+       }
+      ]
+     }
+    ]
+   },
+   {
+    "id": "won",
+    "name": "Prize",
+    "cols": [
+     {
+      "blocks": [
+       {
+        "id": "silv-259",
+        "type": "heading",
+        "t": {
+         "en": "You won {prize}",
+         "fr": "Vous avez gagné {prize}",
+         "es": "Has ganado {prize}",
+         "it": "Hai vinto {prize}",
+         "de": "Du hast {prize} gewonnen",
+         "nl": "Je hebt {prize} gewonnen",
+         "pl": "Wygrywasz {prize}",
+         "cs": "Vyhráli jste {prize}",
+         "pt": "Ganhou {prize}",
+         "ru": "Вы выиграли {prize}"
+        }
+       },
+       {
+        "id": "silv-260",
+        "type": "coupon",
+        "note": {
+         "en": "Saved to your email. Valid 14 days.",
+         "fr": "Envoyé à votre e-mail. Valable 14 jours.",
+         "es": "Guardado en tu email. Válido 14 días.",
+         "it": "Salvato sulla tua email. Valido 14 giorni.",
+         "de": "An deine E-Mail gesendet. 14 Tage gültig.",
+         "nl": "Naar je e-mail gestuurd. 14 dagen geldig.",
+         "pl": "Wysłane na twój e-mail. Ważne 14 dni.",
+         "cs": "Uloženo k vašemu e-mailu. Platí 14 dní.",
+         "pt": "Guardado no seu email. Válido 14 dias.",
+         "ru": "Сохранено на ваш email. Действует 14 дней."
+        },
+        "copy": {
+         "en": "Copy",
+         "fr": "Copier",
+         "es": "Copiar",
+         "it": "Copia",
+         "de": "Kopieren",
+         "nl": "Kopiëren",
+         "pl": "Kopiuj",
+         "cs": "Kopírovat",
+         "pt": "Copiar",
+         "ru": "Копировать"
+        },
+        "code": "WELCOME-7KQ2M9XA"
+       },
+       {
+        "id": "silv-261",
+        "type": "button",
+        "t": {
+         "en": "Apply to my cart",
+         "fr": "Appliquer à mon panier",
+         "es": "Aplicar a mi carrito",
+         "it": "Applica al mio carrello",
+         "de": "Auf meinen Warenkorb anwenden",
+         "nl": "Toepassen op mijn winkelwagen",
+         "pl": "Zastosuj w koszyku",
+         "cs": "Uplatnit v košíku",
+         "pt": "Aplicar ao meu carrinho",
+         "ru": "Применить к корзине"
+        },
+        "act": "apply",
+        "full": true
+       }
+      ]
+     }
+    ]
+   }
+  ],
+  "template": "silver-scratch"
+ },
+ "settings": {
+  "triggers": {
+   "mode": "any",
+   "timerOn": true,
+   "timerSec": 10,
+   "exitOn": false,
+   "exitSens": "normal",
+   "idleOn": false,
+   "idleSec": 30,
+   "scrollOn": false,
+   "scrollVal": 40,
+   "scrollUnit": "pct",
+   "clickOn": false,
+   "clickSel": "",
+   "pagesOn": false,
+   "pagesN": 2,
+   "pagesSec": 0,
+   "addcartOn": false
+  },
+  "close": {
+   "x": true,
+   "xDelay": 0,
+   "overlay": true,
+   "esc": true,
+   "timeOn": false,
+   "timeSec": 20,
+   "scrollOn": false,
+   "scrollPct": 80,
+   "videoOn": false,
+   "lastOn": false,
+   "lastSec": 6
+  },
+  "frequency": {
+   "mode": "once",
+   "days": 7,
+   "maxOn": false,
+   "max": 3,
+   "stopConvert": true,
+   "afterCloseOn": true,
+   "afterCloseDays": 2
+  },
+  "form": {
+   "list": "newsletter",
+   "consent": true,
+   "consentRequired": false
+  },
+  "coupon": {
+   "mode": "none",
+   "code": "",
+   "type": "percent",
+   "value": 10,
+   "days": 14,
+   "min": 0,
+   "prefix": "WELCOME-",
+   "autoApply": false
+  },
+  "game": {
+   "type": "scratch",
+   "emailFirst": false,
+   "prizes": [
+    {
+     "key": "p10",
+     "label": {
+      "en": "10% OFF",
+      "fr": "-10 %",
+      "es": "10 % DTO.",
+      "it": "-10%",
+      "de": "10 % RABATT",
+      "nl": "10% KORTING",
+      "pl": "-10%",
+      "cs": "SLEVA 10 %",
+      "pt": "10% DESC.",
+      "ru": "−10%"
+     },
+     "weight": 60,
+     "stock": "",
+     "coupon": {
+      "type": "percent",
+      "value": 10,
+      "days": 14
+     }
+    },
+    {
+     "key": "p15",
+     "label": {
+      "en": "15% OFF",
+      "fr": "-15 %",
+      "es": "15 % DTO.",
+      "it": "-15%",
+      "de": "15 % RABATT",
+      "nl": "15% KORTING",
+      "pl": "-15%",
+      "cs": "SLEVA 15 %",
+      "pt": "15% DESC.",
+      "ru": "−15%"
+     },
+     "weight": 25,
+     "stock": "",
+     "coupon": {
+      "type": "percent",
+      "value": 15,
+      "days": 14
+     }
+    },
+    {
+     "key": "ship",
+     "label": {
+      "en": "FREE SHIPPING",
+      "fr": "LIVRAISON OFFERTE",
+      "es": "ENVÍO GRATIS",
+      "it": "SPEDIZIONE GRATUITA",
+      "de": "GRATIS VERSAND",
+      "nl": "GRATIS VERZENDING",
+      "pl": "DARMOWA DOSTAWA",
+      "cs": "DOPRAVA ZDARMA",
+      "pt": "PORTES GRÁTIS",
+      "ru": "БЕСПЛАТНАЯ ДОСТАВКА"
+     },
+     "weight": 15,
+     "stock": "",
+     "coupon": {
+      "type": "shipping",
+      "value": 10,
+      "days": 14
+     }
+    }
+   ]
+  }
+ }
+}

@@ -1,0 +1,182 @@
+{
+ "num": "48",
+ "slug": "winter-market",
+ "name": "Winter Market",
+ "group": "seasonal",
+ "formatLabel": "Modal, centre",
+ "tags": [
+  "seasonal",
+  "christmas",
+  "winter",
+  "gifts"
+ ],
+ "doc": {
+  "format": "modal",
+  "width": 520,
+  "mobile": {
+   "format": "sheet"
+  },
+  "fonts": [
+   "Playfair Display",
+   "Mulish"
+  ],
+  "theme": {
+   "bg": "#0E3B2C",
+   "ink": "#F7F3EA",
+   "accent": "#F7F3EA",
+   "accentInk": "#0E3B2C",
+   "line": "#F7F3EA",
+   "radius": 0,
+   "fh": "Playfair Display",
+   "fb": "Mulish",
+   "overlay": "rgba(5,22,16,.62)"
+  },
+  "steps": [
+   {
+    "id": "s1",
+    "name": "Offer",
+    "cols": [
+     {
+      "blocks": [
+       {
+        "id": "wint-369",
+        "type": "html",
+        "html": "<svg viewBox=\"0 0 150 40\" width=\"150\" height=\"40\"><g fill=\"none\" stroke=\"#7FB69A\" stroke-width=\"1.6\" stroke-linecap=\"round\"><path d=\"M10 34 L70 20\"/><path d=\"M20 32l-4-8M30 30l-4-9M40 27l-3-9M50 25l-3-9M60 23l-2-9M20 32l6-6M30 30l7-6M40 27l7-6M50 25l7-6M60 23l7-5\"/><path d=\"M140 34 L80 20\"/><path d=\"M130 32l4-8M120 30l4-9M110 27l3-9M100 25l3-9M90 23l2-9M130 32l-6-6M120 30l-7-6M110 27l-7-6M100 25l-7-6M90 23l-7-5\"/></g><circle cx=\"75\" cy=\"19\" r=\"5\" fill=\"#C8102E\"/><circle cx=\"68\" cy=\"14\" r=\"3.5\" fill=\"#C8102E\"/><circle cx=\"82\" cy=\"14\" r=\"3.5\" fill=\"#C8102E\"/></svg>",
+        "cls": "psx-hide-m"
+       },
+       {
+        "id": "wint-370",
+        "type": "heading",
+        "t": {
+         "en": "The Winter Market\n*is open*",
+         "fr": "Le Marché d'hiver\n*est ouvert*",
+         "es": "El Mercado de Invierno\n*está abierto*",
+         "it": "Il Mercatino d'Inverno\n*è aperto*",
+         "de": "Der Wintermarkt\n*hat geöffnet*",
+         "nl": "De Wintermarkt\n*is open*",
+         "pl": "Zimowy Jarmark\n*jest otwarty*",
+         "cs": "Zimní trh\n*je otevřen*",
+         "pt": "O Mercado de Inverno\n*está aberto*",
+         "ru": "Зимняя ярмарка\n*открыта*"
+        }
+       },
+       {
+        "id": "wint-371",
+        "type": "text",
+        "t": {
+         "en": "Gifts wrapped by hand, and 15% off everything until the 24th. Order by **20 December** to receive it in time.",
+         "fr": "Cadeaux emballés à la main, et -15 % sur tout jusqu'au 24. Commandez avant le **20 décembre** pour être livré à temps.",
+         "es": "Regalos envueltos a mano y un 15 % en todo hasta el día 24. Pide antes del **20 de diciembre** para recibirlo a tiempo.",
+         "it": "Regali incartati a mano e il 15% su tutto fino al 24. Ordina entro il **20 dicembre** per riceverlo in tempo.",
+         "de": "Geschenke von Hand verpackt und 15 % auf alles bis zum 24. Bis zum **20. Dezember** bestellen, damit es rechtzeitig ankommt.",
+         "nl": "Cadeaus met de hand ingepakt, en 15% korting op alles tot de 24e. Bestel vóór **20 december** om het op tijd te ontvangen.",
+         "pl": "Prezenty pakowane ręcznie i 15% rabatu na wszystko do 24. Zamów do **20 grudnia**, aby dostać na czas.",
+         "cs": "Dárky balené ručně a 15 % sleva na vše do 24. Objednejte do **20. prosince**, aby dorazily včas.",
+         "pt": "Presentes embrulhados à mão e 15% de desconto em tudo até dia 24. Encomende até **20 de dezembro** para receber a tempo.",
+         "ru": "Подарки, упакованные вручную, и 15% скидки на всё до 24-го. Закажите до **20 декабря**, чтобы получить вовремя."
+        }
+       },
+       {
+        "id": "wint-372",
+        "type": "html",
+        "html": {
+         "en": "<div class=\"wm-seal\">15%<small>OFF</small></div>",
+         "fr": "<div class=\"wm-seal\">15 %<small>REMISE</small></div>",
+         "es": "<div class=\"wm-seal\">15 %<small>DTO.</small></div>",
+         "it": "<div class=\"wm-seal\">15%<small>SCONTO</small></div>",
+         "de": "<div class=\"wm-seal\">15 %<small>RABATT</small></div>",
+         "nl": "<div class=\"wm-seal\">15%<small>KORTING</small></div>",
+         "pl": "<div class=\"wm-seal\">15%<small>RABATU</small></div>",
+         "cs": "<div class=\"wm-seal\">15 %<small>SLEVA</small></div>",
+         "pt": "<div class=\"wm-seal\">15%<small>DESC.</small></div>",
+         "ru": "<div class=\"wm-seal\">15%<small>СКИДКА</small></div>"
+        },
+        "cls": "psx-hide-m"
+       },
+       {
+        "id": "wint-373",
+        "type": "button",
+        "t": {
+         "en": "Shop the gifts",
+         "fr": "Voir les cadeaux",
+         "es": "Ver los regalos",
+         "it": "Vedi i regali",
+         "de": "Zu den Geschenken",
+         "nl": "Bekijk de cadeaus",
+         "pl": "Zobacz prezenty",
+         "cs": "Zobrazit dárky",
+         "pt": "Ver os presentes",
+         "ru": "К подаркам"
+        },
+        "act": "url",
+        "href": "/"
+       }
+      ]
+     }
+    ]
+   }
+  ],
+  "template": "winter-market"
+ },
+ "settings": {
+  "triggers": {
+   "mode": "any",
+   "timerOn": true,
+   "timerSec": 5,
+   "exitOn": false,
+   "exitSens": "normal",
+   "idleOn": false,
+   "idleSec": 30,
+   "scrollOn": false,
+   "scrollVal": 40,
+   "scrollUnit": "pct",
+   "clickOn": false,
+   "clickSel": "",
+   "pagesOn": false,
+   "pagesN": 2,
+   "pagesSec": 0,
+   "addcartOn": false
+  },
+  "close": {
+   "x": true,
+   "xDelay": 0,
+   "overlay": true,
+   "esc": true,
+   "timeOn": false,
+   "timeSec": 20,
+   "scrollOn": false,
+   "scrollPct": 80,
+   "videoOn": false,
+   "lastOn": false,
+   "lastSec": 6
+  },
+  "frequency": {
+   "mode": "visit",
+   "days": 7,
+   "maxOn": false,
+   "max": 3,
+   "stopConvert": true,
+   "afterCloseOn": true,
+   "afterCloseDays": 2
+  },
+  "form": {
+   "list": "leads",
+   "consent": false,
+   "consentRequired": false
+  },
+  "coupon": {
+   "mode": "none",
+   "code": "",
+   "type": "percent",
+   "value": 10,
+   "days": 14,
+   "min": 0,
+   "prefix": "WELCOME-",
+   "autoApply": false
+  },
+  "dates": [
+   "2026-12-01 00:00",
+   "2026-12-24 23:59"
+  ]
+ }
+}

@@ -1,0 +1,20 @@
+.psx-t-mono-wheel .psx-box{box-shadow:0 22px 50px rgba(0,0,0,.35)}
+.psx-t-mono-wheel .psx-cols{align-items:center;padding:30px 40px 30px 30px;gap:34px}
+.psx-t-mono-wheel .psx-step[data-step=won] .psx-col{padding:40px;text-align:center}
+.psx-t-mono-wheel .psx-h{font:400 44px/1 var(--psx-fh)}
+.psx-t-mono-wheel .psx-p{color:#3D3D3A}
+.psx-t-mono-wheel .psx-rim{fill:#fff;stroke:#111;stroke-width:1.5}
+.psx-t-mono-wheel .psx-seg{stroke:#111;stroke-width:.8}
+.psx-t-mono-wheel .psx-wheel-svg text{font:500 14px var(--psx-fb)}
+.psx-t-mono-wheel .psx-hub{fill:#111}
+.psx-t-mono-wheel .psx-hub2{fill:#9A9A96}
+.psx-t-mono-wheel .psx-pointer{fill:#9A9A96;stroke:#111;stroke-width:1.2}
+.psx-t-mono-wheel .psx-input{border:1px solid var(--psx-line);border-radius:0}
+.psx-t-mono-wheel .psx-btn{border-radius:0;font-weight:500}
+.psx-t-mono-wheel .psx-box-ck{border-radius:0;border-width:1px;width:14px;height:14px}
+.psx-t-mono-wheel .psx-check{font-size:12px}
+.psx-t-mono-wheel .psx-coupon{border-radius:0;border-style:solid;border-width:1px}
+.psx-t-mono-wheel.psx-mobile .psx-cols{padding:22px 20px;gap:10px}
+.psx-t-mono-wheel.psx-mobile .mw-w .psx-wheel-svg{max-width:200px}
+.psx-t-mono-wheel.psx-mobile .psx-h{font-size:32px;text-align:center}
+.psx-t-mono-wheel.psx-mobile .psx-p{display:none}

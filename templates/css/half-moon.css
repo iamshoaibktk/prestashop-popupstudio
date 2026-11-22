@@ -1,0 +1,16 @@
+.psx-t-half-moon .psx-box{overflow:hidden;box-shadow:0 22px 50px rgba(0,0,0,.5);background-image:radial-gradient(1.5px 1.5px at 20% 30%,#fff 50%,transparent 51%),radial-gradient(1px 1px at 70% 18%,#fff 50%,transparent 51%),radial-gradient(1.2px 1.2px at 85% 70%,#fff 50%,transparent 51%),radial-gradient(1px 1px at 40% 80%,#C9D3F2 50%,transparent 51%),radial-gradient(1.4px 1.4px at 55% 45%,#fff 50%,transparent 51%)}
+.psx-t-half-moon .hm-moon{position:relative;width:260px;height:260px;border-radius:50%;background:#F4D58D;box-shadow:0 0 60px rgba(244,213,141,.35);overflow:hidden}
+.psx-t-half-moon .hm-moon::after{content:"";position:absolute;left:-15%;top:-12%;width:100%;height:100%;border-radius:50%;background:#0F1B3D}
+.psx-t-half-moon .psx-col{padding:40px 44px;gap:12px;max-width:380px}
+.psx-t-half-moon .psx-h{font:400 38px/1.08 var(--psx-fh)}
+.psx-t-half-moon .psx-p{color:#C3CAE0;line-height:1.6}
+.psx-t-half-moon .psx-input{border-radius:999px;border:0;padding:0 18px}
+.psx-t-half-moon .psx-btn{border-radius:999px;font-weight:700}
+.psx-t-half-moon .psx-link{color:#C3CAE0;font-size:13px}
+.psx-t-half-moon .psx-x{top:auto;bottom:16px;right:18px;background:rgba(232,236,247,.12)}
+.psx-t-half-moon .psx-coupon{border-color:var(--psx-accent);border-radius:999px;color:var(--psx-accent)}
+.psx-t-half-moon.psx-mobile .hm-moon{width:160px;height:160px}
+.psx-t-half-moon.psx-mobile .psx-col{padding:34px 22px 24px;max-width:none}
+.psx-t-half-moon.psx-mobile .psx-h{font-size:32px}
+.psx-t-half-moon.psx-mobile .psx-row{flex-direction:column}
+.psx-t-half-moon.psx-mobile .psx-x{top:12px;bottom:auto}

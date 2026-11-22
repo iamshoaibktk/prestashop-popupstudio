@@ -1,0 +1,15 @@
+.psx-t-black-friday-sticker .psx-box{overflow:visible;box-shadow:0 22px 50px rgba(0,0,0,.5);min-height:380px}
+.psx-t-black-friday-sticker .psx-col{padding:36px 40px;gap:18px;align-items:flex-start}
+.psx-t-black-friday-sticker .psx-h{font:400 92px/.86 var(--psx-fh);letter-spacing:-.03em}
+.psx-t-black-friday-sticker .psx-p{max-width:290px;font-weight:500;font-size:16px;color:#D4D4D4}
+.psx-t-black-friday-sticker .psx-btn{border-radius:0;font:400 18px var(--psx-fh);min-height:54px;padding:0 26px}
+.psx-t-black-friday-sticker .bf-st{display:flex;align-items:center;justify-content:center;font:400 18px/1 var(--psx-fh);text-align:center;box-shadow:0 0 0 4px #fff,0 6px 12px rgba(0,0,0,.4)}
+.psx-t-black-friday-sticker .bf-1{width:120px;height:120px;border-radius:50%;background:#FF2E63;color:#fff;font-size:30px}
+.psx-t-black-friday-sticker .bf-2{padding:10px 14px;background:#FFE14D;color:#0A0A0A;border-radius:6px}
+.psx-t-black-friday-sticker .bf-3{padding:12px 16px;background:#fff;color:#0A0A0A;border-radius:999px;font-size:15px;box-shadow:0 0 0 4px #0A0A0A,0 6px 12px rgba(0,0,0,.4)}
+.psx-t-black-friday-sticker .psx-x{left:12px;right:auto;top:12px}
+.psx-t-black-friday-sticker.psx-mobile .psx-box{min-height:0;overflow:visible}
+.psx-t-black-friday-sticker.psx-mobile .psx-col{padding:44px 22px 24px}
+.psx-t-black-friday-sticker.psx-mobile .psx-h{font-size:62px}
+.psx-t-black-friday-sticker.psx-mobile .bf-1{width:90px;height:90px;font-size:24px}
+.psx-t-black-friday-sticker.psx-mobile .psx-btn{align-self:stretch}

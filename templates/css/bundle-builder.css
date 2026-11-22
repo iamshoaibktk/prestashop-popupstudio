@@ -1,0 +1,13 @@
+.psx-t-bundle-builder .psx-box{box-shadow:0 18px 40px rgba(15,23,42,.22),0 0 0 1px rgba(15,23,42,.06)}
+.psx-t-bundle-builder .psx-col{padding:20px 20px 18px;gap:10px}
+.psx-t-bundle-builder .bb-k{color:var(--psx-accent);font-weight:600;font-size:12.5px;opacity:1}
+.psx-t-bundle-builder .psx-h{font:700 22px/1.2 var(--psx-fh)}
+.psx-t-bundle-builder .psx-product{background:#fff;border-radius:12px;padding:10px;box-shadow:0 0 0 1px #E2E8F0;flex-direction:row;align-items:center;gap:12px}
+.psx-t-bundle-builder .psx-product-img{width:92px;height:92px;flex:none;border-radius:8px;background:#E8EEF3;aspect-ratio:auto}
+.psx-t-bundle-builder .psx-product-b{flex:1;display:flex;flex-direction:column;gap:2px}
+.psx-t-bundle-builder .psx-product-n{font-size:14px;font-weight:500}
+.psx-t-bundle-builder .psx-product-pr{font-size:16px}
+.psx-t-bundle-builder .psx-btn{border-radius:12px;min-height:42px;font-weight:600;width:100%}
+.psx-t-bundle-builder .bb-n{color:#475569;opacity:1}
+.psx-t-bundle-builder .psx-x{background:#E2E8F0;top:14px;right:14px;width:32px;height:32px;font-size:16px}
+.psx-t-bundle-builder.psx-mobile .psx-col{padding:16px}

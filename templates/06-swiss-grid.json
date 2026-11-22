@@ -1,0 +1,422 @@
+{
+ "num": "06",
+ "slug": "swiss-grid",
+ "name": "Swiss Grid",
+ "group": "newsletter",
+ "formatLabel": "Modal, centre",
+ "tags": [
+  "newsletter",
+  "minimal",
+  "grid",
+  "design"
+ ],
+ "doc": {
+  "format": "modal",
+  "width": 620,
+  "mobile": {
+   "format": "sheet"
+  },
+  "fonts": [
+   "Inter Tight"
+  ],
+  "theme": {
+   "bg": "#FFFFFF",
+   "ink": "#111111",
+   "accent": "#111111",
+   "accentInk": "#FFFFFF",
+   "field": "#FFFFFF",
+   "line": "#111111",
+   "radius": 0,
+   "fh": "Inter Tight",
+   "fb": "Inter Tight",
+   "overlay": "rgba(17,17,17,.6)"
+  },
+  "closeBtn": {
+   "look": "square"
+  },
+  "steps": [
+   {
+    "id": "s1",
+    "name": "Offer",
+    "cols": [
+     {
+      "blocks": [
+       {
+        "id": "swis-50",
+        "type": "html",
+        "html": "<div class=\"sg-sq\"></div>",
+        "cls": "sg-sqw"
+       },
+       {
+        "id": "swis-51",
+        "type": "small",
+        "t": {
+         "en": "10",
+         "fr": "10",
+         "es": "10",
+         "it": "10",
+         "de": "10",
+         "nl": "10",
+         "pl": "10",
+         "cs": "10",
+         "pt": "10",
+         "ru": "10"
+        },
+        "cls": "sg-num"
+       }
+      ],
+      "cls": "sg-left",
+      "w": "0 0 42%"
+     },
+     {
+      "blocks": [
+       {
+        "id": "swis-54",
+        "type": "row",
+        "blocks": [
+         {
+          "id": "swis-52",
+          "type": "small",
+          "t": {
+           "en": "Newsletter",
+           "fr": "Newsletter",
+           "es": "Boletín",
+           "it": "Newsletter",
+           "de": "Newsletter",
+           "nl": "Nieuwsbrief",
+           "pl": "Newsletter",
+           "cs": "Newsletter",
+           "pt": "Newsletter",
+           "ru": "Рассылка"
+          }
+         },
+         {
+          "id": "swis-53",
+          "type": "small",
+          "t": {
+           "en": "Nº 01",
+           "fr": "Nº 01",
+           "es": "N.º 01",
+           "it": "N. 01",
+           "de": "Nr. 01",
+           "nl": "Nr. 01",
+           "pl": "Nr 01",
+           "cs": "Č. 01",
+           "pt": "N.º 01",
+           "ru": "№ 01"
+          }
+         }
+        ],
+        "cls": "sg-meta"
+       },
+       {
+        "id": "swis-55",
+        "type": "heading",
+        "t": {
+         "en": "Percent off your first order.",
+         "fr": "Pour cent de remise sur votre première commande.",
+         "es": "Por ciento de descuento en tu primer pedido.",
+         "it": "Per cento di sconto sul primo ordine.",
+         "de": "Prozent Rabatt auf deine erste Bestellung.",
+         "nl": "Procent korting op je eerste bestelling.",
+         "pl": "Procent rabatu na pierwsze zamówienie.",
+         "cs": "Procent sleva na první objednávku.",
+         "pt": "Por cento de desconto na primeira encomenda.",
+         "ru": "Процентов скидки на первый заказ."
+        }
+       },
+       {
+        "id": "swis-56",
+        "type": "text",
+        "t": {
+         "en": "Monthly. Short. New products and the reason we made them.",
+         "fr": "Mensuelle. Courte. Nos nouveaux produits et pourquoi nous les avons faits.",
+         "es": "Mensual. Breve. Productos nuevos y por qué los hicimos.",
+         "it": "Mensile. Breve. Nuovi prodotti e il perché li abbiamo fatti.",
+         "de": "Monatlich. Kurz. Neue Produkte und warum wir sie gemacht haben.",
+         "nl": "Maandelijks. Kort. Nieuwe producten en waarom we ze maakten.",
+         "pl": "Co miesiąc. Krótko. Nowe produkty i powód, dla którego je zrobiliśmy.",
+         "cs": "Měsíčně. Stručně. Nové produkty a proč jsme je udělali.",
+         "pt": "Mensal. Curta. Produtos novos e a razão de os termos feito.",
+         "ru": "Ежемесячно. Коротко. Новые товары и зачем мы их сделали."
+        }
+       },
+       {
+        "id": "swis-57",
+        "type": "form",
+        "btn": {
+         "en": "Subscribe",
+         "fr": "S'abonner",
+         "es": "Suscribirme",
+         "it": "Iscriviti",
+         "de": "Abonnieren",
+         "nl": "Inschrijven",
+         "pl": "Zapisz się",
+         "cs": "Přihlásit",
+         "pt": "Subscrever",
+         "ru": "Подписаться"
+        },
+        "label": {
+         "en": "Email",
+         "fr": "E-mail",
+         "es": "Email",
+         "it": "Email",
+         "de": "E-Mail",
+         "nl": "E-mail",
+         "pl": "E-mail",
+         "cs": "E-mail",
+         "pt": "Email",
+         "ru": "Email"
+        },
+        "ph": {
+         "en": "name@domain.com",
+         "fr": "nom@domaine.com",
+         "es": "nombre@dominio.com",
+         "it": "nome@dominio.com",
+         "de": "name@domain.de",
+         "nl": "naam@domein.nl",
+         "pl": "imie@domena.pl",
+         "cs": "jmeno@domena.cz",
+         "pt": "nome@dominio.pt",
+         "ru": "imya@domain.ru"
+        },
+        "layout": "inline",
+        "consent": true,
+        "consentRequired": true,
+        "consentText": {
+         "en": "I agree to receive the newsletter.",
+         "fr": "J'accepte de recevoir la newsletter.",
+         "es": "Acepto recibir el boletín.",
+         "it": "Accetto di ricevere la newsletter.",
+         "de": "Ich möchte den Newsletter erhalten.",
+         "nl": "Ik wil de nieuwsbrief ontvangen.",
+         "pl": "Zgadzam się na otrzymywanie newslettera.",
+         "cs": "Souhlasím se zasíláním newsletteru.",
+         "pt": "Aceito receber a newsletter.",
+         "ru": "Я согласен получать рассылку."
+        },
+        "next": "s2"
+       }
+      ],
+      "cls": "sg-right"
+     }
+    ]
+   },
+   {
+    "id": "s2",
+    "name": "Thanks",
+    "cols": [
+     {
+      "blocks": [
+       {
+        "id": "swis-58",
+        "type": "html",
+        "html": "<div class=\"sg-sq\"></div>",
+        "cls": "sg-sqw"
+       },
+       {
+        "id": "swis-59",
+        "type": "small",
+        "t": {
+         "en": "✓",
+         "fr": "✓",
+         "es": "✓",
+         "it": "✓",
+         "de": "✓",
+         "nl": "✓",
+         "pl": "✓",
+         "cs": "✓",
+         "pt": "✓",
+         "ru": "✓"
+        },
+        "cls": "sg-num"
+       }
+      ],
+      "cls": "sg-left",
+      "w": "0 0 42%"
+     },
+     {
+      "blocks": [
+       {
+        "id": "swis-62",
+        "type": "row",
+        "blocks": [
+         {
+          "id": "swis-60",
+          "type": "small",
+          "t": {
+           "en": "Newsletter",
+           "fr": "Newsletter",
+           "es": "Boletín",
+           "it": "Newsletter",
+           "de": "Newsletter",
+           "nl": "Nieuwsbrief",
+           "pl": "Newsletter",
+           "cs": "Newsletter",
+           "pt": "Newsletter",
+           "ru": "Рассылка"
+          }
+         },
+         {
+          "id": "swis-61",
+          "type": "small",
+          "t": {
+           "en": "Nº 01",
+           "fr": "Nº 01",
+           "es": "N.º 01",
+           "it": "N. 01",
+           "de": "Nr. 01",
+           "nl": "Nr. 01",
+           "pl": "Nr 01",
+           "cs": "Č. 01",
+           "pt": "N.º 01",
+           "ru": "№ 01"
+          }
+         }
+        ],
+        "cls": "sg-meta"
+       },
+       {
+        "id": "swis-63",
+        "type": "heading",
+        "t": {
+         "en": "Subscribed.",
+         "fr": "Abonné.",
+         "es": "Suscrito.",
+         "it": "Iscritto.",
+         "de": "Abonniert.",
+         "nl": "Ingeschreven.",
+         "pl": "Zapisano.",
+         "cs": "Přihlášeno.",
+         "pt": "Subscrito.",
+         "ru": "Вы подписаны."
+        }
+       },
+       {
+        "id": "swis-64",
+        "type": "text",
+        "t": {
+         "en": "Your code:",
+         "fr": "Votre code :",
+         "es": "Tu código:",
+         "it": "Il tuo codice:",
+         "de": "Dein Code:",
+         "nl": "Je code:",
+         "pl": "Twój kod:",
+         "cs": "Váš kód:",
+         "pt": "O seu código:",
+         "ru": "Ваш код:"
+        }
+       },
+       {
+        "id": "swis-65",
+        "type": "coupon",
+        "note": {
+         "en": "Valid until {coupon_expiry}. One use.",
+         "fr": "Valable jusqu'au {coupon_expiry}. Un seul usage.",
+         "es": "Válido hasta el {coupon_expiry}. Un solo uso.",
+         "it": "Valido fino al {coupon_expiry}. Un solo utilizzo.",
+         "de": "Gültig bis {coupon_expiry}. Einmal einlösbar.",
+         "nl": "Geldig tot {coupon_expiry}. Eenmalig te gebruiken.",
+         "pl": "Ważny do {coupon_expiry}. Jednorazowy.",
+         "cs": "Platí do {coupon_expiry}. Jedno použití.",
+         "pt": "Válido até {coupon_expiry}. Uma utilização.",
+         "ru": "Действует до {coupon_expiry}. Одно использование."
+        },
+        "copy": {
+         "en": "Copy",
+         "fr": "Copier",
+         "es": "Copiar",
+         "it": "Copia",
+         "de": "Kopieren",
+         "nl": "Kopiëren",
+         "pl": "Kopiuj",
+         "cs": "Kopírovat",
+         "pt": "Copiar",
+         "ru": "Копировать"
+        },
+        "code": "WELCOME-7KQ2M9XA"
+       },
+       {
+        "id": "swis-66",
+        "type": "button",
+        "t": {
+         "en": "Apply to cart",
+         "fr": "Appliquer au panier",
+         "es": "Aplicar al carrito",
+         "it": "Applica al carrello",
+         "de": "In den Warenkorb",
+         "nl": "Toepassen op winkelwagen",
+         "pl": "Zastosuj w koszyku",
+         "cs": "Uplatnit v košíku",
+         "pt": "Aplicar ao carrinho",
+         "ru": "Применить к корзине"
+        },
+        "act": "apply"
+       }
+      ],
+      "cls": "sg-right"
+     }
+    ]
+   }
+  ],
+  "template": "swiss-grid"
+ },
+ "settings": {
+  "triggers": {
+   "mode": "any",
+   "timerOn": true,
+   "timerSec": 20,
+   "exitOn": false,
+   "exitSens": "normal",
+   "idleOn": false,
+   "idleSec": 30,
+   "scrollOn": false,
+   "scrollVal": 40,
+   "scrollUnit": "pct",
+   "clickOn": false,
+   "clickSel": "",
+   "pagesOn": false,
+   "pagesN": 2,
+   "pagesSec": 0,
+   "addcartOn": false
+  },
+  "close": {
+   "x": true,
+   "xDelay": 0,
+   "overlay": true,
+   "esc": true,
+   "timeOn": false,
+   "timeSec": 20,
+   "scrollOn": false,
+   "scrollPct": 80,
+   "videoOn": false,
+   "lastOn": false,
+   "lastSec": 6
+  },
+  "frequency": {
+   "mode": "days",
+   "days": 7,
+   "maxOn": false,
+   "max": 3,
+   "stopConvert": true,
+   "afterCloseOn": true,
+   "afterCloseDays": 2
+  },
+  "form": {
+   "list": "newsletter",
+   "consent": true,
+   "consentRequired": true
+  },
+  "coupon": {
+   "mode": "generated",
+   "code": "",
+   "type": "percent",
+   "value": 10,
+   "days": 14,
+   "min": 0,
+   "prefix": "GRID-",
+   "autoApply": false
+  }
+ }
+}

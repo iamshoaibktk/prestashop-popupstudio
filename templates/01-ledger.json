@@ -1,0 +1,469 @@
+{
+ "num": "01",
+ "slug": "ledger",
+ "name": "Ledger",
+ "group": "newsletter",
+ "formatLabel": "Modal, split image",
+ "tags": [
+  "newsletter",
+  "newspaper",
+  "editorial"
+ ],
+ "doc": {
+  "format": "modal",
+  "width": 640,
+  "position": "center",
+  "mobile": {
+   "format": "sheet"
+  },
+  "fonts": [
+   "Playfair Display",
+   "Libre Franklin",
+   "IBM Plex Mono"
+  ],
+  "theme": {
+   "bg": "#F4F1EA",
+   "ink": "#1A1A1A",
+   "accent": "#1A1A1A",
+   "accentInk": "#F4F1EA",
+   "line": "#1A1A1A",
+   "field": "transparent",
+   "error": "#B3261E",
+   "radius": 0,
+   "fh": "Playfair Display",
+   "fb": "Libre Franklin",
+   "overlay": "rgba(26,26,26,.55)"
+  },
+  "decor": [
+   {
+    "html": {
+     "en": "<div class=\"lg-stamp\">10%<br>off</div>",
+     "fr": "<div class=\"lg-stamp\">10 %<br>remise</div>",
+     "es": "<div class=\"lg-stamp\">10 %<br>dto.</div>",
+     "it": "<div class=\"lg-stamp\">10%<br>di sconto</div>",
+     "de": "<div class=\"lg-stamp\">10 %<br>Rabatt</div>",
+     "nl": "<div class=\"lg-stamp\">10%<br>korting</div>",
+     "pl": "<div class=\"lg-stamp\">10%<br>rabatu</div>",
+     "cs": "<div class=\"lg-stamp\">10 %<br>sleva</div>",
+     "pt": "<div class=\"lg-stamp\">10%<br>desc.</div>",
+     "ru": "<div class=\"lg-stamp\">10%<br>скидка</div>"
+    },
+    "name": "Stamp",
+    "hideMobile": true,
+    "right": "-30px",
+    "top": "150px",
+    "rot": -14
+   }
+  ],
+  "steps": [
+   {
+    "id": "s1",
+    "name": "Offer",
+    "cols": [
+     {
+      "blocks": [
+       {
+        "id": "ledg-1",
+        "type": "image",
+        "placeholder": "halftone",
+        "caption": {
+         "en": "Fig. 1. Your product photo",
+         "fr": "Fig. 1. La photo de votre produit",
+         "es": "Fig. 1. La foto de tu producto",
+         "it": "Fig. 1. La foto del tuo prodotto",
+         "de": "Abb. 1. Ihr Produktfoto",
+         "nl": "Fig. 1. Je productfoto",
+         "pl": "Ryc. 1. Zdjęcie twojego produktu",
+         "cs": "Obr. 1. Fotka vašeho produktu",
+         "pt": "Fig. 1. A fotografia do seu produto",
+         "ru": "Рис. 1. Фото вашего товара"
+        },
+        "alt": {
+         "en": ""
+        }
+       }
+      ],
+      "cls": "lg-media",
+      "w": "0 0 230px"
+     },
+     {
+      "blocks": [
+       {
+        "id": "ledg-4",
+        "type": "row",
+        "blocks": [
+         {
+          "id": "ledg-2",
+          "type": "small",
+          "t": {
+           "en": "The Shop Gazette",
+           "fr": "La Gazette de la Boutique",
+           "es": "La Gaceta de la Tienda",
+           "it": "La Gazzetta del Negozio",
+           "de": "Die Laden-Gazette",
+           "nl": "De Winkelkrant",
+           "pl": "Gazeta Sklepowa",
+           "cs": "Obchodní noviny",
+           "pt": "A Gazeta da Loja",
+           "ru": "Газета магазина"
+          },
+          "cls": "lg-title"
+         },
+         {
+          "id": "ledg-3",
+          "type": "small",
+          "t": {
+           "en": "No. 1 · Free",
+           "fr": "N° 1 · Gratuit",
+           "es": "N.º 1 · Gratis",
+           "it": "N. 1 · Gratis",
+           "de": "Nr. 1 · Gratis",
+           "nl": "Nr. 1 · Gratis",
+           "pl": "Nr 1 · Gratis",
+           "cs": "Č. 1 · Zdarma",
+           "pt": "N.º 1 · Grátis",
+           "ru": "№ 1 · Бесплатно"
+          },
+          "cls": "lg-no"
+         }
+        ],
+        "cls": "lg-mast"
+       },
+       {
+        "id": "ledg-5",
+        "type": "heading",
+        "t": {
+         "en": "Ten percent off your first order.",
+         "fr": "Dix pour cent de réduction sur votre première commande.",
+         "es": "Un diez por ciento de descuento en tu primer pedido.",
+         "it": "Il dieci per cento di sconto sul tuo primo ordine.",
+         "de": "Zehn Prozent Rabatt auf deine erste Bestellung.",
+         "nl": "Tien procent korting op je eerste bestelling.",
+         "pl": "Dziesięć procent rabatu na pierwsze zamówienie.",
+         "cs": "Deset procent sleva na vaši první objednávku.",
+         "pt": "Dez por cento de desconto na sua primeira encomenda.",
+         "ru": "Десять процентов скидки на первый заказ."
+        }
+       },
+       {
+        "id": "ledg-6",
+        "type": "text",
+        "t": {
+         "en": "One letter a month: new arrivals, restocks and the odd essay. Leave your address and the code is yours.",
+         "fr": "Une lettre par mois : nouveautés, réassorts et un essai de temps en temps. Laissez votre adresse et le code est à vous.",
+         "es": "Una carta al mes: novedades, reposiciones y algún ensayo suelto. Deja tu dirección y el código es tuyo.",
+         "it": "Una lettera al mese: novità, riassortimenti e qualche saggio ogni tanto. Lascia il tuo indirizzo e il codice è tuo.",
+         "de": "Ein Brief im Monat: Neuheiten, Nachschub und hin und wieder ein Essay. Adresse hinterlassen, der Code gehört dir.",
+         "nl": "Eén brief per maand: nieuwe items, aanvullingen en af en toe een essay. Laat je adres achter en de code is van jou.",
+         "pl": "Jeden list w miesiącu: nowości, dostawy i od czasu do czasu esej. Zostaw adres, a kod jest twój.",
+         "cs": "Jeden dopis měsíčně: novinky, naskladnění a občas esej. Nechte nám adresu a kód je váš.",
+         "pt": "Uma carta por mês: novidades, reposições e um ensaio de vez em quando. Deixe o seu endereço e o código é seu.",
+         "ru": "Одно письмо в месяц: новинки, поступления и иногда эссе. Оставьте адрес, и код ваш."
+        }
+       },
+       {
+        "id": "ledg-7",
+        "type": "form",
+        "btn": {
+         "en": "Subscribe →",
+         "fr": "S'abonner →",
+         "es": "Suscribirme →",
+         "it": "Iscriviti →",
+         "de": "Abonnieren →",
+         "nl": "Inschrijven →",
+         "pl": "Zapisz się →",
+         "cs": "Přihlásit →",
+         "pt": "Subscrever →",
+         "ru": "Подписаться →"
+        },
+        "label": {
+         "en": "Email address",
+         "fr": "Adresse e-mail",
+         "es": "Correo electrónico",
+         "it": "Indirizzo email",
+         "de": "E-Mail-Adresse",
+         "nl": "E-mailadres",
+         "pl": "Adres e-mail",
+         "cs": "E-mailová adresa",
+         "pt": "Endereço de email",
+         "ru": "Email"
+        },
+        "ph": {
+         "en": "your@email.com",
+         "fr": "votre@email.com",
+         "es": "tu@email.com",
+         "it": "tua@email.com",
+         "de": "deine@email.de",
+         "nl": "jouw@email.nl",
+         "pl": "twoj@email.pl",
+         "cs": "vas@email.cz",
+         "pt": "seu@email.pt",
+         "ru": "vash@email.ru"
+        },
+        "layout": "inline",
+        "consent": true,
+        "consentRequired": true,
+        "consentText": {
+         "en": "I agree to receive the newsletter. Unsubscribe any time.",
+         "fr": "J'accepte de recevoir la newsletter. Désinscription à tout moment.",
+         "es": "Acepto recibir el boletín. Puedo darme de baja cuando quiera.",
+         "it": "Accetto di ricevere la newsletter. Posso disiscrivermi quando voglio.",
+         "de": "Ich möchte den Newsletter erhalten. Abmeldung jederzeit möglich.",
+         "nl": "Ik wil de nieuwsbrief ontvangen. Uitschrijven kan altijd.",
+         "pl": "Zgadzam się na newsletter. Mogę zrezygnować w każdej chwili.",
+         "cs": "Souhlasím se zasíláním newsletteru. Odhlásit se mohu kdykoli.",
+         "pt": "Aceito receber a newsletter. Posso cancelar a qualquer momento.",
+         "ru": "Я согласен получать рассылку. Отписаться можно в любой момент."
+        },
+        "next": "s2"
+       }
+      ],
+      "cls": "lg-body"
+     }
+    ]
+   },
+   {
+    "id": "s2",
+    "name": "Thanks",
+    "cols": [
+     {
+      "blocks": [
+       {
+        "id": "ledg-8",
+        "type": "image",
+        "placeholder": "halftone",
+        "alt": {
+         "en": ""
+        }
+       }
+      ],
+      "cls": "lg-media",
+      "w": "0 0 230px"
+     },
+     {
+      "blocks": [
+       {
+        "id": "ledg-11",
+        "type": "row",
+        "blocks": [
+         {
+          "id": "ledg-9",
+          "type": "small",
+          "t": {
+           "en": "The Shop Gazette",
+           "fr": "La Gazette de la Boutique",
+           "es": "La Gaceta de la Tienda",
+           "it": "La Gazzetta del Negozio",
+           "de": "Die Laden-Gazette",
+           "nl": "De Winkelkrant",
+           "pl": "Gazeta Sklepowa",
+           "cs": "Obchodní noviny",
+           "pt": "A Gazeta da Loja",
+           "ru": "Газета магазина"
+          },
+          "cls": "lg-title"
+         },
+         {
+          "id": "ledg-10",
+          "type": "small",
+          "t": {
+           "en": "No. 1 · Free",
+           "fr": "N° 1 · Gratuit",
+           "es": "N.º 1 · Gratis",
+           "it": "N. 1 · Gratis",
+           "de": "Nr. 1 · Gratis",
+           "nl": "Nr. 1 · Gratis",
+           "pl": "Nr 1 · Gratis",
+           "cs": "Č. 1 · Zdarma",
+           "pt": "N.º 1 · Grátis",
+           "ru": "№ 1 · Бесплатно"
+          },
+          "cls": "lg-no"
+         }
+        ],
+        "cls": "lg-mast"
+       },
+       {
+        "id": "ledg-12",
+        "type": "heading",
+        "t": {
+         "en": "Done. Here is your ten percent.",
+         "fr": "C'est fait. Voici vos dix pour cent.",
+         "es": "Hecho. Aquí tienes tu diez por ciento.",
+         "it": "Fatto. Ecco il tuo dieci per cento.",
+         "de": "Erledigt. Hier sind deine zehn Prozent.",
+         "nl": "Klaar. Hier zijn je tien procent.",
+         "pl": "Gotowe. Oto twoje dziesięć procent.",
+         "cs": "Hotovo. Tady je vašich deset procent.",
+         "pt": "Feito. Aqui estão os seus dez por cento.",
+         "ru": "Готово. Вот ваши десять процентов."
+        }
+       },
+       {
+        "id": "ledg-13",
+        "type": "text",
+        "t": {
+         "en": "We also sent it to {email}.",
+         "fr": "Nous l'avons aussi envoyé à {email}.",
+         "es": "También lo hemos enviado a {email}.",
+         "it": "L'abbiamo inviato anche a {email}.",
+         "de": "Wir haben ihn auch an {email} geschickt.",
+         "nl": "We hebben hem ook naar {email} gestuurd.",
+         "pl": "Wysłaliśmy go też na {email}.",
+         "cs": "Poslali jsme ho i na {email}.",
+         "pt": "Também o enviámos para {email}.",
+         "ru": "Мы также отправили его на {email}."
+        }
+       },
+       {
+        "id": "ledg-14",
+        "type": "coupon",
+        "note": {
+         "en": "Valid until {coupon_expiry}. One use.",
+         "fr": "Valable jusqu'au {coupon_expiry}. Un seul usage.",
+         "es": "Válido hasta el {coupon_expiry}. Un solo uso.",
+         "it": "Valido fino al {coupon_expiry}. Un solo utilizzo.",
+         "de": "Gültig bis {coupon_expiry}. Einmal einlösbar.",
+         "nl": "Geldig tot {coupon_expiry}. Eenmalig te gebruiken.",
+         "pl": "Ważny do {coupon_expiry}. Jednorazowy.",
+         "cs": "Platí do {coupon_expiry}. Jedno použití.",
+         "pt": "Válido até {coupon_expiry}. Uma utilização.",
+         "ru": "Действует до {coupon_expiry}. Одно использование."
+        },
+        "copy": {
+         "en": "Copy",
+         "fr": "Copier",
+         "es": "Copiar",
+         "it": "Copia",
+         "de": "Kopieren",
+         "nl": "Kopiëren",
+         "pl": "Kopiuj",
+         "cs": "Kopírovat",
+         "pt": "Copiar",
+         "ru": "Копировать"
+        },
+        "code": "WELCOME-7KQ2M9XA"
+       },
+       {
+        "id": "ledg-17",
+        "type": "row",
+        "blocks": [
+         {
+          "id": "ledg-15",
+          "type": "button",
+          "t": {
+           "en": "Apply to my cart",
+           "fr": "Appliquer à mon panier",
+           "es": "Aplicar a mi carrito",
+           "it": "Applica al mio carrello",
+           "de": "Auf meinen Warenkorb anwenden",
+           "nl": "Toepassen op mijn winkelwagen",
+           "pl": "Zastosuj w koszyku",
+           "cs": "Uplatnit v košíku",
+           "pt": "Aplicar ao meu carrinho",
+           "ru": "Применить к корзине"
+          },
+          "act": "apply"
+         },
+         {
+          "id": "ledg-16",
+          "type": "link",
+          "t": {
+           "en": "Continue shopping",
+           "fr": "Continuer mes achats",
+           "es": "Seguir comprando",
+           "it": "Continua lo shopping",
+           "de": "Weiter einkaufen",
+           "nl": "Verder winkelen",
+           "pl": "Kontynuuj zakupy",
+           "cs": "Pokračovat v nákupu",
+           "pt": "Continuar a comprar",
+           "ru": "Продолжить покупки"
+          },
+          "act": "close"
+         }
+        ]
+       }
+      ],
+      "cls": "lg-body"
+     }
+    ]
+   }
+  ],
+  "template": "ledger"
+ },
+ "settings": {
+  "triggers": {
+   "mode": "any",
+   "timerOn": true,
+   "timerSec": 8,
+   "exitOn": true,
+   "exitSens": "normal",
+   "idleOn": false,
+   "idleSec": 30,
+   "scrollOn": false,
+   "scrollVal": 40,
+   "scrollUnit": "pct",
+   "clickOn": false,
+   "clickSel": "",
+   "pagesOn": false,
+   "pagesN": 2,
+   "pagesSec": 0,
+   "addcartOn": false
+  },
+  "close": {
+   "x": true,
+   "xDelay": 0,
+   "overlay": true,
+   "esc": true,
+   "timeOn": false,
+   "timeSec": 20,
+   "scrollOn": false,
+   "scrollPct": 80,
+   "videoOn": false,
+   "lastOn": false,
+   "lastSec": 6
+  },
+  "frequency": {
+   "mode": "days",
+   "days": 7,
+   "maxOn": false,
+   "max": 3,
+   "stopConvert": true,
+   "afterCloseOn": true,
+   "afterCloseDays": 2
+  },
+  "form": {
+   "list": "newsletter",
+   "consent": true,
+   "consentRequired": true
+  },
+  "coupon": {
+   "mode": "generated",
+   "code": "",
+   "type": "percent",
+   "value": 10,
+   "days": 14,
+   "min": 0,
+   "prefix": "WELCOME-",
+   "autoApply": false
+  },
+  "teaser": {
+   "on": true,
+   "text": {
+    "en": "Get 10%",
+    "fr": "-10 %",
+    "es": "10 % dto.",
+    "it": "-10%",
+    "de": "10 % sparen",
+    "nl": "10% korting",
+    "pl": "-10%",
+    "cs": "Sleva 10 %",
+    "pt": "10% desc.",
+    "ru": "−10%"
+   },
+   "edge": "left",
+   "life": "visit"
+  }
+ }
+}

@@ -1,0 +1,406 @@
+{
+ "num": "41",
+ "slug": "rate-us",
+ "name": "Rate Us",
+ "group": "slidein",
+ "formatLabel": "Slide-in, rating",
+ "tags": [
+  "slide-in",
+  "rating",
+  "feedback",
+  "reviews"
+ ],
+ "doc": {
+  "format": "slidein",
+  "position": "br",
+  "width": 330,
+  "mobile": {
+   "format": "same"
+  },
+  "fonts": [
+   "Lexend",
+   "Inter"
+  ],
+  "theme": {
+   "bg": "#FFFFFF",
+   "ink": "#111827",
+   "accent": "#F59E0B",
+   "accentInk": "#111827",
+   "field": "#FFFFFF",
+   "line": "#D1D5DB",
+   "radius": 16,
+   "fh": "Lexend",
+   "fb": "Lexend",
+   "ffb": {
+    "Lexend": "\"Inter\", system-ui, sans-serif"
+   }
+  },
+  "closeBtn": {
+   "look": "circle"
+  },
+  "steps": [
+   {
+    "id": "s1",
+    "name": "Rate",
+    "cols": [
+     {
+      "blocks": [
+       {
+        "id": "rate-323",
+        "type": "heading",
+        "t": {
+         "en": "How was shopping with us?",
+         "fr": "Comment s'est passé votre achat ?",
+         "es": "¿Qué tal tu compra con nosotros?",
+         "it": "Com'è andato il tuo acquisto?",
+         "de": "Wie war dein Einkauf bei uns?",
+         "nl": "Hoe was winkelen bij ons?",
+         "pl": "Jak ci się u nas kupowało?",
+         "cs": "Jak se vám u nás nakupovalo?",
+         "pt": "Como foi comprar connosco?",
+         "ru": "Как вам покупка у нас?"
+        }
+       },
+       {
+        "id": "rate-324",
+        "type": "text",
+        "t": {
+         "en": "One tap. It helps a small shop a lot.",
+         "fr": "Un geste. Cela aide beaucoup une petite boutique.",
+         "es": "Un toque. Ayuda mucho a una tienda pequeña.",
+         "it": "Un tocco. Aiuta molto un piccolo negozio.",
+         "de": "Ein Tipp. Das hilft einem kleinen Laden sehr.",
+         "nl": "Eén tik. Het helpt een kleine winkel enorm.",
+         "pl": "Jedno kliknięcie. To bardzo pomaga małemu sklepowi.",
+         "cs": "Jedno ťuknutí. Malému obchodu to hodně pomůže.",
+         "pt": "Um toque. Ajuda muito uma loja pequena.",
+         "ru": "Одно касание. Это очень помогает маленькому магазину."
+        }
+       },
+       {
+        "id": "rate-325",
+        "type": "stars",
+        "q": "rating",
+        "low": "low",
+        "high": "high",
+        "cut": 3,
+        "lo": {
+         "en": "Not great",
+         "fr": "Pas terrible",
+         "es": "Regular",
+         "it": "Non bene",
+         "de": "Nicht so gut",
+         "nl": "Niet goed",
+         "pl": "Słabo",
+         "cs": "Nic moc",
+         "pt": "Não muito bem",
+         "ru": "Не очень"
+        },
+        "hi": {
+         "en": "Loved it",
+         "fr": "J'ai adoré",
+         "es": "Me encantó",
+         "it": "Mi è piaciuto",
+         "de": "Hat mir gefallen",
+         "nl": "Geweldig",
+         "pl": "Super",
+         "cs": "Moc se líbilo",
+         "pt": "Adorei",
+         "ru": "Очень понравилось"
+        }
+       }
+      ]
+     }
+    ]
+   },
+   {
+    "id": "low",
+    "name": "Low score",
+    "cols": [
+     {
+      "blocks": [
+       {
+        "id": "rate-326",
+        "type": "heading",
+        "t": {
+         "en": "Sorry about that. What went wrong?",
+         "fr": "Désolés. Qu'est-ce qui n'a pas été ?",
+         "es": "Lo sentimos. ¿Qué salió mal?",
+         "it": "Ci dispiace. Cosa è andato storto?",
+         "de": "Das tut uns leid. Was ist schiefgelaufen?",
+         "nl": "Sorry daarvoor. Wat ging er mis?",
+         "pl": "Przykro nam. Co poszło nie tak?",
+         "cs": "To nás mrzí. Co se pokazilo?",
+         "pt": "Lamentamos. O que correu mal?",
+         "ru": "Нам жаль. Что пошло не так?"
+        }
+       },
+       {
+        "id": "rate-327",
+        "type": "textarea",
+        "label": {
+         "en": "Your message",
+         "fr": "Votre message",
+         "es": "Tu mensaje",
+         "it": "Il tuo messaggio",
+         "de": "Deine Nachricht",
+         "nl": "Je bericht",
+         "pl": "Twoja wiadomość",
+         "cs": "Vaše zpráva",
+         "pt": "A sua mensagem",
+         "ru": "Ваше сообщение"
+        },
+        "ph": {
+         "en": "Tell us, we read every message.",
+         "fr": "Dites-le-nous, nous lisons chaque message.",
+         "es": "Cuéntanoslo, leemos todos los mensajes.",
+         "it": "Raccontacelo, leggiamo ogni messaggio.",
+         "de": "Erzähl es uns, wir lesen jede Nachricht.",
+         "nl": "Vertel het ons, we lezen elk bericht.",
+         "pl": "Napisz nam, czytamy każdą wiadomość.",
+         "cs": "Napište nám, čteme každou zprávu.",
+         "pt": "Conte-nos, lemos todas as mensagens.",
+         "ru": "Расскажите, мы читаем каждое сообщение."
+        },
+        "name": "feedback",
+        "cls": "ru-ta"
+       },
+       {
+        "id": "rate-328",
+        "type": "button",
+        "t": {
+         "en": "Send to the team",
+         "fr": "Envoyer à l'équipe",
+         "es": "Enviar al equipo",
+         "it": "Invia al team",
+         "de": "Ans Team senden",
+         "nl": "Naar het team sturen",
+         "pl": "Wyślij do zespołu",
+         "cs": "Odeslat týmu",
+         "pt": "Enviar à equipa",
+         "ru": "Отправить команде"
+        },
+        "act": "next",
+        "full": true,
+        "step": "thanks"
+       }
+      ]
+     }
+    ]
+   },
+   {
+    "id": "high",
+    "name": "High score",
+    "cols": [
+     {
+      "blocks": [
+       {
+        "id": "rate-329",
+        "type": "heading",
+        "t": {
+         "en": "Thank you!",
+         "fr": "Merci !",
+         "es": "¡Gracias!",
+         "it": "Grazie!",
+         "de": "Danke!",
+         "nl": "Dank je!",
+         "pl": "Dziękujemy!",
+         "cs": "Děkujeme!",
+         "pt": "Obrigado!",
+         "ru": "Спасибо!"
+        }
+       },
+       {
+        "id": "rate-330",
+        "type": "text",
+        "t": {
+         "en": "Would you share it in a review? It takes a minute.",
+         "fr": "Voulez-vous le partager dans un avis ? Cela prend une minute.",
+         "es": "¿Lo compartirías en una reseña? Es un minuto.",
+         "it": "Lo condivideresti in una recensione? Ci vuole un minuto.",
+         "de": "Würdest du es in einer Bewertung teilen? Dauert nur eine Minute.",
+         "nl": "Wil je het delen in een review? Het kost een minuutje.",
+         "pl": "Podzielisz się tym w opinii? Zajmie minutę.",
+         "cs": "Podělíte se o to v recenzi? Zabere to minutu.",
+         "pt": "Partilharia numa avaliação? Demora um minuto.",
+         "ru": "Поделитесь этим в отзыве? Это займёт минуту."
+        }
+       },
+       {
+        "id": "rate-331",
+        "type": "button",
+        "t": {
+         "en": "Write a review",
+         "fr": "Écrire un avis",
+         "es": "Escribir una reseña",
+         "it": "Scrivi una recensione",
+         "de": "Bewertung schreiben",
+         "nl": "Review schrijven",
+         "pl": "Napisz opinię",
+         "cs": "Napsat recenzi",
+         "pt": "Escrever uma avaliação",
+         "ru": "Написать отзыв"
+        },
+        "act": "url",
+        "full": true,
+        "href": "/"
+       },
+       {
+        "id": "rate-332",
+        "type": "link",
+        "t": {
+         "en": "Maybe later",
+         "fr": "Plus tard",
+         "es": "Quizá más tarde",
+         "it": "Magari più tardi",
+         "de": "Vielleicht später",
+         "nl": "Misschien later",
+         "pl": "Może później",
+         "cs": "Možná později",
+         "pt": "Talvez depois",
+         "ru": "Может, позже"
+        },
+        "act": "close"
+       }
+      ]
+     }
+    ]
+   },
+   {
+    "id": "thanks",
+    "name": "Thanks",
+    "cols": [
+     {
+      "blocks": [
+       {
+        "id": "rate-333",
+        "type": "heading",
+        "t": {
+         "en": "Thanks for telling us.",
+         "fr": "Merci de nous l'avoir dit.",
+         "es": "Gracias por contárnoslo.",
+         "it": "Grazie di avercelo detto.",
+         "de": "Danke für deine Rückmeldung.",
+         "nl": "Bedankt dat je het ons vertelt.",
+         "pl": "Dziękujemy za informację.",
+         "cs": "Díky, že jste nám to řekli.",
+         "pt": "Obrigado por nos dizer.",
+         "ru": "Спасибо, что рассказали."
+        }
+       },
+       {
+        "id": "rate-334",
+        "type": "text",
+        "t": {
+         "en": "Someone from the team will read it today.",
+         "fr": "Quelqu'un de l'équipe le lira aujourd'hui.",
+         "es": "Alguien del equipo lo leerá hoy.",
+         "it": "Qualcuno del team lo leggerà oggi.",
+         "de": "Jemand aus dem Team liest sie heute.",
+         "nl": "Iemand van het team leest het vandaag.",
+         "pl": "Ktoś z zespołu przeczyta to dziś.",
+         "cs": "Někdo z týmu si to dnes přečte.",
+         "pt": "Alguém da equipa vai lê-lo hoje.",
+         "ru": "Кто-то из команды прочитает это сегодня."
+        }
+       },
+       {
+        "id": "rate-335",
+        "type": "link",
+        "t": {
+         "en": "Close",
+         "fr": "Fermer",
+         "es": "Cerrar",
+         "it": "Chiudi",
+         "de": "Schließen",
+         "nl": "Sluiten",
+         "pl": "Zamknij",
+         "cs": "Zavřít",
+         "pt": "Fechar",
+         "ru": "Закрыть"
+        },
+        "act": "close"
+       }
+      ]
+     }
+    ]
+   }
+  ],
+  "template": "rate-us"
+ },
+ "settings": {
+  "triggers": {
+   "mode": "any",
+   "timerOn": true,
+   "timerSec": 3,
+   "exitOn": false,
+   "exitSens": "normal",
+   "idleOn": false,
+   "idleSec": 30,
+   "scrollOn": false,
+   "scrollVal": 40,
+   "scrollUnit": "pct",
+   "clickOn": false,
+   "clickSel": "",
+   "pagesOn": false,
+   "pagesN": 2,
+   "pagesSec": 0,
+   "addcartOn": false
+  },
+  "close": {
+   "x": true,
+   "xDelay": 0,
+   "overlay": false,
+   "esc": true,
+   "timeOn": false,
+   "timeSec": 20,
+   "scrollOn": false,
+   "scrollPct": 80,
+   "videoOn": false,
+   "lastOn": false,
+   "lastSec": 6
+  },
+  "frequency": {
+   "mode": "days",
+   "days": 60,
+   "maxOn": false,
+   "max": 3,
+   "stopConvert": true,
+   "afterCloseOn": true,
+   "afterCloseDays": 2
+  },
+  "form": {
+   "list": "leads",
+   "consent": false,
+   "consentRequired": false
+  },
+  "coupon": {
+   "mode": "none",
+   "code": "",
+   "type": "percent",
+   "value": 10,
+   "days": 14,
+   "min": 0,
+   "prefix": "WELCOME-",
+   "autoApply": false
+  },
+  "targeting": {
+   "groups": [
+    {
+     "rules": [
+      {
+       "type": "page",
+       "op": "show_on",
+       "pages": [
+        "confirmation"
+       ],
+       "categories": [],
+       "products": [],
+       "cms": []
+      }
+     ]
+    }
+   ]
+  }
+ }
+}

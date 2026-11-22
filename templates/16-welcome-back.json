@@ -1,0 +1,209 @@
+{
+ "num": "16",
+ "slug": "welcome-back",
+ "name": "Welcome Back",
+ "group": "discount",
+ "formatLabel": "Modal, returning visitors",
+ "tags": [
+  "discount",
+  "returning",
+  "luxury"
+ ],
+ "doc": {
+  "format": "modal",
+  "width": 560,
+  "mobile": {
+   "format": "sheet"
+  },
+  "fonts": [
+   "Gloock",
+   "Inter",
+   "Playfair Display"
+  ],
+  "theme": {
+   "bg": "#1C2B2A",
+   "ink": "#F2EAD3",
+   "accent": "#D9A441",
+   "accentInk": "#1C2B2A",
+   "line": "#D9A441",
+   "radius": 0,
+   "fh": "Gloock",
+   "fb": "Inter",
+   "overlay": "rgba(12,20,19,.6)",
+   "ffb": {
+    "Gloock": "\"Playfair Display\", Georgia, serif"
+   }
+  },
+  "steps": [
+   {
+    "id": "s1",
+    "name": "Offer",
+    "cols": [
+     {
+      "blocks": [
+       {
+        "id": "welc-151",
+        "type": "small",
+        "t": {
+         "en": "Good to see you again",
+         "fr": "Ravis de vous revoir",
+         "es": "Qué bien verte de nuevo",
+         "it": "Che bello rivederti",
+         "de": "Schön, dich wiederzusehen",
+         "nl": "Fijn je weer te zien",
+         "pl": "Miło cię znowu widzieć",
+         "cs": "Rádi vás zase vidíme",
+         "pt": "Que bom vê-lo outra vez",
+         "ru": "Рады видеть вас снова"
+        },
+        "cls": "wb-k"
+       },
+       {
+        "id": "welc-152",
+        "type": "heading",
+        "t": {
+         "en": "Welcome\nback.",
+         "fr": "Bon\nretour.",
+         "es": "Bienvenido\nde nuevo.",
+         "it": "Bentornato\ntra noi.",
+         "de": "Willkommen\nzurück.",
+         "nl": "Welkom\nterug.",
+         "pl": "Witaj\nponownie.",
+         "cs": "Vítejte\nzpět.",
+         "pt": "Bem-vindo\nde volta.",
+         "ru": "С\nвозвращением."
+        }
+       },
+       {
+        "id": "welc-153",
+        "type": "html",
+        "html": "<i class=\"wb-rule\"></i>"
+       },
+       {
+        "id": "welc-154",
+        "type": "text",
+        "t": {
+         "en": "You were looking at **{last_category|our new arrivals}**. Here is 10% off anything there, for the next 48 hours.",
+         "fr": "Vous regardiez **{last_category|nos nouveautés}**. Voici -10 % sur tout ce rayon, pendant 48 heures.",
+         "es": "Estabas viendo **{last_category|nuestras novedades}**. Aquí tienes un 10 % en todo lo de ahí, durante las próximas 48 horas.",
+         "it": "Stavi guardando **{last_category|le nostre novità}**. Ecco il 10% su tutto quel reparto, per le prossime 48 ore.",
+         "de": "Du hast dir **{last_category|unsere Neuheiten}** angesehen. Hier sind 10 % auf alles dort, für die nächsten 48 Stunden.",
+         "nl": "Je keek naar **{last_category|onze nieuwe items}**. Hier is 10% korting op alles daar, de komende 48 uur.",
+         "pl": "Oglądałeś **{last_category|nasze nowości}**. Oto 10% rabatu na wszystko z tej kategorii przez następne 48 godzin.",
+         "cs": "Prohlíželi jste **{last_category|naše novinky}**. Tady je 10 % sleva na vše odtamtud na příštích 48 hodin.",
+         "pt": "Estava a ver **{last_category|as nossas novidades}**. Aqui tem 10% de desconto em tudo aí, durante as próximas 48 horas.",
+         "ru": "Вы смотрели **{last_category|наши новинки}**. Вот 10% скидки на всё оттуда в течение 48 часов."
+        }
+       },
+       {
+        "id": "welc-155",
+        "type": "coupon",
+        "copy": {
+         "en": "Copy",
+         "fr": "Copier",
+         "es": "Copiar",
+         "it": "Copia",
+         "de": "Kopieren",
+         "nl": "Kopiëren",
+         "pl": "Kopiuj",
+         "cs": "Kopírovat",
+         "pt": "Copiar",
+         "ru": "Копировать"
+        },
+        "code": "BACK10"
+       },
+       {
+        "id": "welc-156",
+        "type": "button",
+        "t": {
+         "en": "Back to {last_category|the shop}",
+         "fr": "Retour à {last_category|la boutique}",
+         "es": "Volver a {last_category|la tienda}",
+         "it": "Torna a {last_category|il negozio}",
+         "de": "Zurück zu {last_category|dem Shop}",
+         "nl": "Terug naar {last_category|de winkel}",
+         "pl": "Wróć do {last_category|sklepu}",
+         "cs": "Zpět na {last_category|obchod}",
+         "pt": "Voltar a {last_category|a loja}",
+         "ru": "Назад в {last_category|магазин}"
+        },
+        "act": "url",
+        "href": "{last_category_url}"
+       }
+      ]
+     }
+    ]
+   }
+  ],
+  "template": "welcome-back"
+ },
+ "settings": {
+  "triggers": {
+   "mode": "any",
+   "timerOn": true,
+   "timerSec": 4,
+   "exitOn": false,
+   "exitSens": "normal",
+   "idleOn": false,
+   "idleSec": 30,
+   "scrollOn": false,
+   "scrollVal": 40,
+   "scrollUnit": "pct",
+   "clickOn": false,
+   "clickSel": "",
+   "pagesOn": false,
+   "pagesN": 2,
+   "pagesSec": 0,
+   "addcartOn": false
+  },
+  "close": {
+   "x": true,
+   "xDelay": 0,
+   "overlay": true,
+   "esc": true,
+   "timeOn": false,
+   "timeSec": 20,
+   "scrollOn": false,
+   "scrollPct": 80,
+   "videoOn": false,
+   "lastOn": false,
+   "lastSec": 6
+  },
+  "frequency": {
+   "mode": "days",
+   "days": 14,
+   "maxOn": false,
+   "max": 3,
+   "stopConvert": true,
+   "afterCloseOn": true,
+   "afterCloseDays": 2
+  },
+  "form": {
+   "list": "leads",
+   "consent": false,
+   "consentRequired": false
+  },
+  "coupon": {
+   "mode": "fixed",
+   "code": "BACK10",
+   "type": "percent",
+   "value": 10,
+   "days": 14,
+   "min": 0,
+   "prefix": "",
+   "autoApply": false
+  },
+  "targeting": {
+   "groups": [
+    {
+     "rules": [
+      {
+       "type": "visit",
+       "value": "returning"
+      }
+     ]
+    }
+   ]
+  }
+ }
+}

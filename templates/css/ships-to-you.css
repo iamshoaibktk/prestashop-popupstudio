@@ -1,0 +1,11 @@
+.psx-t-ships-to-you .psx-box{box-shadow:0 16px 36px rgba(16,42,67,.2),0 0 0 1px rgba(16,42,67,.08);overflow:hidden}
+.psx-t-ships-to-you .psx-col{gap:8px;padding:0 18px 18px}
+.psx-t-ships-to-you .sy-map{height:96px;margin:0 -18px 8px;background:#D9E6F2 radial-gradient(circle,#B7CCE0 1.3px,transparent 1.5px) 0 0/9px 9px;display:flex;align-items:center;justify-content:center}
+.psx-t-ships-to-you .psx-h{font:700 19px/1.25 var(--psx-fh)}
+.psx-t-ships-to-you .psx-p{font-size:14px;color:#334E68}
+.psx-t-ships-to-you .psx-rowb{flex-wrap:nowrap;margin-top:6px}
+.psx-t-ships-to-you .sy-go{flex:1;white-space:nowrap;padding:0 14px;border-radius:10px;font-weight:600}
+.psx-t-ships-to-you .psx-btn-secondary{border-radius:10px;box-shadow:inset 0 0 0 1.5px #BCCCDC;font-weight:600}
+.psx-t-ships-to-you .psx-x{top:10px;right:10px;width:32px;height:32px;background:#F0F4F8;font-size:15px}
+.psx-t-ships-to-you.psx-mobile .sy-map{height:56px}
+.psx-t-ships-to-you.psx-mobile .psx-rowb{flex-direction:column;align-items:stretch}
